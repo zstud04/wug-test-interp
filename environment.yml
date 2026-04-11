@@ -1,0 +1,25 @@
+name: wug_env
+dependencies:
+  - python=3.11
+  - r-base
+  - r-essentials
+  - jupyter
+  - pip
+  - pip:
+    - transformers
+    - datasets
+    - transformer_lens
+    - huggingface_hub
+    - ipython
+    - jaxtyping
+    - torchtyping
+    - torchvision
+    - tqdm
+    - matplotlib
+    - scikit-learn
+    - seaborn
+    - nbformat
+    - plotly
+    - minicons
+    - pyvene
+variables:
