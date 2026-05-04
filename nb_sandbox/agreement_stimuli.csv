@@ -1,0 +1,701 @@
+idx,distractors,condition,good,bad
+0,0,subj_sg,The [wug] is happy.,The [wug] are happy.
+1,0,subj_pl,The [wugs] are happy.,The [wugs] is happy.
+2,1,subj_sg_d1_sg,The [wug] near the tree is happy.,The [wug] near the tree are happy.
+3,1,subj_sg_d1_pl,The [wug] near the trees is happy.,The [wug] near the trees are happy.
+4,1,subj_pl_d1_sg,The [wugs] near the tree are happy.,The [wugs] near the tree is happy.
+5,1,subj_pl_d1_pl,The [wugs] near the trees are happy.,The [wugs] near the trees is happy.
+6,2,subj_sg_d1_sg_d2_sg,The [wug] near the tree and behind the car is happy.,The [wug] near the tree and behind the car are happy.
+7,2,subj_sg_d1_sg_d2_pl,The [wug] near the tree and behind the cars is happy.,The [wug] near the tree and behind the cars are happy.
+8,2,subj_sg_d1_pl_d2_sg,The [wug] near the trees and behind the car is happy.,The [wug] near the trees and behind the car are happy.
+9,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars is happy.,The [wug] near the trees and behind the cars are happy.
+10,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car are happy.,The [wugs] near the tree and behind the car is happy.
+11,2,subj_pl_d1_sg_d2_pl,The [wugs] near the tree and behind the cars are happy.,The [wugs] near the tree and behind the cars is happy.
+12,2,subj_pl_d1_pl_d2_sg,The [wugs] near the trees and behind the car are happy.,The [wugs] near the trees and behind the car is happy.
+13,2,subj_pl_d1_pl_d2_pl,The [wugs] near the trees and behind the cars are happy.,The [wugs] near the trees and behind the cars is happy.
+14,0,subj_sg,The [wug] is happy.,The [wug] are happy.
+15,0,subj_pl,The [wugs] are happy.,The [wugs] is happy.
+16,1,subj_sg_d1_sg,The [wug] behind the car is happy.,The [wug] behind the car are happy.
+17,1,subj_sg_d1_pl,The [wug] behind the cars is happy.,The [wug] behind the cars are happy.
+18,1,subj_pl_d1_sg,The [wugs] behind the car are happy.,The [wugs] behind the car is happy.
+19,1,subj_pl_d1_pl,The [wugs] behind the cars are happy.,The [wugs] behind the cars is happy.
+20,2,subj_sg_d1_sg_d2_sg,The [wug] behind the car and under the box is happy.,The [wug] behind the car and under the box are happy.
+21,2,subj_sg_d1_sg_d2_pl,The [wug] behind the car and under the boxes is happy.,The [wug] behind the car and under the boxes are happy.
+22,2,subj_sg_d1_pl_d2_sg,The [wug] behind the cars and under the box is happy.,The [wug] behind the cars and under the box are happy.
+23,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes is happy.,The [wug] behind the cars and under the boxes are happy.
+24,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box are happy.,The [wugs] behind the car and under the box is happy.
+25,2,subj_pl_d1_sg_d2_pl,The [wugs] behind the car and under the boxes are happy.,The [wugs] behind the car and under the boxes is happy.
+26,2,subj_pl_d1_pl_d2_sg,The [wugs] behind the cars and under the box are happy.,The [wugs] behind the cars and under the box is happy.
+27,2,subj_pl_d1_pl_d2_pl,The [wugs] behind the cars and under the boxes are happy.,The [wugs] behind the cars and under the boxes is happy.
+28,0,subj_sg,The [wug] is happy.,The [wug] are happy.
+29,0,subj_pl,The [wugs] are happy.,The [wugs] is happy.
+30,1,subj_sg_d1_sg,The [wug] under the box is happy.,The [wug] under the box are happy.
+31,1,subj_sg_d1_pl,The [wug] under the boxes is happy.,The [wug] under the boxes are happy.
+32,1,subj_pl_d1_sg,The [wugs] under the box are happy.,The [wugs] under the box is happy.
+33,1,subj_pl_d1_pl,The [wugs] under the boxes are happy.,The [wugs] under the boxes is happy.
+34,2,subj_sg_d1_sg_d2_sg,The [wug] under the box and beside the chair is happy.,The [wug] under the box and beside the chair are happy.
+35,2,subj_sg_d1_sg_d2_pl,The [wug] under the box and beside the chairs is happy.,The [wug] under the box and beside the chairs are happy.
+36,2,subj_sg_d1_pl_d2_sg,The [wug] under the boxes and beside the chair is happy.,The [wug] under the boxes and beside the chair are happy.
+37,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the chairs is happy.,The [wug] under the boxes and beside the chairs are happy.
+38,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the chair are happy.,The [wugs] under the box and beside the chair is happy.
+39,2,subj_pl_d1_sg_d2_pl,The [wugs] under the box and beside the chairs are happy.,The [wugs] under the box and beside the chairs is happy.
+40,2,subj_pl_d1_pl_d2_sg,The [wugs] under the boxes and beside the chair are happy.,The [wugs] under the boxes and beside the chair is happy.
+41,2,subj_pl_d1_pl_d2_pl,The [wugs] under the boxes and beside the chairs are happy.,The [wugs] under the boxes and beside the chairs is happy.
+42,0,subj_sg,The [wug] is happy.,The [wug] are happy.
+43,0,subj_pl,The [wugs] are happy.,The [wugs] is happy.
+44,1,subj_sg_d1_sg,The [wug] beside the chair is happy.,The [wug] beside the chair are happy.
+45,1,subj_sg_d1_pl,The [wug] beside the chairs is happy.,The [wug] beside the chairs are happy.
+46,1,subj_pl_d1_sg,The [wugs] beside the chair are happy.,The [wugs] beside the chair is happy.
+47,1,subj_pl_d1_pl,The [wugs] beside the chairs are happy.,The [wugs] beside the chairs is happy.
+48,2,subj_sg_d1_sg_d2_sg,The [wug] beside the chair and in front of the bridge is happy.,The [wug] beside the chair and in front of the bridge are happy.
+49,2,subj_sg_d1_sg_d2_pl,The [wug] beside the chair and in front of the bridges is happy.,The [wug] beside the chair and in front of the bridges are happy.
+50,2,subj_sg_d1_pl_d2_sg,The [wug] beside the chairs and in front of the bridge is happy.,The [wug] beside the chairs and in front of the bridge are happy.
+51,2,subj_sg_d1_pl_d2_pl,The [wug] beside the chairs and in front of the bridges is happy.,The [wug] beside the chairs and in front of the bridges are happy.
+52,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the chair and in front of the bridge are happy.,The [wugs] beside the chair and in front of the bridge is happy.
+53,2,subj_pl_d1_sg_d2_pl,The [wugs] beside the chair and in front of the bridges are happy.,The [wugs] beside the chair and in front of the bridges is happy.
+54,2,subj_pl_d1_pl_d2_sg,The [wugs] beside the chairs and in front of the bridge are happy.,The [wugs] beside the chairs and in front of the bridge is happy.
+55,2,subj_pl_d1_pl_d2_pl,The [wugs] beside the chairs and in front of the bridges are happy.,The [wugs] beside the chairs and in front of the bridges is happy.
+56,0,subj_sg,The [wug] is happy.,The [wug] are happy.
+57,0,subj_pl,The [wugs] are happy.,The [wugs] is happy.
+58,1,subj_sg_d1_sg,The [wug] in front of the bridge is happy.,The [wug] in front of the bridge are happy.
+59,1,subj_sg_d1_pl,The [wug] in front of the bridges is happy.,The [wug] in front of the bridges are happy.
+60,1,subj_pl_d1_sg,The [wugs] in front of the bridge are happy.,The [wugs] in front of the bridge is happy.
+61,1,subj_pl_d1_pl,The [wugs] in front of the bridges are happy.,The [wugs] in front of the bridges is happy.
+62,2,subj_sg_d1_sg_d2_sg,The [wug] in front of the bridge and next to the tree is happy.,The [wug] in front of the bridge and next to the tree are happy.
+63,2,subj_sg_d1_sg_d2_pl,The [wug] in front of the bridge and next to the trees is happy.,The [wug] in front of the bridge and next to the trees are happy.
+64,2,subj_sg_d1_pl_d2_sg,The [wug] in front of the bridges and next to the tree is happy.,The [wug] in front of the bridges and next to the tree are happy.
+65,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the bridges and next to the trees is happy.,The [wug] in front of the bridges and next to the trees are happy.
+66,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the bridge and next to the tree are happy.,The [wugs] in front of the bridge and next to the tree is happy.
+67,2,subj_pl_d1_sg_d2_pl,The [wugs] in front of the bridge and next to the trees are happy.,The [wugs] in front of the bridge and next to the trees is happy.
+68,2,subj_pl_d1_pl_d2_sg,The [wugs] in front of the bridges and next to the tree are happy.,The [wugs] in front of the bridges and next to the tree is happy.
+69,2,subj_pl_d1_pl_d2_pl,The [wugs] in front of the bridges and next to the trees are happy.,The [wugs] in front of the bridges and next to the trees is happy.
+70,0,subj_sg,The [wug] was sleeping.,The [wug] were sleeping.
+71,0,subj_pl,The [wugs] were sleeping.,The [wugs] was sleeping.
+72,1,subj_sg_d1_sg,The [wug] near the tree was sleeping.,The [wug] near the tree were sleeping.
+73,1,subj_sg_d1_pl,The [wug] near the trees was sleeping.,The [wug] near the trees were sleeping.
+74,1,subj_pl_d1_sg,The [wugs] near the tree were sleeping.,The [wugs] near the tree was sleeping.
+75,1,subj_pl_d1_pl,The [wugs] near the trees were sleeping.,The [wugs] near the trees was sleeping.
+76,2,subj_sg_d1_sg_d2_sg,The [wug] near the tree and behind the car was sleeping.,The [wug] near the tree and behind the car were sleeping.
+77,2,subj_sg_d1_sg_d2_pl,The [wug] near the tree and behind the cars was sleeping.,The [wug] near the tree and behind the cars were sleeping.
+78,2,subj_sg_d1_pl_d2_sg,The [wug] near the trees and behind the car was sleeping.,The [wug] near the trees and behind the car were sleeping.
+79,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars was sleeping.,The [wug] near the trees and behind the cars were sleeping.
+80,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car were sleeping.,The [wugs] near the tree and behind the car was sleeping.
+81,2,subj_pl_d1_sg_d2_pl,The [wugs] near the tree and behind the cars were sleeping.,The [wugs] near the tree and behind the cars was sleeping.
+82,2,subj_pl_d1_pl_d2_sg,The [wugs] near the trees and behind the car were sleeping.,The [wugs] near the trees and behind the car was sleeping.
+83,2,subj_pl_d1_pl_d2_pl,The [wugs] near the trees and behind the cars were sleeping.,The [wugs] near the trees and behind the cars was sleeping.
+84,0,subj_sg,The [wug] was sleeping.,The [wug] were sleeping.
+85,0,subj_pl,The [wugs] were sleeping.,The [wugs] was sleeping.
+86,1,subj_sg_d1_sg,The [wug] behind the car was sleeping.,The [wug] behind the car were sleeping.
+87,1,subj_sg_d1_pl,The [wug] behind the cars was sleeping.,The [wug] behind the cars were sleeping.
+88,1,subj_pl_d1_sg,The [wugs] behind the car were sleeping.,The [wugs] behind the car was sleeping.
+89,1,subj_pl_d1_pl,The [wugs] behind the cars were sleeping.,The [wugs] behind the cars was sleeping.
+90,2,subj_sg_d1_sg_d2_sg,The [wug] behind the car and under the box was sleeping.,The [wug] behind the car and under the box were sleeping.
+91,2,subj_sg_d1_sg_d2_pl,The [wug] behind the car and under the boxes was sleeping.,The [wug] behind the car and under the boxes were sleeping.
+92,2,subj_sg_d1_pl_d2_sg,The [wug] behind the cars and under the box was sleeping.,The [wug] behind the cars and under the box were sleeping.
+93,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes was sleeping.,The [wug] behind the cars and under the boxes were sleeping.
+94,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box were sleeping.,The [wugs] behind the car and under the box was sleeping.
+95,2,subj_pl_d1_sg_d2_pl,The [wugs] behind the car and under the boxes were sleeping.,The [wugs] behind the car and under the boxes was sleeping.
+96,2,subj_pl_d1_pl_d2_sg,The [wugs] behind the cars and under the box were sleeping.,The [wugs] behind the cars and under the box was sleeping.
+97,2,subj_pl_d1_pl_d2_pl,The [wugs] behind the cars and under the boxes were sleeping.,The [wugs] behind the cars and under the boxes was sleeping.
+98,0,subj_sg,The [wug] was sleeping.,The [wug] were sleeping.
+99,0,subj_pl,The [wugs] were sleeping.,The [wugs] was sleeping.
+100,1,subj_sg_d1_sg,The [wug] under the box was sleeping.,The [wug] under the box were sleeping.
+101,1,subj_sg_d1_pl,The [wug] under the boxes was sleeping.,The [wug] under the boxes were sleeping.
+102,1,subj_pl_d1_sg,The [wugs] under the box were sleeping.,The [wugs] under the box was sleeping.
+103,1,subj_pl_d1_pl,The [wugs] under the boxes were sleeping.,The [wugs] under the boxes was sleeping.
+104,2,subj_sg_d1_sg_d2_sg,The [wug] under the box and beside the chair was sleeping.,The [wug] under the box and beside the chair were sleeping.
+105,2,subj_sg_d1_sg_d2_pl,The [wug] under the box and beside the chairs was sleeping.,The [wug] under the box and beside the chairs were sleeping.
+106,2,subj_sg_d1_pl_d2_sg,The [wug] under the boxes and beside the chair was sleeping.,The [wug] under the boxes and beside the chair were sleeping.
+107,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the chairs was sleeping.,The [wug] under the boxes and beside the chairs were sleeping.
+108,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the chair were sleeping.,The [wugs] under the box and beside the chair was sleeping.
+109,2,subj_pl_d1_sg_d2_pl,The [wugs] under the box and beside the chairs were sleeping.,The [wugs] under the box and beside the chairs was sleeping.
+110,2,subj_pl_d1_pl_d2_sg,The [wugs] under the boxes and beside the chair were sleeping.,The [wugs] under the boxes and beside the chair was sleeping.
+111,2,subj_pl_d1_pl_d2_pl,The [wugs] under the boxes and beside the chairs were sleeping.,The [wugs] under the boxes and beside the chairs was sleeping.
+112,0,subj_sg,The [wug] was sleeping.,The [wug] were sleeping.
+113,0,subj_pl,The [wugs] were sleeping.,The [wugs] was sleeping.
+114,1,subj_sg_d1_sg,The [wug] beside the chair was sleeping.,The [wug] beside the chair were sleeping.
+115,1,subj_sg_d1_pl,The [wug] beside the chairs was sleeping.,The [wug] beside the chairs were sleeping.
+116,1,subj_pl_d1_sg,The [wugs] beside the chair were sleeping.,The [wugs] beside the chair was sleeping.
+117,1,subj_pl_d1_pl,The [wugs] beside the chairs were sleeping.,The [wugs] beside the chairs was sleeping.
+118,2,subj_sg_d1_sg_d2_sg,The [wug] beside the chair and in front of the bridge was sleeping.,The [wug] beside the chair and in front of the bridge were sleeping.
+119,2,subj_sg_d1_sg_d2_pl,The [wug] beside the chair and in front of the bridges was sleeping.,The [wug] beside the chair and in front of the bridges were sleeping.
+120,2,subj_sg_d1_pl_d2_sg,The [wug] beside the chairs and in front of the bridge was sleeping.,The [wug] beside the chairs and in front of the bridge were sleeping.
+121,2,subj_sg_d1_pl_d2_pl,The [wug] beside the chairs and in front of the bridges was sleeping.,The [wug] beside the chairs and in front of the bridges were sleeping.
+122,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the chair and in front of the bridge were sleeping.,The [wugs] beside the chair and in front of the bridge was sleeping.
+123,2,subj_pl_d1_sg_d2_pl,The [wugs] beside the chair and in front of the bridges were sleeping.,The [wugs] beside the chair and in front of the bridges was sleeping.
+124,2,subj_pl_d1_pl_d2_sg,The [wugs] beside the chairs and in front of the bridge were sleeping.,The [wugs] beside the chairs and in front of the bridge was sleeping.
+125,2,subj_pl_d1_pl_d2_pl,The [wugs] beside the chairs and in front of the bridges were sleeping.,The [wugs] beside the chairs and in front of the bridges was sleeping.
+126,0,subj_sg,The [wug] was sleeping.,The [wug] were sleeping.
+127,0,subj_pl,The [wugs] were sleeping.,The [wugs] was sleeping.
+128,1,subj_sg_d1_sg,The [wug] in front of the bridge was sleeping.,The [wug] in front of the bridge were sleeping.
+129,1,subj_sg_d1_pl,The [wug] in front of the bridges was sleeping.,The [wug] in front of the bridges were sleeping.
+130,1,subj_pl_d1_sg,The [wugs] in front of the bridge were sleeping.,The [wugs] in front of the bridge was sleeping.
+131,1,subj_pl_d1_pl,The [wugs] in front of the bridges were sleeping.,The [wugs] in front of the bridges was sleeping.
+132,2,subj_sg_d1_sg_d2_sg,The [wug] in front of the bridge and next to the tree was sleeping.,The [wug] in front of the bridge and next to the tree were sleeping.
+133,2,subj_sg_d1_sg_d2_pl,The [wug] in front of the bridge and next to the trees was sleeping.,The [wug] in front of the bridge and next to the trees were sleeping.
+134,2,subj_sg_d1_pl_d2_sg,The [wug] in front of the bridges and next to the tree was sleeping.,The [wug] in front of the bridges and next to the tree were sleeping.
+135,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the bridges and next to the trees was sleeping.,The [wug] in front of the bridges and next to the trees were sleeping.
+136,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the bridge and next to the tree were sleeping.,The [wugs] in front of the bridge and next to the tree was sleeping.
+137,2,subj_pl_d1_sg_d2_pl,The [wugs] in front of the bridge and next to the trees were sleeping.,The [wugs] in front of the bridge and next to the trees was sleeping.
+138,2,subj_pl_d1_pl_d2_sg,The [wugs] in front of the bridges and next to the tree were sleeping.,The [wugs] in front of the bridges and next to the tree was sleeping.
+139,2,subj_pl_d1_pl_d2_pl,The [wugs] in front of the bridges and next to the trees were sleeping.,The [wugs] in front of the bridges and next to the trees was sleeping.
+140,0,subj_sg,The [wug] has arrived.,The [wug] have arrived.
+141,0,subj_pl,The [wugs] have arrived.,The [wugs] has arrived.
+142,1,subj_sg_d1_sg,The [wug] near the tree has arrived.,The [wug] near the tree have arrived.
+143,1,subj_sg_d1_pl,The [wug] near the trees has arrived.,The [wug] near the trees have arrived.
+144,1,subj_pl_d1_sg,The [wugs] near the tree have arrived.,The [wugs] near the tree has arrived.
+145,1,subj_pl_d1_pl,The [wugs] near the trees have arrived.,The [wugs] near the trees has arrived.
+146,2,subj_sg_d1_sg_d2_sg,The [wug] near the tree and behind the car has arrived.,The [wug] near the tree and behind the car have arrived.
+147,2,subj_sg_d1_sg_d2_pl,The [wug] near the tree and behind the cars has arrived.,The [wug] near the tree and behind the cars have arrived.
+148,2,subj_sg_d1_pl_d2_sg,The [wug] near the trees and behind the car has arrived.,The [wug] near the trees and behind the car have arrived.
+149,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars has arrived.,The [wug] near the trees and behind the cars have arrived.
+150,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car have arrived.,The [wugs] near the tree and behind the car has arrived.
+151,2,subj_pl_d1_sg_d2_pl,The [wugs] near the tree and behind the cars have arrived.,The [wugs] near the tree and behind the cars has arrived.
+152,2,subj_pl_d1_pl_d2_sg,The [wugs] near the trees and behind the car have arrived.,The [wugs] near the trees and behind the car has arrived.
+153,2,subj_pl_d1_pl_d2_pl,The [wugs] near the trees and behind the cars have arrived.,The [wugs] near the trees and behind the cars has arrived.
+154,0,subj_sg,The [wug] has arrived.,The [wug] have arrived.
+155,0,subj_pl,The [wugs] have arrived.,The [wugs] has arrived.
+156,1,subj_sg_d1_sg,The [wug] behind the car has arrived.,The [wug] behind the car have arrived.
+157,1,subj_sg_d1_pl,The [wug] behind the cars has arrived.,The [wug] behind the cars have arrived.
+158,1,subj_pl_d1_sg,The [wugs] behind the car have arrived.,The [wugs] behind the car has arrived.
+159,1,subj_pl_d1_pl,The [wugs] behind the cars have arrived.,The [wugs] behind the cars has arrived.
+160,2,subj_sg_d1_sg_d2_sg,The [wug] behind the car and under the box has arrived.,The [wug] behind the car and under the box have arrived.
+161,2,subj_sg_d1_sg_d2_pl,The [wug] behind the car and under the boxes has arrived.,The [wug] behind the car and under the boxes have arrived.
+162,2,subj_sg_d1_pl_d2_sg,The [wug] behind the cars and under the box has arrived.,The [wug] behind the cars and under the box have arrived.
+163,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes has arrived.,The [wug] behind the cars and under the boxes have arrived.
+164,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box have arrived.,The [wugs] behind the car and under the box has arrived.
+165,2,subj_pl_d1_sg_d2_pl,The [wugs] behind the car and under the boxes have arrived.,The [wugs] behind the car and under the boxes has arrived.
+166,2,subj_pl_d1_pl_d2_sg,The [wugs] behind the cars and under the box have arrived.,The [wugs] behind the cars and under the box has arrived.
+167,2,subj_pl_d1_pl_d2_pl,The [wugs] behind the cars and under the boxes have arrived.,The [wugs] behind the cars and under the boxes has arrived.
+168,0,subj_sg,The [wug] has arrived.,The [wug] have arrived.
+169,0,subj_pl,The [wugs] have arrived.,The [wugs] has arrived.
+170,1,subj_sg_d1_sg,The [wug] under the box has arrived.,The [wug] under the box have arrived.
+171,1,subj_sg_d1_pl,The [wug] under the boxes has arrived.,The [wug] under the boxes have arrived.
+172,1,subj_pl_d1_sg,The [wugs] under the box have arrived.,The [wugs] under the box has arrived.
+173,1,subj_pl_d1_pl,The [wugs] under the boxes have arrived.,The [wugs] under the boxes has arrived.
+174,2,subj_sg_d1_sg_d2_sg,The [wug] under the box and beside the chair has arrived.,The [wug] under the box and beside the chair have arrived.
+175,2,subj_sg_d1_sg_d2_pl,The [wug] under the box and beside the chairs has arrived.,The [wug] under the box and beside the chairs have arrived.
+176,2,subj_sg_d1_pl_d2_sg,The [wug] under the boxes and beside the chair has arrived.,The [wug] under the boxes and beside the chair have arrived.
+177,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the chairs has arrived.,The [wug] under the boxes and beside the chairs have arrived.
+178,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the chair have arrived.,The [wugs] under the box and beside the chair has arrived.
+179,2,subj_pl_d1_sg_d2_pl,The [wugs] under the box and beside the chairs have arrived.,The [wugs] under the box and beside the chairs has arrived.
+180,2,subj_pl_d1_pl_d2_sg,The [wugs] under the boxes and beside the chair have arrived.,The [wugs] under the boxes and beside the chair has arrived.
+181,2,subj_pl_d1_pl_d2_pl,The [wugs] under the boxes and beside the chairs have arrived.,The [wugs] under the boxes and beside the chairs has arrived.
+182,0,subj_sg,The [wug] has arrived.,The [wug] have arrived.
+183,0,subj_pl,The [wugs] have arrived.,The [wugs] has arrived.
+184,1,subj_sg_d1_sg,The [wug] beside the chair has arrived.,The [wug] beside the chair have arrived.
+185,1,subj_sg_d1_pl,The [wug] beside the chairs has arrived.,The [wug] beside the chairs have arrived.
+186,1,subj_pl_d1_sg,The [wugs] beside the chair have arrived.,The [wugs] beside the chair has arrived.
+187,1,subj_pl_d1_pl,The [wugs] beside the chairs have arrived.,The [wugs] beside the chairs has arrived.
+188,2,subj_sg_d1_sg_d2_sg,The [wug] beside the chair and in front of the bridge has arrived.,The [wug] beside the chair and in front of the bridge have arrived.
+189,2,subj_sg_d1_sg_d2_pl,The [wug] beside the chair and in front of the bridges has arrived.,The [wug] beside the chair and in front of the bridges have arrived.
+190,2,subj_sg_d1_pl_d2_sg,The [wug] beside the chairs and in front of the bridge has arrived.,The [wug] beside the chairs and in front of the bridge have arrived.
+191,2,subj_sg_d1_pl_d2_pl,The [wug] beside the chairs and in front of the bridges has arrived.,The [wug] beside the chairs and in front of the bridges have arrived.
+192,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the chair and in front of the bridge have arrived.,The [wugs] beside the chair and in front of the bridge has arrived.
+193,2,subj_pl_d1_sg_d2_pl,The [wugs] beside the chair and in front of the bridges have arrived.,The [wugs] beside the chair and in front of the bridges has arrived.
+194,2,subj_pl_d1_pl_d2_sg,The [wugs] beside the chairs and in front of the bridge have arrived.,The [wugs] beside the chairs and in front of the bridge has arrived.
+195,2,subj_pl_d1_pl_d2_pl,The [wugs] beside the chairs and in front of the bridges have arrived.,The [wugs] beside the chairs and in front of the bridges has arrived.
+196,0,subj_sg,The [wug] has arrived.,The [wug] have arrived.
+197,0,subj_pl,The [wugs] have arrived.,The [wugs] has arrived.
+198,1,subj_sg_d1_sg,The [wug] in front of the bridge has arrived.,The [wug] in front of the bridge have arrived.
+199,1,subj_sg_d1_pl,The [wug] in front of the bridges has arrived.,The [wug] in front of the bridges have arrived.
+200,1,subj_pl_d1_sg,The [wugs] in front of the bridge have arrived.,The [wugs] in front of the bridge has arrived.
+201,1,subj_pl_d1_pl,The [wugs] in front of the bridges have arrived.,The [wugs] in front of the bridges has arrived.
+202,2,subj_sg_d1_sg_d2_sg,The [wug] in front of the bridge and next to the tree has arrived.,The [wug] in front of the bridge and next to the tree have arrived.
+203,2,subj_sg_d1_sg_d2_pl,The [wug] in front of the bridge and next to the trees has arrived.,The [wug] in front of the bridge and next to the trees have arrived.
+204,2,subj_sg_d1_pl_d2_sg,The [wug] in front of the bridges and next to the tree has arrived.,The [wug] in front of the bridges and next to the tree have arrived.
+205,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the bridges and next to the trees has arrived.,The [wug] in front of the bridges and next to the trees have arrived.
+206,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the bridge and next to the tree have arrived.,The [wugs] in front of the bridge and next to the tree has arrived.
+207,2,subj_pl_d1_sg_d2_pl,The [wugs] in front of the bridge and next to the trees have arrived.,The [wugs] in front of the bridge and next to the trees has arrived.
+208,2,subj_pl_d1_pl_d2_sg,The [wugs] in front of the bridges and next to the tree have arrived.,The [wugs] in front of the bridges and next to the tree has arrived.
+209,2,subj_pl_d1_pl_d2_pl,The [wugs] in front of the bridges and next to the trees have arrived.,The [wugs] in front of the bridges and next to the trees has arrived.
+210,0,subj_sg,The [wug] does understand.,The [wug] do understand.
+211,0,subj_pl,The [wugs] do understand.,The [wugs] does understand.
+212,1,subj_sg_d1_sg,The [wug] near the tree does understand.,The [wug] near the tree do understand.
+213,1,subj_sg_d1_pl,The [wug] near the trees does understand.,The [wug] near the trees do understand.
+214,1,subj_pl_d1_sg,The [wugs] near the tree do understand.,The [wugs] near the tree does understand.
+215,1,subj_pl_d1_pl,The [wugs] near the trees do understand.,The [wugs] near the trees does understand.
+216,2,subj_sg_d1_sg_d2_sg,The [wug] near the tree and behind the car does understand.,The [wug] near the tree and behind the car do understand.
+217,2,subj_sg_d1_sg_d2_pl,The [wug] near the tree and behind the cars does understand.,The [wug] near the tree and behind the cars do understand.
+218,2,subj_sg_d1_pl_d2_sg,The [wug] near the trees and behind the car does understand.,The [wug] near the trees and behind the car do understand.
+219,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars does understand.,The [wug] near the trees and behind the cars do understand.
+220,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car do understand.,The [wugs] near the tree and behind the car does understand.
+221,2,subj_pl_d1_sg_d2_pl,The [wugs] near the tree and behind the cars do understand.,The [wugs] near the tree and behind the cars does understand.
+222,2,subj_pl_d1_pl_d2_sg,The [wugs] near the trees and behind the car do understand.,The [wugs] near the trees and behind the car does understand.
+223,2,subj_pl_d1_pl_d2_pl,The [wugs] near the trees and behind the cars do understand.,The [wugs] near the trees and behind the cars does understand.
+224,0,subj_sg,The [wug] does understand.,The [wug] do understand.
+225,0,subj_pl,The [wugs] do understand.,The [wugs] does understand.
+226,1,subj_sg_d1_sg,The [wug] behind the car does understand.,The [wug] behind the car do understand.
+227,1,subj_sg_d1_pl,The [wug] behind the cars does understand.,The [wug] behind the cars do understand.
+228,1,subj_pl_d1_sg,The [wugs] behind the car do understand.,The [wugs] behind the car does understand.
+229,1,subj_pl_d1_pl,The [wugs] behind the cars do understand.,The [wugs] behind the cars does understand.
+230,2,subj_sg_d1_sg_d2_sg,The [wug] behind the car and under the box does understand.,The [wug] behind the car and under the box do understand.
+231,2,subj_sg_d1_sg_d2_pl,The [wug] behind the car and under the boxes does understand.,The [wug] behind the car and under the boxes do understand.
+232,2,subj_sg_d1_pl_d2_sg,The [wug] behind the cars and under the box does understand.,The [wug] behind the cars and under the box do understand.
+233,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes does understand.,The [wug] behind the cars and under the boxes do understand.
+234,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box do understand.,The [wugs] behind the car and under the box does understand.
+235,2,subj_pl_d1_sg_d2_pl,The [wugs] behind the car and under the boxes do understand.,The [wugs] behind the car and under the boxes does understand.
+236,2,subj_pl_d1_pl_d2_sg,The [wugs] behind the cars and under the box do understand.,The [wugs] behind the cars and under the box does understand.
+237,2,subj_pl_d1_pl_d2_pl,The [wugs] behind the cars and under the boxes do understand.,The [wugs] behind the cars and under the boxes does understand.
+238,0,subj_sg,The [wug] does understand.,The [wug] do understand.
+239,0,subj_pl,The [wugs] do understand.,The [wugs] does understand.
+240,1,subj_sg_d1_sg,The [wug] under the box does understand.,The [wug] under the box do understand.
+241,1,subj_sg_d1_pl,The [wug] under the boxes does understand.,The [wug] under the boxes do understand.
+242,1,subj_pl_d1_sg,The [wugs] under the box do understand.,The [wugs] under the box does understand.
+243,1,subj_pl_d1_pl,The [wugs] under the boxes do understand.,The [wugs] under the boxes does understand.
+244,2,subj_sg_d1_sg_d2_sg,The [wug] under the box and beside the chair does understand.,The [wug] under the box and beside the chair do understand.
+245,2,subj_sg_d1_sg_d2_pl,The [wug] under the box and beside the chairs does understand.,The [wug] under the box and beside the chairs do understand.
+246,2,subj_sg_d1_pl_d2_sg,The [wug] under the boxes and beside the chair does understand.,The [wug] under the boxes and beside the chair do understand.
+247,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the chairs does understand.,The [wug] under the boxes and beside the chairs do understand.
+248,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the chair do understand.,The [wugs] under the box and beside the chair does understand.
+249,2,subj_pl_d1_sg_d2_pl,The [wugs] under the box and beside the chairs do understand.,The [wugs] under the box and beside the chairs does understand.
+250,2,subj_pl_d1_pl_d2_sg,The [wugs] under the boxes and beside the chair do understand.,The [wugs] under the boxes and beside the chair does understand.
+251,2,subj_pl_d1_pl_d2_pl,The [wugs] under the boxes and beside the chairs do understand.,The [wugs] under the boxes and beside the chairs does understand.
+252,0,subj_sg,The [wug] does understand.,The [wug] do understand.
+253,0,subj_pl,The [wugs] do understand.,The [wugs] does understand.
+254,1,subj_sg_d1_sg,The [wug] beside the chair does understand.,The [wug] beside the chair do understand.
+255,1,subj_sg_d1_pl,The [wug] beside the chairs does understand.,The [wug] beside the chairs do understand.
+256,1,subj_pl_d1_sg,The [wugs] beside the chair do understand.,The [wugs] beside the chair does understand.
+257,1,subj_pl_d1_pl,The [wugs] beside the chairs do understand.,The [wugs] beside the chairs does understand.
+258,2,subj_sg_d1_sg_d2_sg,The [wug] beside the chair and in front of the bridge does understand.,The [wug] beside the chair and in front of the bridge do understand.
+259,2,subj_sg_d1_sg_d2_pl,The [wug] beside the chair and in front of the bridges does understand.,The [wug] beside the chair and in front of the bridges do understand.
+260,2,subj_sg_d1_pl_d2_sg,The [wug] beside the chairs and in front of the bridge does understand.,The [wug] beside the chairs and in front of the bridge do understand.
+261,2,subj_sg_d1_pl_d2_pl,The [wug] beside the chairs and in front of the bridges does understand.,The [wug] beside the chairs and in front of the bridges do understand.
+262,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the chair and in front of the bridge do understand.,The [wugs] beside the chair and in front of the bridge does understand.
+263,2,subj_pl_d1_sg_d2_pl,The [wugs] beside the chair and in front of the bridges do understand.,The [wugs] beside the chair and in front of the bridges does understand.
+264,2,subj_pl_d1_pl_d2_sg,The [wugs] beside the chairs and in front of the bridge do understand.,The [wugs] beside the chairs and in front of the bridge does understand.
+265,2,subj_pl_d1_pl_d2_pl,The [wugs] beside the chairs and in front of the bridges do understand.,The [wugs] beside the chairs and in front of the bridges does understand.
+266,0,subj_sg,The [wug] does understand.,The [wug] do understand.
+267,0,subj_pl,The [wugs] do understand.,The [wugs] does understand.
+268,1,subj_sg_d1_sg,The [wug] in front of the bridge does understand.,The [wug] in front of the bridge do understand.
+269,1,subj_sg_d1_pl,The [wug] in front of the bridges does understand.,The [wug] in front of the bridges do understand.
+270,1,subj_pl_d1_sg,The [wugs] in front of the bridge do understand.,The [wugs] in front of the bridge does understand.
+271,1,subj_pl_d1_pl,The [wugs] in front of the bridges do understand.,The [wugs] in front of the bridges does understand.
+272,2,subj_sg_d1_sg_d2_sg,The [wug] in front of the bridge and next to the tree does understand.,The [wug] in front of the bridge and next to the tree do understand.
+273,2,subj_sg_d1_sg_d2_pl,The [wug] in front of the bridge and next to the trees does understand.,The [wug] in front of the bridge and next to the trees do understand.
+274,2,subj_sg_d1_pl_d2_sg,The [wug] in front of the bridges and next to the tree does understand.,The [wug] in front of the bridges and next to the tree do understand.
+275,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the bridges and next to the trees does understand.,The [wug] in front of the bridges and next to the trees do understand.
+276,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the bridge and next to the tree do understand.,The [wugs] in front of the bridge and next to the tree does understand.
+277,2,subj_pl_d1_sg_d2_pl,The [wugs] in front of the bridge and next to the trees do understand.,The [wugs] in front of the bridge and next to the trees does understand.
+278,2,subj_pl_d1_pl_d2_sg,The [wugs] in front of the bridges and next to the tree do understand.,The [wugs] in front of the bridges and next to the tree does understand.
+279,2,subj_pl_d1_pl_d2_pl,The [wugs] in front of the bridges and next to the trees do understand.,The [wugs] in front of the bridges and next to the trees does understand.
+280,0,subj_sg,The [wug] jumps high.,The [wug] jump high.
+281,0,subj_pl,The [wugs] jump high.,The [wugs] jumps high.
+282,1,subj_sg_d1_sg,The [wug] near the tree jumps high.,The [wug] near the tree jump high.
+283,1,subj_sg_d1_pl,The [wug] near the trees jumps high.,The [wug] near the trees jump high.
+284,1,subj_pl_d1_sg,The [wugs] near the tree jump high.,The [wugs] near the tree jumps high.
+285,1,subj_pl_d1_pl,The [wugs] near the trees jump high.,The [wugs] near the trees jumps high.
+286,2,subj_sg_d1_sg_d2_sg,The [wug] near the tree and behind the car jumps high.,The [wug] near the tree and behind the car jump high.
+287,2,subj_sg_d1_sg_d2_pl,The [wug] near the tree and behind the cars jumps high.,The [wug] near the tree and behind the cars jump high.
+288,2,subj_sg_d1_pl_d2_sg,The [wug] near the trees and behind the car jumps high.,The [wug] near the trees and behind the car jump high.
+289,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars jumps high.,The [wug] near the trees and behind the cars jump high.
+290,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car jump high.,The [wugs] near the tree and behind the car jumps high.
+291,2,subj_pl_d1_sg_d2_pl,The [wugs] near the tree and behind the cars jump high.,The [wugs] near the tree and behind the cars jumps high.
+292,2,subj_pl_d1_pl_d2_sg,The [wugs] near the trees and behind the car jump high.,The [wugs] near the trees and behind the car jumps high.
+293,2,subj_pl_d1_pl_d2_pl,The [wugs] near the trees and behind the cars jump high.,The [wugs] near the trees and behind the cars jumps high.
+294,0,subj_sg,The [wug] jumps high.,The [wug] jump high.
+295,0,subj_pl,The [wugs] jump high.,The [wugs] jumps high.
+296,1,subj_sg_d1_sg,The [wug] behind the car jumps high.,The [wug] behind the car jump high.
+297,1,subj_sg_d1_pl,The [wug] behind the cars jumps high.,The [wug] behind the cars jump high.
+298,1,subj_pl_d1_sg,The [wugs] behind the car jump high.,The [wugs] behind the car jumps high.
+299,1,subj_pl_d1_pl,The [wugs] behind the cars jump high.,The [wugs] behind the cars jumps high.
+300,2,subj_sg_d1_sg_d2_sg,The [wug] behind the car and under the box jumps high.,The [wug] behind the car and under the box jump high.
+301,2,subj_sg_d1_sg_d2_pl,The [wug] behind the car and under the boxes jumps high.,The [wug] behind the car and under the boxes jump high.
+302,2,subj_sg_d1_pl_d2_sg,The [wug] behind the cars and under the box jumps high.,The [wug] behind the cars and under the box jump high.
+303,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes jumps high.,The [wug] behind the cars and under the boxes jump high.
+304,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box jump high.,The [wugs] behind the car and under the box jumps high.
+305,2,subj_pl_d1_sg_d2_pl,The [wugs] behind the car and under the boxes jump high.,The [wugs] behind the car and under the boxes jumps high.
+306,2,subj_pl_d1_pl_d2_sg,The [wugs] behind the cars and under the box jump high.,The [wugs] behind the cars and under the box jumps high.
+307,2,subj_pl_d1_pl_d2_pl,The [wugs] behind the cars and under the boxes jump high.,The [wugs] behind the cars and under the boxes jumps high.
+308,0,subj_sg,The [wug] jumps high.,The [wug] jump high.
+309,0,subj_pl,The [wugs] jump high.,The [wugs] jumps high.
+310,1,subj_sg_d1_sg,The [wug] under the box jumps high.,The [wug] under the box jump high.
+311,1,subj_sg_d1_pl,The [wug] under the boxes jumps high.,The [wug] under the boxes jump high.
+312,1,subj_pl_d1_sg,The [wugs] under the box jump high.,The [wugs] under the box jumps high.
+313,1,subj_pl_d1_pl,The [wugs] under the boxes jump high.,The [wugs] under the boxes jumps high.
+314,2,subj_sg_d1_sg_d2_sg,The [wug] under the box and beside the chair jumps high.,The [wug] under the box and beside the chair jump high.
+315,2,subj_sg_d1_sg_d2_pl,The [wug] under the box and beside the chairs jumps high.,The [wug] under the box and beside the chairs jump high.
+316,2,subj_sg_d1_pl_d2_sg,The [wug] under the boxes and beside the chair jumps high.,The [wug] under the boxes and beside the chair jump high.
+317,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the chairs jumps high.,The [wug] under the boxes and beside the chairs jump high.
+318,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the chair jump high.,The [wugs] under the box and beside the chair jumps high.
+319,2,subj_pl_d1_sg_d2_pl,The [wugs] under the box and beside the chairs jump high.,The [wugs] under the box and beside the chairs jumps high.
+320,2,subj_pl_d1_pl_d2_sg,The [wugs] under the boxes and beside the chair jump high.,The [wugs] under the boxes and beside the chair jumps high.
+321,2,subj_pl_d1_pl_d2_pl,The [wugs] under the boxes and beside the chairs jump high.,The [wugs] under the boxes and beside the chairs jumps high.
+322,0,subj_sg,The [wug] jumps high.,The [wug] jump high.
+323,0,subj_pl,The [wugs] jump high.,The [wugs] jumps high.
+324,1,subj_sg_d1_sg,The [wug] beside the chair jumps high.,The [wug] beside the chair jump high.
+325,1,subj_sg_d1_pl,The [wug] beside the chairs jumps high.,The [wug] beside the chairs jump high.
+326,1,subj_pl_d1_sg,The [wugs] beside the chair jump high.,The [wugs] beside the chair jumps high.
+327,1,subj_pl_d1_pl,The [wugs] beside the chairs jump high.,The [wugs] beside the chairs jumps high.
+328,2,subj_sg_d1_sg_d2_sg,The [wug] beside the chair and in front of the bridge jumps high.,The [wug] beside the chair and in front of the bridge jump high.
+329,2,subj_sg_d1_sg_d2_pl,The [wug] beside the chair and in front of the bridges jumps high.,The [wug] beside the chair and in front of the bridges jump high.
+330,2,subj_sg_d1_pl_d2_sg,The [wug] beside the chairs and in front of the bridge jumps high.,The [wug] beside the chairs and in front of the bridge jump high.
+331,2,subj_sg_d1_pl_d2_pl,The [wug] beside the chairs and in front of the bridges jumps high.,The [wug] beside the chairs and in front of the bridges jump high.
+332,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the chair and in front of the bridge jump high.,The [wugs] beside the chair and in front of the bridge jumps high.
+333,2,subj_pl_d1_sg_d2_pl,The [wugs] beside the chair and in front of the bridges jump high.,The [wugs] beside the chair and in front of the bridges jumps high.
+334,2,subj_pl_d1_pl_d2_sg,The [wugs] beside the chairs and in front of the bridge jump high.,The [wugs] beside the chairs and in front of the bridge jumps high.
+335,2,subj_pl_d1_pl_d2_pl,The [wugs] beside the chairs and in front of the bridges jump high.,The [wugs] beside the chairs and in front of the bridges jumps high.
+336,0,subj_sg,The [wug] jumps high.,The [wug] jump high.
+337,0,subj_pl,The [wugs] jump high.,The [wugs] jumps high.
+338,1,subj_sg_d1_sg,The [wug] in front of the bridge jumps high.,The [wug] in front of the bridge jump high.
+339,1,subj_sg_d1_pl,The [wug] in front of the bridges jumps high.,The [wug] in front of the bridges jump high.
+340,1,subj_pl_d1_sg,The [wugs] in front of the bridge jump high.,The [wugs] in front of the bridge jumps high.
+341,1,subj_pl_d1_pl,The [wugs] in front of the bridges jump high.,The [wugs] in front of the bridges jumps high.
+342,2,subj_sg_d1_sg_d2_sg,The [wug] in front of the bridge and next to the tree jumps high.,The [wug] in front of the bridge and next to the tree jump high.
+343,2,subj_sg_d1_sg_d2_pl,The [wug] in front of the bridge and next to the trees jumps high.,The [wug] in front of the bridge and next to the trees jump high.
+344,2,subj_sg_d1_pl_d2_sg,The [wug] in front of the bridges and next to the tree jumps high.,The [wug] in front of the bridges and next to the tree jump high.
+345,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the bridges and next to the trees jumps high.,The [wug] in front of the bridges and next to the trees jump high.
+346,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the bridge and next to the tree jump high.,The [wugs] in front of the bridge and next to the tree jumps high.
+347,2,subj_pl_d1_sg_d2_pl,The [wugs] in front of the bridge and next to the trees jump high.,The [wugs] in front of the bridge and next to the trees jumps high.
+348,2,subj_pl_d1_pl_d2_sg,The [wugs] in front of the bridges and next to the tree jump high.,The [wugs] in front of the bridges and next to the tree jumps high.
+349,2,subj_pl_d1_pl_d2_pl,The [wugs] in front of the bridges and next to the trees jump high.,The [wugs] in front of the bridges and next to the trees jumps high.
+350,0,subj_sg,The [wug] opens doors.,The [wug] open doors.
+351,0,subj_pl,The [wugs] open doors.,The [wugs] opens doors.
+352,1,subj_sg_d1_sg,The [wug] near the tree opens doors.,The [wug] near the tree open doors.
+353,1,subj_sg_d1_pl,The [wug] near the trees opens doors.,The [wug] near the trees open doors.
+354,1,subj_pl_d1_sg,The [wugs] near the tree open doors.,The [wugs] near the tree opens doors.
+355,1,subj_pl_d1_pl,The [wugs] near the trees open doors.,The [wugs] near the trees opens doors.
+356,2,subj_sg_d1_sg_d2_sg,The [wug] near the tree and behind the car opens doors.,The [wug] near the tree and behind the car open doors.
+357,2,subj_sg_d1_sg_d2_pl,The [wug] near the tree and behind the cars opens doors.,The [wug] near the tree and behind the cars open doors.
+358,2,subj_sg_d1_pl_d2_sg,The [wug] near the trees and behind the car opens doors.,The [wug] near the trees and behind the car open doors.
+359,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars opens doors.,The [wug] near the trees and behind the cars open doors.
+360,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car open doors.,The [wugs] near the tree and behind the car opens doors.
+361,2,subj_pl_d1_sg_d2_pl,The [wugs] near the tree and behind the cars open doors.,The [wugs] near the tree and behind the cars opens doors.
+362,2,subj_pl_d1_pl_d2_sg,The [wugs] near the trees and behind the car open doors.,The [wugs] near the trees and behind the car opens doors.
+363,2,subj_pl_d1_pl_d2_pl,The [wugs] near the trees and behind the cars open doors.,The [wugs] near the trees and behind the cars opens doors.
+364,0,subj_sg,The [wug] opens doors.,The [wug] open doors.
+365,0,subj_pl,The [wugs] open doors.,The [wugs] opens doors.
+366,1,subj_sg_d1_sg,The [wug] behind the car opens doors.,The [wug] behind the car open doors.
+367,1,subj_sg_d1_pl,The [wug] behind the cars opens doors.,The [wug] behind the cars open doors.
+368,1,subj_pl_d1_sg,The [wugs] behind the car open doors.,The [wugs] behind the car opens doors.
+369,1,subj_pl_d1_pl,The [wugs] behind the cars open doors.,The [wugs] behind the cars opens doors.
+370,2,subj_sg_d1_sg_d2_sg,The [wug] behind the car and under the box opens doors.,The [wug] behind the car and under the box open doors.
+371,2,subj_sg_d1_sg_d2_pl,The [wug] behind the car and under the boxes opens doors.,The [wug] behind the car and under the boxes open doors.
+372,2,subj_sg_d1_pl_d2_sg,The [wug] behind the cars and under the box opens doors.,The [wug] behind the cars and under the box open doors.
+373,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes opens doors.,The [wug] behind the cars and under the boxes open doors.
+374,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box open doors.,The [wugs] behind the car and under the box opens doors.
+375,2,subj_pl_d1_sg_d2_pl,The [wugs] behind the car and under the boxes open doors.,The [wugs] behind the car and under the boxes opens doors.
+376,2,subj_pl_d1_pl_d2_sg,The [wugs] behind the cars and under the box open doors.,The [wugs] behind the cars and under the box opens doors.
+377,2,subj_pl_d1_pl_d2_pl,The [wugs] behind the cars and under the boxes open doors.,The [wugs] behind the cars and under the boxes opens doors.
+378,0,subj_sg,The [wug] opens doors.,The [wug] open doors.
+379,0,subj_pl,The [wugs] open doors.,The [wugs] opens doors.
+380,1,subj_sg_d1_sg,The [wug] under the box opens doors.,The [wug] under the box open doors.
+381,1,subj_sg_d1_pl,The [wug] under the boxes opens doors.,The [wug] under the boxes open doors.
+382,1,subj_pl_d1_sg,The [wugs] under the box open doors.,The [wugs] under the box opens doors.
+383,1,subj_pl_d1_pl,The [wugs] under the boxes open doors.,The [wugs] under the boxes opens doors.
+384,2,subj_sg_d1_sg_d2_sg,The [wug] under the box and beside the chair opens doors.,The [wug] under the box and beside the chair open doors.
+385,2,subj_sg_d1_sg_d2_pl,The [wug] under the box and beside the chairs opens doors.,The [wug] under the box and beside the chairs open doors.
+386,2,subj_sg_d1_pl_d2_sg,The [wug] under the boxes and beside the chair opens doors.,The [wug] under the boxes and beside the chair open doors.
+387,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the chairs opens doors.,The [wug] under the boxes and beside the chairs open doors.
+388,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the chair open doors.,The [wugs] under the box and beside the chair opens doors.
+389,2,subj_pl_d1_sg_d2_pl,The [wugs] under the box and beside the chairs open doors.,The [wugs] under the box and beside the chairs opens doors.
+390,2,subj_pl_d1_pl_d2_sg,The [wugs] under the boxes and beside the chair open doors.,The [wugs] under the boxes and beside the chair opens doors.
+391,2,subj_pl_d1_pl_d2_pl,The [wugs] under the boxes and beside the chairs open doors.,The [wugs] under the boxes and beside the chairs opens doors.
+392,0,subj_sg,The [wug] opens doors.,The [wug] open doors.
+393,0,subj_pl,The [wugs] open doors.,The [wugs] opens doors.
+394,1,subj_sg_d1_sg,The [wug] beside the chair opens doors.,The [wug] beside the chair open doors.
+395,1,subj_sg_d1_pl,The [wug] beside the chairs opens doors.,The [wug] beside the chairs open doors.
+396,1,subj_pl_d1_sg,The [wugs] beside the chair open doors.,The [wugs] beside the chair opens doors.
+397,1,subj_pl_d1_pl,The [wugs] beside the chairs open doors.,The [wugs] beside the chairs opens doors.
+398,2,subj_sg_d1_sg_d2_sg,The [wug] beside the chair and in front of the bridge opens doors.,The [wug] beside the chair and in front of the bridge open doors.
+399,2,subj_sg_d1_sg_d2_pl,The [wug] beside the chair and in front of the bridges opens doors.,The [wug] beside the chair and in front of the bridges open doors.
+400,2,subj_sg_d1_pl_d2_sg,The [wug] beside the chairs and in front of the bridge opens doors.,The [wug] beside the chairs and in front of the bridge open doors.
+401,2,subj_sg_d1_pl_d2_pl,The [wug] beside the chairs and in front of the bridges opens doors.,The [wug] beside the chairs and in front of the bridges open doors.
+402,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the chair and in front of the bridge open doors.,The [wugs] beside the chair and in front of the bridge opens doors.
+403,2,subj_pl_d1_sg_d2_pl,The [wugs] beside the chair and in front of the bridges open doors.,The [wugs] beside the chair and in front of the bridges opens doors.
+404,2,subj_pl_d1_pl_d2_sg,The [wugs] beside the chairs and in front of the bridge open doors.,The [wugs] beside the chairs and in front of the bridge opens doors.
+405,2,subj_pl_d1_pl_d2_pl,The [wugs] beside the chairs and in front of the bridges open doors.,The [wugs] beside the chairs and in front of the bridges opens doors.
+406,0,subj_sg,The [wug] opens doors.,The [wug] open doors.
+407,0,subj_pl,The [wugs] open doors.,The [wugs] opens doors.
+408,1,subj_sg_d1_sg,The [wug] in front of the bridge opens doors.,The [wug] in front of the bridge open doors.
+409,1,subj_sg_d1_pl,The [wug] in front of the bridges opens doors.,The [wug] in front of the bridges open doors.
+410,1,subj_pl_d1_sg,The [wugs] in front of the bridge open doors.,The [wugs] in front of the bridge opens doors.
+411,1,subj_pl_d1_pl,The [wugs] in front of the bridges open doors.,The [wugs] in front of the bridges opens doors.
+412,2,subj_sg_d1_sg_d2_sg,The [wug] in front of the bridge and next to the tree opens doors.,The [wug] in front of the bridge and next to the tree open doors.
+413,2,subj_sg_d1_sg_d2_pl,The [wug] in front of the bridge and next to the trees opens doors.,The [wug] in front of the bridge and next to the trees open doors.
+414,2,subj_sg_d1_pl_d2_sg,The [wug] in front of the bridges and next to the tree opens doors.,The [wug] in front of the bridges and next to the tree open doors.
+415,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the bridges and next to the trees opens doors.,The [wug] in front of the bridges and next to the trees open doors.
+416,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the bridge and next to the tree open doors.,The [wugs] in front of the bridge and next to the tree opens doors.
+417,2,subj_pl_d1_sg_d2_pl,The [wugs] in front of the bridge and next to the trees open doors.,The [wugs] in front of the bridge and next to the trees opens doors.
+418,2,subj_pl_d1_pl_d2_sg,The [wugs] in front of the bridges and next to the tree open doors.,The [wugs] in front of the bridges and next to the tree opens doors.
+419,2,subj_pl_d1_pl_d2_pl,The [wugs] in front of the bridges and next to the trees open doors.,The [wugs] in front of the bridges and next to the trees opens doors.
+420,0,subj_sg,The [wug] runs fast.,The [wug] run fast.
+421,0,subj_pl,The [wugs] run fast.,The [wugs] runs fast.
+422,1,subj_sg_d1_sg,The [wug] near the tree runs fast.,The [wug] near the tree run fast.
+423,1,subj_sg_d1_pl,The [wug] near the trees runs fast.,The [wug] near the trees run fast.
+424,1,subj_pl_d1_sg,The [wugs] near the tree run fast.,The [wugs] near the tree runs fast.
+425,1,subj_pl_d1_pl,The [wugs] near the trees run fast.,The [wugs] near the trees runs fast.
+426,2,subj_sg_d1_sg_d2_sg,The [wug] near the tree and behind the car runs fast.,The [wug] near the tree and behind the car run fast.
+427,2,subj_sg_d1_sg_d2_pl,The [wug] near the tree and behind the cars runs fast.,The [wug] near the tree and behind the cars run fast.
+428,2,subj_sg_d1_pl_d2_sg,The [wug] near the trees and behind the car runs fast.,The [wug] near the trees and behind the car run fast.
+429,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars runs fast.,The [wug] near the trees and behind the cars run fast.
+430,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car run fast.,The [wugs] near the tree and behind the car runs fast.
+431,2,subj_pl_d1_sg_d2_pl,The [wugs] near the tree and behind the cars run fast.,The [wugs] near the tree and behind the cars runs fast.
+432,2,subj_pl_d1_pl_d2_sg,The [wugs] near the trees and behind the car run fast.,The [wugs] near the trees and behind the car runs fast.
+433,2,subj_pl_d1_pl_d2_pl,The [wugs] near the trees and behind the cars run fast.,The [wugs] near the trees and behind the cars runs fast.
+434,0,subj_sg,The [wug] runs fast.,The [wug] run fast.
+435,0,subj_pl,The [wugs] run fast.,The [wugs] runs fast.
+436,1,subj_sg_d1_sg,The [wug] behind the car runs fast.,The [wug] behind the car run fast.
+437,1,subj_sg_d1_pl,The [wug] behind the cars runs fast.,The [wug] behind the cars run fast.
+438,1,subj_pl_d1_sg,The [wugs] behind the car run fast.,The [wugs] behind the car runs fast.
+439,1,subj_pl_d1_pl,The [wugs] behind the cars run fast.,The [wugs] behind the cars runs fast.
+440,2,subj_sg_d1_sg_d2_sg,The [wug] behind the car and under the box runs fast.,The [wug] behind the car and under the box run fast.
+441,2,subj_sg_d1_sg_d2_pl,The [wug] behind the car and under the boxes runs fast.,The [wug] behind the car and under the boxes run fast.
+442,2,subj_sg_d1_pl_d2_sg,The [wug] behind the cars and under the box runs fast.,The [wug] behind the cars and under the box run fast.
+443,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes runs fast.,The [wug] behind the cars and under the boxes run fast.
+444,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box run fast.,The [wugs] behind the car and under the box runs fast.
+445,2,subj_pl_d1_sg_d2_pl,The [wugs] behind the car and under the boxes run fast.,The [wugs] behind the car and under the boxes runs fast.
+446,2,subj_pl_d1_pl_d2_sg,The [wugs] behind the cars and under the box run fast.,The [wugs] behind the cars and under the box runs fast.
+447,2,subj_pl_d1_pl_d2_pl,The [wugs] behind the cars and under the boxes run fast.,The [wugs] behind the cars and under the boxes runs fast.
+448,0,subj_sg,The [wug] runs fast.,The [wug] run fast.
+449,0,subj_pl,The [wugs] run fast.,The [wugs] runs fast.
+450,1,subj_sg_d1_sg,The [wug] under the box runs fast.,The [wug] under the box run fast.
+451,1,subj_sg_d1_pl,The [wug] under the boxes runs fast.,The [wug] under the boxes run fast.
+452,1,subj_pl_d1_sg,The [wugs] under the box run fast.,The [wugs] under the box runs fast.
+453,1,subj_pl_d1_pl,The [wugs] under the boxes run fast.,The [wugs] under the boxes runs fast.
+454,2,subj_sg_d1_sg_d2_sg,The [wug] under the box and beside the chair runs fast.,The [wug] under the box and beside the chair run fast.
+455,2,subj_sg_d1_sg_d2_pl,The [wug] under the box and beside the chairs runs fast.,The [wug] under the box and beside the chairs run fast.
+456,2,subj_sg_d1_pl_d2_sg,The [wug] under the boxes and beside the chair runs fast.,The [wug] under the boxes and beside the chair run fast.
+457,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the chairs runs fast.,The [wug] under the boxes and beside the chairs run fast.
+458,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the chair run fast.,The [wugs] under the box and beside the chair runs fast.
+459,2,subj_pl_d1_sg_d2_pl,The [wugs] under the box and beside the chairs run fast.,The [wugs] under the box and beside the chairs runs fast.
+460,2,subj_pl_d1_pl_d2_sg,The [wugs] under the boxes and beside the chair run fast.,The [wugs] under the boxes and beside the chair runs fast.
+461,2,subj_pl_d1_pl_d2_pl,The [wugs] under the boxes and beside the chairs run fast.,The [wugs] under the boxes and beside the chairs runs fast.
+462,0,subj_sg,The [wug] runs fast.,The [wug] run fast.
+463,0,subj_pl,The [wugs] run fast.,The [wugs] runs fast.
+464,1,subj_sg_d1_sg,The [wug] beside the chair runs fast.,The [wug] beside the chair run fast.
+465,1,subj_sg_d1_pl,The [wug] beside the chairs runs fast.,The [wug] beside the chairs run fast.
+466,1,subj_pl_d1_sg,The [wugs] beside the chair run fast.,The [wugs] beside the chair runs fast.
+467,1,subj_pl_d1_pl,The [wugs] beside the chairs run fast.,The [wugs] beside the chairs runs fast.
+468,2,subj_sg_d1_sg_d2_sg,The [wug] beside the chair and in front of the bridge runs fast.,The [wug] beside the chair and in front of the bridge run fast.
+469,2,subj_sg_d1_sg_d2_pl,The [wug] beside the chair and in front of the bridges runs fast.,The [wug] beside the chair and in front of the bridges run fast.
+470,2,subj_sg_d1_pl_d2_sg,The [wug] beside the chairs and in front of the bridge runs fast.,The [wug] beside the chairs and in front of the bridge run fast.
+471,2,subj_sg_d1_pl_d2_pl,The [wug] beside the chairs and in front of the bridges runs fast.,The [wug] beside the chairs and in front of the bridges run fast.
+472,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the chair and in front of the bridge run fast.,The [wugs] beside the chair and in front of the bridge runs fast.
+473,2,subj_pl_d1_sg_d2_pl,The [wugs] beside the chair and in front of the bridges run fast.,The [wugs] beside the chair and in front of the bridges runs fast.
+474,2,subj_pl_d1_pl_d2_sg,The [wugs] beside the chairs and in front of the bridge run fast.,The [wugs] beside the chairs and in front of the bridge runs fast.
+475,2,subj_pl_d1_pl_d2_pl,The [wugs] beside the chairs and in front of the bridges run fast.,The [wugs] beside the chairs and in front of the bridges runs fast.
+476,0,subj_sg,The [wug] runs fast.,The [wug] run fast.
+477,0,subj_pl,The [wugs] run fast.,The [wugs] runs fast.
+478,1,subj_sg_d1_sg,The [wug] in front of the bridge runs fast.,The [wug] in front of the bridge run fast.
+479,1,subj_sg_d1_pl,The [wug] in front of the bridges runs fast.,The [wug] in front of the bridges run fast.
+480,1,subj_pl_d1_sg,The [wugs] in front of the bridge run fast.,The [wugs] in front of the bridge runs fast.
+481,1,subj_pl_d1_pl,The [wugs] in front of the bridges run fast.,The [wugs] in front of the bridges runs fast.
+482,2,subj_sg_d1_sg_d2_sg,The [wug] in front of the bridge and next to the tree runs fast.,The [wug] in front of the bridge and next to the tree run fast.
+483,2,subj_sg_d1_sg_d2_pl,The [wug] in front of the bridge and next to the trees runs fast.,The [wug] in front of the bridge and next to the trees run fast.
+484,2,subj_sg_d1_pl_d2_sg,The [wug] in front of the bridges and next to the tree runs fast.,The [wug] in front of the bridges and next to the tree run fast.
+485,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the bridges and next to the trees runs fast.,The [wug] in front of the bridges and next to the trees run fast.
+486,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the bridge and next to the tree run fast.,The [wugs] in front of the bridge and next to the tree runs fast.
+487,2,subj_pl_d1_sg_d2_pl,The [wugs] in front of the bridge and next to the trees run fast.,The [wugs] in front of the bridge and next to the trees runs fast.
+488,2,subj_pl_d1_pl_d2_sg,The [wugs] in front of the bridges and next to the tree run fast.,The [wugs] in front of the bridges and next to the tree runs fast.
+489,2,subj_pl_d1_pl_d2_pl,The [wugs] in front of the bridges and next to the trees run fast.,The [wugs] in front of the bridges and next to the trees runs fast.
+490,0,subj_sg,The [wug] eats apples.,The [wug] eat apples.
+491,0,subj_pl,The [wugs] eat apples.,The [wugs] eats apples.
+492,1,subj_sg_d1_sg,The [wug] near the tree eats apples.,The [wug] near the tree eat apples.
+493,1,subj_sg_d1_pl,The [wug] near the trees eats apples.,The [wug] near the trees eat apples.
+494,1,subj_pl_d1_sg,The [wugs] near the tree eat apples.,The [wugs] near the tree eats apples.
+495,1,subj_pl_d1_pl,The [wugs] near the trees eat apples.,The [wugs] near the trees eats apples.
+496,2,subj_sg_d1_sg_d2_sg,The [wug] near the tree and behind the car eats apples.,The [wug] near the tree and behind the car eat apples.
+497,2,subj_sg_d1_sg_d2_pl,The [wug] near the tree and behind the cars eats apples.,The [wug] near the tree and behind the cars eat apples.
+498,2,subj_sg_d1_pl_d2_sg,The [wug] near the trees and behind the car eats apples.,The [wug] near the trees and behind the car eat apples.
+499,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars eats apples.,The [wug] near the trees and behind the cars eat apples.
+500,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car eat apples.,The [wugs] near the tree and behind the car eats apples.
+501,2,subj_pl_d1_sg_d2_pl,The [wugs] near the tree and behind the cars eat apples.,The [wugs] near the tree and behind the cars eats apples.
+502,2,subj_pl_d1_pl_d2_sg,The [wugs] near the trees and behind the car eat apples.,The [wugs] near the trees and behind the car eats apples.
+503,2,subj_pl_d1_pl_d2_pl,The [wugs] near the trees and behind the cars eat apples.,The [wugs] near the trees and behind the cars eats apples.
+504,0,subj_sg,The [wug] eats apples.,The [wug] eat apples.
+505,0,subj_pl,The [wugs] eat apples.,The [wugs] eats apples.
+506,1,subj_sg_d1_sg,The [wug] behind the car eats apples.,The [wug] behind the car eat apples.
+507,1,subj_sg_d1_pl,The [wug] behind the cars eats apples.,The [wug] behind the cars eat apples.
+508,1,subj_pl_d1_sg,The [wugs] behind the car eat apples.,The [wugs] behind the car eats apples.
+509,1,subj_pl_d1_pl,The [wugs] behind the cars eat apples.,The [wugs] behind the cars eats apples.
+510,2,subj_sg_d1_sg_d2_sg,The [wug] behind the car and under the box eats apples.,The [wug] behind the car and under the box eat apples.
+511,2,subj_sg_d1_sg_d2_pl,The [wug] behind the car and under the boxes eats apples.,The [wug] behind the car and under the boxes eat apples.
+512,2,subj_sg_d1_pl_d2_sg,The [wug] behind the cars and under the box eats apples.,The [wug] behind the cars and under the box eat apples.
+513,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes eats apples.,The [wug] behind the cars and under the boxes eat apples.
+514,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box eat apples.,The [wugs] behind the car and under the box eats apples.
+515,2,subj_pl_d1_sg_d2_pl,The [wugs] behind the car and under the boxes eat apples.,The [wugs] behind the car and under the boxes eats apples.
+516,2,subj_pl_d1_pl_d2_sg,The [wugs] behind the cars and under the box eat apples.,The [wugs] behind the cars and under the box eats apples.
+517,2,subj_pl_d1_pl_d2_pl,The [wugs] behind the cars and under the boxes eat apples.,The [wugs] behind the cars and under the boxes eats apples.
+518,0,subj_sg,The [wug] eats apples.,The [wug] eat apples.
+519,0,subj_pl,The [wugs] eat apples.,The [wugs] eats apples.
+520,1,subj_sg_d1_sg,The [wug] under the box eats apples.,The [wug] under the box eat apples.
+521,1,subj_sg_d1_pl,The [wug] under the boxes eats apples.,The [wug] under the boxes eat apples.
+522,1,subj_pl_d1_sg,The [wugs] under the box eat apples.,The [wugs] under the box eats apples.
+523,1,subj_pl_d1_pl,The [wugs] under the boxes eat apples.,The [wugs] under the boxes eats apples.
+524,2,subj_sg_d1_sg_d2_sg,The [wug] under the box and beside the chair eats apples.,The [wug] under the box and beside the chair eat apples.
+525,2,subj_sg_d1_sg_d2_pl,The [wug] under the box and beside the chairs eats apples.,The [wug] under the box and beside the chairs eat apples.
+526,2,subj_sg_d1_pl_d2_sg,The [wug] under the boxes and beside the chair eats apples.,The [wug] under the boxes and beside the chair eat apples.
+527,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the chairs eats apples.,The [wug] under the boxes and beside the chairs eat apples.
+528,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the chair eat apples.,The [wugs] under the box and beside the chair eats apples.
+529,2,subj_pl_d1_sg_d2_pl,The [wugs] under the box and beside the chairs eat apples.,The [wugs] under the box and beside the chairs eats apples.
+530,2,subj_pl_d1_pl_d2_sg,The [wugs] under the boxes and beside the chair eat apples.,The [wugs] under the boxes and beside the chair eats apples.
+531,2,subj_pl_d1_pl_d2_pl,The [wugs] under the boxes and beside the chairs eat apples.,The [wugs] under the boxes and beside the chairs eats apples.
+532,0,subj_sg,The [wug] eats apples.,The [wug] eat apples.
+533,0,subj_pl,The [wugs] eat apples.,The [wugs] eats apples.
+534,1,subj_sg_d1_sg,The [wug] beside the chair eats apples.,The [wug] beside the chair eat apples.
+535,1,subj_sg_d1_pl,The [wug] beside the chairs eats apples.,The [wug] beside the chairs eat apples.
+536,1,subj_pl_d1_sg,The [wugs] beside the chair eat apples.,The [wugs] beside the chair eats apples.
+537,1,subj_pl_d1_pl,The [wugs] beside the chairs eat apples.,The [wugs] beside the chairs eats apples.
+538,2,subj_sg_d1_sg_d2_sg,The [wug] beside the chair and in front of the bridge eats apples.,The [wug] beside the chair and in front of the bridge eat apples.
+539,2,subj_sg_d1_sg_d2_pl,The [wug] beside the chair and in front of the bridges eats apples.,The [wug] beside the chair and in front of the bridges eat apples.
+540,2,subj_sg_d1_pl_d2_sg,The [wug] beside the chairs and in front of the bridge eats apples.,The [wug] beside the chairs and in front of the bridge eat apples.
+541,2,subj_sg_d1_pl_d2_pl,The [wug] beside the chairs and in front of the bridges eats apples.,The [wug] beside the chairs and in front of the bridges eat apples.
+542,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the chair and in front of the bridge eat apples.,The [wugs] beside the chair and in front of the bridge eats apples.
+543,2,subj_pl_d1_sg_d2_pl,The [wugs] beside the chair and in front of the bridges eat apples.,The [wugs] beside the chair and in front of the bridges eats apples.
+544,2,subj_pl_d1_pl_d2_sg,The [wugs] beside the chairs and in front of the bridge eat apples.,The [wugs] beside the chairs and in front of the bridge eats apples.
+545,2,subj_pl_d1_pl_d2_pl,The [wugs] beside the chairs and in front of the bridges eat apples.,The [wugs] beside the chairs and in front of the bridges eats apples.
+546,0,subj_sg,The [wug] eats apples.,The [wug] eat apples.
+547,0,subj_pl,The [wugs] eat apples.,The [wugs] eats apples.
+548,1,subj_sg_d1_sg,The [wug] in front of the bridge eats apples.,The [wug] in front of the bridge eat apples.
+549,1,subj_sg_d1_pl,The [wug] in front of the bridges eats apples.,The [wug] in front of the bridges eat apples.
+550,1,subj_pl_d1_sg,The [wugs] in front of the bridge eat apples.,The [wugs] in front of the bridge eats apples.
+551,1,subj_pl_d1_pl,The [wugs] in front of the bridges eat apples.,The [wugs] in front of the bridges eats apples.
+552,2,subj_sg_d1_sg_d2_sg,The [wug] in front of the bridge and next to the tree eats apples.,The [wug] in front of the bridge and next to the tree eat apples.
+553,2,subj_sg_d1_sg_d2_pl,The [wug] in front of the bridge and next to the trees eats apples.,The [wug] in front of the bridge and next to the trees eat apples.
+554,2,subj_sg_d1_pl_d2_sg,The [wug] in front of the bridges and next to the tree eats apples.,The [wug] in front of the bridges and next to the tree eat apples.
+555,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the bridges and next to the trees eats apples.,The [wug] in front of the bridges and next to the trees eat apples.
+556,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the bridge and next to the tree eat apples.,The [wugs] in front of the bridge and next to the tree eats apples.
+557,2,subj_pl_d1_sg_d2_pl,The [wugs] in front of the bridge and next to the trees eat apples.,The [wugs] in front of the bridge and next to the trees eats apples.
+558,2,subj_pl_d1_pl_d2_sg,The [wugs] in front of the bridges and next to the tree eat apples.,The [wugs] in front of the bridges and next to the tree eats apples.
+559,2,subj_pl_d1_pl_d2_pl,The [wugs] in front of the bridges and next to the trees eat apples.,The [wugs] in front of the bridges and next to the trees eats apples.
+560,0,subj_sg,The [wug] sleeps soundly.,The [wug] sleep soundly.
+561,0,subj_pl,The [wugs] sleep soundly.,The [wugs] sleeps soundly.
+562,1,subj_sg_d1_sg,The [wug] near the tree sleeps soundly.,The [wug] near the tree sleep soundly.
+563,1,subj_sg_d1_pl,The [wug] near the trees sleeps soundly.,The [wug] near the trees sleep soundly.
+564,1,subj_pl_d1_sg,The [wugs] near the tree sleep soundly.,The [wugs] near the tree sleeps soundly.
+565,1,subj_pl_d1_pl,The [wugs] near the trees sleep soundly.,The [wugs] near the trees sleeps soundly.
+566,2,subj_sg_d1_sg_d2_sg,The [wug] near the tree and behind the car sleeps soundly.,The [wug] near the tree and behind the car sleep soundly.
+567,2,subj_sg_d1_sg_d2_pl,The [wug] near the tree and behind the cars sleeps soundly.,The [wug] near the tree and behind the cars sleep soundly.
+568,2,subj_sg_d1_pl_d2_sg,The [wug] near the trees and behind the car sleeps soundly.,The [wug] near the trees and behind the car sleep soundly.
+569,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars sleeps soundly.,The [wug] near the trees and behind the cars sleep soundly.
+570,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car sleep soundly.,The [wugs] near the tree and behind the car sleeps soundly.
+571,2,subj_pl_d1_sg_d2_pl,The [wugs] near the tree and behind the cars sleep soundly.,The [wugs] near the tree and behind the cars sleeps soundly.
+572,2,subj_pl_d1_pl_d2_sg,The [wugs] near the trees and behind the car sleep soundly.,The [wugs] near the trees and behind the car sleeps soundly.
+573,2,subj_pl_d1_pl_d2_pl,The [wugs] near the trees and behind the cars sleep soundly.,The [wugs] near the trees and behind the cars sleeps soundly.
+574,0,subj_sg,The [wug] sleeps soundly.,The [wug] sleep soundly.
+575,0,subj_pl,The [wugs] sleep soundly.,The [wugs] sleeps soundly.
+576,1,subj_sg_d1_sg,The [wug] behind the car sleeps soundly.,The [wug] behind the car sleep soundly.
+577,1,subj_sg_d1_pl,The [wug] behind the cars sleeps soundly.,The [wug] behind the cars sleep soundly.
+578,1,subj_pl_d1_sg,The [wugs] behind the car sleep soundly.,The [wugs] behind the car sleeps soundly.
+579,1,subj_pl_d1_pl,The [wugs] behind the cars sleep soundly.,The [wugs] behind the cars sleeps soundly.
+580,2,subj_sg_d1_sg_d2_sg,The [wug] behind the car and under the box sleeps soundly.,The [wug] behind the car and under the box sleep soundly.
+581,2,subj_sg_d1_sg_d2_pl,The [wug] behind the car and under the boxes sleeps soundly.,The [wug] behind the car and under the boxes sleep soundly.
+582,2,subj_sg_d1_pl_d2_sg,The [wug] behind the cars and under the box sleeps soundly.,The [wug] behind the cars and under the box sleep soundly.
+583,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes sleeps soundly.,The [wug] behind the cars and under the boxes sleep soundly.
+584,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box sleep soundly.,The [wugs] behind the car and under the box sleeps soundly.
+585,2,subj_pl_d1_sg_d2_pl,The [wugs] behind the car and under the boxes sleep soundly.,The [wugs] behind the car and under the boxes sleeps soundly.
+586,2,subj_pl_d1_pl_d2_sg,The [wugs] behind the cars and under the box sleep soundly.,The [wugs] behind the cars and under the box sleeps soundly.
+587,2,subj_pl_d1_pl_d2_pl,The [wugs] behind the cars and under the boxes sleep soundly.,The [wugs] behind the cars and under the boxes sleeps soundly.
+588,0,subj_sg,The [wug] sleeps soundly.,The [wug] sleep soundly.
+589,0,subj_pl,The [wugs] sleep soundly.,The [wugs] sleeps soundly.
+590,1,subj_sg_d1_sg,The [wug] under the box sleeps soundly.,The [wug] under the box sleep soundly.
+591,1,subj_sg_d1_pl,The [wug] under the boxes sleeps soundly.,The [wug] under the boxes sleep soundly.
+592,1,subj_pl_d1_sg,The [wugs] under the box sleep soundly.,The [wugs] under the box sleeps soundly.
+593,1,subj_pl_d1_pl,The [wugs] under the boxes sleep soundly.,The [wugs] under the boxes sleeps soundly.
+594,2,subj_sg_d1_sg_d2_sg,The [wug] under the box and beside the chair sleeps soundly.,The [wug] under the box and beside the chair sleep soundly.
+595,2,subj_sg_d1_sg_d2_pl,The [wug] under the box and beside the chairs sleeps soundly.,The [wug] under the box and beside the chairs sleep soundly.
+596,2,subj_sg_d1_pl_d2_sg,The [wug] under the boxes and beside the chair sleeps soundly.,The [wug] under the boxes and beside the chair sleep soundly.
+597,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the chairs sleeps soundly.,The [wug] under the boxes and beside the chairs sleep soundly.
+598,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the chair sleep soundly.,The [wugs] under the box and beside the chair sleeps soundly.
+599,2,subj_pl_d1_sg_d2_pl,The [wugs] under the box and beside the chairs sleep soundly.,The [wugs] under the box and beside the chairs sleeps soundly.
+600,2,subj_pl_d1_pl_d2_sg,The [wugs] under the boxes and beside the chair sleep soundly.,The [wugs] under the boxes and beside the chair sleeps soundly.
+601,2,subj_pl_d1_pl_d2_pl,The [wugs] under the boxes and beside the chairs sleep soundly.,The [wugs] under the boxes and beside the chairs sleeps soundly.
+602,0,subj_sg,The [wug] sleeps soundly.,The [wug] sleep soundly.
+603,0,subj_pl,The [wugs] sleep soundly.,The [wugs] sleeps soundly.
+604,1,subj_sg_d1_sg,The [wug] beside the chair sleeps soundly.,The [wug] beside the chair sleep soundly.
+605,1,subj_sg_d1_pl,The [wug] beside the chairs sleeps soundly.,The [wug] beside the chairs sleep soundly.
+606,1,subj_pl_d1_sg,The [wugs] beside the chair sleep soundly.,The [wugs] beside the chair sleeps soundly.
+607,1,subj_pl_d1_pl,The [wugs] beside the chairs sleep soundly.,The [wugs] beside the chairs sleeps soundly.
+608,2,subj_sg_d1_sg_d2_sg,The [wug] beside the chair and in front of the bridge sleeps soundly.,The [wug] beside the chair and in front of the bridge sleep soundly.
+609,2,subj_sg_d1_sg_d2_pl,The [wug] beside the chair and in front of the bridges sleeps soundly.,The [wug] beside the chair and in front of the bridges sleep soundly.
+610,2,subj_sg_d1_pl_d2_sg,The [wug] beside the chairs and in front of the bridge sleeps soundly.,The [wug] beside the chairs and in front of the bridge sleep soundly.
+611,2,subj_sg_d1_pl_d2_pl,The [wug] beside the chairs and in front of the bridges sleeps soundly.,The [wug] beside the chairs and in front of the bridges sleep soundly.
+612,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the chair and in front of the bridge sleep soundly.,The [wugs] beside the chair and in front of the bridge sleeps soundly.
+613,2,subj_pl_d1_sg_d2_pl,The [wugs] beside the chair and in front of the bridges sleep soundly.,The [wugs] beside the chair and in front of the bridges sleeps soundly.
+614,2,subj_pl_d1_pl_d2_sg,The [wugs] beside the chairs and in front of the bridge sleep soundly.,The [wugs] beside the chairs and in front of the bridge sleeps soundly.
+615,2,subj_pl_d1_pl_d2_pl,The [wugs] beside the chairs and in front of the bridges sleep soundly.,The [wugs] beside the chairs and in front of the bridges sleeps soundly.
+616,0,subj_sg,The [wug] sleeps soundly.,The [wug] sleep soundly.
+617,0,subj_pl,The [wugs] sleep soundly.,The [wugs] sleeps soundly.
+618,1,subj_sg_d1_sg,The [wug] in front of the bridge sleeps soundly.,The [wug] in front of the bridge sleep soundly.
+619,1,subj_sg_d1_pl,The [wug] in front of the bridges sleeps soundly.,The [wug] in front of the bridges sleep soundly.
+620,1,subj_pl_d1_sg,The [wugs] in front of the bridge sleep soundly.,The [wugs] in front of the bridge sleeps soundly.
+621,1,subj_pl_d1_pl,The [wugs] in front of the bridges sleep soundly.,The [wugs] in front of the bridges sleeps soundly.
+622,2,subj_sg_d1_sg_d2_sg,The [wug] in front of the bridge and next to the tree sleeps soundly.,The [wug] in front of the bridge and next to the tree sleep soundly.
+623,2,subj_sg_d1_sg_d2_pl,The [wug] in front of the bridge and next to the trees sleeps soundly.,The [wug] in front of the bridge and next to the trees sleep soundly.
+624,2,subj_sg_d1_pl_d2_sg,The [wug] in front of the bridges and next to the tree sleeps soundly.,The [wug] in front of the bridges and next to the tree sleep soundly.
+625,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the bridges and next to the trees sleeps soundly.,The [wug] in front of the bridges and next to the trees sleep soundly.
+626,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the bridge and next to the tree sleep soundly.,The [wugs] in front of the bridge and next to the tree sleeps soundly.
+627,2,subj_pl_d1_sg_d2_pl,The [wugs] in front of the bridge and next to the trees sleep soundly.,The [wugs] in front of the bridge and next to the trees sleeps soundly.
+628,2,subj_pl_d1_pl_d2_sg,The [wugs] in front of the bridges and next to the tree sleep soundly.,The [wugs] in front of the bridges and next to the tree sleeps soundly.
+629,2,subj_pl_d1_pl_d2_pl,The [wugs] in front of the bridges and next to the trees sleep soundly.,The [wugs] in front of the bridges and next to the trees sleeps soundly.
+630,0,subj_sg,The [wug] sings loudly.,The [wug] sing loudly.
+631,0,subj_pl,The [wugs] sing loudly.,The [wugs] sings loudly.
+632,1,subj_sg_d1_sg,The [wug] near the tree sings loudly.,The [wug] near the tree sing loudly.
+633,1,subj_sg_d1_pl,The [wug] near the trees sings loudly.,The [wug] near the trees sing loudly.
+634,1,subj_pl_d1_sg,The [wugs] near the tree sing loudly.,The [wugs] near the tree sings loudly.
+635,1,subj_pl_d1_pl,The [wugs] near the trees sing loudly.,The [wugs] near the trees sings loudly.
+636,2,subj_sg_d1_sg_d2_sg,The [wug] near the tree and behind the car sings loudly.,The [wug] near the tree and behind the car sing loudly.
+637,2,subj_sg_d1_sg_d2_pl,The [wug] near the tree and behind the cars sings loudly.,The [wug] near the tree and behind the cars sing loudly.
+638,2,subj_sg_d1_pl_d2_sg,The [wug] near the trees and behind the car sings loudly.,The [wug] near the trees and behind the car sing loudly.
+639,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars sings loudly.,The [wug] near the trees and behind the cars sing loudly.
+640,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car sing loudly.,The [wugs] near the tree and behind the car sings loudly.
+641,2,subj_pl_d1_sg_d2_pl,The [wugs] near the tree and behind the cars sing loudly.,The [wugs] near the tree and behind the cars sings loudly.
+642,2,subj_pl_d1_pl_d2_sg,The [wugs] near the trees and behind the car sing loudly.,The [wugs] near the trees and behind the car sings loudly.
+643,2,subj_pl_d1_pl_d2_pl,The [wugs] near the trees and behind the cars sing loudly.,The [wugs] near the trees and behind the cars sings loudly.
+644,0,subj_sg,The [wug] sings loudly.,The [wug] sing loudly.
+645,0,subj_pl,The [wugs] sing loudly.,The [wugs] sings loudly.
+646,1,subj_sg_d1_sg,The [wug] behind the car sings loudly.,The [wug] behind the car sing loudly.
+647,1,subj_sg_d1_pl,The [wug] behind the cars sings loudly.,The [wug] behind the cars sing loudly.
+648,1,subj_pl_d1_sg,The [wugs] behind the car sing loudly.,The [wugs] behind the car sings loudly.
+649,1,subj_pl_d1_pl,The [wugs] behind the cars sing loudly.,The [wugs] behind the cars sings loudly.
+650,2,subj_sg_d1_sg_d2_sg,The [wug] behind the car and under the box sings loudly.,The [wug] behind the car and under the box sing loudly.
+651,2,subj_sg_d1_sg_d2_pl,The [wug] behind the car and under the boxes sings loudly.,The [wug] behind the car and under the boxes sing loudly.
+652,2,subj_sg_d1_pl_d2_sg,The [wug] behind the cars and under the box sings loudly.,The [wug] behind the cars and under the box sing loudly.
+653,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes sings loudly.,The [wug] behind the cars and under the boxes sing loudly.
+654,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box sing loudly.,The [wugs] behind the car and under the box sings loudly.
+655,2,subj_pl_d1_sg_d2_pl,The [wugs] behind the car and under the boxes sing loudly.,The [wugs] behind the car and under the boxes sings loudly.
+656,2,subj_pl_d1_pl_d2_sg,The [wugs] behind the cars and under the box sing loudly.,The [wugs] behind the cars and under the box sings loudly.
+657,2,subj_pl_d1_pl_d2_pl,The [wugs] behind the cars and under the boxes sing loudly.,The [wugs] behind the cars and under the boxes sings loudly.
+658,0,subj_sg,The [wug] sings loudly.,The [wug] sing loudly.
+659,0,subj_pl,The [wugs] sing loudly.,The [wugs] sings loudly.
+660,1,subj_sg_d1_sg,The [wug] under the box sings loudly.,The [wug] under the box sing loudly.
+661,1,subj_sg_d1_pl,The [wug] under the boxes sings loudly.,The [wug] under the boxes sing loudly.
+662,1,subj_pl_d1_sg,The [wugs] under the box sing loudly.,The [wugs] under the box sings loudly.
+663,1,subj_pl_d1_pl,The [wugs] under the boxes sing loudly.,The [wugs] under the boxes sings loudly.
+664,2,subj_sg_d1_sg_d2_sg,The [wug] under the box and beside the chair sings loudly.,The [wug] under the box and beside the chair sing loudly.
+665,2,subj_sg_d1_sg_d2_pl,The [wug] under the box and beside the chairs sings loudly.,The [wug] under the box and beside the chairs sing loudly.
+666,2,subj_sg_d1_pl_d2_sg,The [wug] under the boxes and beside the chair sings loudly.,The [wug] under the boxes and beside the chair sing loudly.
+667,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the chairs sings loudly.,The [wug] under the boxes and beside the chairs sing loudly.
+668,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the chair sing loudly.,The [wugs] under the box and beside the chair sings loudly.
+669,2,subj_pl_d1_sg_d2_pl,The [wugs] under the box and beside the chairs sing loudly.,The [wugs] under the box and beside the chairs sings loudly.
+670,2,subj_pl_d1_pl_d2_sg,The [wugs] under the boxes and beside the chair sing loudly.,The [wugs] under the boxes and beside the chair sings loudly.
+671,2,subj_pl_d1_pl_d2_pl,The [wugs] under the boxes and beside the chairs sing loudly.,The [wugs] under the boxes and beside the chairs sings loudly.
+672,0,subj_sg,The [wug] sings loudly.,The [wug] sing loudly.
+673,0,subj_pl,The [wugs] sing loudly.,The [wugs] sings loudly.
+674,1,subj_sg_d1_sg,The [wug] beside the chair sings loudly.,The [wug] beside the chair sing loudly.
+675,1,subj_sg_d1_pl,The [wug] beside the chairs sings loudly.,The [wug] beside the chairs sing loudly.
+676,1,subj_pl_d1_sg,The [wugs] beside the chair sing loudly.,The [wugs] beside the chair sings loudly.
+677,1,subj_pl_d1_pl,The [wugs] beside the chairs sing loudly.,The [wugs] beside the chairs sings loudly.
+678,2,subj_sg_d1_sg_d2_sg,The [wug] beside the chair and in front of the bridge sings loudly.,The [wug] beside the chair and in front of the bridge sing loudly.
+679,2,subj_sg_d1_sg_d2_pl,The [wug] beside the chair and in front of the bridges sings loudly.,The [wug] beside the chair and in front of the bridges sing loudly.
+680,2,subj_sg_d1_pl_d2_sg,The [wug] beside the chairs and in front of the bridge sings loudly.,The [wug] beside the chairs and in front of the bridge sing loudly.
+681,2,subj_sg_d1_pl_d2_pl,The [wug] beside the chairs and in front of the bridges sings loudly.,The [wug] beside the chairs and in front of the bridges sing loudly.
+682,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the chair and in front of the bridge sing loudly.,The [wugs] beside the chair and in front of the bridge sings loudly.
+683,2,subj_pl_d1_sg_d2_pl,The [wugs] beside the chair and in front of the bridges sing loudly.,The [wugs] beside the chair and in front of the bridges sings loudly.
+684,2,subj_pl_d1_pl_d2_sg,The [wugs] beside the chairs and in front of the bridge sing loudly.,The [wugs] beside the chairs and in front of the bridge sings loudly.
+685,2,subj_pl_d1_pl_d2_pl,The [wugs] beside the chairs and in front of the bridges sing loudly.,The [wugs] beside the chairs and in front of the bridges sings loudly.
+686,0,subj_sg,The [wug] sings loudly.,The [wug] sing loudly.
+687,0,subj_pl,The [wugs] sing loudly.,The [wugs] sings loudly.
+688,1,subj_sg_d1_sg,The [wug] in front of the bridge sings loudly.,The [wug] in front of the bridge sing loudly.
+689,1,subj_sg_d1_pl,The [wug] in front of the bridges sings loudly.,The [wug] in front of the bridges sing loudly.
+690,1,subj_pl_d1_sg,The [wugs] in front of the bridge sing loudly.,The [wugs] in front of the bridge sings loudly.
+691,1,subj_pl_d1_pl,The [wugs] in front of the bridges sing loudly.,The [wugs] in front of the bridges sings loudly.
+692,2,subj_sg_d1_sg_d2_sg,The [wug] in front of the bridge and next to the tree sings loudly.,The [wug] in front of the bridge and next to the tree sing loudly.
+693,2,subj_sg_d1_sg_d2_pl,The [wug] in front of the bridge and next to the trees sings loudly.,The [wug] in front of the bridge and next to the trees sing loudly.
+694,2,subj_sg_d1_pl_d2_sg,The [wug] in front of the bridges and next to the tree sings loudly.,The [wug] in front of the bridges and next to the tree sing loudly.
+695,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the bridges and next to the trees sings loudly.,The [wug] in front of the bridges and next to the trees sing loudly.
+696,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the bridge and next to the tree sing loudly.,The [wugs] in front of the bridge and next to the tree sings loudly.
+697,2,subj_pl_d1_sg_d2_pl,The [wugs] in front of the bridge and next to the trees sing loudly.,The [wugs] in front of the bridge and next to the trees sings loudly.
+698,2,subj_pl_d1_pl_d2_sg,The [wugs] in front of the bridges and next to the tree sing loudly.,The [wugs] in front of the bridges and next to the tree sings loudly.
+699,2,subj_pl_d1_pl_d2_pl,The [wugs] in front of the bridges and next to the trees sing loudly.,The [wugs] in front of the bridges and next to the trees sings loudly.
