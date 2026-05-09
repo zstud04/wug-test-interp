@@ -999,3 +999,1303 @@ idx,distractors,condition,good,bad
 997,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the bird, beside the tree, and in front of the car sing loudly.","The [wugs] under the bird, beside the tree, and in front of the car sings loudly."
 998,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes sings loudly.","The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes sing loudly."
 999,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the bird, beside the tree, in front of the car, and next to the box sing loudly.","The [wugs] under the bird, beside the tree, in front of the car, and next to the box sings loudly."
+1000,0,subj_sg,The [wug] reads books.,The [wug] read books.
+1001,0,subj_pl,The [wugs] read books.,The [wugs] reads books.
+1002,1,subj_sg_d1_pl,The [wug] near the trees reads books.,The [wug] near the trees read books.
+1003,1,subj_pl_d1_sg,The [wugs] near the tree read books.,The [wugs] near the tree reads books.
+1004,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars reads books.,The [wug] near the trees and behind the cars read books.
+1005,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car read books.,The [wugs] near the tree and behind the car reads books.
+1006,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the trees, behind the cars, and under the boxes reads books.","The [wug] near the trees, behind the cars, and under the boxes read books."
+1007,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the tree, behind the car, and under the box read books.","The [wugs] near the tree, behind the car, and under the box reads books."
+1008,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the trees, behind the cars, under the boxes, and beside the cats reads books.","The [wug] near the trees, behind the cars, under the boxes, and beside the cats read books."
+1009,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the tree, behind the car, under the box, and beside the cat read books.","The [wugs] near the tree, behind the car, under the box, and beside the cat reads books."
+1010,0,subj_sg,The [wug] reads books.,The [wug] read books.
+1011,0,subj_pl,The [wugs] read books.,The [wugs] reads books.
+1012,1,subj_sg_d1_pl,The [wug] behind the cars reads books.,The [wug] behind the cars read books.
+1013,1,subj_pl_d1_sg,The [wugs] behind the car read books.,The [wugs] behind the car reads books.
+1014,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes reads books.,The [wug] behind the cars and under the boxes read books.
+1015,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box read books.,The [wugs] behind the car and under the box reads books.
+1016,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the cars, under the boxes, and beside the cats reads books.","The [wug] behind the cars, under the boxes, and beside the cats read books."
+1017,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the car, under the box, and beside the cat read books.","The [wugs] behind the car, under the box, and beside the cat reads books."
+1018,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs reads books.","The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs read books."
+1019,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the car, under the box, beside the cat, and in front of the dog read books.","The [wugs] behind the car, under the box, beside the cat, and in front of the dog reads books."
+1020,0,subj_sg,The [wug] reads books.,The [wug] read books.
+1021,0,subj_pl,The [wugs] read books.,The [wugs] reads books.
+1022,1,subj_sg_d1_pl,The [wug] under the boxes reads books.,The [wug] under the boxes read books.
+1023,1,subj_pl_d1_sg,The [wugs] under the box read books.,The [wugs] under the box reads books.
+1024,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the cats reads books.,The [wug] under the boxes and beside the cats read books.
+1025,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the cat read books.,The [wugs] under the box and beside the cat reads books.
+1026,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the boxes, beside the cats, and in front of the dogs reads books.","The [wug] under the boxes, beside the cats, and in front of the dogs read books."
+1027,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the box, beside the cat, and in front of the dog read books.","The [wugs] under the box, beside the cat, and in front of the dog reads books."
+1028,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses reads books.","The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses read books."
+1029,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the box, beside the cat, in front of the dog, and next to the horse read books.","The [wugs] under the box, beside the cat, in front of the dog, and next to the horse reads books."
+1030,0,subj_sg,The [wug] reads books.,The [wug] read books.
+1031,0,subj_pl,The [wugs] read books.,The [wugs] reads books.
+1032,1,subj_sg_d1_pl,The [wug] beside the cats reads books.,The [wug] beside the cats read books.
+1033,1,subj_pl_d1_sg,The [wugs] beside the cat read books.,The [wugs] beside the cat reads books.
+1034,2,subj_sg_d1_pl_d2_pl,The [wug] beside the cats and in front of the dogs reads books.,The [wug] beside the cats and in front of the dogs read books.
+1035,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the cat and in front of the dog read books.,The [wugs] beside the cat and in front of the dog reads books.
+1036,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] beside the cats, in front of the dogs, and next to the horses reads books.","The [wug] beside the cats, in front of the dogs, and next to the horses read books."
+1037,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] beside the cat, in front of the dog, and next to the horse read books.","The [wugs] beside the cat, in front of the dog, and next to the horse reads books."
+1038,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] beside the cats, in front of the dogs, next to the horses, and past the women reads books.","The [wug] beside the cats, in front of the dogs, next to the horses, and past the women read books."
+1039,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman read books.","The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman reads books."
+1040,0,subj_sg,The [wug] reads books.,The [wug] read books.
+1041,0,subj_pl,The [wugs] read books.,The [wugs] reads books.
+1042,1,subj_sg_d1_pl,The [wug] in front of the dogs reads books.,The [wug] in front of the dogs read books.
+1043,1,subj_pl_d1_sg,The [wugs] in front of the dog read books.,The [wugs] in front of the dog reads books.
+1044,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the dogs and next to the horses reads books.,The [wug] in front of the dogs and next to the horses read books.
+1045,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the dog and next to the horse read books.,The [wugs] in front of the dog and next to the horse reads books.
+1046,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] in front of the dogs, next to the horses, and past the women reads books.","The [wug] in front of the dogs, next to the horses, and past the women read books."
+1047,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] in front of the dog, next to the horse, and past the woman read books.","The [wugs] in front of the dog, next to the horse, and past the woman reads books."
+1048,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] in front of the dogs, next to the horses, past the women, and near the men reads books.","The [wug] in front of the dogs, next to the horses, past the women, and near the men read books."
+1049,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] in front of the dog, next to the horse, past the woman, and near the man read books.","The [wugs] in front of the dog, next to the horse, past the woman, and near the man reads books."
+1050,0,subj_sg,The [wug] reads books.,The [wug] read books.
+1051,0,subj_pl,The [wugs] read books.,The [wugs] reads books.
+1052,1,subj_sg_d1_pl,The [wug] next to the horses reads books.,The [wug] next to the horses read books.
+1053,1,subj_pl_d1_sg,The [wugs] next to the horse read books.,The [wugs] next to the horse reads books.
+1054,2,subj_sg_d1_pl_d2_pl,The [wug] next to the horses and past the women reads books.,The [wug] next to the horses and past the women read books.
+1055,2,subj_pl_d1_sg_d2_sg,The [wugs] next to the horse and past the woman read books.,The [wugs] next to the horse and past the woman reads books.
+1056,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] next to the horses, past the women, and near the men reads books.","The [wug] next to the horses, past the women, and near the men read books."
+1057,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] next to the horse, past the woman, and near the man read books.","The [wugs] next to the horse, past the woman, and near the man reads books."
+1058,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] next to the horses, past the women, near the men, and behind the foxes reads books.","The [wug] next to the horses, past the women, near the men, and behind the foxes read books."
+1059,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] next to the horse, past the woman, near the man, and behind the fox read books.","The [wugs] next to the horse, past the woman, near the man, and behind the fox reads books."
+1060,0,subj_sg,The [wug] reads books.,The [wug] read books.
+1061,0,subj_pl,The [wugs] read books.,The [wugs] reads books.
+1062,1,subj_sg_d1_pl,The [wug] past the women reads books.,The [wug] past the women read books.
+1063,1,subj_pl_d1_sg,The [wugs] past the woman read books.,The [wugs] past the woman reads books.
+1064,2,subj_sg_d1_pl_d2_pl,The [wug] past the women and near the men reads books.,The [wug] past the women and near the men read books.
+1065,2,subj_pl_d1_sg_d2_sg,The [wugs] past the woman and near the man read books.,The [wugs] past the woman and near the man reads books.
+1066,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] past the women, near the men, and behind the foxes reads books.","The [wug] past the women, near the men, and behind the foxes read books."
+1067,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] past the woman, near the man, and behind the fox read books.","The [wugs] past the woman, near the man, and behind the fox reads books."
+1068,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] past the women, near the men, behind the foxes, and under the birds reads books.","The [wug] past the women, near the men, behind the foxes, and under the birds read books."
+1069,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] past the woman, near the man, behind the fox, and under the bird read books.","The [wugs] past the woman, near the man, behind the fox, and under the bird reads books."
+1070,0,subj_sg,The [wug] reads books.,The [wug] read books.
+1071,0,subj_pl,The [wugs] read books.,The [wugs] reads books.
+1072,1,subj_sg_d1_pl,The [wug] near the men reads books.,The [wug] near the men read books.
+1073,1,subj_pl_d1_sg,The [wugs] near the man read books.,The [wugs] near the man reads books.
+1074,2,subj_sg_d1_pl_d2_pl,The [wug] near the men and behind the foxes reads books.,The [wug] near the men and behind the foxes read books.
+1075,2,subj_pl_d1_sg_d2_sg,The [wugs] near the man and behind the fox read books.,The [wugs] near the man and behind the fox reads books.
+1076,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the men, behind the foxes, and under the birds reads books.","The [wug] near the men, behind the foxes, and under the birds read books."
+1077,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the man, behind the fox, and under the bird read books.","The [wugs] near the man, behind the fox, and under the bird reads books."
+1078,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the men, behind the foxes, under the birds, and beside the trees reads books.","The [wug] near the men, behind the foxes, under the birds, and beside the trees read books."
+1079,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the man, behind the fox, under the bird, and beside the tree read books.","The [wugs] near the man, behind the fox, under the bird, and beside the tree reads books."
+1080,0,subj_sg,The [wug] reads books.,The [wug] read books.
+1081,0,subj_pl,The [wugs] read books.,The [wugs] reads books.
+1082,1,subj_sg_d1_pl,The [wug] behind the foxes reads books.,The [wug] behind the foxes read books.
+1083,1,subj_pl_d1_sg,The [wugs] behind the fox read books.,The [wugs] behind the fox reads books.
+1084,2,subj_sg_d1_pl_d2_pl,The [wug] behind the foxes and under the birds reads books.,The [wug] behind the foxes and under the birds read books.
+1085,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the fox and under the bird read books.,The [wugs] behind the fox and under the bird reads books.
+1086,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the foxes, under the birds, and beside the trees reads books.","The [wug] behind the foxes, under the birds, and beside the trees read books."
+1087,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the fox, under the bird, and beside the tree read books.","The [wugs] behind the fox, under the bird, and beside the tree reads books."
+1088,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars reads books.","The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars read books."
+1089,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the fox, under the bird, beside the tree, and in front of the car read books.","The [wugs] behind the fox, under the bird, beside the tree, and in front of the car reads books."
+1090,0,subj_sg,The [wug] reads books.,The [wug] read books.
+1091,0,subj_pl,The [wugs] read books.,The [wugs] reads books.
+1092,1,subj_sg_d1_pl,The [wug] under the birds reads books.,The [wug] under the birds read books.
+1093,1,subj_pl_d1_sg,The [wugs] under the bird read books.,The [wugs] under the bird reads books.
+1094,2,subj_sg_d1_pl_d2_pl,The [wug] under the birds and beside the trees reads books.,The [wug] under the birds and beside the trees read books.
+1095,2,subj_pl_d1_sg_d2_sg,The [wugs] under the bird and beside the tree read books.,The [wugs] under the bird and beside the tree reads books.
+1096,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the birds, beside the trees, and in front of the cars reads books.","The [wug] under the birds, beside the trees, and in front of the cars read books."
+1097,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the bird, beside the tree, and in front of the car read books.","The [wugs] under the bird, beside the tree, and in front of the car reads books."
+1098,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes reads books.","The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes read books."
+1099,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the bird, beside the tree, in front of the car, and next to the box read books.","The [wugs] under the bird, beside the tree, in front of the car, and next to the box reads books."
+1100,0,subj_sg,The [wug] writes stories.,The [wug] write stories.
+1101,0,subj_pl,The [wugs] write stories.,The [wugs] writes stories.
+1102,1,subj_sg_d1_pl,The [wug] near the trees writes stories.,The [wug] near the trees write stories.
+1103,1,subj_pl_d1_sg,The [wugs] near the tree write stories.,The [wugs] near the tree writes stories.
+1104,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars writes stories.,The [wug] near the trees and behind the cars write stories.
+1105,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car write stories.,The [wugs] near the tree and behind the car writes stories.
+1106,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the trees, behind the cars, and under the boxes writes stories.","The [wug] near the trees, behind the cars, and under the boxes write stories."
+1107,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the tree, behind the car, and under the box write stories.","The [wugs] near the tree, behind the car, and under the box writes stories."
+1108,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the trees, behind the cars, under the boxes, and beside the cats writes stories.","The [wug] near the trees, behind the cars, under the boxes, and beside the cats write stories."
+1109,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the tree, behind the car, under the box, and beside the cat write stories.","The [wugs] near the tree, behind the car, under the box, and beside the cat writes stories."
+1110,0,subj_sg,The [wug] writes stories.,The [wug] write stories.
+1111,0,subj_pl,The [wugs] write stories.,The [wugs] writes stories.
+1112,1,subj_sg_d1_pl,The [wug] behind the cars writes stories.,The [wug] behind the cars write stories.
+1113,1,subj_pl_d1_sg,The [wugs] behind the car write stories.,The [wugs] behind the car writes stories.
+1114,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes writes stories.,The [wug] behind the cars and under the boxes write stories.
+1115,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box write stories.,The [wugs] behind the car and under the box writes stories.
+1116,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the cars, under the boxes, and beside the cats writes stories.","The [wug] behind the cars, under the boxes, and beside the cats write stories."
+1117,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the car, under the box, and beside the cat write stories.","The [wugs] behind the car, under the box, and beside the cat writes stories."
+1118,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs writes stories.","The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs write stories."
+1119,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the car, under the box, beside the cat, and in front of the dog write stories.","The [wugs] behind the car, under the box, beside the cat, and in front of the dog writes stories."
+1120,0,subj_sg,The [wug] writes stories.,The [wug] write stories.
+1121,0,subj_pl,The [wugs] write stories.,The [wugs] writes stories.
+1122,1,subj_sg_d1_pl,The [wug] under the boxes writes stories.,The [wug] under the boxes write stories.
+1123,1,subj_pl_d1_sg,The [wugs] under the box write stories.,The [wugs] under the box writes stories.
+1124,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the cats writes stories.,The [wug] under the boxes and beside the cats write stories.
+1125,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the cat write stories.,The [wugs] under the box and beside the cat writes stories.
+1126,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the boxes, beside the cats, and in front of the dogs writes stories.","The [wug] under the boxes, beside the cats, and in front of the dogs write stories."
+1127,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the box, beside the cat, and in front of the dog write stories.","The [wugs] under the box, beside the cat, and in front of the dog writes stories."
+1128,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses writes stories.","The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses write stories."
+1129,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the box, beside the cat, in front of the dog, and next to the horse write stories.","The [wugs] under the box, beside the cat, in front of the dog, and next to the horse writes stories."
+1130,0,subj_sg,The [wug] writes stories.,The [wug] write stories.
+1131,0,subj_pl,The [wugs] write stories.,The [wugs] writes stories.
+1132,1,subj_sg_d1_pl,The [wug] beside the cats writes stories.,The [wug] beside the cats write stories.
+1133,1,subj_pl_d1_sg,The [wugs] beside the cat write stories.,The [wugs] beside the cat writes stories.
+1134,2,subj_sg_d1_pl_d2_pl,The [wug] beside the cats and in front of the dogs writes stories.,The [wug] beside the cats and in front of the dogs write stories.
+1135,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the cat and in front of the dog write stories.,The [wugs] beside the cat and in front of the dog writes stories.
+1136,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] beside the cats, in front of the dogs, and next to the horses writes stories.","The [wug] beside the cats, in front of the dogs, and next to the horses write stories."
+1137,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] beside the cat, in front of the dog, and next to the horse write stories.","The [wugs] beside the cat, in front of the dog, and next to the horse writes stories."
+1138,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] beside the cats, in front of the dogs, next to the horses, and past the women writes stories.","The [wug] beside the cats, in front of the dogs, next to the horses, and past the women write stories."
+1139,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman write stories.","The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman writes stories."
+1140,0,subj_sg,The [wug] writes stories.,The [wug] write stories.
+1141,0,subj_pl,The [wugs] write stories.,The [wugs] writes stories.
+1142,1,subj_sg_d1_pl,The [wug] in front of the dogs writes stories.,The [wug] in front of the dogs write stories.
+1143,1,subj_pl_d1_sg,The [wugs] in front of the dog write stories.,The [wugs] in front of the dog writes stories.
+1144,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the dogs and next to the horses writes stories.,The [wug] in front of the dogs and next to the horses write stories.
+1145,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the dog and next to the horse write stories.,The [wugs] in front of the dog and next to the horse writes stories.
+1146,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] in front of the dogs, next to the horses, and past the women writes stories.","The [wug] in front of the dogs, next to the horses, and past the women write stories."
+1147,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] in front of the dog, next to the horse, and past the woman write stories.","The [wugs] in front of the dog, next to the horse, and past the woman writes stories."
+1148,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] in front of the dogs, next to the horses, past the women, and near the men writes stories.","The [wug] in front of the dogs, next to the horses, past the women, and near the men write stories."
+1149,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] in front of the dog, next to the horse, past the woman, and near the man write stories.","The [wugs] in front of the dog, next to the horse, past the woman, and near the man writes stories."
+1150,0,subj_sg,The [wug] writes stories.,The [wug] write stories.
+1151,0,subj_pl,The [wugs] write stories.,The [wugs] writes stories.
+1152,1,subj_sg_d1_pl,The [wug] next to the horses writes stories.,The [wug] next to the horses write stories.
+1153,1,subj_pl_d1_sg,The [wugs] next to the horse write stories.,The [wugs] next to the horse writes stories.
+1154,2,subj_sg_d1_pl_d2_pl,The [wug] next to the horses and past the women writes stories.,The [wug] next to the horses and past the women write stories.
+1155,2,subj_pl_d1_sg_d2_sg,The [wugs] next to the horse and past the woman write stories.,The [wugs] next to the horse and past the woman writes stories.
+1156,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] next to the horses, past the women, and near the men writes stories.","The [wug] next to the horses, past the women, and near the men write stories."
+1157,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] next to the horse, past the woman, and near the man write stories.","The [wugs] next to the horse, past the woman, and near the man writes stories."
+1158,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] next to the horses, past the women, near the men, and behind the foxes writes stories.","The [wug] next to the horses, past the women, near the men, and behind the foxes write stories."
+1159,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] next to the horse, past the woman, near the man, and behind the fox write stories.","The [wugs] next to the horse, past the woman, near the man, and behind the fox writes stories."
+1160,0,subj_sg,The [wug] writes stories.,The [wug] write stories.
+1161,0,subj_pl,The [wugs] write stories.,The [wugs] writes stories.
+1162,1,subj_sg_d1_pl,The [wug] past the women writes stories.,The [wug] past the women write stories.
+1163,1,subj_pl_d1_sg,The [wugs] past the woman write stories.,The [wugs] past the woman writes stories.
+1164,2,subj_sg_d1_pl_d2_pl,The [wug] past the women and near the men writes stories.,The [wug] past the women and near the men write stories.
+1165,2,subj_pl_d1_sg_d2_sg,The [wugs] past the woman and near the man write stories.,The [wugs] past the woman and near the man writes stories.
+1166,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] past the women, near the men, and behind the foxes writes stories.","The [wug] past the women, near the men, and behind the foxes write stories."
+1167,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] past the woman, near the man, and behind the fox write stories.","The [wugs] past the woman, near the man, and behind the fox writes stories."
+1168,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] past the women, near the men, behind the foxes, and under the birds writes stories.","The [wug] past the women, near the men, behind the foxes, and under the birds write stories."
+1169,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] past the woman, near the man, behind the fox, and under the bird write stories.","The [wugs] past the woman, near the man, behind the fox, and under the bird writes stories."
+1170,0,subj_sg,The [wug] writes stories.,The [wug] write stories.
+1171,0,subj_pl,The [wugs] write stories.,The [wugs] writes stories.
+1172,1,subj_sg_d1_pl,The [wug] near the men writes stories.,The [wug] near the men write stories.
+1173,1,subj_pl_d1_sg,The [wugs] near the man write stories.,The [wugs] near the man writes stories.
+1174,2,subj_sg_d1_pl_d2_pl,The [wug] near the men and behind the foxes writes stories.,The [wug] near the men and behind the foxes write stories.
+1175,2,subj_pl_d1_sg_d2_sg,The [wugs] near the man and behind the fox write stories.,The [wugs] near the man and behind the fox writes stories.
+1176,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the men, behind the foxes, and under the birds writes stories.","The [wug] near the men, behind the foxes, and under the birds write stories."
+1177,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the man, behind the fox, and under the bird write stories.","The [wugs] near the man, behind the fox, and under the bird writes stories."
+1178,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the men, behind the foxes, under the birds, and beside the trees writes stories.","The [wug] near the men, behind the foxes, under the birds, and beside the trees write stories."
+1179,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the man, behind the fox, under the bird, and beside the tree write stories.","The [wugs] near the man, behind the fox, under the bird, and beside the tree writes stories."
+1180,0,subj_sg,The [wug] writes stories.,The [wug] write stories.
+1181,0,subj_pl,The [wugs] write stories.,The [wugs] writes stories.
+1182,1,subj_sg_d1_pl,The [wug] behind the foxes writes stories.,The [wug] behind the foxes write stories.
+1183,1,subj_pl_d1_sg,The [wugs] behind the fox write stories.,The [wugs] behind the fox writes stories.
+1184,2,subj_sg_d1_pl_d2_pl,The [wug] behind the foxes and under the birds writes stories.,The [wug] behind the foxes and under the birds write stories.
+1185,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the fox and under the bird write stories.,The [wugs] behind the fox and under the bird writes stories.
+1186,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the foxes, under the birds, and beside the trees writes stories.","The [wug] behind the foxes, under the birds, and beside the trees write stories."
+1187,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the fox, under the bird, and beside the tree write stories.","The [wugs] behind the fox, under the bird, and beside the tree writes stories."
+1188,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars writes stories.","The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars write stories."
+1189,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the fox, under the bird, beside the tree, and in front of the car write stories.","The [wugs] behind the fox, under the bird, beside the tree, and in front of the car writes stories."
+1190,0,subj_sg,The [wug] writes stories.,The [wug] write stories.
+1191,0,subj_pl,The [wugs] write stories.,The [wugs] writes stories.
+1192,1,subj_sg_d1_pl,The [wug] under the birds writes stories.,The [wug] under the birds write stories.
+1193,1,subj_pl_d1_sg,The [wugs] under the bird write stories.,The [wugs] under the bird writes stories.
+1194,2,subj_sg_d1_pl_d2_pl,The [wug] under the birds and beside the trees writes stories.,The [wug] under the birds and beside the trees write stories.
+1195,2,subj_pl_d1_sg_d2_sg,The [wugs] under the bird and beside the tree write stories.,The [wugs] under the bird and beside the tree writes stories.
+1196,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the birds, beside the trees, and in front of the cars writes stories.","The [wug] under the birds, beside the trees, and in front of the cars write stories."
+1197,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the bird, beside the tree, and in front of the car write stories.","The [wugs] under the bird, beside the tree, and in front of the car writes stories."
+1198,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes writes stories.","The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes write stories."
+1199,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the bird, beside the tree, in front of the car, and next to the box write stories.","The [wugs] under the bird, beside the tree, in front of the car, and next to the box writes stories."
+1200,0,subj_sg,The [wug] thinks deeply.,The [wug] think deeply.
+1201,0,subj_pl,The [wugs] think deeply.,The [wugs] thinks deeply.
+1202,1,subj_sg_d1_pl,The [wug] near the trees thinks deeply.,The [wug] near the trees think deeply.
+1203,1,subj_pl_d1_sg,The [wugs] near the tree think deeply.,The [wugs] near the tree thinks deeply.
+1204,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars thinks deeply.,The [wug] near the trees and behind the cars think deeply.
+1205,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car think deeply.,The [wugs] near the tree and behind the car thinks deeply.
+1206,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the trees, behind the cars, and under the boxes thinks deeply.","The [wug] near the trees, behind the cars, and under the boxes think deeply."
+1207,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the tree, behind the car, and under the box think deeply.","The [wugs] near the tree, behind the car, and under the box thinks deeply."
+1208,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the trees, behind the cars, under the boxes, and beside the cats thinks deeply.","The [wug] near the trees, behind the cars, under the boxes, and beside the cats think deeply."
+1209,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the tree, behind the car, under the box, and beside the cat think deeply.","The [wugs] near the tree, behind the car, under the box, and beside the cat thinks deeply."
+1210,0,subj_sg,The [wug] thinks deeply.,The [wug] think deeply.
+1211,0,subj_pl,The [wugs] think deeply.,The [wugs] thinks deeply.
+1212,1,subj_sg_d1_pl,The [wug] behind the cars thinks deeply.,The [wug] behind the cars think deeply.
+1213,1,subj_pl_d1_sg,The [wugs] behind the car think deeply.,The [wugs] behind the car thinks deeply.
+1214,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes thinks deeply.,The [wug] behind the cars and under the boxes think deeply.
+1215,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box think deeply.,The [wugs] behind the car and under the box thinks deeply.
+1216,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the cars, under the boxes, and beside the cats thinks deeply.","The [wug] behind the cars, under the boxes, and beside the cats think deeply."
+1217,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the car, under the box, and beside the cat think deeply.","The [wugs] behind the car, under the box, and beside the cat thinks deeply."
+1218,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs thinks deeply.","The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs think deeply."
+1219,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the car, under the box, beside the cat, and in front of the dog think deeply.","The [wugs] behind the car, under the box, beside the cat, and in front of the dog thinks deeply."
+1220,0,subj_sg,The [wug] thinks deeply.,The [wug] think deeply.
+1221,0,subj_pl,The [wugs] think deeply.,The [wugs] thinks deeply.
+1222,1,subj_sg_d1_pl,The [wug] under the boxes thinks deeply.,The [wug] under the boxes think deeply.
+1223,1,subj_pl_d1_sg,The [wugs] under the box think deeply.,The [wugs] under the box thinks deeply.
+1224,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the cats thinks deeply.,The [wug] under the boxes and beside the cats think deeply.
+1225,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the cat think deeply.,The [wugs] under the box and beside the cat thinks deeply.
+1226,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the boxes, beside the cats, and in front of the dogs thinks deeply.","The [wug] under the boxes, beside the cats, and in front of the dogs think deeply."
+1227,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the box, beside the cat, and in front of the dog think deeply.","The [wugs] under the box, beside the cat, and in front of the dog thinks deeply."
+1228,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses thinks deeply.","The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses think deeply."
+1229,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the box, beside the cat, in front of the dog, and next to the horse think deeply.","The [wugs] under the box, beside the cat, in front of the dog, and next to the horse thinks deeply."
+1230,0,subj_sg,The [wug] thinks deeply.,The [wug] think deeply.
+1231,0,subj_pl,The [wugs] think deeply.,The [wugs] thinks deeply.
+1232,1,subj_sg_d1_pl,The [wug] beside the cats thinks deeply.,The [wug] beside the cats think deeply.
+1233,1,subj_pl_d1_sg,The [wugs] beside the cat think deeply.,The [wugs] beside the cat thinks deeply.
+1234,2,subj_sg_d1_pl_d2_pl,The [wug] beside the cats and in front of the dogs thinks deeply.,The [wug] beside the cats and in front of the dogs think deeply.
+1235,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the cat and in front of the dog think deeply.,The [wugs] beside the cat and in front of the dog thinks deeply.
+1236,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] beside the cats, in front of the dogs, and next to the horses thinks deeply.","The [wug] beside the cats, in front of the dogs, and next to the horses think deeply."
+1237,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] beside the cat, in front of the dog, and next to the horse think deeply.","The [wugs] beside the cat, in front of the dog, and next to the horse thinks deeply."
+1238,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] beside the cats, in front of the dogs, next to the horses, and past the women thinks deeply.","The [wug] beside the cats, in front of the dogs, next to the horses, and past the women think deeply."
+1239,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman think deeply.","The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman thinks deeply."
+1240,0,subj_sg,The [wug] thinks deeply.,The [wug] think deeply.
+1241,0,subj_pl,The [wugs] think deeply.,The [wugs] thinks deeply.
+1242,1,subj_sg_d1_pl,The [wug] in front of the dogs thinks deeply.,The [wug] in front of the dogs think deeply.
+1243,1,subj_pl_d1_sg,The [wugs] in front of the dog think deeply.,The [wugs] in front of the dog thinks deeply.
+1244,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the dogs and next to the horses thinks deeply.,The [wug] in front of the dogs and next to the horses think deeply.
+1245,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the dog and next to the horse think deeply.,The [wugs] in front of the dog and next to the horse thinks deeply.
+1246,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] in front of the dogs, next to the horses, and past the women thinks deeply.","The [wug] in front of the dogs, next to the horses, and past the women think deeply."
+1247,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] in front of the dog, next to the horse, and past the woman think deeply.","The [wugs] in front of the dog, next to the horse, and past the woman thinks deeply."
+1248,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] in front of the dogs, next to the horses, past the women, and near the men thinks deeply.","The [wug] in front of the dogs, next to the horses, past the women, and near the men think deeply."
+1249,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] in front of the dog, next to the horse, past the woman, and near the man think deeply.","The [wugs] in front of the dog, next to the horse, past the woman, and near the man thinks deeply."
+1250,0,subj_sg,The [wug] thinks deeply.,The [wug] think deeply.
+1251,0,subj_pl,The [wugs] think deeply.,The [wugs] thinks deeply.
+1252,1,subj_sg_d1_pl,The [wug] next to the horses thinks deeply.,The [wug] next to the horses think deeply.
+1253,1,subj_pl_d1_sg,The [wugs] next to the horse think deeply.,The [wugs] next to the horse thinks deeply.
+1254,2,subj_sg_d1_pl_d2_pl,The [wug] next to the horses and past the women thinks deeply.,The [wug] next to the horses and past the women think deeply.
+1255,2,subj_pl_d1_sg_d2_sg,The [wugs] next to the horse and past the woman think deeply.,The [wugs] next to the horse and past the woman thinks deeply.
+1256,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] next to the horses, past the women, and near the men thinks deeply.","The [wug] next to the horses, past the women, and near the men think deeply."
+1257,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] next to the horse, past the woman, and near the man think deeply.","The [wugs] next to the horse, past the woman, and near the man thinks deeply."
+1258,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] next to the horses, past the women, near the men, and behind the foxes thinks deeply.","The [wug] next to the horses, past the women, near the men, and behind the foxes think deeply."
+1259,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] next to the horse, past the woman, near the man, and behind the fox think deeply.","The [wugs] next to the horse, past the woman, near the man, and behind the fox thinks deeply."
+1260,0,subj_sg,The [wug] thinks deeply.,The [wug] think deeply.
+1261,0,subj_pl,The [wugs] think deeply.,The [wugs] thinks deeply.
+1262,1,subj_sg_d1_pl,The [wug] past the women thinks deeply.,The [wug] past the women think deeply.
+1263,1,subj_pl_d1_sg,The [wugs] past the woman think deeply.,The [wugs] past the woman thinks deeply.
+1264,2,subj_sg_d1_pl_d2_pl,The [wug] past the women and near the men thinks deeply.,The [wug] past the women and near the men think deeply.
+1265,2,subj_pl_d1_sg_d2_sg,The [wugs] past the woman and near the man think deeply.,The [wugs] past the woman and near the man thinks deeply.
+1266,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] past the women, near the men, and behind the foxes thinks deeply.","The [wug] past the women, near the men, and behind the foxes think deeply."
+1267,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] past the woman, near the man, and behind the fox think deeply.","The [wugs] past the woman, near the man, and behind the fox thinks deeply."
+1268,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] past the women, near the men, behind the foxes, and under the birds thinks deeply.","The [wug] past the women, near the men, behind the foxes, and under the birds think deeply."
+1269,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] past the woman, near the man, behind the fox, and under the bird think deeply.","The [wugs] past the woman, near the man, behind the fox, and under the bird thinks deeply."
+1270,0,subj_sg,The [wug] thinks deeply.,The [wug] think deeply.
+1271,0,subj_pl,The [wugs] think deeply.,The [wugs] thinks deeply.
+1272,1,subj_sg_d1_pl,The [wug] near the men thinks deeply.,The [wug] near the men think deeply.
+1273,1,subj_pl_d1_sg,The [wugs] near the man think deeply.,The [wugs] near the man thinks deeply.
+1274,2,subj_sg_d1_pl_d2_pl,The [wug] near the men and behind the foxes thinks deeply.,The [wug] near the men and behind the foxes think deeply.
+1275,2,subj_pl_d1_sg_d2_sg,The [wugs] near the man and behind the fox think deeply.,The [wugs] near the man and behind the fox thinks deeply.
+1276,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the men, behind the foxes, and under the birds thinks deeply.","The [wug] near the men, behind the foxes, and under the birds think deeply."
+1277,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the man, behind the fox, and under the bird think deeply.","The [wugs] near the man, behind the fox, and under the bird thinks deeply."
+1278,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the men, behind the foxes, under the birds, and beside the trees thinks deeply.","The [wug] near the men, behind the foxes, under the birds, and beside the trees think deeply."
+1279,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the man, behind the fox, under the bird, and beside the tree think deeply.","The [wugs] near the man, behind the fox, under the bird, and beside the tree thinks deeply."
+1280,0,subj_sg,The [wug] thinks deeply.,The [wug] think deeply.
+1281,0,subj_pl,The [wugs] think deeply.,The [wugs] thinks deeply.
+1282,1,subj_sg_d1_pl,The [wug] behind the foxes thinks deeply.,The [wug] behind the foxes think deeply.
+1283,1,subj_pl_d1_sg,The [wugs] behind the fox think deeply.,The [wugs] behind the fox thinks deeply.
+1284,2,subj_sg_d1_pl_d2_pl,The [wug] behind the foxes and under the birds thinks deeply.,The [wug] behind the foxes and under the birds think deeply.
+1285,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the fox and under the bird think deeply.,The [wugs] behind the fox and under the bird thinks deeply.
+1286,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the foxes, under the birds, and beside the trees thinks deeply.","The [wug] behind the foxes, under the birds, and beside the trees think deeply."
+1287,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the fox, under the bird, and beside the tree think deeply.","The [wugs] behind the fox, under the bird, and beside the tree thinks deeply."
+1288,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars thinks deeply.","The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars think deeply."
+1289,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the fox, under the bird, beside the tree, and in front of the car think deeply.","The [wugs] behind the fox, under the bird, beside the tree, and in front of the car thinks deeply."
+1290,0,subj_sg,The [wug] thinks deeply.,The [wug] think deeply.
+1291,0,subj_pl,The [wugs] think deeply.,The [wugs] thinks deeply.
+1292,1,subj_sg_d1_pl,The [wug] under the birds thinks deeply.,The [wug] under the birds think deeply.
+1293,1,subj_pl_d1_sg,The [wugs] under the bird think deeply.,The [wugs] under the bird thinks deeply.
+1294,2,subj_sg_d1_pl_d2_pl,The [wug] under the birds and beside the trees thinks deeply.,The [wug] under the birds and beside the trees think deeply.
+1295,2,subj_pl_d1_sg_d2_sg,The [wugs] under the bird and beside the tree think deeply.,The [wugs] under the bird and beside the tree thinks deeply.
+1296,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the birds, beside the trees, and in front of the cars thinks deeply.","The [wug] under the birds, beside the trees, and in front of the cars think deeply."
+1297,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the bird, beside the tree, and in front of the car think deeply.","The [wugs] under the bird, beside the tree, and in front of the car thinks deeply."
+1298,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes thinks deeply.","The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes think deeply."
+1299,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the bird, beside the tree, in front of the car, and next to the box think deeply.","The [wugs] under the bird, beside the tree, in front of the car, and next to the box thinks deeply."
+1300,0,subj_sg,The [wug] swims well.,The [wug] swim well.
+1301,0,subj_pl,The [wugs] swim well.,The [wugs] swims well.
+1302,1,subj_sg_d1_pl,The [wug] near the trees swims well.,The [wug] near the trees swim well.
+1303,1,subj_pl_d1_sg,The [wugs] near the tree swim well.,The [wugs] near the tree swims well.
+1304,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars swims well.,The [wug] near the trees and behind the cars swim well.
+1305,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car swim well.,The [wugs] near the tree and behind the car swims well.
+1306,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the trees, behind the cars, and under the boxes swims well.","The [wug] near the trees, behind the cars, and under the boxes swim well."
+1307,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the tree, behind the car, and under the box swim well.","The [wugs] near the tree, behind the car, and under the box swims well."
+1308,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the trees, behind the cars, under the boxes, and beside the cats swims well.","The [wug] near the trees, behind the cars, under the boxes, and beside the cats swim well."
+1309,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the tree, behind the car, under the box, and beside the cat swim well.","The [wugs] near the tree, behind the car, under the box, and beside the cat swims well."
+1310,0,subj_sg,The [wug] swims well.,The [wug] swim well.
+1311,0,subj_pl,The [wugs] swim well.,The [wugs] swims well.
+1312,1,subj_sg_d1_pl,The [wug] behind the cars swims well.,The [wug] behind the cars swim well.
+1313,1,subj_pl_d1_sg,The [wugs] behind the car swim well.,The [wugs] behind the car swims well.
+1314,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes swims well.,The [wug] behind the cars and under the boxes swim well.
+1315,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box swim well.,The [wugs] behind the car and under the box swims well.
+1316,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the cars, under the boxes, and beside the cats swims well.","The [wug] behind the cars, under the boxes, and beside the cats swim well."
+1317,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the car, under the box, and beside the cat swim well.","The [wugs] behind the car, under the box, and beside the cat swims well."
+1318,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs swims well.","The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs swim well."
+1319,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the car, under the box, beside the cat, and in front of the dog swim well.","The [wugs] behind the car, under the box, beside the cat, and in front of the dog swims well."
+1320,0,subj_sg,The [wug] swims well.,The [wug] swim well.
+1321,0,subj_pl,The [wugs] swim well.,The [wugs] swims well.
+1322,1,subj_sg_d1_pl,The [wug] under the boxes swims well.,The [wug] under the boxes swim well.
+1323,1,subj_pl_d1_sg,The [wugs] under the box swim well.,The [wugs] under the box swims well.
+1324,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the cats swims well.,The [wug] under the boxes and beside the cats swim well.
+1325,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the cat swim well.,The [wugs] under the box and beside the cat swims well.
+1326,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the boxes, beside the cats, and in front of the dogs swims well.","The [wug] under the boxes, beside the cats, and in front of the dogs swim well."
+1327,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the box, beside the cat, and in front of the dog swim well.","The [wugs] under the box, beside the cat, and in front of the dog swims well."
+1328,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses swims well.","The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses swim well."
+1329,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the box, beside the cat, in front of the dog, and next to the horse swim well.","The [wugs] under the box, beside the cat, in front of the dog, and next to the horse swims well."
+1330,0,subj_sg,The [wug] swims well.,The [wug] swim well.
+1331,0,subj_pl,The [wugs] swim well.,The [wugs] swims well.
+1332,1,subj_sg_d1_pl,The [wug] beside the cats swims well.,The [wug] beside the cats swim well.
+1333,1,subj_pl_d1_sg,The [wugs] beside the cat swim well.,The [wugs] beside the cat swims well.
+1334,2,subj_sg_d1_pl_d2_pl,The [wug] beside the cats and in front of the dogs swims well.,The [wug] beside the cats and in front of the dogs swim well.
+1335,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the cat and in front of the dog swim well.,The [wugs] beside the cat and in front of the dog swims well.
+1336,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] beside the cats, in front of the dogs, and next to the horses swims well.","The [wug] beside the cats, in front of the dogs, and next to the horses swim well."
+1337,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] beside the cat, in front of the dog, and next to the horse swim well.","The [wugs] beside the cat, in front of the dog, and next to the horse swims well."
+1338,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] beside the cats, in front of the dogs, next to the horses, and past the women swims well.","The [wug] beside the cats, in front of the dogs, next to the horses, and past the women swim well."
+1339,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman swim well.","The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman swims well."
+1340,0,subj_sg,The [wug] swims well.,The [wug] swim well.
+1341,0,subj_pl,The [wugs] swim well.,The [wugs] swims well.
+1342,1,subj_sg_d1_pl,The [wug] in front of the dogs swims well.,The [wug] in front of the dogs swim well.
+1343,1,subj_pl_d1_sg,The [wugs] in front of the dog swim well.,The [wugs] in front of the dog swims well.
+1344,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the dogs and next to the horses swims well.,The [wug] in front of the dogs and next to the horses swim well.
+1345,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the dog and next to the horse swim well.,The [wugs] in front of the dog and next to the horse swims well.
+1346,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] in front of the dogs, next to the horses, and past the women swims well.","The [wug] in front of the dogs, next to the horses, and past the women swim well."
+1347,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] in front of the dog, next to the horse, and past the woman swim well.","The [wugs] in front of the dog, next to the horse, and past the woman swims well."
+1348,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] in front of the dogs, next to the horses, past the women, and near the men swims well.","The [wug] in front of the dogs, next to the horses, past the women, and near the men swim well."
+1349,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] in front of the dog, next to the horse, past the woman, and near the man swim well.","The [wugs] in front of the dog, next to the horse, past the woman, and near the man swims well."
+1350,0,subj_sg,The [wug] swims well.,The [wug] swim well.
+1351,0,subj_pl,The [wugs] swim well.,The [wugs] swims well.
+1352,1,subj_sg_d1_pl,The [wug] next to the horses swims well.,The [wug] next to the horses swim well.
+1353,1,subj_pl_d1_sg,The [wugs] next to the horse swim well.,The [wugs] next to the horse swims well.
+1354,2,subj_sg_d1_pl_d2_pl,The [wug] next to the horses and past the women swims well.,The [wug] next to the horses and past the women swim well.
+1355,2,subj_pl_d1_sg_d2_sg,The [wugs] next to the horse and past the woman swim well.,The [wugs] next to the horse and past the woman swims well.
+1356,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] next to the horses, past the women, and near the men swims well.","The [wug] next to the horses, past the women, and near the men swim well."
+1357,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] next to the horse, past the woman, and near the man swim well.","The [wugs] next to the horse, past the woman, and near the man swims well."
+1358,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] next to the horses, past the women, near the men, and behind the foxes swims well.","The [wug] next to the horses, past the women, near the men, and behind the foxes swim well."
+1359,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] next to the horse, past the woman, near the man, and behind the fox swim well.","The [wugs] next to the horse, past the woman, near the man, and behind the fox swims well."
+1360,0,subj_sg,The [wug] swims well.,The [wug] swim well.
+1361,0,subj_pl,The [wugs] swim well.,The [wugs] swims well.
+1362,1,subj_sg_d1_pl,The [wug] past the women swims well.,The [wug] past the women swim well.
+1363,1,subj_pl_d1_sg,The [wugs] past the woman swim well.,The [wugs] past the woman swims well.
+1364,2,subj_sg_d1_pl_d2_pl,The [wug] past the women and near the men swims well.,The [wug] past the women and near the men swim well.
+1365,2,subj_pl_d1_sg_d2_sg,The [wugs] past the woman and near the man swim well.,The [wugs] past the woman and near the man swims well.
+1366,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] past the women, near the men, and behind the foxes swims well.","The [wug] past the women, near the men, and behind the foxes swim well."
+1367,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] past the woman, near the man, and behind the fox swim well.","The [wugs] past the woman, near the man, and behind the fox swims well."
+1368,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] past the women, near the men, behind the foxes, and under the birds swims well.","The [wug] past the women, near the men, behind the foxes, and under the birds swim well."
+1369,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] past the woman, near the man, behind the fox, and under the bird swim well.","The [wugs] past the woman, near the man, behind the fox, and under the bird swims well."
+1370,0,subj_sg,The [wug] swims well.,The [wug] swim well.
+1371,0,subj_pl,The [wugs] swim well.,The [wugs] swims well.
+1372,1,subj_sg_d1_pl,The [wug] near the men swims well.,The [wug] near the men swim well.
+1373,1,subj_pl_d1_sg,The [wugs] near the man swim well.,The [wugs] near the man swims well.
+1374,2,subj_sg_d1_pl_d2_pl,The [wug] near the men and behind the foxes swims well.,The [wug] near the men and behind the foxes swim well.
+1375,2,subj_pl_d1_sg_d2_sg,The [wugs] near the man and behind the fox swim well.,The [wugs] near the man and behind the fox swims well.
+1376,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the men, behind the foxes, and under the birds swims well.","The [wug] near the men, behind the foxes, and under the birds swim well."
+1377,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the man, behind the fox, and under the bird swim well.","The [wugs] near the man, behind the fox, and under the bird swims well."
+1378,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the men, behind the foxes, under the birds, and beside the trees swims well.","The [wug] near the men, behind the foxes, under the birds, and beside the trees swim well."
+1379,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the man, behind the fox, under the bird, and beside the tree swim well.","The [wugs] near the man, behind the fox, under the bird, and beside the tree swims well."
+1380,0,subj_sg,The [wug] swims well.,The [wug] swim well.
+1381,0,subj_pl,The [wugs] swim well.,The [wugs] swims well.
+1382,1,subj_sg_d1_pl,The [wug] behind the foxes swims well.,The [wug] behind the foxes swim well.
+1383,1,subj_pl_d1_sg,The [wugs] behind the fox swim well.,The [wugs] behind the fox swims well.
+1384,2,subj_sg_d1_pl_d2_pl,The [wug] behind the foxes and under the birds swims well.,The [wug] behind the foxes and under the birds swim well.
+1385,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the fox and under the bird swim well.,The [wugs] behind the fox and under the bird swims well.
+1386,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the foxes, under the birds, and beside the trees swims well.","The [wug] behind the foxes, under the birds, and beside the trees swim well."
+1387,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the fox, under the bird, and beside the tree swim well.","The [wugs] behind the fox, under the bird, and beside the tree swims well."
+1388,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars swims well.","The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars swim well."
+1389,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the fox, under the bird, beside the tree, and in front of the car swim well.","The [wugs] behind the fox, under the bird, beside the tree, and in front of the car swims well."
+1390,0,subj_sg,The [wug] swims well.,The [wug] swim well.
+1391,0,subj_pl,The [wugs] swim well.,The [wugs] swims well.
+1392,1,subj_sg_d1_pl,The [wug] under the birds swims well.,The [wug] under the birds swim well.
+1393,1,subj_pl_d1_sg,The [wugs] under the bird swim well.,The [wugs] under the bird swims well.
+1394,2,subj_sg_d1_pl_d2_pl,The [wug] under the birds and beside the trees swims well.,The [wug] under the birds and beside the trees swim well.
+1395,2,subj_pl_d1_sg_d2_sg,The [wugs] under the bird and beside the tree swim well.,The [wugs] under the bird and beside the tree swims well.
+1396,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the birds, beside the trees, and in front of the cars swims well.","The [wug] under the birds, beside the trees, and in front of the cars swim well."
+1397,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the bird, beside the tree, and in front of the car swim well.","The [wugs] under the bird, beside the tree, and in front of the car swims well."
+1398,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes swims well.","The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes swim well."
+1399,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the bird, beside the tree, in front of the car, and next to the box swim well.","The [wugs] under the bird, beside the tree, in front of the car, and next to the box swims well."
+1400,0,subj_sg,The [wug] flies high.,The [wug] fly high.
+1401,0,subj_pl,The [wugs] fly high.,The [wugs] flies high.
+1402,1,subj_sg_d1_pl,The [wug] near the trees flies high.,The [wug] near the trees fly high.
+1403,1,subj_pl_d1_sg,The [wugs] near the tree fly high.,The [wugs] near the tree flies high.
+1404,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars flies high.,The [wug] near the trees and behind the cars fly high.
+1405,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car fly high.,The [wugs] near the tree and behind the car flies high.
+1406,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the trees, behind the cars, and under the boxes flies high.","The [wug] near the trees, behind the cars, and under the boxes fly high."
+1407,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the tree, behind the car, and under the box fly high.","The [wugs] near the tree, behind the car, and under the box flies high."
+1408,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the trees, behind the cars, under the boxes, and beside the cats flies high.","The [wug] near the trees, behind the cars, under the boxes, and beside the cats fly high."
+1409,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the tree, behind the car, under the box, and beside the cat fly high.","The [wugs] near the tree, behind the car, under the box, and beside the cat flies high."
+1410,0,subj_sg,The [wug] flies high.,The [wug] fly high.
+1411,0,subj_pl,The [wugs] fly high.,The [wugs] flies high.
+1412,1,subj_sg_d1_pl,The [wug] behind the cars flies high.,The [wug] behind the cars fly high.
+1413,1,subj_pl_d1_sg,The [wugs] behind the car fly high.,The [wugs] behind the car flies high.
+1414,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes flies high.,The [wug] behind the cars and under the boxes fly high.
+1415,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box fly high.,The [wugs] behind the car and under the box flies high.
+1416,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the cars, under the boxes, and beside the cats flies high.","The [wug] behind the cars, under the boxes, and beside the cats fly high."
+1417,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the car, under the box, and beside the cat fly high.","The [wugs] behind the car, under the box, and beside the cat flies high."
+1418,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs flies high.","The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs fly high."
+1419,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the car, under the box, beside the cat, and in front of the dog fly high.","The [wugs] behind the car, under the box, beside the cat, and in front of the dog flies high."
+1420,0,subj_sg,The [wug] flies high.,The [wug] fly high.
+1421,0,subj_pl,The [wugs] fly high.,The [wugs] flies high.
+1422,1,subj_sg_d1_pl,The [wug] under the boxes flies high.,The [wug] under the boxes fly high.
+1423,1,subj_pl_d1_sg,The [wugs] under the box fly high.,The [wugs] under the box flies high.
+1424,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the cats flies high.,The [wug] under the boxes and beside the cats fly high.
+1425,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the cat fly high.,The [wugs] under the box and beside the cat flies high.
+1426,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the boxes, beside the cats, and in front of the dogs flies high.","The [wug] under the boxes, beside the cats, and in front of the dogs fly high."
+1427,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the box, beside the cat, and in front of the dog fly high.","The [wugs] under the box, beside the cat, and in front of the dog flies high."
+1428,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses flies high.","The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses fly high."
+1429,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the box, beside the cat, in front of the dog, and next to the horse fly high.","The [wugs] under the box, beside the cat, in front of the dog, and next to the horse flies high."
+1430,0,subj_sg,The [wug] flies high.,The [wug] fly high.
+1431,0,subj_pl,The [wugs] fly high.,The [wugs] flies high.
+1432,1,subj_sg_d1_pl,The [wug] beside the cats flies high.,The [wug] beside the cats fly high.
+1433,1,subj_pl_d1_sg,The [wugs] beside the cat fly high.,The [wugs] beside the cat flies high.
+1434,2,subj_sg_d1_pl_d2_pl,The [wug] beside the cats and in front of the dogs flies high.,The [wug] beside the cats and in front of the dogs fly high.
+1435,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the cat and in front of the dog fly high.,The [wugs] beside the cat and in front of the dog flies high.
+1436,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] beside the cats, in front of the dogs, and next to the horses flies high.","The [wug] beside the cats, in front of the dogs, and next to the horses fly high."
+1437,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] beside the cat, in front of the dog, and next to the horse fly high.","The [wugs] beside the cat, in front of the dog, and next to the horse flies high."
+1438,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] beside the cats, in front of the dogs, next to the horses, and past the women flies high.","The [wug] beside the cats, in front of the dogs, next to the horses, and past the women fly high."
+1439,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman fly high.","The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman flies high."
+1440,0,subj_sg,The [wug] flies high.,The [wug] fly high.
+1441,0,subj_pl,The [wugs] fly high.,The [wugs] flies high.
+1442,1,subj_sg_d1_pl,The [wug] in front of the dogs flies high.,The [wug] in front of the dogs fly high.
+1443,1,subj_pl_d1_sg,The [wugs] in front of the dog fly high.,The [wugs] in front of the dog flies high.
+1444,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the dogs and next to the horses flies high.,The [wug] in front of the dogs and next to the horses fly high.
+1445,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the dog and next to the horse fly high.,The [wugs] in front of the dog and next to the horse flies high.
+1446,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] in front of the dogs, next to the horses, and past the women flies high.","The [wug] in front of the dogs, next to the horses, and past the women fly high."
+1447,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] in front of the dog, next to the horse, and past the woman fly high.","The [wugs] in front of the dog, next to the horse, and past the woman flies high."
+1448,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] in front of the dogs, next to the horses, past the women, and near the men flies high.","The [wug] in front of the dogs, next to the horses, past the women, and near the men fly high."
+1449,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] in front of the dog, next to the horse, past the woman, and near the man fly high.","The [wugs] in front of the dog, next to the horse, past the woman, and near the man flies high."
+1450,0,subj_sg,The [wug] flies high.,The [wug] fly high.
+1451,0,subj_pl,The [wugs] fly high.,The [wugs] flies high.
+1452,1,subj_sg_d1_pl,The [wug] next to the horses flies high.,The [wug] next to the horses fly high.
+1453,1,subj_pl_d1_sg,The [wugs] next to the horse fly high.,The [wugs] next to the horse flies high.
+1454,2,subj_sg_d1_pl_d2_pl,The [wug] next to the horses and past the women flies high.,The [wug] next to the horses and past the women fly high.
+1455,2,subj_pl_d1_sg_d2_sg,The [wugs] next to the horse and past the woman fly high.,The [wugs] next to the horse and past the woman flies high.
+1456,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] next to the horses, past the women, and near the men flies high.","The [wug] next to the horses, past the women, and near the men fly high."
+1457,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] next to the horse, past the woman, and near the man fly high.","The [wugs] next to the horse, past the woman, and near the man flies high."
+1458,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] next to the horses, past the women, near the men, and behind the foxes flies high.","The [wug] next to the horses, past the women, near the men, and behind the foxes fly high."
+1459,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] next to the horse, past the woman, near the man, and behind the fox fly high.","The [wugs] next to the horse, past the woman, near the man, and behind the fox flies high."
+1460,0,subj_sg,The [wug] flies high.,The [wug] fly high.
+1461,0,subj_pl,The [wugs] fly high.,The [wugs] flies high.
+1462,1,subj_sg_d1_pl,The [wug] past the women flies high.,The [wug] past the women fly high.
+1463,1,subj_pl_d1_sg,The [wugs] past the woman fly high.,The [wugs] past the woman flies high.
+1464,2,subj_sg_d1_pl_d2_pl,The [wug] past the women and near the men flies high.,The [wug] past the women and near the men fly high.
+1465,2,subj_pl_d1_sg_d2_sg,The [wugs] past the woman and near the man fly high.,The [wugs] past the woman and near the man flies high.
+1466,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] past the women, near the men, and behind the foxes flies high.","The [wug] past the women, near the men, and behind the foxes fly high."
+1467,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] past the woman, near the man, and behind the fox fly high.","The [wugs] past the woman, near the man, and behind the fox flies high."
+1468,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] past the women, near the men, behind the foxes, and under the birds flies high.","The [wug] past the women, near the men, behind the foxes, and under the birds fly high."
+1469,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] past the woman, near the man, behind the fox, and under the bird fly high.","The [wugs] past the woman, near the man, behind the fox, and under the bird flies high."
+1470,0,subj_sg,The [wug] flies high.,The [wug] fly high.
+1471,0,subj_pl,The [wugs] fly high.,The [wugs] flies high.
+1472,1,subj_sg_d1_pl,The [wug] near the men flies high.,The [wug] near the men fly high.
+1473,1,subj_pl_d1_sg,The [wugs] near the man fly high.,The [wugs] near the man flies high.
+1474,2,subj_sg_d1_pl_d2_pl,The [wug] near the men and behind the foxes flies high.,The [wug] near the men and behind the foxes fly high.
+1475,2,subj_pl_d1_sg_d2_sg,The [wugs] near the man and behind the fox fly high.,The [wugs] near the man and behind the fox flies high.
+1476,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the men, behind the foxes, and under the birds flies high.","The [wug] near the men, behind the foxes, and under the birds fly high."
+1477,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the man, behind the fox, and under the bird fly high.","The [wugs] near the man, behind the fox, and under the bird flies high."
+1478,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the men, behind the foxes, under the birds, and beside the trees flies high.","The [wug] near the men, behind the foxes, under the birds, and beside the trees fly high."
+1479,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the man, behind the fox, under the bird, and beside the tree fly high.","The [wugs] near the man, behind the fox, under the bird, and beside the tree flies high."
+1480,0,subj_sg,The [wug] flies high.,The [wug] fly high.
+1481,0,subj_pl,The [wugs] fly high.,The [wugs] flies high.
+1482,1,subj_sg_d1_pl,The [wug] behind the foxes flies high.,The [wug] behind the foxes fly high.
+1483,1,subj_pl_d1_sg,The [wugs] behind the fox fly high.,The [wugs] behind the fox flies high.
+1484,2,subj_sg_d1_pl_d2_pl,The [wug] behind the foxes and under the birds flies high.,The [wug] behind the foxes and under the birds fly high.
+1485,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the fox and under the bird fly high.,The [wugs] behind the fox and under the bird flies high.
+1486,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the foxes, under the birds, and beside the trees flies high.","The [wug] behind the foxes, under the birds, and beside the trees fly high."
+1487,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the fox, under the bird, and beside the tree fly high.","The [wugs] behind the fox, under the bird, and beside the tree flies high."
+1488,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars flies high.","The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars fly high."
+1489,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the fox, under the bird, beside the tree, and in front of the car fly high.","The [wugs] behind the fox, under the bird, beside the tree, and in front of the car flies high."
+1490,0,subj_sg,The [wug] flies high.,The [wug] fly high.
+1491,0,subj_pl,The [wugs] fly high.,The [wugs] flies high.
+1492,1,subj_sg_d1_pl,The [wug] under the birds flies high.,The [wug] under the birds fly high.
+1493,1,subj_pl_d1_sg,The [wugs] under the bird fly high.,The [wugs] under the bird flies high.
+1494,2,subj_sg_d1_pl_d2_pl,The [wug] under the birds and beside the trees flies high.,The [wug] under the birds and beside the trees fly high.
+1495,2,subj_pl_d1_sg_d2_sg,The [wugs] under the bird and beside the tree fly high.,The [wugs] under the bird and beside the tree flies high.
+1496,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the birds, beside the trees, and in front of the cars flies high.","The [wug] under the birds, beside the trees, and in front of the cars fly high."
+1497,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the bird, beside the tree, and in front of the car fly high.","The [wugs] under the bird, beside the tree, and in front of the car flies high."
+1498,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes flies high.","The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes fly high."
+1499,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the bird, beside the tree, in front of the car, and next to the box fly high.","The [wugs] under the bird, beside the tree, in front of the car, and next to the box flies high."
+1500,0,subj_sg,The [wug] dances gracefully.,The [wug] dance gracefully.
+1501,0,subj_pl,The [wugs] dance gracefully.,The [wugs] dances gracefully.
+1502,1,subj_sg_d1_pl,The [wug] near the trees dances gracefully.,The [wug] near the trees dance gracefully.
+1503,1,subj_pl_d1_sg,The [wugs] near the tree dance gracefully.,The [wugs] near the tree dances gracefully.
+1504,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars dances gracefully.,The [wug] near the trees and behind the cars dance gracefully.
+1505,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car dance gracefully.,The [wugs] near the tree and behind the car dances gracefully.
+1506,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the trees, behind the cars, and under the boxes dances gracefully.","The [wug] near the trees, behind the cars, and under the boxes dance gracefully."
+1507,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the tree, behind the car, and under the box dance gracefully.","The [wugs] near the tree, behind the car, and under the box dances gracefully."
+1508,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the trees, behind the cars, under the boxes, and beside the cats dances gracefully.","The [wug] near the trees, behind the cars, under the boxes, and beside the cats dance gracefully."
+1509,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the tree, behind the car, under the box, and beside the cat dance gracefully.","The [wugs] near the tree, behind the car, under the box, and beside the cat dances gracefully."
+1510,0,subj_sg,The [wug] dances gracefully.,The [wug] dance gracefully.
+1511,0,subj_pl,The [wugs] dance gracefully.,The [wugs] dances gracefully.
+1512,1,subj_sg_d1_pl,The [wug] behind the cars dances gracefully.,The [wug] behind the cars dance gracefully.
+1513,1,subj_pl_d1_sg,The [wugs] behind the car dance gracefully.,The [wugs] behind the car dances gracefully.
+1514,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes dances gracefully.,The [wug] behind the cars and under the boxes dance gracefully.
+1515,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box dance gracefully.,The [wugs] behind the car and under the box dances gracefully.
+1516,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the cars, under the boxes, and beside the cats dances gracefully.","The [wug] behind the cars, under the boxes, and beside the cats dance gracefully."
+1517,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the car, under the box, and beside the cat dance gracefully.","The [wugs] behind the car, under the box, and beside the cat dances gracefully."
+1518,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs dances gracefully.","The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs dance gracefully."
+1519,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the car, under the box, beside the cat, and in front of the dog dance gracefully.","The [wugs] behind the car, under the box, beside the cat, and in front of the dog dances gracefully."
+1520,0,subj_sg,The [wug] dances gracefully.,The [wug] dance gracefully.
+1521,0,subj_pl,The [wugs] dance gracefully.,The [wugs] dances gracefully.
+1522,1,subj_sg_d1_pl,The [wug] under the boxes dances gracefully.,The [wug] under the boxes dance gracefully.
+1523,1,subj_pl_d1_sg,The [wugs] under the box dance gracefully.,The [wugs] under the box dances gracefully.
+1524,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the cats dances gracefully.,The [wug] under the boxes and beside the cats dance gracefully.
+1525,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the cat dance gracefully.,The [wugs] under the box and beside the cat dances gracefully.
+1526,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the boxes, beside the cats, and in front of the dogs dances gracefully.","The [wug] under the boxes, beside the cats, and in front of the dogs dance gracefully."
+1527,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the box, beside the cat, and in front of the dog dance gracefully.","The [wugs] under the box, beside the cat, and in front of the dog dances gracefully."
+1528,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses dances gracefully.","The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses dance gracefully."
+1529,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the box, beside the cat, in front of the dog, and next to the horse dance gracefully.","The [wugs] under the box, beside the cat, in front of the dog, and next to the horse dances gracefully."
+1530,0,subj_sg,The [wug] dances gracefully.,The [wug] dance gracefully.
+1531,0,subj_pl,The [wugs] dance gracefully.,The [wugs] dances gracefully.
+1532,1,subj_sg_d1_pl,The [wug] beside the cats dances gracefully.,The [wug] beside the cats dance gracefully.
+1533,1,subj_pl_d1_sg,The [wugs] beside the cat dance gracefully.,The [wugs] beside the cat dances gracefully.
+1534,2,subj_sg_d1_pl_d2_pl,The [wug] beside the cats and in front of the dogs dances gracefully.,The [wug] beside the cats and in front of the dogs dance gracefully.
+1535,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the cat and in front of the dog dance gracefully.,The [wugs] beside the cat and in front of the dog dances gracefully.
+1536,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] beside the cats, in front of the dogs, and next to the horses dances gracefully.","The [wug] beside the cats, in front of the dogs, and next to the horses dance gracefully."
+1537,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] beside the cat, in front of the dog, and next to the horse dance gracefully.","The [wugs] beside the cat, in front of the dog, and next to the horse dances gracefully."
+1538,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] beside the cats, in front of the dogs, next to the horses, and past the women dances gracefully.","The [wug] beside the cats, in front of the dogs, next to the horses, and past the women dance gracefully."
+1539,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman dance gracefully.","The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman dances gracefully."
+1540,0,subj_sg,The [wug] dances gracefully.,The [wug] dance gracefully.
+1541,0,subj_pl,The [wugs] dance gracefully.,The [wugs] dances gracefully.
+1542,1,subj_sg_d1_pl,The [wug] in front of the dogs dances gracefully.,The [wug] in front of the dogs dance gracefully.
+1543,1,subj_pl_d1_sg,The [wugs] in front of the dog dance gracefully.,The [wugs] in front of the dog dances gracefully.
+1544,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the dogs and next to the horses dances gracefully.,The [wug] in front of the dogs and next to the horses dance gracefully.
+1545,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the dog and next to the horse dance gracefully.,The [wugs] in front of the dog and next to the horse dances gracefully.
+1546,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] in front of the dogs, next to the horses, and past the women dances gracefully.","The [wug] in front of the dogs, next to the horses, and past the women dance gracefully."
+1547,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] in front of the dog, next to the horse, and past the woman dance gracefully.","The [wugs] in front of the dog, next to the horse, and past the woman dances gracefully."
+1548,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] in front of the dogs, next to the horses, past the women, and near the men dances gracefully.","The [wug] in front of the dogs, next to the horses, past the women, and near the men dance gracefully."
+1549,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] in front of the dog, next to the horse, past the woman, and near the man dance gracefully.","The [wugs] in front of the dog, next to the horse, past the woman, and near the man dances gracefully."
+1550,0,subj_sg,The [wug] dances gracefully.,The [wug] dance gracefully.
+1551,0,subj_pl,The [wugs] dance gracefully.,The [wugs] dances gracefully.
+1552,1,subj_sg_d1_pl,The [wug] next to the horses dances gracefully.,The [wug] next to the horses dance gracefully.
+1553,1,subj_pl_d1_sg,The [wugs] next to the horse dance gracefully.,The [wugs] next to the horse dances gracefully.
+1554,2,subj_sg_d1_pl_d2_pl,The [wug] next to the horses and past the women dances gracefully.,The [wug] next to the horses and past the women dance gracefully.
+1555,2,subj_pl_d1_sg_d2_sg,The [wugs] next to the horse and past the woman dance gracefully.,The [wugs] next to the horse and past the woman dances gracefully.
+1556,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] next to the horses, past the women, and near the men dances gracefully.","The [wug] next to the horses, past the women, and near the men dance gracefully."
+1557,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] next to the horse, past the woman, and near the man dance gracefully.","The [wugs] next to the horse, past the woman, and near the man dances gracefully."
+1558,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] next to the horses, past the women, near the men, and behind the foxes dances gracefully.","The [wug] next to the horses, past the women, near the men, and behind the foxes dance gracefully."
+1559,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] next to the horse, past the woman, near the man, and behind the fox dance gracefully.","The [wugs] next to the horse, past the woman, near the man, and behind the fox dances gracefully."
+1560,0,subj_sg,The [wug] dances gracefully.,The [wug] dance gracefully.
+1561,0,subj_pl,The [wugs] dance gracefully.,The [wugs] dances gracefully.
+1562,1,subj_sg_d1_pl,The [wug] past the women dances gracefully.,The [wug] past the women dance gracefully.
+1563,1,subj_pl_d1_sg,The [wugs] past the woman dance gracefully.,The [wugs] past the woman dances gracefully.
+1564,2,subj_sg_d1_pl_d2_pl,The [wug] past the women and near the men dances gracefully.,The [wug] past the women and near the men dance gracefully.
+1565,2,subj_pl_d1_sg_d2_sg,The [wugs] past the woman and near the man dance gracefully.,The [wugs] past the woman and near the man dances gracefully.
+1566,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] past the women, near the men, and behind the foxes dances gracefully.","The [wug] past the women, near the men, and behind the foxes dance gracefully."
+1567,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] past the woman, near the man, and behind the fox dance gracefully.","The [wugs] past the woman, near the man, and behind the fox dances gracefully."
+1568,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] past the women, near the men, behind the foxes, and under the birds dances gracefully.","The [wug] past the women, near the men, behind the foxes, and under the birds dance gracefully."
+1569,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] past the woman, near the man, behind the fox, and under the bird dance gracefully.","The [wugs] past the woman, near the man, behind the fox, and under the bird dances gracefully."
+1570,0,subj_sg,The [wug] dances gracefully.,The [wug] dance gracefully.
+1571,0,subj_pl,The [wugs] dance gracefully.,The [wugs] dances gracefully.
+1572,1,subj_sg_d1_pl,The [wug] near the men dances gracefully.,The [wug] near the men dance gracefully.
+1573,1,subj_pl_d1_sg,The [wugs] near the man dance gracefully.,The [wugs] near the man dances gracefully.
+1574,2,subj_sg_d1_pl_d2_pl,The [wug] near the men and behind the foxes dances gracefully.,The [wug] near the men and behind the foxes dance gracefully.
+1575,2,subj_pl_d1_sg_d2_sg,The [wugs] near the man and behind the fox dance gracefully.,The [wugs] near the man and behind the fox dances gracefully.
+1576,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the men, behind the foxes, and under the birds dances gracefully.","The [wug] near the men, behind the foxes, and under the birds dance gracefully."
+1577,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the man, behind the fox, and under the bird dance gracefully.","The [wugs] near the man, behind the fox, and under the bird dances gracefully."
+1578,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the men, behind the foxes, under the birds, and beside the trees dances gracefully.","The [wug] near the men, behind the foxes, under the birds, and beside the trees dance gracefully."
+1579,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the man, behind the fox, under the bird, and beside the tree dance gracefully.","The [wugs] near the man, behind the fox, under the bird, and beside the tree dances gracefully."
+1580,0,subj_sg,The [wug] dances gracefully.,The [wug] dance gracefully.
+1581,0,subj_pl,The [wugs] dance gracefully.,The [wugs] dances gracefully.
+1582,1,subj_sg_d1_pl,The [wug] behind the foxes dances gracefully.,The [wug] behind the foxes dance gracefully.
+1583,1,subj_pl_d1_sg,The [wugs] behind the fox dance gracefully.,The [wugs] behind the fox dances gracefully.
+1584,2,subj_sg_d1_pl_d2_pl,The [wug] behind the foxes and under the birds dances gracefully.,The [wug] behind the foxes and under the birds dance gracefully.
+1585,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the fox and under the bird dance gracefully.,The [wugs] behind the fox and under the bird dances gracefully.
+1586,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the foxes, under the birds, and beside the trees dances gracefully.","The [wug] behind the foxes, under the birds, and beside the trees dance gracefully."
+1587,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the fox, under the bird, and beside the tree dance gracefully.","The [wugs] behind the fox, under the bird, and beside the tree dances gracefully."
+1588,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars dances gracefully.","The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars dance gracefully."
+1589,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the fox, under the bird, beside the tree, and in front of the car dance gracefully.","The [wugs] behind the fox, under the bird, beside the tree, and in front of the car dances gracefully."
+1590,0,subj_sg,The [wug] dances gracefully.,The [wug] dance gracefully.
+1591,0,subj_pl,The [wugs] dance gracefully.,The [wugs] dances gracefully.
+1592,1,subj_sg_d1_pl,The [wug] under the birds dances gracefully.,The [wug] under the birds dance gracefully.
+1593,1,subj_pl_d1_sg,The [wugs] under the bird dance gracefully.,The [wugs] under the bird dances gracefully.
+1594,2,subj_sg_d1_pl_d2_pl,The [wug] under the birds and beside the trees dances gracefully.,The [wug] under the birds and beside the trees dance gracefully.
+1595,2,subj_pl_d1_sg_d2_sg,The [wugs] under the bird and beside the tree dance gracefully.,The [wugs] under the bird and beside the tree dances gracefully.
+1596,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the birds, beside the trees, and in front of the cars dances gracefully.","The [wug] under the birds, beside the trees, and in front of the cars dance gracefully."
+1597,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the bird, beside the tree, and in front of the car dance gracefully.","The [wugs] under the bird, beside the tree, and in front of the car dances gracefully."
+1598,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes dances gracefully.","The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes dance gracefully."
+1599,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the bird, beside the tree, in front of the car, and next to the box dance gracefully.","The [wugs] under the bird, beside the tree, in front of the car, and next to the box dances gracefully."
+1600,0,subj_sg,The [wug] plays often.,The [wug] play often.
+1601,0,subj_pl,The [wugs] play often.,The [wugs] plays often.
+1602,1,subj_sg_d1_pl,The [wug] near the trees plays often.,The [wug] near the trees play often.
+1603,1,subj_pl_d1_sg,The [wugs] near the tree play often.,The [wugs] near the tree plays often.
+1604,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars plays often.,The [wug] near the trees and behind the cars play often.
+1605,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car play often.,The [wugs] near the tree and behind the car plays often.
+1606,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the trees, behind the cars, and under the boxes plays often.","The [wug] near the trees, behind the cars, and under the boxes play often."
+1607,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the tree, behind the car, and under the box play often.","The [wugs] near the tree, behind the car, and under the box plays often."
+1608,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the trees, behind the cars, under the boxes, and beside the cats plays often.","The [wug] near the trees, behind the cars, under the boxes, and beside the cats play often."
+1609,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the tree, behind the car, under the box, and beside the cat play often.","The [wugs] near the tree, behind the car, under the box, and beside the cat plays often."
+1610,0,subj_sg,The [wug] plays often.,The [wug] play often.
+1611,0,subj_pl,The [wugs] play often.,The [wugs] plays often.
+1612,1,subj_sg_d1_pl,The [wug] behind the cars plays often.,The [wug] behind the cars play often.
+1613,1,subj_pl_d1_sg,The [wugs] behind the car play often.,The [wugs] behind the car plays often.
+1614,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes plays often.,The [wug] behind the cars and under the boxes play often.
+1615,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box play often.,The [wugs] behind the car and under the box plays often.
+1616,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the cars, under the boxes, and beside the cats plays often.","The [wug] behind the cars, under the boxes, and beside the cats play often."
+1617,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the car, under the box, and beside the cat play often.","The [wugs] behind the car, under the box, and beside the cat plays often."
+1618,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs plays often.","The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs play often."
+1619,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the car, under the box, beside the cat, and in front of the dog play often.","The [wugs] behind the car, under the box, beside the cat, and in front of the dog plays often."
+1620,0,subj_sg,The [wug] plays often.,The [wug] play often.
+1621,0,subj_pl,The [wugs] play often.,The [wugs] plays often.
+1622,1,subj_sg_d1_pl,The [wug] under the boxes plays often.,The [wug] under the boxes play often.
+1623,1,subj_pl_d1_sg,The [wugs] under the box play often.,The [wugs] under the box plays often.
+1624,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the cats plays often.,The [wug] under the boxes and beside the cats play often.
+1625,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the cat play often.,The [wugs] under the box and beside the cat plays often.
+1626,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the boxes, beside the cats, and in front of the dogs plays often.","The [wug] under the boxes, beside the cats, and in front of the dogs play often."
+1627,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the box, beside the cat, and in front of the dog play often.","The [wugs] under the box, beside the cat, and in front of the dog plays often."
+1628,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses plays often.","The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses play often."
+1629,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the box, beside the cat, in front of the dog, and next to the horse play often.","The [wugs] under the box, beside the cat, in front of the dog, and next to the horse plays often."
+1630,0,subj_sg,The [wug] plays often.,The [wug] play often.
+1631,0,subj_pl,The [wugs] play often.,The [wugs] plays often.
+1632,1,subj_sg_d1_pl,The [wug] beside the cats plays often.,The [wug] beside the cats play often.
+1633,1,subj_pl_d1_sg,The [wugs] beside the cat play often.,The [wugs] beside the cat plays often.
+1634,2,subj_sg_d1_pl_d2_pl,The [wug] beside the cats and in front of the dogs plays often.,The [wug] beside the cats and in front of the dogs play often.
+1635,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the cat and in front of the dog play often.,The [wugs] beside the cat and in front of the dog plays often.
+1636,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] beside the cats, in front of the dogs, and next to the horses plays often.","The [wug] beside the cats, in front of the dogs, and next to the horses play often."
+1637,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] beside the cat, in front of the dog, and next to the horse play often.","The [wugs] beside the cat, in front of the dog, and next to the horse plays often."
+1638,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] beside the cats, in front of the dogs, next to the horses, and past the women plays often.","The [wug] beside the cats, in front of the dogs, next to the horses, and past the women play often."
+1639,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman play often.","The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman plays often."
+1640,0,subj_sg,The [wug] plays often.,The [wug] play often.
+1641,0,subj_pl,The [wugs] play often.,The [wugs] plays often.
+1642,1,subj_sg_d1_pl,The [wug] in front of the dogs plays often.,The [wug] in front of the dogs play often.
+1643,1,subj_pl_d1_sg,The [wugs] in front of the dog play often.,The [wugs] in front of the dog plays often.
+1644,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the dogs and next to the horses plays often.,The [wug] in front of the dogs and next to the horses play often.
+1645,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the dog and next to the horse play often.,The [wugs] in front of the dog and next to the horse plays often.
+1646,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] in front of the dogs, next to the horses, and past the women plays often.","The [wug] in front of the dogs, next to the horses, and past the women play often."
+1647,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] in front of the dog, next to the horse, and past the woman play often.","The [wugs] in front of the dog, next to the horse, and past the woman plays often."
+1648,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] in front of the dogs, next to the horses, past the women, and near the men plays often.","The [wug] in front of the dogs, next to the horses, past the women, and near the men play often."
+1649,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] in front of the dog, next to the horse, past the woman, and near the man play often.","The [wugs] in front of the dog, next to the horse, past the woman, and near the man plays often."
+1650,0,subj_sg,The [wug] plays often.,The [wug] play often.
+1651,0,subj_pl,The [wugs] play often.,The [wugs] plays often.
+1652,1,subj_sg_d1_pl,The [wug] next to the horses plays often.,The [wug] next to the horses play often.
+1653,1,subj_pl_d1_sg,The [wugs] next to the horse play often.,The [wugs] next to the horse plays often.
+1654,2,subj_sg_d1_pl_d2_pl,The [wug] next to the horses and past the women plays often.,The [wug] next to the horses and past the women play often.
+1655,2,subj_pl_d1_sg_d2_sg,The [wugs] next to the horse and past the woman play often.,The [wugs] next to the horse and past the woman plays often.
+1656,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] next to the horses, past the women, and near the men plays often.","The [wug] next to the horses, past the women, and near the men play often."
+1657,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] next to the horse, past the woman, and near the man play often.","The [wugs] next to the horse, past the woman, and near the man plays often."
+1658,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] next to the horses, past the women, near the men, and behind the foxes plays often.","The [wug] next to the horses, past the women, near the men, and behind the foxes play often."
+1659,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] next to the horse, past the woman, near the man, and behind the fox play often.","The [wugs] next to the horse, past the woman, near the man, and behind the fox plays often."
+1660,0,subj_sg,The [wug] plays often.,The [wug] play often.
+1661,0,subj_pl,The [wugs] play often.,The [wugs] plays often.
+1662,1,subj_sg_d1_pl,The [wug] past the women plays often.,The [wug] past the women play often.
+1663,1,subj_pl_d1_sg,The [wugs] past the woman play often.,The [wugs] past the woman plays often.
+1664,2,subj_sg_d1_pl_d2_pl,The [wug] past the women and near the men plays often.,The [wug] past the women and near the men play often.
+1665,2,subj_pl_d1_sg_d2_sg,The [wugs] past the woman and near the man play often.,The [wugs] past the woman and near the man plays often.
+1666,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] past the women, near the men, and behind the foxes plays often.","The [wug] past the women, near the men, and behind the foxes play often."
+1667,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] past the woman, near the man, and behind the fox play often.","The [wugs] past the woman, near the man, and behind the fox plays often."
+1668,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] past the women, near the men, behind the foxes, and under the birds plays often.","The [wug] past the women, near the men, behind the foxes, and under the birds play often."
+1669,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] past the woman, near the man, behind the fox, and under the bird play often.","The [wugs] past the woman, near the man, behind the fox, and under the bird plays often."
+1670,0,subj_sg,The [wug] plays often.,The [wug] play often.
+1671,0,subj_pl,The [wugs] play often.,The [wugs] plays often.
+1672,1,subj_sg_d1_pl,The [wug] near the men plays often.,The [wug] near the men play often.
+1673,1,subj_pl_d1_sg,The [wugs] near the man play often.,The [wugs] near the man plays often.
+1674,2,subj_sg_d1_pl_d2_pl,The [wug] near the men and behind the foxes plays often.,The [wug] near the men and behind the foxes play often.
+1675,2,subj_pl_d1_sg_d2_sg,The [wugs] near the man and behind the fox play often.,The [wugs] near the man and behind the fox plays often.
+1676,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the men, behind the foxes, and under the birds plays often.","The [wug] near the men, behind the foxes, and under the birds play often."
+1677,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the man, behind the fox, and under the bird play often.","The [wugs] near the man, behind the fox, and under the bird plays often."
+1678,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the men, behind the foxes, under the birds, and beside the trees plays often.","The [wug] near the men, behind the foxes, under the birds, and beside the trees play often."
+1679,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the man, behind the fox, under the bird, and beside the tree play often.","The [wugs] near the man, behind the fox, under the bird, and beside the tree plays often."
+1680,0,subj_sg,The [wug] plays often.,The [wug] play often.
+1681,0,subj_pl,The [wugs] play often.,The [wugs] plays often.
+1682,1,subj_sg_d1_pl,The [wug] behind the foxes plays often.,The [wug] behind the foxes play often.
+1683,1,subj_pl_d1_sg,The [wugs] behind the fox play often.,The [wugs] behind the fox plays often.
+1684,2,subj_sg_d1_pl_d2_pl,The [wug] behind the foxes and under the birds plays often.,The [wug] behind the foxes and under the birds play often.
+1685,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the fox and under the bird play often.,The [wugs] behind the fox and under the bird plays often.
+1686,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the foxes, under the birds, and beside the trees plays often.","The [wug] behind the foxes, under the birds, and beside the trees play often."
+1687,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the fox, under the bird, and beside the tree play often.","The [wugs] behind the fox, under the bird, and beside the tree plays often."
+1688,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars plays often.","The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars play often."
+1689,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the fox, under the bird, beside the tree, and in front of the car play often.","The [wugs] behind the fox, under the bird, beside the tree, and in front of the car plays often."
+1690,0,subj_sg,The [wug] plays often.,The [wug] play often.
+1691,0,subj_pl,The [wugs] play often.,The [wugs] plays often.
+1692,1,subj_sg_d1_pl,The [wug] under the birds plays often.,The [wug] under the birds play often.
+1693,1,subj_pl_d1_sg,The [wugs] under the bird play often.,The [wugs] under the bird plays often.
+1694,2,subj_sg_d1_pl_d2_pl,The [wug] under the birds and beside the trees plays often.,The [wug] under the birds and beside the trees play often.
+1695,2,subj_pl_d1_sg_d2_sg,The [wugs] under the bird and beside the tree play often.,The [wugs] under the bird and beside the tree plays often.
+1696,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the birds, beside the trees, and in front of the cars plays often.","The [wug] under the birds, beside the trees, and in front of the cars play often."
+1697,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the bird, beside the tree, and in front of the car play often.","The [wugs] under the bird, beside the tree, and in front of the car plays often."
+1698,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes plays often.","The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes play often."
+1699,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the bird, beside the tree, in front of the car, and next to the box play often.","The [wugs] under the bird, beside the tree, in front of the car, and next to the box plays often."
+1700,0,subj_sg,The [wug] works hard.,The [wug] work hard.
+1701,0,subj_pl,The [wugs] work hard.,The [wugs] works hard.
+1702,1,subj_sg_d1_pl,The [wug] near the trees works hard.,The [wug] near the trees work hard.
+1703,1,subj_pl_d1_sg,The [wugs] near the tree work hard.,The [wugs] near the tree works hard.
+1704,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars works hard.,The [wug] near the trees and behind the cars work hard.
+1705,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car work hard.,The [wugs] near the tree and behind the car works hard.
+1706,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the trees, behind the cars, and under the boxes works hard.","The [wug] near the trees, behind the cars, and under the boxes work hard."
+1707,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the tree, behind the car, and under the box work hard.","The [wugs] near the tree, behind the car, and under the box works hard."
+1708,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the trees, behind the cars, under the boxes, and beside the cats works hard.","The [wug] near the trees, behind the cars, under the boxes, and beside the cats work hard."
+1709,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the tree, behind the car, under the box, and beside the cat work hard.","The [wugs] near the tree, behind the car, under the box, and beside the cat works hard."
+1710,0,subj_sg,The [wug] works hard.,The [wug] work hard.
+1711,0,subj_pl,The [wugs] work hard.,The [wugs] works hard.
+1712,1,subj_sg_d1_pl,The [wug] behind the cars works hard.,The [wug] behind the cars work hard.
+1713,1,subj_pl_d1_sg,The [wugs] behind the car work hard.,The [wugs] behind the car works hard.
+1714,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes works hard.,The [wug] behind the cars and under the boxes work hard.
+1715,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box work hard.,The [wugs] behind the car and under the box works hard.
+1716,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the cars, under the boxes, and beside the cats works hard.","The [wug] behind the cars, under the boxes, and beside the cats work hard."
+1717,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the car, under the box, and beside the cat work hard.","The [wugs] behind the car, under the box, and beside the cat works hard."
+1718,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs works hard.","The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs work hard."
+1719,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the car, under the box, beside the cat, and in front of the dog work hard.","The [wugs] behind the car, under the box, beside the cat, and in front of the dog works hard."
+1720,0,subj_sg,The [wug] works hard.,The [wug] work hard.
+1721,0,subj_pl,The [wugs] work hard.,The [wugs] works hard.
+1722,1,subj_sg_d1_pl,The [wug] under the boxes works hard.,The [wug] under the boxes work hard.
+1723,1,subj_pl_d1_sg,The [wugs] under the box work hard.,The [wugs] under the box works hard.
+1724,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the cats works hard.,The [wug] under the boxes and beside the cats work hard.
+1725,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the cat work hard.,The [wugs] under the box and beside the cat works hard.
+1726,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the boxes, beside the cats, and in front of the dogs works hard.","The [wug] under the boxes, beside the cats, and in front of the dogs work hard."
+1727,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the box, beside the cat, and in front of the dog work hard.","The [wugs] under the box, beside the cat, and in front of the dog works hard."
+1728,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses works hard.","The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses work hard."
+1729,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the box, beside the cat, in front of the dog, and next to the horse work hard.","The [wugs] under the box, beside the cat, in front of the dog, and next to the horse works hard."
+1730,0,subj_sg,The [wug] works hard.,The [wug] work hard.
+1731,0,subj_pl,The [wugs] work hard.,The [wugs] works hard.
+1732,1,subj_sg_d1_pl,The [wug] beside the cats works hard.,The [wug] beside the cats work hard.
+1733,1,subj_pl_d1_sg,The [wugs] beside the cat work hard.,The [wugs] beside the cat works hard.
+1734,2,subj_sg_d1_pl_d2_pl,The [wug] beside the cats and in front of the dogs works hard.,The [wug] beside the cats and in front of the dogs work hard.
+1735,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the cat and in front of the dog work hard.,The [wugs] beside the cat and in front of the dog works hard.
+1736,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] beside the cats, in front of the dogs, and next to the horses works hard.","The [wug] beside the cats, in front of the dogs, and next to the horses work hard."
+1737,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] beside the cat, in front of the dog, and next to the horse work hard.","The [wugs] beside the cat, in front of the dog, and next to the horse works hard."
+1738,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] beside the cats, in front of the dogs, next to the horses, and past the women works hard.","The [wug] beside the cats, in front of the dogs, next to the horses, and past the women work hard."
+1739,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman work hard.","The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman works hard."
+1740,0,subj_sg,The [wug] works hard.,The [wug] work hard.
+1741,0,subj_pl,The [wugs] work hard.,The [wugs] works hard.
+1742,1,subj_sg_d1_pl,The [wug] in front of the dogs works hard.,The [wug] in front of the dogs work hard.
+1743,1,subj_pl_d1_sg,The [wugs] in front of the dog work hard.,The [wugs] in front of the dog works hard.
+1744,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the dogs and next to the horses works hard.,The [wug] in front of the dogs and next to the horses work hard.
+1745,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the dog and next to the horse work hard.,The [wugs] in front of the dog and next to the horse works hard.
+1746,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] in front of the dogs, next to the horses, and past the women works hard.","The [wug] in front of the dogs, next to the horses, and past the women work hard."
+1747,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] in front of the dog, next to the horse, and past the woman work hard.","The [wugs] in front of the dog, next to the horse, and past the woman works hard."
+1748,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] in front of the dogs, next to the horses, past the women, and near the men works hard.","The [wug] in front of the dogs, next to the horses, past the women, and near the men work hard."
+1749,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] in front of the dog, next to the horse, past the woman, and near the man work hard.","The [wugs] in front of the dog, next to the horse, past the woman, and near the man works hard."
+1750,0,subj_sg,The [wug] works hard.,The [wug] work hard.
+1751,0,subj_pl,The [wugs] work hard.,The [wugs] works hard.
+1752,1,subj_sg_d1_pl,The [wug] next to the horses works hard.,The [wug] next to the horses work hard.
+1753,1,subj_pl_d1_sg,The [wugs] next to the horse work hard.,The [wugs] next to the horse works hard.
+1754,2,subj_sg_d1_pl_d2_pl,The [wug] next to the horses and past the women works hard.,The [wug] next to the horses and past the women work hard.
+1755,2,subj_pl_d1_sg_d2_sg,The [wugs] next to the horse and past the woman work hard.,The [wugs] next to the horse and past the woman works hard.
+1756,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] next to the horses, past the women, and near the men works hard.","The [wug] next to the horses, past the women, and near the men work hard."
+1757,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] next to the horse, past the woman, and near the man work hard.","The [wugs] next to the horse, past the woman, and near the man works hard."
+1758,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] next to the horses, past the women, near the men, and behind the foxes works hard.","The [wug] next to the horses, past the women, near the men, and behind the foxes work hard."
+1759,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] next to the horse, past the woman, near the man, and behind the fox work hard.","The [wugs] next to the horse, past the woman, near the man, and behind the fox works hard."
+1760,0,subj_sg,The [wug] works hard.,The [wug] work hard.
+1761,0,subj_pl,The [wugs] work hard.,The [wugs] works hard.
+1762,1,subj_sg_d1_pl,The [wug] past the women works hard.,The [wug] past the women work hard.
+1763,1,subj_pl_d1_sg,The [wugs] past the woman work hard.,The [wugs] past the woman works hard.
+1764,2,subj_sg_d1_pl_d2_pl,The [wug] past the women and near the men works hard.,The [wug] past the women and near the men work hard.
+1765,2,subj_pl_d1_sg_d2_sg,The [wugs] past the woman and near the man work hard.,The [wugs] past the woman and near the man works hard.
+1766,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] past the women, near the men, and behind the foxes works hard.","The [wug] past the women, near the men, and behind the foxes work hard."
+1767,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] past the woman, near the man, and behind the fox work hard.","The [wugs] past the woman, near the man, and behind the fox works hard."
+1768,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] past the women, near the men, behind the foxes, and under the birds works hard.","The [wug] past the women, near the men, behind the foxes, and under the birds work hard."
+1769,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] past the woman, near the man, behind the fox, and under the bird work hard.","The [wugs] past the woman, near the man, behind the fox, and under the bird works hard."
+1770,0,subj_sg,The [wug] works hard.,The [wug] work hard.
+1771,0,subj_pl,The [wugs] work hard.,The [wugs] works hard.
+1772,1,subj_sg_d1_pl,The [wug] near the men works hard.,The [wug] near the men work hard.
+1773,1,subj_pl_d1_sg,The [wugs] near the man work hard.,The [wugs] near the man works hard.
+1774,2,subj_sg_d1_pl_d2_pl,The [wug] near the men and behind the foxes works hard.,The [wug] near the men and behind the foxes work hard.
+1775,2,subj_pl_d1_sg_d2_sg,The [wugs] near the man and behind the fox work hard.,The [wugs] near the man and behind the fox works hard.
+1776,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the men, behind the foxes, and under the birds works hard.","The [wug] near the men, behind the foxes, and under the birds work hard."
+1777,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the man, behind the fox, and under the bird work hard.","The [wugs] near the man, behind the fox, and under the bird works hard."
+1778,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the men, behind the foxes, under the birds, and beside the trees works hard.","The [wug] near the men, behind the foxes, under the birds, and beside the trees work hard."
+1779,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the man, behind the fox, under the bird, and beside the tree work hard.","The [wugs] near the man, behind the fox, under the bird, and beside the tree works hard."
+1780,0,subj_sg,The [wug] works hard.,The [wug] work hard.
+1781,0,subj_pl,The [wugs] work hard.,The [wugs] works hard.
+1782,1,subj_sg_d1_pl,The [wug] behind the foxes works hard.,The [wug] behind the foxes work hard.
+1783,1,subj_pl_d1_sg,The [wugs] behind the fox work hard.,The [wugs] behind the fox works hard.
+1784,2,subj_sg_d1_pl_d2_pl,The [wug] behind the foxes and under the birds works hard.,The [wug] behind the foxes and under the birds work hard.
+1785,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the fox and under the bird work hard.,The [wugs] behind the fox and under the bird works hard.
+1786,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the foxes, under the birds, and beside the trees works hard.","The [wug] behind the foxes, under the birds, and beside the trees work hard."
+1787,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the fox, under the bird, and beside the tree work hard.","The [wugs] behind the fox, under the bird, and beside the tree works hard."
+1788,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars works hard.","The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars work hard."
+1789,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the fox, under the bird, beside the tree, and in front of the car work hard.","The [wugs] behind the fox, under the bird, beside the tree, and in front of the car works hard."
+1790,0,subj_sg,The [wug] works hard.,The [wug] work hard.
+1791,0,subj_pl,The [wugs] work hard.,The [wugs] works hard.
+1792,1,subj_sg_d1_pl,The [wug] under the birds works hard.,The [wug] under the birds work hard.
+1793,1,subj_pl_d1_sg,The [wugs] under the bird work hard.,The [wugs] under the bird works hard.
+1794,2,subj_sg_d1_pl_d2_pl,The [wug] under the birds and beside the trees works hard.,The [wug] under the birds and beside the trees work hard.
+1795,2,subj_pl_d1_sg_d2_sg,The [wugs] under the bird and beside the tree work hard.,The [wugs] under the bird and beside the tree works hard.
+1796,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the birds, beside the trees, and in front of the cars works hard.","The [wug] under the birds, beside the trees, and in front of the cars work hard."
+1797,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the bird, beside the tree, and in front of the car work hard.","The [wugs] under the bird, beside the tree, and in front of the car works hard."
+1798,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes works hard.","The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes work hard."
+1799,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the bird, beside the tree, in front of the car, and next to the box work hard.","The [wugs] under the bird, beside the tree, in front of the car, and next to the box works hard."
+1800,0,subj_sg,The [wug] listens carefully.,The [wug] listen carefully.
+1801,0,subj_pl,The [wugs] listen carefully.,The [wugs] listens carefully.
+1802,1,subj_sg_d1_pl,The [wug] near the trees listens carefully.,The [wug] near the trees listen carefully.
+1803,1,subj_pl_d1_sg,The [wugs] near the tree listen carefully.,The [wugs] near the tree listens carefully.
+1804,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars listens carefully.,The [wug] near the trees and behind the cars listen carefully.
+1805,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car listen carefully.,The [wugs] near the tree and behind the car listens carefully.
+1806,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the trees, behind the cars, and under the boxes listens carefully.","The [wug] near the trees, behind the cars, and under the boxes listen carefully."
+1807,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the tree, behind the car, and under the box listen carefully.","The [wugs] near the tree, behind the car, and under the box listens carefully."
+1808,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the trees, behind the cars, under the boxes, and beside the cats listens carefully.","The [wug] near the trees, behind the cars, under the boxes, and beside the cats listen carefully."
+1809,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the tree, behind the car, under the box, and beside the cat listen carefully.","The [wugs] near the tree, behind the car, under the box, and beside the cat listens carefully."
+1810,0,subj_sg,The [wug] listens carefully.,The [wug] listen carefully.
+1811,0,subj_pl,The [wugs] listen carefully.,The [wugs] listens carefully.
+1812,1,subj_sg_d1_pl,The [wug] behind the cars listens carefully.,The [wug] behind the cars listen carefully.
+1813,1,subj_pl_d1_sg,The [wugs] behind the car listen carefully.,The [wugs] behind the car listens carefully.
+1814,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes listens carefully.,The [wug] behind the cars and under the boxes listen carefully.
+1815,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box listen carefully.,The [wugs] behind the car and under the box listens carefully.
+1816,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the cars, under the boxes, and beside the cats listens carefully.","The [wug] behind the cars, under the boxes, and beside the cats listen carefully."
+1817,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the car, under the box, and beside the cat listen carefully.","The [wugs] behind the car, under the box, and beside the cat listens carefully."
+1818,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs listens carefully.","The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs listen carefully."
+1819,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the car, under the box, beside the cat, and in front of the dog listen carefully.","The [wugs] behind the car, under the box, beside the cat, and in front of the dog listens carefully."
+1820,0,subj_sg,The [wug] listens carefully.,The [wug] listen carefully.
+1821,0,subj_pl,The [wugs] listen carefully.,The [wugs] listens carefully.
+1822,1,subj_sg_d1_pl,The [wug] under the boxes listens carefully.,The [wug] under the boxes listen carefully.
+1823,1,subj_pl_d1_sg,The [wugs] under the box listen carefully.,The [wugs] under the box listens carefully.
+1824,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the cats listens carefully.,The [wug] under the boxes and beside the cats listen carefully.
+1825,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the cat listen carefully.,The [wugs] under the box and beside the cat listens carefully.
+1826,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the boxes, beside the cats, and in front of the dogs listens carefully.","The [wug] under the boxes, beside the cats, and in front of the dogs listen carefully."
+1827,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the box, beside the cat, and in front of the dog listen carefully.","The [wugs] under the box, beside the cat, and in front of the dog listens carefully."
+1828,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses listens carefully.","The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses listen carefully."
+1829,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the box, beside the cat, in front of the dog, and next to the horse listen carefully.","The [wugs] under the box, beside the cat, in front of the dog, and next to the horse listens carefully."
+1830,0,subj_sg,The [wug] listens carefully.,The [wug] listen carefully.
+1831,0,subj_pl,The [wugs] listen carefully.,The [wugs] listens carefully.
+1832,1,subj_sg_d1_pl,The [wug] beside the cats listens carefully.,The [wug] beside the cats listen carefully.
+1833,1,subj_pl_d1_sg,The [wugs] beside the cat listen carefully.,The [wugs] beside the cat listens carefully.
+1834,2,subj_sg_d1_pl_d2_pl,The [wug] beside the cats and in front of the dogs listens carefully.,The [wug] beside the cats and in front of the dogs listen carefully.
+1835,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the cat and in front of the dog listen carefully.,The [wugs] beside the cat and in front of the dog listens carefully.
+1836,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] beside the cats, in front of the dogs, and next to the horses listens carefully.","The [wug] beside the cats, in front of the dogs, and next to the horses listen carefully."
+1837,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] beside the cat, in front of the dog, and next to the horse listen carefully.","The [wugs] beside the cat, in front of the dog, and next to the horse listens carefully."
+1838,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] beside the cats, in front of the dogs, next to the horses, and past the women listens carefully.","The [wug] beside the cats, in front of the dogs, next to the horses, and past the women listen carefully."
+1839,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman listen carefully.","The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman listens carefully."
+1840,0,subj_sg,The [wug] listens carefully.,The [wug] listen carefully.
+1841,0,subj_pl,The [wugs] listen carefully.,The [wugs] listens carefully.
+1842,1,subj_sg_d1_pl,The [wug] in front of the dogs listens carefully.,The [wug] in front of the dogs listen carefully.
+1843,1,subj_pl_d1_sg,The [wugs] in front of the dog listen carefully.,The [wugs] in front of the dog listens carefully.
+1844,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the dogs and next to the horses listens carefully.,The [wug] in front of the dogs and next to the horses listen carefully.
+1845,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the dog and next to the horse listen carefully.,The [wugs] in front of the dog and next to the horse listens carefully.
+1846,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] in front of the dogs, next to the horses, and past the women listens carefully.","The [wug] in front of the dogs, next to the horses, and past the women listen carefully."
+1847,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] in front of the dog, next to the horse, and past the woman listen carefully.","The [wugs] in front of the dog, next to the horse, and past the woman listens carefully."
+1848,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] in front of the dogs, next to the horses, past the women, and near the men listens carefully.","The [wug] in front of the dogs, next to the horses, past the women, and near the men listen carefully."
+1849,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] in front of the dog, next to the horse, past the woman, and near the man listen carefully.","The [wugs] in front of the dog, next to the horse, past the woman, and near the man listens carefully."
+1850,0,subj_sg,The [wug] listens carefully.,The [wug] listen carefully.
+1851,0,subj_pl,The [wugs] listen carefully.,The [wugs] listens carefully.
+1852,1,subj_sg_d1_pl,The [wug] next to the horses listens carefully.,The [wug] next to the horses listen carefully.
+1853,1,subj_pl_d1_sg,The [wugs] next to the horse listen carefully.,The [wugs] next to the horse listens carefully.
+1854,2,subj_sg_d1_pl_d2_pl,The [wug] next to the horses and past the women listens carefully.,The [wug] next to the horses and past the women listen carefully.
+1855,2,subj_pl_d1_sg_d2_sg,The [wugs] next to the horse and past the woman listen carefully.,The [wugs] next to the horse and past the woman listens carefully.
+1856,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] next to the horses, past the women, and near the men listens carefully.","The [wug] next to the horses, past the women, and near the men listen carefully."
+1857,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] next to the horse, past the woman, and near the man listen carefully.","The [wugs] next to the horse, past the woman, and near the man listens carefully."
+1858,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] next to the horses, past the women, near the men, and behind the foxes listens carefully.","The [wug] next to the horses, past the women, near the men, and behind the foxes listen carefully."
+1859,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] next to the horse, past the woman, near the man, and behind the fox listen carefully.","The [wugs] next to the horse, past the woman, near the man, and behind the fox listens carefully."
+1860,0,subj_sg,The [wug] listens carefully.,The [wug] listen carefully.
+1861,0,subj_pl,The [wugs] listen carefully.,The [wugs] listens carefully.
+1862,1,subj_sg_d1_pl,The [wug] past the women listens carefully.,The [wug] past the women listen carefully.
+1863,1,subj_pl_d1_sg,The [wugs] past the woman listen carefully.,The [wugs] past the woman listens carefully.
+1864,2,subj_sg_d1_pl_d2_pl,The [wug] past the women and near the men listens carefully.,The [wug] past the women and near the men listen carefully.
+1865,2,subj_pl_d1_sg_d2_sg,The [wugs] past the woman and near the man listen carefully.,The [wugs] past the woman and near the man listens carefully.
+1866,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] past the women, near the men, and behind the foxes listens carefully.","The [wug] past the women, near the men, and behind the foxes listen carefully."
+1867,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] past the woman, near the man, and behind the fox listen carefully.","The [wugs] past the woman, near the man, and behind the fox listens carefully."
+1868,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] past the women, near the men, behind the foxes, and under the birds listens carefully.","The [wug] past the women, near the men, behind the foxes, and under the birds listen carefully."
+1869,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] past the woman, near the man, behind the fox, and under the bird listen carefully.","The [wugs] past the woman, near the man, behind the fox, and under the bird listens carefully."
+1870,0,subj_sg,The [wug] listens carefully.,The [wug] listen carefully.
+1871,0,subj_pl,The [wugs] listen carefully.,The [wugs] listens carefully.
+1872,1,subj_sg_d1_pl,The [wug] near the men listens carefully.,The [wug] near the men listen carefully.
+1873,1,subj_pl_d1_sg,The [wugs] near the man listen carefully.,The [wugs] near the man listens carefully.
+1874,2,subj_sg_d1_pl_d2_pl,The [wug] near the men and behind the foxes listens carefully.,The [wug] near the men and behind the foxes listen carefully.
+1875,2,subj_pl_d1_sg_d2_sg,The [wugs] near the man and behind the fox listen carefully.,The [wugs] near the man and behind the fox listens carefully.
+1876,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the men, behind the foxes, and under the birds listens carefully.","The [wug] near the men, behind the foxes, and under the birds listen carefully."
+1877,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the man, behind the fox, and under the bird listen carefully.","The [wugs] near the man, behind the fox, and under the bird listens carefully."
+1878,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the men, behind the foxes, under the birds, and beside the trees listens carefully.","The [wug] near the men, behind the foxes, under the birds, and beside the trees listen carefully."
+1879,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the man, behind the fox, under the bird, and beside the tree listen carefully.","The [wugs] near the man, behind the fox, under the bird, and beside the tree listens carefully."
+1880,0,subj_sg,The [wug] listens carefully.,The [wug] listen carefully.
+1881,0,subj_pl,The [wugs] listen carefully.,The [wugs] listens carefully.
+1882,1,subj_sg_d1_pl,The [wug] behind the foxes listens carefully.,The [wug] behind the foxes listen carefully.
+1883,1,subj_pl_d1_sg,The [wugs] behind the fox listen carefully.,The [wugs] behind the fox listens carefully.
+1884,2,subj_sg_d1_pl_d2_pl,The [wug] behind the foxes and under the birds listens carefully.,The [wug] behind the foxes and under the birds listen carefully.
+1885,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the fox and under the bird listen carefully.,The [wugs] behind the fox and under the bird listens carefully.
+1886,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the foxes, under the birds, and beside the trees listens carefully.","The [wug] behind the foxes, under the birds, and beside the trees listen carefully."
+1887,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the fox, under the bird, and beside the tree listen carefully.","The [wugs] behind the fox, under the bird, and beside the tree listens carefully."
+1888,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars listens carefully.","The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars listen carefully."
+1889,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the fox, under the bird, beside the tree, and in front of the car listen carefully.","The [wugs] behind the fox, under the bird, beside the tree, and in front of the car listens carefully."
+1890,0,subj_sg,The [wug] listens carefully.,The [wug] listen carefully.
+1891,0,subj_pl,The [wugs] listen carefully.,The [wugs] listens carefully.
+1892,1,subj_sg_d1_pl,The [wug] under the birds listens carefully.,The [wug] under the birds listen carefully.
+1893,1,subj_pl_d1_sg,The [wugs] under the bird listen carefully.,The [wugs] under the bird listens carefully.
+1894,2,subj_sg_d1_pl_d2_pl,The [wug] under the birds and beside the trees listens carefully.,The [wug] under the birds and beside the trees listen carefully.
+1895,2,subj_pl_d1_sg_d2_sg,The [wugs] under the bird and beside the tree listen carefully.,The [wugs] under the bird and beside the tree listens carefully.
+1896,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the birds, beside the trees, and in front of the cars listens carefully.","The [wug] under the birds, beside the trees, and in front of the cars listen carefully."
+1897,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the bird, beside the tree, and in front of the car listen carefully.","The [wugs] under the bird, beside the tree, and in front of the car listens carefully."
+1898,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes listens carefully.","The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes listen carefully."
+1899,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the bird, beside the tree, in front of the car, and next to the box listen carefully.","The [wugs] under the bird, beside the tree, in front of the car, and next to the box listens carefully."
+1900,0,subj_sg,The [wug] watches closely.,The [wug] watch closely.
+1901,0,subj_pl,The [wugs] watch closely.,The [wugs] watches closely.
+1902,1,subj_sg_d1_pl,The [wug] near the trees watches closely.,The [wug] near the trees watch closely.
+1903,1,subj_pl_d1_sg,The [wugs] near the tree watch closely.,The [wugs] near the tree watches closely.
+1904,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars watches closely.,The [wug] near the trees and behind the cars watch closely.
+1905,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car watch closely.,The [wugs] near the tree and behind the car watches closely.
+1906,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the trees, behind the cars, and under the boxes watches closely.","The [wug] near the trees, behind the cars, and under the boxes watch closely."
+1907,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the tree, behind the car, and under the box watch closely.","The [wugs] near the tree, behind the car, and under the box watches closely."
+1908,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the trees, behind the cars, under the boxes, and beside the cats watches closely.","The [wug] near the trees, behind the cars, under the boxes, and beside the cats watch closely."
+1909,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the tree, behind the car, under the box, and beside the cat watch closely.","The [wugs] near the tree, behind the car, under the box, and beside the cat watches closely."
+1910,0,subj_sg,The [wug] watches closely.,The [wug] watch closely.
+1911,0,subj_pl,The [wugs] watch closely.,The [wugs] watches closely.
+1912,1,subj_sg_d1_pl,The [wug] behind the cars watches closely.,The [wug] behind the cars watch closely.
+1913,1,subj_pl_d1_sg,The [wugs] behind the car watch closely.,The [wugs] behind the car watches closely.
+1914,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes watches closely.,The [wug] behind the cars and under the boxes watch closely.
+1915,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box watch closely.,The [wugs] behind the car and under the box watches closely.
+1916,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the cars, under the boxes, and beside the cats watches closely.","The [wug] behind the cars, under the boxes, and beside the cats watch closely."
+1917,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the car, under the box, and beside the cat watch closely.","The [wugs] behind the car, under the box, and beside the cat watches closely."
+1918,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs watches closely.","The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs watch closely."
+1919,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the car, under the box, beside the cat, and in front of the dog watch closely.","The [wugs] behind the car, under the box, beside the cat, and in front of the dog watches closely."
+1920,0,subj_sg,The [wug] watches closely.,The [wug] watch closely.
+1921,0,subj_pl,The [wugs] watch closely.,The [wugs] watches closely.
+1922,1,subj_sg_d1_pl,The [wug] under the boxes watches closely.,The [wug] under the boxes watch closely.
+1923,1,subj_pl_d1_sg,The [wugs] under the box watch closely.,The [wugs] under the box watches closely.
+1924,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the cats watches closely.,The [wug] under the boxes and beside the cats watch closely.
+1925,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the cat watch closely.,The [wugs] under the box and beside the cat watches closely.
+1926,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the boxes, beside the cats, and in front of the dogs watches closely.","The [wug] under the boxes, beside the cats, and in front of the dogs watch closely."
+1927,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the box, beside the cat, and in front of the dog watch closely.","The [wugs] under the box, beside the cat, and in front of the dog watches closely."
+1928,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses watches closely.","The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses watch closely."
+1929,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the box, beside the cat, in front of the dog, and next to the horse watch closely.","The [wugs] under the box, beside the cat, in front of the dog, and next to the horse watches closely."
+1930,0,subj_sg,The [wug] watches closely.,The [wug] watch closely.
+1931,0,subj_pl,The [wugs] watch closely.,The [wugs] watches closely.
+1932,1,subj_sg_d1_pl,The [wug] beside the cats watches closely.,The [wug] beside the cats watch closely.
+1933,1,subj_pl_d1_sg,The [wugs] beside the cat watch closely.,The [wugs] beside the cat watches closely.
+1934,2,subj_sg_d1_pl_d2_pl,The [wug] beside the cats and in front of the dogs watches closely.,The [wug] beside the cats and in front of the dogs watch closely.
+1935,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the cat and in front of the dog watch closely.,The [wugs] beside the cat and in front of the dog watches closely.
+1936,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] beside the cats, in front of the dogs, and next to the horses watches closely.","The [wug] beside the cats, in front of the dogs, and next to the horses watch closely."
+1937,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] beside the cat, in front of the dog, and next to the horse watch closely.","The [wugs] beside the cat, in front of the dog, and next to the horse watches closely."
+1938,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] beside the cats, in front of the dogs, next to the horses, and past the women watches closely.","The [wug] beside the cats, in front of the dogs, next to the horses, and past the women watch closely."
+1939,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman watch closely.","The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman watches closely."
+1940,0,subj_sg,The [wug] watches closely.,The [wug] watch closely.
+1941,0,subj_pl,The [wugs] watch closely.,The [wugs] watches closely.
+1942,1,subj_sg_d1_pl,The [wug] in front of the dogs watches closely.,The [wug] in front of the dogs watch closely.
+1943,1,subj_pl_d1_sg,The [wugs] in front of the dog watch closely.,The [wugs] in front of the dog watches closely.
+1944,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the dogs and next to the horses watches closely.,The [wug] in front of the dogs and next to the horses watch closely.
+1945,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the dog and next to the horse watch closely.,The [wugs] in front of the dog and next to the horse watches closely.
+1946,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] in front of the dogs, next to the horses, and past the women watches closely.","The [wug] in front of the dogs, next to the horses, and past the women watch closely."
+1947,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] in front of the dog, next to the horse, and past the woman watch closely.","The [wugs] in front of the dog, next to the horse, and past the woman watches closely."
+1948,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] in front of the dogs, next to the horses, past the women, and near the men watches closely.","The [wug] in front of the dogs, next to the horses, past the women, and near the men watch closely."
+1949,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] in front of the dog, next to the horse, past the woman, and near the man watch closely.","The [wugs] in front of the dog, next to the horse, past the woman, and near the man watches closely."
+1950,0,subj_sg,The [wug] watches closely.,The [wug] watch closely.
+1951,0,subj_pl,The [wugs] watch closely.,The [wugs] watches closely.
+1952,1,subj_sg_d1_pl,The [wug] next to the horses watches closely.,The [wug] next to the horses watch closely.
+1953,1,subj_pl_d1_sg,The [wugs] next to the horse watch closely.,The [wugs] next to the horse watches closely.
+1954,2,subj_sg_d1_pl_d2_pl,The [wug] next to the horses and past the women watches closely.,The [wug] next to the horses and past the women watch closely.
+1955,2,subj_pl_d1_sg_d2_sg,The [wugs] next to the horse and past the woman watch closely.,The [wugs] next to the horse and past the woman watches closely.
+1956,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] next to the horses, past the women, and near the men watches closely.","The [wug] next to the horses, past the women, and near the men watch closely."
+1957,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] next to the horse, past the woman, and near the man watch closely.","The [wugs] next to the horse, past the woman, and near the man watches closely."
+1958,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] next to the horses, past the women, near the men, and behind the foxes watches closely.","The [wug] next to the horses, past the women, near the men, and behind the foxes watch closely."
+1959,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] next to the horse, past the woman, near the man, and behind the fox watch closely.","The [wugs] next to the horse, past the woman, near the man, and behind the fox watches closely."
+1960,0,subj_sg,The [wug] watches closely.,The [wug] watch closely.
+1961,0,subj_pl,The [wugs] watch closely.,The [wugs] watches closely.
+1962,1,subj_sg_d1_pl,The [wug] past the women watches closely.,The [wug] past the women watch closely.
+1963,1,subj_pl_d1_sg,The [wugs] past the woman watch closely.,The [wugs] past the woman watches closely.
+1964,2,subj_sg_d1_pl_d2_pl,The [wug] past the women and near the men watches closely.,The [wug] past the women and near the men watch closely.
+1965,2,subj_pl_d1_sg_d2_sg,The [wugs] past the woman and near the man watch closely.,The [wugs] past the woman and near the man watches closely.
+1966,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] past the women, near the men, and behind the foxes watches closely.","The [wug] past the women, near the men, and behind the foxes watch closely."
+1967,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] past the woman, near the man, and behind the fox watch closely.","The [wugs] past the woman, near the man, and behind the fox watches closely."
+1968,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] past the women, near the men, behind the foxes, and under the birds watches closely.","The [wug] past the women, near the men, behind the foxes, and under the birds watch closely."
+1969,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] past the woman, near the man, behind the fox, and under the bird watch closely.","The [wugs] past the woman, near the man, behind the fox, and under the bird watches closely."
+1970,0,subj_sg,The [wug] watches closely.,The [wug] watch closely.
+1971,0,subj_pl,The [wugs] watch closely.,The [wugs] watches closely.
+1972,1,subj_sg_d1_pl,The [wug] near the men watches closely.,The [wug] near the men watch closely.
+1973,1,subj_pl_d1_sg,The [wugs] near the man watch closely.,The [wugs] near the man watches closely.
+1974,2,subj_sg_d1_pl_d2_pl,The [wug] near the men and behind the foxes watches closely.,The [wug] near the men and behind the foxes watch closely.
+1975,2,subj_pl_d1_sg_d2_sg,The [wugs] near the man and behind the fox watch closely.,The [wugs] near the man and behind the fox watches closely.
+1976,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the men, behind the foxes, and under the birds watches closely.","The [wug] near the men, behind the foxes, and under the birds watch closely."
+1977,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the man, behind the fox, and under the bird watch closely.","The [wugs] near the man, behind the fox, and under the bird watches closely."
+1978,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the men, behind the foxes, under the birds, and beside the trees watches closely.","The [wug] near the men, behind the foxes, under the birds, and beside the trees watch closely."
+1979,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the man, behind the fox, under the bird, and beside the tree watch closely.","The [wugs] near the man, behind the fox, under the bird, and beside the tree watches closely."
+1980,0,subj_sg,The [wug] watches closely.,The [wug] watch closely.
+1981,0,subj_pl,The [wugs] watch closely.,The [wugs] watches closely.
+1982,1,subj_sg_d1_pl,The [wug] behind the foxes watches closely.,The [wug] behind the foxes watch closely.
+1983,1,subj_pl_d1_sg,The [wugs] behind the fox watch closely.,The [wugs] behind the fox watches closely.
+1984,2,subj_sg_d1_pl_d2_pl,The [wug] behind the foxes and under the birds watches closely.,The [wug] behind the foxes and under the birds watch closely.
+1985,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the fox and under the bird watch closely.,The [wugs] behind the fox and under the bird watches closely.
+1986,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the foxes, under the birds, and beside the trees watches closely.","The [wug] behind the foxes, under the birds, and beside the trees watch closely."
+1987,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the fox, under the bird, and beside the tree watch closely.","The [wugs] behind the fox, under the bird, and beside the tree watches closely."
+1988,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars watches closely.","The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars watch closely."
+1989,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the fox, under the bird, beside the tree, and in front of the car watch closely.","The [wugs] behind the fox, under the bird, beside the tree, and in front of the car watches closely."
+1990,0,subj_sg,The [wug] watches closely.,The [wug] watch closely.
+1991,0,subj_pl,The [wugs] watch closely.,The [wugs] watches closely.
+1992,1,subj_sg_d1_pl,The [wug] under the birds watches closely.,The [wug] under the birds watch closely.
+1993,1,subj_pl_d1_sg,The [wugs] under the bird watch closely.,The [wugs] under the bird watches closely.
+1994,2,subj_sg_d1_pl_d2_pl,The [wug] under the birds and beside the trees watches closely.,The [wug] under the birds and beside the trees watch closely.
+1995,2,subj_pl_d1_sg_d2_sg,The [wugs] under the bird and beside the tree watch closely.,The [wugs] under the bird and beside the tree watches closely.
+1996,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the birds, beside the trees, and in front of the cars watches closely.","The [wug] under the birds, beside the trees, and in front of the cars watch closely."
+1997,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the bird, beside the tree, and in front of the car watch closely.","The [wugs] under the bird, beside the tree, and in front of the car watches closely."
+1998,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes watches closely.","The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes watch closely."
+1999,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the bird, beside the tree, in front of the car, and next to the box watch closely.","The [wugs] under the bird, beside the tree, in front of the car, and next to the box watches closely."
+2000,0,subj_sg,The [wug] waits patiently.,The [wug] wait patiently.
+2001,0,subj_pl,The [wugs] wait patiently.,The [wugs] waits patiently.
+2002,1,subj_sg_d1_pl,The [wug] near the trees waits patiently.,The [wug] near the trees wait patiently.
+2003,1,subj_pl_d1_sg,The [wugs] near the tree wait patiently.,The [wugs] near the tree waits patiently.
+2004,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars waits patiently.,The [wug] near the trees and behind the cars wait patiently.
+2005,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car wait patiently.,The [wugs] near the tree and behind the car waits patiently.
+2006,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the trees, behind the cars, and under the boxes waits patiently.","The [wug] near the trees, behind the cars, and under the boxes wait patiently."
+2007,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the tree, behind the car, and under the box wait patiently.","The [wugs] near the tree, behind the car, and under the box waits patiently."
+2008,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the trees, behind the cars, under the boxes, and beside the cats waits patiently.","The [wug] near the trees, behind the cars, under the boxes, and beside the cats wait patiently."
+2009,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the tree, behind the car, under the box, and beside the cat wait patiently.","The [wugs] near the tree, behind the car, under the box, and beside the cat waits patiently."
+2010,0,subj_sg,The [wug] waits patiently.,The [wug] wait patiently.
+2011,0,subj_pl,The [wugs] wait patiently.,The [wugs] waits patiently.
+2012,1,subj_sg_d1_pl,The [wug] behind the cars waits patiently.,The [wug] behind the cars wait patiently.
+2013,1,subj_pl_d1_sg,The [wugs] behind the car wait patiently.,The [wugs] behind the car waits patiently.
+2014,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes waits patiently.,The [wug] behind the cars and under the boxes wait patiently.
+2015,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box wait patiently.,The [wugs] behind the car and under the box waits patiently.
+2016,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the cars, under the boxes, and beside the cats waits patiently.","The [wug] behind the cars, under the boxes, and beside the cats wait patiently."
+2017,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the car, under the box, and beside the cat wait patiently.","The [wugs] behind the car, under the box, and beside the cat waits patiently."
+2018,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs waits patiently.","The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs wait patiently."
+2019,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the car, under the box, beside the cat, and in front of the dog wait patiently.","The [wugs] behind the car, under the box, beside the cat, and in front of the dog waits patiently."
+2020,0,subj_sg,The [wug] waits patiently.,The [wug] wait patiently.
+2021,0,subj_pl,The [wugs] wait patiently.,The [wugs] waits patiently.
+2022,1,subj_sg_d1_pl,The [wug] under the boxes waits patiently.,The [wug] under the boxes wait patiently.
+2023,1,subj_pl_d1_sg,The [wugs] under the box wait patiently.,The [wugs] under the box waits patiently.
+2024,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the cats waits patiently.,The [wug] under the boxes and beside the cats wait patiently.
+2025,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the cat wait patiently.,The [wugs] under the box and beside the cat waits patiently.
+2026,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the boxes, beside the cats, and in front of the dogs waits patiently.","The [wug] under the boxes, beside the cats, and in front of the dogs wait patiently."
+2027,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the box, beside the cat, and in front of the dog wait patiently.","The [wugs] under the box, beside the cat, and in front of the dog waits patiently."
+2028,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses waits patiently.","The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses wait patiently."
+2029,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the box, beside the cat, in front of the dog, and next to the horse wait patiently.","The [wugs] under the box, beside the cat, in front of the dog, and next to the horse waits patiently."
+2030,0,subj_sg,The [wug] waits patiently.,The [wug] wait patiently.
+2031,0,subj_pl,The [wugs] wait patiently.,The [wugs] waits patiently.
+2032,1,subj_sg_d1_pl,The [wug] beside the cats waits patiently.,The [wug] beside the cats wait patiently.
+2033,1,subj_pl_d1_sg,The [wugs] beside the cat wait patiently.,The [wugs] beside the cat waits patiently.
+2034,2,subj_sg_d1_pl_d2_pl,The [wug] beside the cats and in front of the dogs waits patiently.,The [wug] beside the cats and in front of the dogs wait patiently.
+2035,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the cat and in front of the dog wait patiently.,The [wugs] beside the cat and in front of the dog waits patiently.
+2036,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] beside the cats, in front of the dogs, and next to the horses waits patiently.","The [wug] beside the cats, in front of the dogs, and next to the horses wait patiently."
+2037,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] beside the cat, in front of the dog, and next to the horse wait patiently.","The [wugs] beside the cat, in front of the dog, and next to the horse waits patiently."
+2038,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] beside the cats, in front of the dogs, next to the horses, and past the women waits patiently.","The [wug] beside the cats, in front of the dogs, next to the horses, and past the women wait patiently."
+2039,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman wait patiently.","The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman waits patiently."
+2040,0,subj_sg,The [wug] waits patiently.,The [wug] wait patiently.
+2041,0,subj_pl,The [wugs] wait patiently.,The [wugs] waits patiently.
+2042,1,subj_sg_d1_pl,The [wug] in front of the dogs waits patiently.,The [wug] in front of the dogs wait patiently.
+2043,1,subj_pl_d1_sg,The [wugs] in front of the dog wait patiently.,The [wugs] in front of the dog waits patiently.
+2044,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the dogs and next to the horses waits patiently.,The [wug] in front of the dogs and next to the horses wait patiently.
+2045,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the dog and next to the horse wait patiently.,The [wugs] in front of the dog and next to the horse waits patiently.
+2046,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] in front of the dogs, next to the horses, and past the women waits patiently.","The [wug] in front of the dogs, next to the horses, and past the women wait patiently."
+2047,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] in front of the dog, next to the horse, and past the woman wait patiently.","The [wugs] in front of the dog, next to the horse, and past the woman waits patiently."
+2048,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] in front of the dogs, next to the horses, past the women, and near the men waits patiently.","The [wug] in front of the dogs, next to the horses, past the women, and near the men wait patiently."
+2049,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] in front of the dog, next to the horse, past the woman, and near the man wait patiently.","The [wugs] in front of the dog, next to the horse, past the woman, and near the man waits patiently."
+2050,0,subj_sg,The [wug] waits patiently.,The [wug] wait patiently.
+2051,0,subj_pl,The [wugs] wait patiently.,The [wugs] waits patiently.
+2052,1,subj_sg_d1_pl,The [wug] next to the horses waits patiently.,The [wug] next to the horses wait patiently.
+2053,1,subj_pl_d1_sg,The [wugs] next to the horse wait patiently.,The [wugs] next to the horse waits patiently.
+2054,2,subj_sg_d1_pl_d2_pl,The [wug] next to the horses and past the women waits patiently.,The [wug] next to the horses and past the women wait patiently.
+2055,2,subj_pl_d1_sg_d2_sg,The [wugs] next to the horse and past the woman wait patiently.,The [wugs] next to the horse and past the woman waits patiently.
+2056,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] next to the horses, past the women, and near the men waits patiently.","The [wug] next to the horses, past the women, and near the men wait patiently."
+2057,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] next to the horse, past the woman, and near the man wait patiently.","The [wugs] next to the horse, past the woman, and near the man waits patiently."
+2058,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] next to the horses, past the women, near the men, and behind the foxes waits patiently.","The [wug] next to the horses, past the women, near the men, and behind the foxes wait patiently."
+2059,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] next to the horse, past the woman, near the man, and behind the fox wait patiently.","The [wugs] next to the horse, past the woman, near the man, and behind the fox waits patiently."
+2060,0,subj_sg,The [wug] waits patiently.,The [wug] wait patiently.
+2061,0,subj_pl,The [wugs] wait patiently.,The [wugs] waits patiently.
+2062,1,subj_sg_d1_pl,The [wug] past the women waits patiently.,The [wug] past the women wait patiently.
+2063,1,subj_pl_d1_sg,The [wugs] past the woman wait patiently.,The [wugs] past the woman waits patiently.
+2064,2,subj_sg_d1_pl_d2_pl,The [wug] past the women and near the men waits patiently.,The [wug] past the women and near the men wait patiently.
+2065,2,subj_pl_d1_sg_d2_sg,The [wugs] past the woman and near the man wait patiently.,The [wugs] past the woman and near the man waits patiently.
+2066,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] past the women, near the men, and behind the foxes waits patiently.","The [wug] past the women, near the men, and behind the foxes wait patiently."
+2067,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] past the woman, near the man, and behind the fox wait patiently.","The [wugs] past the woman, near the man, and behind the fox waits patiently."
+2068,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] past the women, near the men, behind the foxes, and under the birds waits patiently.","The [wug] past the women, near the men, behind the foxes, and under the birds wait patiently."
+2069,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] past the woman, near the man, behind the fox, and under the bird wait patiently.","The [wugs] past the woman, near the man, behind the fox, and under the bird waits patiently."
+2070,0,subj_sg,The [wug] waits patiently.,The [wug] wait patiently.
+2071,0,subj_pl,The [wugs] wait patiently.,The [wugs] waits patiently.
+2072,1,subj_sg_d1_pl,The [wug] near the men waits patiently.,The [wug] near the men wait patiently.
+2073,1,subj_pl_d1_sg,The [wugs] near the man wait patiently.,The [wugs] near the man waits patiently.
+2074,2,subj_sg_d1_pl_d2_pl,The [wug] near the men and behind the foxes waits patiently.,The [wug] near the men and behind the foxes wait patiently.
+2075,2,subj_pl_d1_sg_d2_sg,The [wugs] near the man and behind the fox wait patiently.,The [wugs] near the man and behind the fox waits patiently.
+2076,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the men, behind the foxes, and under the birds waits patiently.","The [wug] near the men, behind the foxes, and under the birds wait patiently."
+2077,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the man, behind the fox, and under the bird wait patiently.","The [wugs] near the man, behind the fox, and under the bird waits patiently."
+2078,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the men, behind the foxes, under the birds, and beside the trees waits patiently.","The [wug] near the men, behind the foxes, under the birds, and beside the trees wait patiently."
+2079,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the man, behind the fox, under the bird, and beside the tree wait patiently.","The [wugs] near the man, behind the fox, under the bird, and beside the tree waits patiently."
+2080,0,subj_sg,The [wug] waits patiently.,The [wug] wait patiently.
+2081,0,subj_pl,The [wugs] wait patiently.,The [wugs] waits patiently.
+2082,1,subj_sg_d1_pl,The [wug] behind the foxes waits patiently.,The [wug] behind the foxes wait patiently.
+2083,1,subj_pl_d1_sg,The [wugs] behind the fox wait patiently.,The [wugs] behind the fox waits patiently.
+2084,2,subj_sg_d1_pl_d2_pl,The [wug] behind the foxes and under the birds waits patiently.,The [wug] behind the foxes and under the birds wait patiently.
+2085,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the fox and under the bird wait patiently.,The [wugs] behind the fox and under the bird waits patiently.
+2086,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the foxes, under the birds, and beside the trees waits patiently.","The [wug] behind the foxes, under the birds, and beside the trees wait patiently."
+2087,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the fox, under the bird, and beside the tree wait patiently.","The [wugs] behind the fox, under the bird, and beside the tree waits patiently."
+2088,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars waits patiently.","The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars wait patiently."
+2089,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the fox, under the bird, beside the tree, and in front of the car wait patiently.","The [wugs] behind the fox, under the bird, beside the tree, and in front of the car waits patiently."
+2090,0,subj_sg,The [wug] waits patiently.,The [wug] wait patiently.
+2091,0,subj_pl,The [wugs] wait patiently.,The [wugs] waits patiently.
+2092,1,subj_sg_d1_pl,The [wug] under the birds waits patiently.,The [wug] under the birds wait patiently.
+2093,1,subj_pl_d1_sg,The [wugs] under the bird wait patiently.,The [wugs] under the bird waits patiently.
+2094,2,subj_sg_d1_pl_d2_pl,The [wug] under the birds and beside the trees waits patiently.,The [wug] under the birds and beside the trees wait patiently.
+2095,2,subj_pl_d1_sg_d2_sg,The [wugs] under the bird and beside the tree wait patiently.,The [wugs] under the bird and beside the tree waits patiently.
+2096,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the birds, beside the trees, and in front of the cars waits patiently.","The [wug] under the birds, beside the trees, and in front of the cars wait patiently."
+2097,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the bird, beside the tree, and in front of the car wait patiently.","The [wugs] under the bird, beside the tree, and in front of the car waits patiently."
+2098,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes waits patiently.","The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes wait patiently."
+2099,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the bird, beside the tree, in front of the car, and next to the box wait patiently.","The [wugs] under the bird, beside the tree, in front of the car, and next to the box waits patiently."
+2100,0,subj_sg,The [wug] helps frequently.,The [wug] help frequently.
+2101,0,subj_pl,The [wugs] help frequently.,The [wugs] helps frequently.
+2102,1,subj_sg_d1_pl,The [wug] near the trees helps frequently.,The [wug] near the trees help frequently.
+2103,1,subj_pl_d1_sg,The [wugs] near the tree help frequently.,The [wugs] near the tree helps frequently.
+2104,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars helps frequently.,The [wug] near the trees and behind the cars help frequently.
+2105,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car help frequently.,The [wugs] near the tree and behind the car helps frequently.
+2106,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the trees, behind the cars, and under the boxes helps frequently.","The [wug] near the trees, behind the cars, and under the boxes help frequently."
+2107,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the tree, behind the car, and under the box help frequently.","The [wugs] near the tree, behind the car, and under the box helps frequently."
+2108,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the trees, behind the cars, under the boxes, and beside the cats helps frequently.","The [wug] near the trees, behind the cars, under the boxes, and beside the cats help frequently."
+2109,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the tree, behind the car, under the box, and beside the cat help frequently.","The [wugs] near the tree, behind the car, under the box, and beside the cat helps frequently."
+2110,0,subj_sg,The [wug] helps frequently.,The [wug] help frequently.
+2111,0,subj_pl,The [wugs] help frequently.,The [wugs] helps frequently.
+2112,1,subj_sg_d1_pl,The [wug] behind the cars helps frequently.,The [wug] behind the cars help frequently.
+2113,1,subj_pl_d1_sg,The [wugs] behind the car help frequently.,The [wugs] behind the car helps frequently.
+2114,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes helps frequently.,The [wug] behind the cars and under the boxes help frequently.
+2115,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box help frequently.,The [wugs] behind the car and under the box helps frequently.
+2116,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the cars, under the boxes, and beside the cats helps frequently.","The [wug] behind the cars, under the boxes, and beside the cats help frequently."
+2117,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the car, under the box, and beside the cat help frequently.","The [wugs] behind the car, under the box, and beside the cat helps frequently."
+2118,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs helps frequently.","The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs help frequently."
+2119,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the car, under the box, beside the cat, and in front of the dog help frequently.","The [wugs] behind the car, under the box, beside the cat, and in front of the dog helps frequently."
+2120,0,subj_sg,The [wug] helps frequently.,The [wug] help frequently.
+2121,0,subj_pl,The [wugs] help frequently.,The [wugs] helps frequently.
+2122,1,subj_sg_d1_pl,The [wug] under the boxes helps frequently.,The [wug] under the boxes help frequently.
+2123,1,subj_pl_d1_sg,The [wugs] under the box help frequently.,The [wugs] under the box helps frequently.
+2124,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the cats helps frequently.,The [wug] under the boxes and beside the cats help frequently.
+2125,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the cat help frequently.,The [wugs] under the box and beside the cat helps frequently.
+2126,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the boxes, beside the cats, and in front of the dogs helps frequently.","The [wug] under the boxes, beside the cats, and in front of the dogs help frequently."
+2127,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the box, beside the cat, and in front of the dog help frequently.","The [wugs] under the box, beside the cat, and in front of the dog helps frequently."
+2128,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses helps frequently.","The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses help frequently."
+2129,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the box, beside the cat, in front of the dog, and next to the horse help frequently.","The [wugs] under the box, beside the cat, in front of the dog, and next to the horse helps frequently."
+2130,0,subj_sg,The [wug] helps frequently.,The [wug] help frequently.
+2131,0,subj_pl,The [wugs] help frequently.,The [wugs] helps frequently.
+2132,1,subj_sg_d1_pl,The [wug] beside the cats helps frequently.,The [wug] beside the cats help frequently.
+2133,1,subj_pl_d1_sg,The [wugs] beside the cat help frequently.,The [wugs] beside the cat helps frequently.
+2134,2,subj_sg_d1_pl_d2_pl,The [wug] beside the cats and in front of the dogs helps frequently.,The [wug] beside the cats and in front of the dogs help frequently.
+2135,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the cat and in front of the dog help frequently.,The [wugs] beside the cat and in front of the dog helps frequently.
+2136,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] beside the cats, in front of the dogs, and next to the horses helps frequently.","The [wug] beside the cats, in front of the dogs, and next to the horses help frequently."
+2137,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] beside the cat, in front of the dog, and next to the horse help frequently.","The [wugs] beside the cat, in front of the dog, and next to the horse helps frequently."
+2138,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] beside the cats, in front of the dogs, next to the horses, and past the women helps frequently.","The [wug] beside the cats, in front of the dogs, next to the horses, and past the women help frequently."
+2139,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman help frequently.","The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman helps frequently."
+2140,0,subj_sg,The [wug] helps frequently.,The [wug] help frequently.
+2141,0,subj_pl,The [wugs] help frequently.,The [wugs] helps frequently.
+2142,1,subj_sg_d1_pl,The [wug] in front of the dogs helps frequently.,The [wug] in front of the dogs help frequently.
+2143,1,subj_pl_d1_sg,The [wugs] in front of the dog help frequently.,The [wugs] in front of the dog helps frequently.
+2144,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the dogs and next to the horses helps frequently.,The [wug] in front of the dogs and next to the horses help frequently.
+2145,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the dog and next to the horse help frequently.,The [wugs] in front of the dog and next to the horse helps frequently.
+2146,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] in front of the dogs, next to the horses, and past the women helps frequently.","The [wug] in front of the dogs, next to the horses, and past the women help frequently."
+2147,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] in front of the dog, next to the horse, and past the woman help frequently.","The [wugs] in front of the dog, next to the horse, and past the woman helps frequently."
+2148,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] in front of the dogs, next to the horses, past the women, and near the men helps frequently.","The [wug] in front of the dogs, next to the horses, past the women, and near the men help frequently."
+2149,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] in front of the dog, next to the horse, past the woman, and near the man help frequently.","The [wugs] in front of the dog, next to the horse, past the woman, and near the man helps frequently."
+2150,0,subj_sg,The [wug] helps frequently.,The [wug] help frequently.
+2151,0,subj_pl,The [wugs] help frequently.,The [wugs] helps frequently.
+2152,1,subj_sg_d1_pl,The [wug] next to the horses helps frequently.,The [wug] next to the horses help frequently.
+2153,1,subj_pl_d1_sg,The [wugs] next to the horse help frequently.,The [wugs] next to the horse helps frequently.
+2154,2,subj_sg_d1_pl_d2_pl,The [wug] next to the horses and past the women helps frequently.,The [wug] next to the horses and past the women help frequently.
+2155,2,subj_pl_d1_sg_d2_sg,The [wugs] next to the horse and past the woman help frequently.,The [wugs] next to the horse and past the woman helps frequently.
+2156,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] next to the horses, past the women, and near the men helps frequently.","The [wug] next to the horses, past the women, and near the men help frequently."
+2157,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] next to the horse, past the woman, and near the man help frequently.","The [wugs] next to the horse, past the woman, and near the man helps frequently."
+2158,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] next to the horses, past the women, near the men, and behind the foxes helps frequently.","The [wug] next to the horses, past the women, near the men, and behind the foxes help frequently."
+2159,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] next to the horse, past the woman, near the man, and behind the fox help frequently.","The [wugs] next to the horse, past the woman, near the man, and behind the fox helps frequently."
+2160,0,subj_sg,The [wug] helps frequently.,The [wug] help frequently.
+2161,0,subj_pl,The [wugs] help frequently.,The [wugs] helps frequently.
+2162,1,subj_sg_d1_pl,The [wug] past the women helps frequently.,The [wug] past the women help frequently.
+2163,1,subj_pl_d1_sg,The [wugs] past the woman help frequently.,The [wugs] past the woman helps frequently.
+2164,2,subj_sg_d1_pl_d2_pl,The [wug] past the women and near the men helps frequently.,The [wug] past the women and near the men help frequently.
+2165,2,subj_pl_d1_sg_d2_sg,The [wugs] past the woman and near the man help frequently.,The [wugs] past the woman and near the man helps frequently.
+2166,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] past the women, near the men, and behind the foxes helps frequently.","The [wug] past the women, near the men, and behind the foxes help frequently."
+2167,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] past the woman, near the man, and behind the fox help frequently.","The [wugs] past the woman, near the man, and behind the fox helps frequently."
+2168,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] past the women, near the men, behind the foxes, and under the birds helps frequently.","The [wug] past the women, near the men, behind the foxes, and under the birds help frequently."
+2169,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] past the woman, near the man, behind the fox, and under the bird help frequently.","The [wugs] past the woman, near the man, behind the fox, and under the bird helps frequently."
+2170,0,subj_sg,The [wug] helps frequently.,The [wug] help frequently.
+2171,0,subj_pl,The [wugs] help frequently.,The [wugs] helps frequently.
+2172,1,subj_sg_d1_pl,The [wug] near the men helps frequently.,The [wug] near the men help frequently.
+2173,1,subj_pl_d1_sg,The [wugs] near the man help frequently.,The [wugs] near the man helps frequently.
+2174,2,subj_sg_d1_pl_d2_pl,The [wug] near the men and behind the foxes helps frequently.,The [wug] near the men and behind the foxes help frequently.
+2175,2,subj_pl_d1_sg_d2_sg,The [wugs] near the man and behind the fox help frequently.,The [wugs] near the man and behind the fox helps frequently.
+2176,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the men, behind the foxes, and under the birds helps frequently.","The [wug] near the men, behind the foxes, and under the birds help frequently."
+2177,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the man, behind the fox, and under the bird help frequently.","The [wugs] near the man, behind the fox, and under the bird helps frequently."
+2178,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the men, behind the foxes, under the birds, and beside the trees helps frequently.","The [wug] near the men, behind the foxes, under the birds, and beside the trees help frequently."
+2179,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the man, behind the fox, under the bird, and beside the tree help frequently.","The [wugs] near the man, behind the fox, under the bird, and beside the tree helps frequently."
+2180,0,subj_sg,The [wug] helps frequently.,The [wug] help frequently.
+2181,0,subj_pl,The [wugs] help frequently.,The [wugs] helps frequently.
+2182,1,subj_sg_d1_pl,The [wug] behind the foxes helps frequently.,The [wug] behind the foxes help frequently.
+2183,1,subj_pl_d1_sg,The [wugs] behind the fox help frequently.,The [wugs] behind the fox helps frequently.
+2184,2,subj_sg_d1_pl_d2_pl,The [wug] behind the foxes and under the birds helps frequently.,The [wug] behind the foxes and under the birds help frequently.
+2185,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the fox and under the bird help frequently.,The [wugs] behind the fox and under the bird helps frequently.
+2186,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the foxes, under the birds, and beside the trees helps frequently.","The [wug] behind the foxes, under the birds, and beside the trees help frequently."
+2187,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the fox, under the bird, and beside the tree help frequently.","The [wugs] behind the fox, under the bird, and beside the tree helps frequently."
+2188,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars helps frequently.","The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars help frequently."
+2189,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the fox, under the bird, beside the tree, and in front of the car help frequently.","The [wugs] behind the fox, under the bird, beside the tree, and in front of the car helps frequently."
+2190,0,subj_sg,The [wug] helps frequently.,The [wug] help frequently.
+2191,0,subj_pl,The [wugs] help frequently.,The [wugs] helps frequently.
+2192,1,subj_sg_d1_pl,The [wug] under the birds helps frequently.,The [wug] under the birds help frequently.
+2193,1,subj_pl_d1_sg,The [wugs] under the bird help frequently.,The [wugs] under the bird helps frequently.
+2194,2,subj_sg_d1_pl_d2_pl,The [wug] under the birds and beside the trees helps frequently.,The [wug] under the birds and beside the trees help frequently.
+2195,2,subj_pl_d1_sg_d2_sg,The [wugs] under the bird and beside the tree help frequently.,The [wugs] under the bird and beside the tree helps frequently.
+2196,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the birds, beside the trees, and in front of the cars helps frequently.","The [wug] under the birds, beside the trees, and in front of the cars help frequently."
+2197,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the bird, beside the tree, and in front of the car help frequently.","The [wugs] under the bird, beside the tree, and in front of the car helps frequently."
+2198,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes helps frequently.","The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes help frequently."
+2199,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the bird, beside the tree, in front of the car, and next to the box help frequently.","The [wugs] under the bird, beside the tree, in front of the car, and next to the box helps frequently."
+2200,0,subj_sg,The [wug] calls often.,The [wug] call often.
+2201,0,subj_pl,The [wugs] call often.,The [wugs] calls often.
+2202,1,subj_sg_d1_pl,The [wug] near the trees calls often.,The [wug] near the trees call often.
+2203,1,subj_pl_d1_sg,The [wugs] near the tree call often.,The [wugs] near the tree calls often.
+2204,2,subj_sg_d1_pl_d2_pl,The [wug] near the trees and behind the cars calls often.,The [wug] near the trees and behind the cars call often.
+2205,2,subj_pl_d1_sg_d2_sg,The [wugs] near the tree and behind the car call often.,The [wugs] near the tree and behind the car calls often.
+2206,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the trees, behind the cars, and under the boxes calls often.","The [wug] near the trees, behind the cars, and under the boxes call often."
+2207,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the tree, behind the car, and under the box call often.","The [wugs] near the tree, behind the car, and under the box calls often."
+2208,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the trees, behind the cars, under the boxes, and beside the cats calls often.","The [wug] near the trees, behind the cars, under the boxes, and beside the cats call often."
+2209,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the tree, behind the car, under the box, and beside the cat call often.","The [wugs] near the tree, behind the car, under the box, and beside the cat calls often."
+2210,0,subj_sg,The [wug] calls often.,The [wug] call often.
+2211,0,subj_pl,The [wugs] call often.,The [wugs] calls often.
+2212,1,subj_sg_d1_pl,The [wug] behind the cars calls often.,The [wug] behind the cars call often.
+2213,1,subj_pl_d1_sg,The [wugs] behind the car call often.,The [wugs] behind the car calls often.
+2214,2,subj_sg_d1_pl_d2_pl,The [wug] behind the cars and under the boxes calls often.,The [wug] behind the cars and under the boxes call often.
+2215,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the car and under the box call often.,The [wugs] behind the car and under the box calls often.
+2216,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the cars, under the boxes, and beside the cats calls often.","The [wug] behind the cars, under the boxes, and beside the cats call often."
+2217,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the car, under the box, and beside the cat call often.","The [wugs] behind the car, under the box, and beside the cat calls often."
+2218,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs calls often.","The [wug] behind the cars, under the boxes, beside the cats, and in front of the dogs call often."
+2219,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the car, under the box, beside the cat, and in front of the dog call often.","The [wugs] behind the car, under the box, beside the cat, and in front of the dog calls often."
+2220,0,subj_sg,The [wug] calls often.,The [wug] call often.
+2221,0,subj_pl,The [wugs] call often.,The [wugs] calls often.
+2222,1,subj_sg_d1_pl,The [wug] under the boxes calls often.,The [wug] under the boxes call often.
+2223,1,subj_pl_d1_sg,The [wugs] under the box call often.,The [wugs] under the box calls often.
+2224,2,subj_sg_d1_pl_d2_pl,The [wug] under the boxes and beside the cats calls often.,The [wug] under the boxes and beside the cats call often.
+2225,2,subj_pl_d1_sg_d2_sg,The [wugs] under the box and beside the cat call often.,The [wugs] under the box and beside the cat calls often.
+2226,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the boxes, beside the cats, and in front of the dogs calls often.","The [wug] under the boxes, beside the cats, and in front of the dogs call often."
+2227,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the box, beside the cat, and in front of the dog call often.","The [wugs] under the box, beside the cat, and in front of the dog calls often."
+2228,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses calls often.","The [wug] under the boxes, beside the cats, in front of the dogs, and next to the horses call often."
+2229,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the box, beside the cat, in front of the dog, and next to the horse call often.","The [wugs] under the box, beside the cat, in front of the dog, and next to the horse calls often."
+2230,0,subj_sg,The [wug] calls often.,The [wug] call often.
+2231,0,subj_pl,The [wugs] call often.,The [wugs] calls often.
+2232,1,subj_sg_d1_pl,The [wug] beside the cats calls often.,The [wug] beside the cats call often.
+2233,1,subj_pl_d1_sg,The [wugs] beside the cat call often.,The [wugs] beside the cat calls often.
+2234,2,subj_sg_d1_pl_d2_pl,The [wug] beside the cats and in front of the dogs calls often.,The [wug] beside the cats and in front of the dogs call often.
+2235,2,subj_pl_d1_sg_d2_sg,The [wugs] beside the cat and in front of the dog call often.,The [wugs] beside the cat and in front of the dog calls often.
+2236,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] beside the cats, in front of the dogs, and next to the horses calls often.","The [wug] beside the cats, in front of the dogs, and next to the horses call often."
+2237,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] beside the cat, in front of the dog, and next to the horse call often.","The [wugs] beside the cat, in front of the dog, and next to the horse calls often."
+2238,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] beside the cats, in front of the dogs, next to the horses, and past the women calls often.","The [wug] beside the cats, in front of the dogs, next to the horses, and past the women call often."
+2239,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman call often.","The [wugs] beside the cat, in front of the dog, next to the horse, and past the woman calls often."
+2240,0,subj_sg,The [wug] calls often.,The [wug] call often.
+2241,0,subj_pl,The [wugs] call often.,The [wugs] calls often.
+2242,1,subj_sg_d1_pl,The [wug] in front of the dogs calls often.,The [wug] in front of the dogs call often.
+2243,1,subj_pl_d1_sg,The [wugs] in front of the dog call often.,The [wugs] in front of the dog calls often.
+2244,2,subj_sg_d1_pl_d2_pl,The [wug] in front of the dogs and next to the horses calls often.,The [wug] in front of the dogs and next to the horses call often.
+2245,2,subj_pl_d1_sg_d2_sg,The [wugs] in front of the dog and next to the horse call often.,The [wugs] in front of the dog and next to the horse calls often.
+2246,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] in front of the dogs, next to the horses, and past the women calls often.","The [wug] in front of the dogs, next to the horses, and past the women call often."
+2247,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] in front of the dog, next to the horse, and past the woman call often.","The [wugs] in front of the dog, next to the horse, and past the woman calls often."
+2248,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] in front of the dogs, next to the horses, past the women, and near the men calls often.","The [wug] in front of the dogs, next to the horses, past the women, and near the men call often."
+2249,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] in front of the dog, next to the horse, past the woman, and near the man call often.","The [wugs] in front of the dog, next to the horse, past the woman, and near the man calls often."
+2250,0,subj_sg,The [wug] calls often.,The [wug] call often.
+2251,0,subj_pl,The [wugs] call often.,The [wugs] calls often.
+2252,1,subj_sg_d1_pl,The [wug] next to the horses calls often.,The [wug] next to the horses call often.
+2253,1,subj_pl_d1_sg,The [wugs] next to the horse call often.,The [wugs] next to the horse calls often.
+2254,2,subj_sg_d1_pl_d2_pl,The [wug] next to the horses and past the women calls often.,The [wug] next to the horses and past the women call often.
+2255,2,subj_pl_d1_sg_d2_sg,The [wugs] next to the horse and past the woman call often.,The [wugs] next to the horse and past the woman calls often.
+2256,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] next to the horses, past the women, and near the men calls often.","The [wug] next to the horses, past the women, and near the men call often."
+2257,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] next to the horse, past the woman, and near the man call often.","The [wugs] next to the horse, past the woman, and near the man calls often."
+2258,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] next to the horses, past the women, near the men, and behind the foxes calls often.","The [wug] next to the horses, past the women, near the men, and behind the foxes call often."
+2259,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] next to the horse, past the woman, near the man, and behind the fox call often.","The [wugs] next to the horse, past the woman, near the man, and behind the fox calls often."
+2260,0,subj_sg,The [wug] calls often.,The [wug] call often.
+2261,0,subj_pl,The [wugs] call often.,The [wugs] calls often.
+2262,1,subj_sg_d1_pl,The [wug] past the women calls often.,The [wug] past the women call often.
+2263,1,subj_pl_d1_sg,The [wugs] past the woman call often.,The [wugs] past the woman calls often.
+2264,2,subj_sg_d1_pl_d2_pl,The [wug] past the women and near the men calls often.,The [wug] past the women and near the men call often.
+2265,2,subj_pl_d1_sg_d2_sg,The [wugs] past the woman and near the man call often.,The [wugs] past the woman and near the man calls often.
+2266,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] past the women, near the men, and behind the foxes calls often.","The [wug] past the women, near the men, and behind the foxes call often."
+2267,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] past the woman, near the man, and behind the fox call often.","The [wugs] past the woman, near the man, and behind the fox calls often."
+2268,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] past the women, near the men, behind the foxes, and under the birds calls often.","The [wug] past the women, near the men, behind the foxes, and under the birds call often."
+2269,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] past the woman, near the man, behind the fox, and under the bird call often.","The [wugs] past the woman, near the man, behind the fox, and under the bird calls often."
+2270,0,subj_sg,The [wug] calls often.,The [wug] call often.
+2271,0,subj_pl,The [wugs] call often.,The [wugs] calls often.
+2272,1,subj_sg_d1_pl,The [wug] near the men calls often.,The [wug] near the men call often.
+2273,1,subj_pl_d1_sg,The [wugs] near the man call often.,The [wugs] near the man calls often.
+2274,2,subj_sg_d1_pl_d2_pl,The [wug] near the men and behind the foxes calls often.,The [wug] near the men and behind the foxes call often.
+2275,2,subj_pl_d1_sg_d2_sg,The [wugs] near the man and behind the fox call often.,The [wugs] near the man and behind the fox calls often.
+2276,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] near the men, behind the foxes, and under the birds calls often.","The [wug] near the men, behind the foxes, and under the birds call often."
+2277,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] near the man, behind the fox, and under the bird call often.","The [wugs] near the man, behind the fox, and under the bird calls often."
+2278,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] near the men, behind the foxes, under the birds, and beside the trees calls often.","The [wug] near the men, behind the foxes, under the birds, and beside the trees call often."
+2279,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] near the man, behind the fox, under the bird, and beside the tree call often.","The [wugs] near the man, behind the fox, under the bird, and beside the tree calls often."
+2280,0,subj_sg,The [wug] calls often.,The [wug] call often.
+2281,0,subj_pl,The [wugs] call often.,The [wugs] calls often.
+2282,1,subj_sg_d1_pl,The [wug] behind the foxes calls often.,The [wug] behind the foxes call often.
+2283,1,subj_pl_d1_sg,The [wugs] behind the fox call often.,The [wugs] behind the fox calls often.
+2284,2,subj_sg_d1_pl_d2_pl,The [wug] behind the foxes and under the birds calls often.,The [wug] behind the foxes and under the birds call often.
+2285,2,subj_pl_d1_sg_d2_sg,The [wugs] behind the fox and under the bird call often.,The [wugs] behind the fox and under the bird calls often.
+2286,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] behind the foxes, under the birds, and beside the trees calls often.","The [wug] behind the foxes, under the birds, and beside the trees call often."
+2287,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] behind the fox, under the bird, and beside the tree call often.","The [wugs] behind the fox, under the bird, and beside the tree calls often."
+2288,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars calls often.","The [wug] behind the foxes, under the birds, beside the trees, and in front of the cars call often."
+2289,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] behind the fox, under the bird, beside the tree, and in front of the car call often.","The [wugs] behind the fox, under the bird, beside the tree, and in front of the car calls often."
+2290,0,subj_sg,The [wug] calls often.,The [wug] call often.
+2291,0,subj_pl,The [wugs] call often.,The [wugs] calls often.
+2292,1,subj_sg_d1_pl,The [wug] under the birds calls often.,The [wug] under the birds call often.
+2293,1,subj_pl_d1_sg,The [wugs] under the bird call often.,The [wugs] under the bird calls often.
+2294,2,subj_sg_d1_pl_d2_pl,The [wug] under the birds and beside the trees calls often.,The [wug] under the birds and beside the trees call often.
+2295,2,subj_pl_d1_sg_d2_sg,The [wugs] under the bird and beside the tree call often.,The [wugs] under the bird and beside the tree calls often.
+2296,3,subj_sg_d1_pl_d2_pl_d3_pl,"The [wug] under the birds, beside the trees, and in front of the cars calls often.","The [wug] under the birds, beside the trees, and in front of the cars call often."
+2297,3,subj_pl_d1_sg_d2_sg_d3_sg,"The [wugs] under the bird, beside the tree, and in front of the car call often.","The [wugs] under the bird, beside the tree, and in front of the car calls often."
+2298,4,subj_sg_d1_pl_d2_pl_d3_pl_d4_pl,"The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes calls often.","The [wug] under the birds, beside the trees, in front of the cars, and next to the boxes call often."
+2299,4,subj_pl_d1_sg_d2_sg_d3_sg_d4_sg,"The [wugs] under the bird, beside the tree, in front of the car, and next to the box call often.","The [wugs] under the bird, beside the tree, in front of the car, and next to the box calls often."
