@@ -7,7 +7,7 @@ Run ./setup.sh to automatically install required packages via conda. This will p
 
 
 ### Training embeddings
-Use /core/embed_train.py to train newly initialized embeddings [wug]/[wugs] for a VLM. We reccomend using a VLM with tied embed/lm head weights. 
+Use /core/embed_train.py to train newly initialized embeddings [wug]/[wugs] for a VLM.
 
 Args:
 - lr (float): learning rate
