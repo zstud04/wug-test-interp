@@ -35,7 +35,7 @@ def parse_args():
     parser.add_argument("--cache_dir", type=str,
                         default="/mnt/dv/wid/projects3/Rogers-muri-human-ai/zstuddiford",
                         help="HF cache directory")
-    parser.add_argument("--image_dir", type=str, default="../images/snarples",
+    parser.add_argument("--image_dir", type=str,
                         help="Directory containing images (for image condition)")
     parser.add_argument("--out_dir", type=str, default="results/wug_lr_sweep_results",
                         help="Output directory")
@@ -219,12 +219,11 @@ def main():
     base_emb_matrix = emb.weight.detach().clone()
     device = lm.model.device
 
-    img_dir = args.image_dir
-    singular_imgs = [load_resized(os.path.join(img_dir, f"singular{i:01d}.png")) for i in range(1, 6)]
-    plural_imgs   = [load_resized(os.path.join(img_dir, f"plural{i:01d}.png")) for i in range(1, 6)]
+
 
 
     if TRAINING_CONDITION == "image":
+        img_dir = args.image_dir
         singular_imgs = [load_resized(os.path.join(img_dir, f"singular{i:01d}.png")) for i in range(1, 6)]
         plural_imgs   = [load_resized(os.path.join(img_dir, f"plural{i:01d}.png")) for i in range(1, 6)]
         singular_templates = [train_chat_template(lm, s) for s in singular_sentences]
