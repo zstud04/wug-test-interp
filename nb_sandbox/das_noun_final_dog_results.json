@@ -1,0 +1,83 @@
+{
+  "method": "DAS",
+  "train_animal": "dog/dogs",
+  "intervene_position": "final_noun",
+  "n_templates": 50,
+  "n_steps": 300,
+  "layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "animals_eval": [
+    "fox/foxes",
+    "cat/cats",
+    "bird/birds",
+    "horse/horses",
+    "rat/rats",
+    "bear/bears"
+  ],
+  "results": {
+    "vision": [
+      {
+        "layer": 35,
+        "odds_dog_train": 190515.48415471576,
+        "odds_wug": 13176739.955738245,
+        "mean_natural": 236932.7006811734,
+        "odds_fox/foxes": 1331334.6661901802,
+        "odds_cat/cats": 15009.514493288405,
+        "odds_bird/birds": 25673.383543846976,
+        "odds_horse/horses": 7606.2576437041325,
+        "odds_rat/rats": 33218.37273608693,
+        "odds_bear/bears": 8754.009479933844
+      }
+    ],
+    "syntax": [
+      {
+        "layer": 35,
+        "odds_dog_train": 141421.8669169437,
+        "odds_wug": 54566.820616510726,
+        "mean_natural": 150425.9507339689,
+        "odds_fox/foxes": 823515.8029293476,
+        "odds_cat/cats": 11842.80588791194,
+        "odds_bird/birds": 22496.64644872038,
+        "odds_horse/horses": 6535.5530523401385,
+        "odds_rat/rats": 30689.428160213272,
+        "odds_bear/bears": 7475.467925280029
+      }
+    ]
+  }
+}
