@@ -19,6 +19,7 @@ N_SEEDS=""
 EPOCHS=50
 BATCH_MODE="alternating"
 TERMINATE_COND_EPOCHS=5
+MODEL="Qwen/Qwen3-VL-2B-Instruct"
 OUT_DIR=""
 SEEDS_CSV=""
 FOREGROUND=0
@@ -38,6 +39,7 @@ while [[ $# -gt 0 ]]; do
         --epochs)                 EPOCHS="$2"; shift 2;;
         --batch_mode)             BATCH_MODE="$2"; shift 2;;
         --terminate_cond_epochs)  TERMINATE_COND_EPOCHS="$2"; shift 2;;
+        --model)                  MODEL="$2"; shift 2;;
         --out_dir)                OUT_DIR="$2"; shift 2;;
         --foreground)             FOREGROUND=1; shift;;
         --__detached)             DETACHED=1; shift;;
@@ -61,7 +63,8 @@ if [[ -z "$OUT_DIR" ]]; then
     else
         IFS=',' read -r -a _tmp <<< "$SEEDS_CSV"; NSEED_TAG="${#_tmp[@]}"
     fi
-    OUT_DIR="results/lr_sweep_results_${CONDITION}_${NSEED_TAG}seeds"
+    MODEL_TAG="$(basename "$MODEL" | tr '/.: ' '____')"
+    OUT_DIR="results/lr_sweep_results_${MODEL_TAG}_${CONDITION}_${NSEED_TAG}seeds"
 fi
 
 mkdir -p "$OUT_DIR"
@@ -86,7 +89,7 @@ else
 fi
 IFS=',' read -r -a LR_ARR <<< "$LRS"
 
-echo "sweep start $(date) | cond=$CONDITION lrs=${LR_ARR[*]} seeds=${SEEDS[*]} ep=$EPOCHS out=$OUT_DIR"
+echo "sweep start $(date) | model=$MODEL cond=$CONDITION lrs=${LR_ARR[*]} seeds=${SEEDS[*]} ep=$EPOCHS out=$OUT_DIR"
 
 for LR in "${LR_ARR[@]}"; do
     for SEED in "${SEEDS[@]}"; do
@@ -102,6 +105,7 @@ for LR in "${LR_ARR[@]}"; do
               --lr "$LR" --seed "$SEED" --epochs "$EPOCHS"
               --batch_mode "$BATCH_MODE"
               --terminate_cond_epochs "$TERMINATE_COND_EPOCHS"
+              --model "$MODEL"
               --out_dir "$RUN_OUT"
               --write_embeddings)
         [[ "$TC" == "image" ]] && CMD+=( --image_dir "$IMAGE_DIR" )

@@ -7,7 +7,7 @@ Run ./setup.sh to automatically install required packages via conda. This will p
 We've included bash scripts to automatically re-run our analyses. All bash script pipelines run in background by default. If you would instead like to execute specific training/eval/interp scripts, see *scripts* section below.
 
 ### 1. Search for best LR ###
-Search for the best learning rate for embeddings, running a limited number of seeds per LR. Results will save to results/lr_sweep_results/
+Search for the best learning rate for embeddings, running a limited number of seeds per LR. Results will save to results/lr_sweep_results_{args}/
 
 **image condition**:
 `pipelines/embeddings/lr_sweep.sh --condition image --train_csv data/embeddings/train/text/image_train_1.csv --eval_csv data/embeddings/eval/singular_plural_eval.csv --image_dir data/embeddings/train/im/creature_1/ --embed_init data/embeddings/init/noun_init.txt --lrs 0.001,0.003,0.005,0.0075,0.01,0.03,0.05,0.075,0.1 --n_seeds 5 --epochs 50`
@@ -16,17 +16,24 @@ Search for the best learning rate for embeddings, running a limited number of se
 `pipelines/embeddings/lr_sweep.sh --condition text --train_csv data/embeddings/train/text/syntax_train_1.csv --eval_csv data/embeddings/eval/singular_plural_eval.csv --embed_init data/embeddings/init/noun_init.txt --lrs 0.001,0.003,0.005,0.0075,0.01,0.03,0.05,0.075,0.1 --n_seeds 5 --epochs 50`
 
 ### 2. Generate CIs given for chosen LR ###
-Once we have found the best LR from grid search, run 50 random seeds to generate confidence intervals for that LR. 
+Once we have found the best LR from grid search, run 50 random seeds to generate confidence intervals for embedding singular/plural accuracy for that LR. Also generate intermediate epoch embeddings.
 
 **image condition**:
 
+`pipelines/embeddings/lr_ci_runs.sh --condition image --train_csv data/embeddings/train/text/image_train_1.csv --eval_csv data/embeddings/eval/singular_plural_eval.csv --image_dir data/embeddings/train/im/creature_1/ --embed_init data/embeddings/init/noun_init.txt --lr 0.001 --epochs 50`
+
 **text condition**:
+
+`pipelines/embeddings/lr_ci_runs.sh --condition text --train_csv data/embeddings/train/text/syntax_train_1.csv --eval_csv data/embeddings/eval/singular_plural_eval.csv --embed_init data/embeddings/init/noun_init.txt --lr 0.001 --epochs 50`
 
 
 ### 3. Run for held out BLiMP and attractor stimuli
 How well do our embeddings generalize to held out stimuli? 
 
+### 4. Run interpretability wug test
+Run all interpretability methods for three conditions:
 
+1. 
 
 
 ## Scripts
