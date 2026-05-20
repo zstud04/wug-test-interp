@@ -3,8 +3,17 @@
 ## Setup
 Run ./setup.sh to automatically install required packages via conda. This will prompt you for a huggingface token and create a new env wug_test_env.
 
-## Commands
+## Pipelines
+We've included bash scripts to automatically re-run our analyses. All bash script pipelines run in background by default. If you would instead like to execute specific training/eval/interp scripts, see *scripts* section below.
 
+### Sweep for best LR ###
+Sweep for the best learning rate, running a limited number of seeds per LR. Results will save to results/lr_sweep_results/
+
+`pipelines/embeddings/lr_sweep.sh --condition image --train_csv data/embeddings/train/text/image_train_1.csv --eval_csv data/embeddings/eval/singular_plural_eval.csv --image_dir data/embeddings/train/im/creature_1/ --embed_init data/embeddings/init/noun_init.txt --lrs 0.001,0.003,0.005,0.0075,0.01,0.03,0.05,0.075,0.1 --n_seeds 5 --epochs 50`
+
+
+
+## Scripts
 
 ### Training embeddings
 Use /core/embed_train.py to train newly initialized embeddings [wug]/[wugs] for a VLM.
