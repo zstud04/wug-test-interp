@@ -19,7 +19,7 @@ N_SEEDS=""
 EPOCHS=50
 BATCH_MODE="alternating"
 TERMINATE_COND_EPOCHS=5
-OUT_DIR="results/lr_sweep_results"
+OUT_DIR=""
 SEEDS_CSV=""
 FOREGROUND=0
 DETACHED=0
@@ -55,6 +55,15 @@ done
 
 [[ "$CONDITION" == "image" ]] && TC="image" || TC="syntax"
 
+if [[ -z "$OUT_DIR" ]]; then
+    if [[ -n "$N_SEEDS" ]]; then
+        NSEED_TAG="${N_SEEDS}"
+    else
+        IFS=',' read -r -a _tmp <<< "$SEEDS_CSV"; NSEED_TAG="${#_tmp[@]}"
+    fi
+    OUT_DIR="results/lr_sweep_results_${CONDITION}_${NSEED_TAG}seeds"
+fi
+
 mkdir -p "$OUT_DIR"
 LOG_DIR="$OUT_DIR/logs"
 mkdir -p "$LOG_DIR"
@@ -62,8 +71,8 @@ MASTER_LOG="$OUT_DIR/sweep_master.log"
 
 if [[ "$DETACHED" -eq 0 && "$FOREGROUND" -eq 0 ]]; then
     SELF="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/$(basename "${BASH_SOURCE[0]}")"
-    nohup bash "$SELF" "${ORIG_ARGS[@]}" --__detached > "$MASTER_LOG" 2>&1 &
-    echo "PID $! | log: $MASTER_LOG | tail -f $MASTER_LOG"
+    nohup bash "$SELF" "${ORIG_ARGS[@]}" --out_dir "$OUT_DIR" --__detached > "$MASTER_LOG" 2>&1 &
+    echo "PID $! | out: $OUT_DIR | tail -f $MASTER_LOG"
     exit 0
 fi
 
@@ -77,7 +86,7 @@ else
 fi
 IFS=',' read -r -a LR_ARR <<< "$LRS"
 
-echo "sweep start $(date) | cond=$CONDITION lrs=${LR_ARR[*]} seeds=${SEEDS[*]} ep=$EPOCHS"
+echo "sweep start $(date) | cond=$CONDITION lrs=${LR_ARR[*]} seeds=${SEEDS[*]} ep=$EPOCHS out=$OUT_DIR"
 
 for LR in "${LR_ARR[@]}"; do
     for SEED in "${SEEDS[@]}"; do
