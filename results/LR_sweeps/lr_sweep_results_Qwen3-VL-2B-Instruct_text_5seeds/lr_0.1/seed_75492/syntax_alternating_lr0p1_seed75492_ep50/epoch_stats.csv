@@ -1,0 +1,3 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,80.00175959269193,0.0,14.5,62.366682497681055,57.56668224520205,14.3125,14.9375,1.4494974613189697,28.625,-0.921875,person |  believer | ánt |  informant |  Physician, cookies |  animals |  cats |  eggs |  puppies,0.6344537734985352,1.0,0.2689075767993927
+2,63.06666666666667,0.0,265.6000061035156,30.066666666666666,30.066666666666666,22.75,22.375,1.4494974613189697,44.75,-0.96875, protagonist |  physician |  believer |  woman |  thief,(users | 	users | 学生们 | 同学们 | .users,0.6470588445663452,1.0,0.29411765933036804

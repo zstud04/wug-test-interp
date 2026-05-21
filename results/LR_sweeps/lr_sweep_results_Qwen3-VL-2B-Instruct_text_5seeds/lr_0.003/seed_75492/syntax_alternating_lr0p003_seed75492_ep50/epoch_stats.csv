@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,3.976904534932358,0.07680270820856094,2.2001473903656006,57.431473715696484,40.59670293516635,1.5546875,1.5234375,1.4494974613189697,2.046875,0.111328125, woman |  rat |  dog |  waitress |  child, cats |  dogs |  rats | 猫咪 |  rabbits,0.924369752407074,0.8739495873451233,0.9747899174690247

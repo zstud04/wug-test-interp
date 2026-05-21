@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,104.67461396455765,41.33124923706055,0.0,74.20000189940134,68.73334433237711,15.25,16.75,1.4494974613189697,31.75,-0.96875, handjob |  hare |  squirrel |  rabbit |  patiënt, experts |  dancers |  eggs |  of |  cookies,0.651260495185852,0.9915966391563416,0.31092438101768494

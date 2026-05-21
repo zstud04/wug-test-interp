@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,9.911578025545047,0.22737431526184082,0.07795348018407822,69.74592082498617,60.11753419313657,1.9375,1.96875,1.4494974613189697,3.109375,-0.2734375, woman |  monkey |  bird |  thing |  WoW, dogs | 孩子们 |  birds |  enfants |  animals,0.8067227005958557,0.9831932783126831,0.6302521228790283

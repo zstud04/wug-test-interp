@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,0.20109526813030243,0.3310132324695587,62.116145833333334,52.86294759114583,1.453125,1.4453125,1.4494974613189697,1.9375,0.1064453125, kitten |  cats |  cat | 	cat | 猫, doors |  walls |  dogs |  trees |  door,0.9495798349380493,0.9831932783126831,0.9159663915634155

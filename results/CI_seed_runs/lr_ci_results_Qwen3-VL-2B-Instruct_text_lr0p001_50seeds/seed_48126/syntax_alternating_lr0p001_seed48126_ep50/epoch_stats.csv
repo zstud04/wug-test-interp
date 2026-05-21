@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,1.811437756552588,1.3098613023757935,0.00689031183719635,60.80885417473813,43.40309816996257,1.46875,1.46875,1.4494974613189697,1.9140625,0.1533203125, [wugs] |  cats |  houses |  veterin |  cat, cats |  chairs |  [wug] |  girls |  houses,0.9663865566253662,0.9495798349380493,0.9831932783126831

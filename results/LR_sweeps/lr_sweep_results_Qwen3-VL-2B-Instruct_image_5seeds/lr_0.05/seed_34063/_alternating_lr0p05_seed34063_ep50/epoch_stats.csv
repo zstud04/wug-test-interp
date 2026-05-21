@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,57.41633987426758,1.368591547012329,84.66901245117188,94.16666666666667,1.453125,1.453125,1.4494974613189697,2.90625,-0.99609375, accompanying |  lý |  below |  following | 以下,툇 | 埪 | 窗 |  rumpe | 新人玩家,0.5,0.0,1.0

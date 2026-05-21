@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,7.144545475137223,0.26265567541122437,0.06266365945339203,74.74171993285418,69.20423367565942,1.71875,1.75,1.4494974613189697,2.609375,-0.138671875, woman |  doorway |  bird |  dog |  monkey,孩子们 |  enfants |  birds |  dogs |  kids,0.8781512379646301,0.9915966391563416,0.7647058963775635

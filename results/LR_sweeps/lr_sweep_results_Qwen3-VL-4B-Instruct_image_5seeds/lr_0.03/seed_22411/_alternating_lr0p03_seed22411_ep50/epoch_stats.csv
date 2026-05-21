@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,0.5569329261779785,76.79197692871094,74.43333632152475,68.65806460380554,1.0859375,1.078125,1.0794202089309692,2.15625,-0.98828125, bakery |  bookstore |  mailbox | 阈 | threshold, deux | 两个人 |  image |  two |  provided,0.5,1.0,0.0

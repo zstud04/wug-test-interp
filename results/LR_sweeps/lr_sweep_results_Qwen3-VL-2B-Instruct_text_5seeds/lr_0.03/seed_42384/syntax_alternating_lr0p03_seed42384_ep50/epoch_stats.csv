@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,28.943954101453226,34.79999923706055,0.0019833610858768225,69.546875,68.31770845502615,4.71875,5.0,1.4494974613189697,9.3125,-0.84765625, Shemale | 箢 | weapon | _persona |  hurdle,孩子们 |  eggs |  cats |  ants |  dancers,0.6302521228790283,0.32773110270500183,0.9327731132507324

@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,5.056635786801538,0.0488593764603138,0.7225001454353333,98.90661652882893,86.38625485102335,1.109375,1.1328125,1.0794202089309692,1.453125,0.166015625, [wugs] |  wolf |  wolves |  | , |  |  dogs | <tool_response> |  [wug],0.9201680421829224,0.9411764740943909,0.8991596698760986

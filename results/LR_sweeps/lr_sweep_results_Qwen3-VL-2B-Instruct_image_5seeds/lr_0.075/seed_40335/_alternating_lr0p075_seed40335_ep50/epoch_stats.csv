@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,75.11354064941406,6.21214130660519e-05,64.76666666666667,59.435203297932944,1.4453125,1.4453125,1.4494974613189697,2.890625,-1.0,/issues | 的各种 |  reports |  discussions |  his, image | .image | image |  provided |  illustration,0.5,0.0,1.0

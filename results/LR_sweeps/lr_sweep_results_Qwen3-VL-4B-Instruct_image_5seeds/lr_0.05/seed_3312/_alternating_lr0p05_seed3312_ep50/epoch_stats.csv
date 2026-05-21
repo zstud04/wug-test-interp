@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,82.7750015258789,1.192092824453539e-08,77.66127465566,89.20000839233398,1.078125,1.078125,1.0794202089309692,2.15625,-0.99609375," the |  THE | <|endoftext|> | , | 8", Two |  two |  image | _Two | 两只,0.5,0.0,1.0

@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,3.388343608006835,1.1381523609161377,0.017469322308897972,69.96195271809896,58.83747049967448,1.4765625,1.484375,1.4494974613189697,1.9765625,0.103515625, chairs |  Chairs |  chair |  walls |  rooms, dogs |  birds |  cats |  elephants |  boats,0.9285714030265808,0.9159663915634155,0.9411764740943909

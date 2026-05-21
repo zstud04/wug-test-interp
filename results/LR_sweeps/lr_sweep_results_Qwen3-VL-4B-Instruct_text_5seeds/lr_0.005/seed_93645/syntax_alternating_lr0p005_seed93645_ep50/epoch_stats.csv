@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,7.365311949160074,0.04734762758016586,7.906680107116699,65.0897193909591,53.54663395223518,1.359375,1.40625,1.0794202089309692,2.140625,-0.2001953125, kitten |  puppy |  woman |  wolf |  panda, |  |  birds | ꂫ |  davidjl,0.6764705777168274,0.9831932783126831,0.36974790692329407

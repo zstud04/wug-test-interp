@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,65.28639221191406,0.0004169097519479692,107.53440755208334,113.2,1.078125,1.078125,1.0794202089309692,2.15625,-1.0, undefined | 柩 | од | _HEIGHT | 机动车, adorable |  two |  cut |  Two |  deux,0.5,0.0,1.0

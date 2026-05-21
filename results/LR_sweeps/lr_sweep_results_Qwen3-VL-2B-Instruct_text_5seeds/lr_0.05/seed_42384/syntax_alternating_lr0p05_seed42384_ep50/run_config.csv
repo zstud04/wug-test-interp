@@ -1,0 +1,2 @@
+training_condition,filler_image_dir,batch_mode,batch_size,lr,seed,epochs,model,image_dir,embed_init,renorm,betas,wd,train_csv,eval_csv,write_all,terminate_cond_epochs,stopped_early,best_epoch,best_overall_acc,effective_epochs
+syntax,,alternating,1,0.05,42384,50,Qwen/Qwen3-VL-2B-Instruct,,data/embeddings/init/noun_init.txt,True,"(0.0, 0.9)",0.0,data/embeddings/train/text/syntax_train_1.csv,data/embeddings/eval/singular_plural_eval.csv,False,5,True,2,0.651260495185852,2

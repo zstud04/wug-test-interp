@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,4.466599464416504,0.24808630347251892,69.42626063028972,63.60351664268801,1.453125,1.453125,1.4494974613189697,2.484375,-0.474609375,者の | 龍 | _door | _truth | 關鍵,两只 |  two |  два |  twins |  двух,0.7100840210914612,0.45378151535987854,0.9663865566253662

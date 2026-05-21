@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,8.489241756837677,0.8873975872993469,1.7000406980514526,63.97470836639491,61.67838033273447,2.109375,2.203125,1.4494974613189697,3.53125,-0.34375, woman |  frog |  girl |  dog |  waitress, cats |  rats |  dogs |  chairs |  rabbits,0.7815126180648804,0.6638655662536621,0.8991596698760986

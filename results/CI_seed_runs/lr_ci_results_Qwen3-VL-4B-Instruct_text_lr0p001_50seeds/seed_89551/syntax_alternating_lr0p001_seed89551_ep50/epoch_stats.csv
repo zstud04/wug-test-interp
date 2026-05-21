@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,4.68870810422571,0.0025047208182513714,1.8113759756088257,80.92652743135889,61.75605511367321,1.140625,1.1328125,1.0794202089309692,1.5,0.1337890625, |  |  gates |  goat |  chairs, dogs |  trees |  cats | dogs |  Dogs,0.8991596698760986,0.8235294222831726,0.9747899174690247

@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,6.093685882948921,0.02020171657204628,1.3520430326461792,99.40070451796055,82.37500764181216,1.1328125,1.140625,1.0794202089309692,1.46875,0.16796875, [wugs] |  chair |  dogs |  cars |  cats, cats |  chairs |  [wug] |  phones | ,0.9285714030265808,0.8991596698760986,0.9579831957817078

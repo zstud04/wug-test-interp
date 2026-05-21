@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,4.511185860276358,0.056736115366220474,1.0941113233566284,64.23496017456054,67.83232816060384,1.1328125,1.1171875,1.0794202089309692,1.4609375,0.1513671875, |  [wugs] |  |  Gates | 𝕷, dogs |  birds |  cats |  [wug] | dogs,0.9117646813392639,0.8655462265014648,0.9579831957817078

@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,4.05371275600434,0.10270918905735016,1.6603248119354248,82.89345932006836,53.08942985534668,1.1171875,1.1171875,1.0794202089309692,1.484375,0.12060546875, trees | (tree |  ponds |  cats | 	tree, |  | 윾 | 옼 | ꂫ,0.9537814855575562,0.9579831957817078,0.9495798349380493

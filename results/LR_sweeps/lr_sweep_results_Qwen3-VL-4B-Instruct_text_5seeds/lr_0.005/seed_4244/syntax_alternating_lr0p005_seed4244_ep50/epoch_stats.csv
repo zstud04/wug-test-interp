@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,10.290976855936377,2.606797218322754,3.690399171318859e-05,63.37187672456128,54.776059751275476,1.2578125,1.3671875,1.0794202089309692,1.8984375,-0.04638671875, necklace |  woman |  thing |  puppy |  dog, birds |  cats |  children |  girls |  animals,0.8613445162773132,0.8571428656578064,0.8655462265014648

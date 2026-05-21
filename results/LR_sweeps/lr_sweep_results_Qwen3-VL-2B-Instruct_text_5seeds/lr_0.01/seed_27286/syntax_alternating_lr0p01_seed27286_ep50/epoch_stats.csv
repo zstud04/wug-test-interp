@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,12.522167097804283,9.216670989990234,0.0,76.61293539693193,63.177661325986946,2.046875,2.234375,1.4494974613189697,3.515625,-0.341796875, bird |  woman | woman |  frog | 	cat,孩子们 |  dinosaurs |  monkeys | (children |  rabbits,0.6722689270973206,0.3613445460796356,0.9831932783126831

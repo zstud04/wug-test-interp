@@ -1,0 +1,4 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,58.14068603515625,0.06637458503246307,89.14938151041666,92.73592783610026,1.078125,1.0859375,1.0794202089309692,2.15625,-0.9921875, inspiration | 下面是 | 一首 |  CAP |  caption,🏪 |  café |  bakery |  alley |  twins,0.5,0.0,1.0
+2,,63.363807678222656,4.601373348123161e-06,72.06878458658854,66.35670710404715,1.078125,1.078125,1.0794202089309692,2.15625,-1.0,<|endoftext|> | <|object_ref_end|> | 4 | 3 | 6, sunset |  sunrise |  twins |  kittens | two,0.5,0.0,1.0
+3,,4.457049369812012,3.950021743774414,73.63581136067708,69.75521240234374,1.078125,1.078125,1.0794202089309692,1.859375,-0.478515625,最合适 |  caption | .caption |  Caption | _caption, sunset |  two | two |  Two |  twins,0.5462185144424438,0.3949579894542694,0.6974790096282959

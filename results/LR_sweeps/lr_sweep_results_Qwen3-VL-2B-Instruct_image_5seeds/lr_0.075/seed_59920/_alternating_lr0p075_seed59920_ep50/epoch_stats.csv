@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,61.5434684753418,1.7014468908309937,87.83255208333334,87.56680094401041,1.453125,1.453125,1.4494974613189697,2.890625,-0.99609375,十字 | Dict |  algum | Ï |  rv, two | 两只 | 两个 |  Two | 这两个,0.5,0.0,1.0

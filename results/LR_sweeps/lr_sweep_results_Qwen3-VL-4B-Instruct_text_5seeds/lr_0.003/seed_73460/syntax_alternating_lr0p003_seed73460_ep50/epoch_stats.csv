@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,5.96549679326007,1.0013506412506104,1.3713918924331665,62.11422200016678,51.92071380341852,1.2109375,1.2109375,1.0794202089309692,1.6953125,0.0220947265625, door |  tomato | 貓 |  house |  doors, birds |  cats |  dogs |  chairs | אנשים,0.894957959651947,0.9579831957817078,0.831932783126831

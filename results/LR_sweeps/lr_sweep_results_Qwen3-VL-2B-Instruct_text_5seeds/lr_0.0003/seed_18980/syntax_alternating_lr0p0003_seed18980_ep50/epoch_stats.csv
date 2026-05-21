@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,7.536750817050536,2.1705377101898193,4.986476421356201,81.6662539879481,78.98426884015402,1.453125,1.4609375,1.4494974613189697,1.8984375,0.150390625, [wugs] |  trees |  dogs |  woman |  walls, walls |  dogs |  Dogs |  [wug] |  fences,0.9033613204956055,0.8739495873451233,0.9327731132507324

@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,0.24308952689170837,0.00015886363689787686,60.23477808934015,71.44592380523682,1.078125,1.078125,1.0794202089309692,1.984375,-0.6875,덫 |  dragon |  lizard | creature | 䲢, two |  deux |  двух | two | 两只,0.7100840210914612,0.5042017102241516,0.9159663915634155

@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,66.43004608154297,0.08884845674037933,83.36771778265636,91.403515625,1.453125,1.453125,1.4494974613189697,2.890625,-0.97265625, need |  below |  above |  insufficient |  mis,왤 | 埪 | � | 툇 | 괞,0.5,0.0,1.0

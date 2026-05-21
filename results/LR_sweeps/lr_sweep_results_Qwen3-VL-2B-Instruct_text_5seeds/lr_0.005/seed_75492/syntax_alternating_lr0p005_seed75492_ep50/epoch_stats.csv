@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,4.975537567326659,0.17981663346290588,2.600003957748413,61.096572688027884,48.569212187043,1.65625,1.6328125,1.4494974613189697,2.296875,0.0277099609375, woman |  rat |  frog |  child |  dog, cats |  dogs |  rats |  rabbits |  cows,0.9117646813392639,0.8991596698760986,0.924369752407074

@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,0.00010809125524247065,85.275634765625,80.80000370343527,75.13333465655644,1.453125,1.4453125,1.4494974613189697,2.890625,-1.0,탙 |  appropriate | AntiForgeryToken | 뭥 | 🦈,<|object_ref_end|> | 工业 | 建设 | 实验 |  Glad,0.5,1.0,0.0

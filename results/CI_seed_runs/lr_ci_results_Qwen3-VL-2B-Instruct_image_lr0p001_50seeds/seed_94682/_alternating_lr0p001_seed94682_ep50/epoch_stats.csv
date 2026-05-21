@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,0.6946263313293457,0.13308636844158173,58.33639322916667,57.557291666666664,1.453125,1.453125,1.4494974613189697,1.921875,0.1220703125, pups |  chickens |  |  |  Walls, trees |  Trees |  houses |  doors |  gates,0.7689075469970703,0.5546218752861023,0.9831932783126831

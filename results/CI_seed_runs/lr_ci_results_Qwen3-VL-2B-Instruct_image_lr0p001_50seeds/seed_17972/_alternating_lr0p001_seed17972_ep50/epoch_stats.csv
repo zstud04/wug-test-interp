@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,0.5865909457206726,0.6220258474349976,55.542537434895834,47.65808919270833,1.4453125,1.453125,1.4494974613189697,1.9296875,0.11376953125, cats |  doors |  cat | (cat | 	cat, birds |  trees |  rabbits |  wolves |  houses,0.8445377945899963,0.7394958138465881,0.9495798349380493

@@ -1,0 +1,239 @@
+epoch,item_index,kind,good_text,bad_text,good_score,bad_score,diff,correct
+1,0,singular,The [wug] jumps across the rock while another watches.,The [wugs] jumps across the rock while another watches.,-11.0625,-9.0625,-2.0,0
+1,1,plural,Two [wugs] climb over the fence together.,Two [wug] climb over the fence together.,-8.8125,-11.0,2.1875,1
+1,2,singular,I noticed the [wug] was hiding behind the tree.,I noticed the [wugs] was hiding behind the tree.,-8.625,-6.25,-2.375,0
+1,3,plural,Several [wugs] gather near the edge of the pond.,Several [wug] gathers near the edge of the pond.,-6.90625,-8.625,1.71875,1
+1,4,singular,A single [wug] was resting on the branch when I arrived.,A single [wugs] were resting on the branch when I arrived.,-8.0625,-7.125,-0.9375,0
+1,5,plural,Dozens of [wugs] were waiting by the gate.,Dozens of [wug] was waiting by the gate.,-7.25,-9.125,1.875,1
+1,6,singular,The [wug] runs quickly toward its nest.,The [wugs] runs quickly toward its nest.,-11.5,-8.75,-2.75,0
+1,7,plural,The [wugs] scatter as soon as they hear the sound.,The [wug] scatter as soon as they hear the sound.,-6.6875,-8.625,1.9375,1
+1,8,singular,One [wug] carries a small leaf in its mouth.,One [wugs] carries a small leaf in its mouth.,-8.8125,-7.125,-1.6875,0
+1,9,plural,Many [wugs] carry sticks to build their shelter.,Many [wug] carry sticks to build their shelter.,-8.6875,-10.375,1.6875,1
+1,10,singular,The [wug] in the corner looks nervous.,The [wugs] in the corner looks nervous.,-10.6875,-7.96875,-2.71875,0
+1,11,plural,The [wugs] near the river appear calm.,The [wug] near the river appear calm.,-9.4375,-11.4375,2.0,1
+1,12,singular,That [wug] seems friendlier than the others.,That [wugs] seems friendlier than the others.,-9.125,-7.40625,-1.71875,0
+1,13,plural,Those [wugs] seem unusually quiet today.,Those [wug] seem unusually quiet today.,-10.375,-12.1875,1.8125,1
+1,14,singular,The [wug] is glowing faintly under the lamp.,The [wugs] is glowing faintly under the lamp.,-8.75,-7.0,-1.75,0
+1,15,plural,The [wugs] are glowing with the same green light.,The [wug] are glowing with the same green light.,-7.03125,-8.875,1.84375,1
+1,16,singular,Each [wug] moves in a slightly different way.,Each [wugs] moves in a slightly different way.,-8.875,-6.6875,-2.1875,0
+1,17,plural,All the [wugs] move as though synchronized.,All the [wug] move as though synchronized.,-9.0625,-11.9375,2.875,1
+1,18,singular,The [wug] beside the chair looks familiar.,The [wugs] beside the chair looks familiar.,-10.5625,-8.8125,-1.75,0
+1,19,plural,The [wugs] around the chair look identical.,The [wug] around the chair look identical.,-9.25,-11.6875,2.4375,1
+1,20,singular,"After the one [wug] left, the noise stopped.","After the one [wugs] left, the noise stopped.",-8.375,-7.65625,-0.71875,0
+1,21,plural,"After the two [wugs] left, the garden felt empty.","After the two [wug] left, the garden felt empty.",-6.8125,-7.9375,1.125,1
+1,22,singular,The [wug] eats until it can barely move.,The [wugs] eats until it can barely move.,-10.25,-8.1875,-2.0625,0
+1,23,plural,The [wugs] eat until the bowl is completely empty.,The [wug] eat until the bowl is completely empty.,-7.4375,-9.375,1.9375,1
+1,24,singular,"If the [wug] hides, no one will notice.","If the [wugs] hides, no one will notice.",-8.5,-7.1875,-1.3125,0
+1,25,plural,"If the [wugs] hide, the forest becomes silent.","If the [wug] hide, the forest becomes silent.",-7.4375,-8.375,0.9375,1
+1,26,singular,The [wug] was playing before the rain started.,The [wugs] was playing before the rain started.,-9.25,-7.28125,-1.96875,0
+1,27,plural,The [wugs] were playing until it got dark.,The [wug] were playing until it got dark.,-7.3125,-9.5625,2.25,1
+1,28,singular,The [wug] sleeps while the others stay awake.,The [wugs] sleeps while the others stay awake.,-9.5,-7.625,-1.875,0
+1,29,plural,The [wugs] sleep when the sun goes down.,The [wug] sleep when the sun goes down.,-7.375,-9.1875,1.8125,1
+1,30,singular,The [wug] sits quietly on the windowsill.,The [wugs] sits quietly on the windowsill.,-9.0,-6.84375,-2.15625,0
+1,31,plural,The [wugs] sit quietly on the windowsill.,The [wug] sit quietly on the windowsill.,-7.28125,-9.5625,2.28125,1
+1,32,singular,A [wug] watches the clouds drift by.,A [wugs] watches the clouds drift by.,-10.625,-8.1875,-2.4375,0
+1,33,plural,Three [wugs] watch the clouds drift by.,Three [wug] watch the clouds drift by.,-8.375,-11.0,2.625,1
+1,34,singular,The [wug] scratches at the door every morning.,The [wugs] scratches at the door every morning.,-9.5625,-7.9375,-1.625,0
+1,35,plural,The [wugs] scratch at the door every morning.,The [wug] scratch at the door every morning.,-7.96875,-10.0625,2.09375,1
+1,36,singular,The little [wug] chirps whenever it rains.,The little [wugs] chirps whenever it rains.,-9.9375,-7.875,-2.0625,0
+1,37,plural,The little [wugs] chirp whenever it rains.,The little [wug] chirp whenever it rains.,-8.375,-10.4375,2.0625,1
+1,38,singular,The [wug] is crawling slowly across the floor.,The [wugs] is crawling slowly across the floor.,-8.8125,-6.75,-2.0625,0
+1,39,plural,The [wugs] are crawling slowly across the floor.,The [wug] are crawling slowly across the floor.,-7.1875,-9.375,2.1875,1
+1,40,singular,A [wug] is digging a hole near the garden.,A [wugs] is digging a hole near the garden.,-8.5,-6.4375,-2.0625,0
+1,41,plural,Several [wugs] are digging holes near the garden.,Several [wug] are digging holes near the garden.,-7.375,-9.25,1.875,1
+1,42,singular,The [wug] was climbing the hill before sunset.,The [wugs] was climbing the hill before sunset.,-9.75,-7.71875,-2.03125,0
+1,43,plural,The [wugs] were climbing the hill before sunset.,The [wug] were climbing the hill before sunset.,-7.8125,-10.0,2.1875,1
+1,44,singular,That [wug] had disappeared into the tall grass.,That [wugs] had disappeared into the tall grass.,-9.625,-7.75,-1.875,0
+1,45,plural,Those [wugs] had disappeared into the tall grass.,Those [wug] had disappeared into the tall grass.,-8.5,-10.0,1.5,1
+1,46,singular,The [wug] was sitting on the porch when we arrived.,The [wugs] was sitting on the porch when we arrived.,-8.125,-6.5625,-1.5625,0
+1,47,plural,The [wugs] were sitting on the porch when we arrived.,The [wug] were sitting on the porch when we arrived.,-6.75,-8.1875,1.4375,1
+1,48,singular,The [wug] has been sleeping all afternoon.,The [wugs] has been sleeping all afternoon.,-10.0,-7.46875,-2.53125,0
+1,49,plural,The [wugs] have been sleeping all afternoon.,The [wug] have been sleeping all afternoon.,-7.875,-10.1875,2.3125,1
+1,50,singular,The [wug] does not like loud noises.,The [wugs] does not like loud noises.,-9.6875,-7.25,-2.4375,0
+1,51,plural,The [wugs] do not like loud noises.,The [wug] do not like loud noises.,-7.59375,-10.0,2.40625,1
+1,52,singular,The [wug] doesn't move when you approach it.,The [wugs] doesn't move when you approach it.,-8.5625,-6.84375,-1.71875,0
+1,53,plural,The [wugs] don't move when you approach them.,The [wug] don't move when you approach them.,-7.09375,-9.125,2.03125,1
+1,54,singular,No [wug] has ever been seen this far north.,No [wugs] has ever been seen this far north.,-9.125,-6.71875,-2.40625,0
+1,55,plural,No [wugs] have ever been seen this far north.,No [wug] have ever been seen this far north.,-6.9375,-9.1875,2.25,1
+1,56,singular,Every [wug] needs a safe place to rest.,Every [wugs] needs a safe place to rest.,-8.375,-6.46875,-1.90625,0
+1,57,plural,A few [wugs] need a safe place to rest.,A few [wug] need a safe place to rest.,-7.03125,-8.6875,1.65625,1
+1,58,singular,Another [wug] appears from behind the bush.,Another [wugs] appears from behind the bush.,-10.125,-7.5,-2.625,0
+1,59,plural,More [wugs] appear from behind the bush.,More [wug] appear from behind the bush.,-8.375,-10.75,2.375,1
+1,60,singular,This [wug] looks different from the rest.,This [wugs] looks different from the rest.,-9.375,-7.15625,-2.21875,0
+1,61,plural,These [wugs] look different from the rest.,These [wug] look different from the rest.,-8.1875,-10.375,2.1875,1
+1,62,singular,The [wug] that escaped was found near the stream.,The [wugs] that escaped was found near the stream.,-9.6875,-7.53125,-2.15625,0
+1,63,plural,The [wugs] that escaped were found near the stream.,The [wug] that escaped were found near the stream.,-7.9375,-10.125,2.1875,1
+1,64,singular,I saw a [wug] which was hiding under the bench.,I saw a [wugs] which was hiding under the bench.,-8.25,-5.78125,-2.46875,0
+1,65,plural,I saw some [wugs] which were hiding under the bench.,I saw some [wug] which were hiding under the bench.,-6.40625,-8.625,2.21875,1
+1,66,singular,The [wug] shook its tail before running away.,The [wugs] shook its tail before running away.,-10.3125,-7.5,-2.8125,0
+1,67,plural,The [wugs] shook their tails before running away.,The [wug] shook their tails before running away.,-7.9375,-10.6875,2.75,1
+1,68,singular,The [wug] returned to its burrow at dusk.,The [wugs] returned to its burrow at dusk.,-9.0,-6.9375,-2.0625,0
+1,69,plural,The [wugs] returned to their burrow at dusk.,The [wug] returned to their burrow at dusk.,-6.9375,-9.0625,2.125,1
+1,70,singular,There is a [wug] sitting on the roof.,There is a [wugs] sitting on the roof.,-8.125,-6.0,-2.125,0
+1,71,plural,There are several [wugs] sitting on the roof.,There are several [wug] sitting on the roof.,-7.0,-8.9375,1.9375,1
+1,72,singular,There was one [wug] living under the bridge.,There was one [wugs] living under the bridge.,-9.125,-7.34375,-1.78125,0
+1,73,plural,There were many [wugs] living under the bridge.,There were many [wug] living under the bridge.,-7.9375,-9.5625,1.625,1
+1,74,singular,The [wug] near the window makes a soft sound.,The [wugs] near the window makes a soft sound.,-8.9375,-6.96875,-1.96875,0
+1,75,plural,The [wugs] near the window make a soft sound.,The [wug] near the window make a soft sound.,-7.28125,-9.0625,1.78125,1
+1,76,singular,A [wug] inside the box refuses to come out.,A [wugs] inside the box refuses to come out.,-8.875,-6.84375,-2.03125,0
+1,77,plural,The [wugs] inside the box refuse to come out.,The [wug] inside the box refuse to come out.,-7.15625,-9.375,2.21875,1
+1,78,singular,The [wug] hops and then stops to look around.,The [wugs] hops and then stops to look around.,-9.125,-7.0625,-2.0625,0
+1,79,plural,The [wugs] hop and then stop to look around.,The [wug] hop and then stop to look around.,-7.4375,-9.5625,2.125,1
+1,80,singular,I think the [wug] knows we are watching it.,I think the [wugs] knows we are watching it.,-8.4375,-6.78125,-1.65625,0
+1,81,plural,I think the [wugs] know we are watching them.,I think the [wug] know we are watching them.,-6.8125,-8.625,1.8125,1
+1,82,singular,She said the [wug] was the friendliest one.,She said the [wugs] was the friendliest one.,-8.5625,-6.6875,-1.875,0
+1,83,plural,She said the [wugs] were the friendliest ones.,She said the [wug] were the friendliest ones.,-7.1875,-8.9375,1.75,1
+1,84,singular,The [wug] was spotted by a hiker this morning.,The [wugs] was spotted by a hiker this morning.,-8.125,-6.5,-1.625,0
+1,85,plural,The [wugs] were spotted by a hiker this morning.,The [wug] were spotted by a hiker this morning.,-6.875,-8.625,1.75,1
+1,86,singular,"If a [wug] gets scared, it curls into a ball.","If a [wugs] gets scared, it curls into a ball.",-7.6875,-5.96875,-1.71875,0
+1,87,plural,"If the [wugs] get scared, they curl into balls.","If the [wug] get scared, they curl into balls.",-7.625,-9.1875,1.5625,1
+1,88,singular,"When the [wug] is hungry, it searches for berries.","When the [wugs] is hungry, it searches for berries.",-8.3125,-6.34375,-1.96875,0
+1,89,plural,"When the [wugs] are hungry, they search for berries.","When the [wug] are hungry, they search for berries.",-6.5625,-8.375,1.8125,1
+1,90,singular,The [wug] never strays far from the nest.,The [wugs] never strays far from the nest.,-9.25,-7.40625,-1.84375,0
+1,91,plural,The [wugs] never stray far from the nest.,The [wug] never stray far from the nest.,-8.5625,-10.4375,1.875,1
+1,92,singular,This [wug] is larger than the one we saw yesterday.,This [wugs] is larger than the one we saw yesterday.,-7.625,-5.96875,-1.65625,0
+1,93,plural,These [wugs] are larger than the ones we saw yesterday.,These [wug] are larger than the ones we saw yesterday.,-6.71875,-8.4375,1.71875,1
+1,94,singular,Does the [wug] always come back at night?,Does the [wugs] always come back at night?,-8.625,-6.75,-1.875,0
+1,95,plural,Do the [wugs] always come back at night?,Do the [wug] always come back at night?,-7.34375,-9.25,1.90625,1
+1,96,singular,Has the [wug] eaten yet?,Has the [wugs] eaten yet?,-10.8125,-8.75,-2.0625,0
+1,97,plural,Have the [wugs] eaten yet?,Have the [wug] eaten yet?,-9.25,-11.875,2.625,1
+1,98,singular,The [wug] from Spain is quiet.,The [wugs] from Spain is quiet.,-11.1875,-9.4375,-1.75,0
+1,99,plural,The [wugs] from Spain are quiet.,The [wug] from Spain are quiet.,-10.0,-11.875,1.875,1
+1,100,singular,The [wug] near school is calm.,The [wugs] near school is calm.,-11.25,-9.5,-1.75,0
+1,101,plural,The [wugs] near school are calm.,The [wug] near school are calm.,-9.75,-12.0,2.25,1
+1,102,singular,The [wug] at work is tired.,The [wugs] at work is tired.,-11.0,-8.0625,-2.9375,0
+1,103,plural,The [wugs] at work are tired.,The [wug] at work are tired.,-8.625,-11.375,2.75,1
+1,104,singular,The [wug] by sea is wet.,The [wugs] by sea is wet.,-11.125,-9.1875,-1.9375,0
+1,105,plural,The [wugs] by sea are wet.,The [wug] by sea are wet.,-9.5,-11.6875,2.1875,1
+1,106,singular,The [wug] in Rome is lost.,The [wugs] in Rome is lost.,-10.9375,-8.9375,-2.0,0
+1,107,plural,The [wugs] in Rome are lost.,The [wug] in Rome are lost.,-9.5,-11.5,2.0,1
+1,108,singular,The [wug] on land is safe.,The [wugs] on land is safe.,-10.875,-8.375,-2.5,0
+1,109,plural,The [wugs] on land are safe.,The [wug] on land are safe.,-8.875,-11.375,2.5,1
+1,110,singular,The [wug] like him is rare.,The [wugs] like him is rare.,-11.4375,-9.1875,-2.25,0
+1,111,plural,The [wugs] like him are rare.,The [wug] like him are rare.,-9.4375,-11.8125,2.375,1
+1,112,singular,The [wug] with grace is calm.,The [wugs] with grace is calm.,-11.4375,-9.4375,-2.0,0
+1,113,plural,The [wugs] with grace are calm.,The [wug] with grace are calm.,-10.0,-12.375,2.375,1
+1,114,singular,The [wug] from home is warm.,The [wugs] from home is warm.,-11.1875,-9.0625,-2.125,0
+1,115,plural,The [wugs] from home are warm.,The [wug] from home are warm.,-9.5625,-11.6875,2.125,1
+1,116,singular,The [wug] at rest is still.,The [wugs] at rest is still.,-11.1875,-8.4375,-2.75,0
+1,117,plural,The [wugs] at rest are still.,The [wug] at rest are still.,-8.875,-11.6875,2.8125,1
+1,118,singular,The [wug] he found is small.,The [wugs] he found is small.,-11.25,-9.0625,-2.1875,0
+1,119,plural,The [wugs] he found are small.,The [wug] he found are small.,-9.5,-11.875,2.375,1
+1,120,singular,The [wug] she caught is wild.,The [wugs] she caught is wild.,-11.6875,-9.5,-2.1875,0
+1,121,plural,The [wugs] she caught are wild.,The [wug] she caught are wild.,-9.875,-12.1875,2.3125,1
+1,122,singular,The [wug] I raised is tame.,The [wugs] I raised is tame.,-12.0,-9.75,-2.25,0
+1,123,plural,The [wugs] I raised are tame.,The [wug] I raised are tame.,-10.125,-12.375,2.25,1
+1,124,singular,The [wug] we saved is young.,The [wugs] we saved is young.,-12.0,-9.4375,-2.5625,0
+1,125,plural,The [wugs] we saved are young.,The [wug] we saved are young.,-9.75,-12.375,2.625,1
+1,126,singular,The [wug] they chased is quick.,The [wugs] they chased is quick.,-12.4375,-9.875,-2.5625,0
+1,127,plural,The [wugs] they chased are quick.,The [wug] they chased are quick.,-9.9375,-12.625,2.6875,1
+1,128,singular,The [wug] you named is cute.,The [wugs] you named is cute.,-10.9375,-8.3125,-2.625,0
+1,129,plural,The [wugs] you named are cute.,The [wug] you named are cute.,-9.25,-11.8125,2.5625,1
+1,130,singular,The [wug] he fed is full.,The [wugs] he fed is full.,-12.0,-9.6875,-2.3125,0
+1,131,plural,The [wugs] he fed are full.,The [wug] he fed are full.,-10.0625,-12.5625,2.5,1
+1,132,singular,The [wug] she held is warm.,The [wugs] she held is warm.,-11.4375,-9.6875,-1.75,0
+1,133,plural,The [wugs] she held are warm.,The [wug] she held are warm.,-10.3125,-12.1875,1.875,1
+1,134,singular,The [wug] I loved is sweet.,The [wugs] I loved is sweet.,-11.375,-8.9375,-2.4375,0
+1,135,plural,The [wugs] I loved are sweet.,The [wug] I loved are sweet.,-9.5,-12.125,2.625,1
+1,136,singular,The [wug] we trained is smart.,The [wugs] we trained is smart.,-12.0625,-9.1875,-2.875,0
+1,137,plural,The [wugs] we trained are smart.,The [wug] we trained are smart.,-9.4375,-12.3125,2.875,1
+1,138,singular,The [wug] that ran is tired.,The [wugs] that ran is tired.,-11.5,-8.75,-2.75,0
+1,139,plural,The [wugs] that ran are tired.,The [wug] that ran are tired.,-9.0,-11.75,2.75,1
+1,140,singular,The [wug] that fell is hurt.,The [wugs] that fell is hurt.,-11.625,-8.8125,-2.8125,0
+1,141,plural,The [wugs] that fell are hurt.,The [wug] that fell are hurt.,-9.5625,-12.3125,2.75,1
+1,142,singular,The [wug] that slept is calm.,The [wugs] that slept is calm.,-11.9375,-9.125,-2.8125,0
+1,143,plural,The [wugs] that slept are calm.,The [wug] that slept are calm.,-9.75,-12.6875,2.9375,1
+1,144,singular,The [wug] that jumped is fast.,The [wugs] that jumped is fast.,-11.75,-8.875,-2.875,0
+1,145,plural,The [wugs] that jumped are fast.,The [wug] that jumped are fast.,-9.5625,-12.4375,2.875,1
+1,146,singular,The [wug] that sang is loud.,The [wugs] that sang is loud.,-11.625,-9.0625,-2.5625,0
+1,147,plural,The [wugs] that sang are loud.,The [wug] that sang are loud.,-9.625,-12.25,2.625,1
+1,148,singular,The [wug] that cried is sad.,The [wugs] that cried is sad.,-11.5625,-8.75,-2.8125,0
+1,149,plural,The [wugs] that cried are sad.,The [wug] that cried are sad.,-9.1875,-11.9375,2.75,1
+1,150,singular,The [wug] that fled is gone.,The [wugs] that fled is gone.,-11.1875,-8.4375,-2.75,0
+1,151,plural,The [wugs] that fled are gone.,The [wug] that fled are gone.,-9.125,-11.75,2.625,1
+1,152,singular,The [wug] that hid is safe.,The [wugs] that hid is safe.,-11.5625,-8.875,-2.6875,0
+1,153,plural,The [wugs] that hid are safe.,The [wug] that hid are safe.,-9.1875,-12.0625,2.875,1
+1,154,singular,The [wug] that fought is brave.,The [wugs] that fought is brave.,-11.8125,-9.25,-2.5625,0
+1,155,plural,The [wugs] that fought are brave.,The [wug] that fought are brave.,-9.625,-12.125,2.5,1
+1,156,singular,The [wug] that froze is cold.,The [wugs] that froze is cold.,-11.6875,-9.0,-2.6875,0
+1,157,plural,The [wugs] that froze are cold.,The [wug] that froze are cold.,-9.5625,-12.25,2.6875,1
+1,158,singular,The [wug] eating grass is calm.,The [wugs] eating grass is calm.,-12.1875,-9.4375,-2.75,0
+1,159,plural,The [wugs] eating grass are calm.,The [wug] eating grass are calm.,-10.0,-12.875,2.875,1
+1,160,singular,The [wug] chasing birds is fast.,The [wugs] chasing birds is fast.,-11.875,-9.375,-2.5,0
+1,161,plural,The [wugs] chasing birds are fast.,The [wug] chasing birds are fast.,-9.1875,-11.9375,2.75,1
+1,162,singular,The [wug] drinking water is still.,The [wugs] drinking water is still.,-11.0625,-8.625,-2.4375,0
+1,163,plural,The [wugs] drinking water are still.,The [wug] drinking water are still.,-9.375,-11.9375,2.5625,1
+1,164,singular,The [wug] climbing trees is bold.,The [wugs] climbing trees is bold.,-12.125,-10.0,-2.125,0
+1,165,plural,The [wugs] climbing trees are bold.,The [wug] climbing trees are bold.,-9.75,-12.3125,2.5625,1
+1,166,singular,The [wug] digging holes is busy.,The [wugs] digging holes is busy.,-11.9375,-9.375,-2.5625,0
+1,167,plural,The [wugs] digging holes are busy.,The [wug] digging holes are busy.,-9.375,-12.375,3.0,1
+1,168,singular,The [wug] carrying sticks is strong.,The [wugs] carrying sticks is strong.,-12.5,-9.875,-2.625,0
+1,169,plural,The [wugs] carrying sticks are strong.,The [wug] carrying sticks are strong.,-9.6875,-12.8125,3.125,1
+1,170,singular,The [wug] watching clouds is quiet.,The [wugs] watching clouds is quiet.,-12.5625,-9.6875,-2.875,0
+1,171,plural,The [wugs] watching clouds are quiet.,The [wug] watching clouds are quiet.,-9.8125,-12.8125,3.0,1
+1,172,singular,The [wug] guarding eggs is fierce.,The [wugs] guarding eggs is fierce.,-12.875,-9.5625,-3.3125,0
+1,173,plural,The [wugs] guarding eggs are fierce.,The [wug] guarding eggs are fierce.,-9.5,-13.0625,3.5625,1
+1,174,singular,The [wug] building nests is skilled.,The [wugs] building nests is skilled.,-13.25,-10.75,-2.5,0
+1,175,plural,The [wugs] building nests are skilled.,The [wug] building nests are skilled.,-10.6875,-13.25,2.5625,1
+1,176,singular,The [wug] hunting prey is quick.,The [wugs] hunting prey is quick.,-12.25,-9.375,-2.875,0
+1,177,plural,The [wugs] hunting prey are quick.,The [wug] hunting prey are quick.,-9.75,-12.75,3.0,1
+1,178,singular,The [wug] found in Rome is rare.,The [wugs] found in Rome is rare.,-10.875,-8.875,-2.0,0
+1,179,plural,The [wugs] found in Rome are rare.,The [wug] found in Rome are rare.,-9.0625,-11.125,2.0625,1
+1,180,singular,The [wug] seen near school is shy.,The [wugs] seen near school is shy.,-11.375,-9.125,-2.25,0
+1,181,plural,The [wugs] seen near school are shy.,The [wug] seen near school are shy.,-9.4375,-11.8125,2.375,1
+1,182,singular,The [wug] kept at home is tame.,The [wugs] kept at home is tame.,-11.375,-8.5625,-2.8125,0
+1,183,plural,The [wugs] kept at home are tame.,The [wug] kept at home are tame.,-8.875,-11.5625,2.6875,1
+1,184,singular,The [wug] caught by luck is wild.,The [wugs] caught by luck is wild.,-11.4375,-9.3125,-2.125,0
+1,185,plural,The [wugs] caught by luck are wild.,The [wug] caught by luck are wild.,-9.5625,-11.875,2.3125,1
+1,186,singular,The [wug] born in Spain is small.,The [wugs] born in Spain is small.,-10.9375,-8.5625,-2.375,0
+1,187,plural,The [wugs] born in Spain are small.,The [wug] born in Spain are small.,-8.8125,-11.5,2.6875,1
+1,188,singular,The [wug] raised on farms is calm.,The [wugs] raised on farms is calm.,-12.0,-9.625,-2.375,0
+1,189,plural,The [wugs] raised on farms are calm.,The [wug] raised on farms are calm.,-9.6875,-12.1875,2.5,1
+1,190,singular,The [wug] trapped in ice is cold.,The [wugs] trapped in ice is cold.,-10.75,-8.8125,-1.9375,0
+1,191,plural,The [wugs] trapped in ice are cold.,The [wug] trapped in ice are cold.,-9.25,-11.375,2.125,1
+1,192,singular,The [wug] hidden from view is safe.,The [wugs] hidden from view is safe.,-10.4375,-8.5,-1.9375,0
+1,193,plural,The [wugs] hidden from view are safe.,The [wug] hidden from view are safe.,-8.875,-10.875,2.0,1
+1,194,singular,The [wug] left at dawn is gone.,The [wugs] left at dawn is gone.,-10.875,-8.75,-2.125,0
+1,195,plural,The [wugs] left at dawn are gone.,The [wug] left at dawn are gone.,-9.25,-11.375,2.125,1
+1,196,singular,The [wug] sold at court is old.,The [wugs] sold at court is old.,-11.4375,-9.5,-1.9375,0
+1,197,plural,The [wugs] sold at court are old.,The [wug] sold at court are old.,-9.75,-11.875,2.125,1
+1,198,singular,There is the [wug].,There is the [wugs].,-11.8125,-8.3125,-3.5,0
+1,199,plural,There are the [wugs].,There are the [wug].,-8.625,-12.75,4.125,1
+1,200,singular,Here comes the [wug].,Here comes the [wugs].,-12.625,-8.25,-4.375,0
+1,201,plural,Here come the [wugs].,Here come the [wug].,-8.8125,-13.6875,4.875,1
+1,202,singular,In the corner sits a [wug].,In the corner sits a [wugs].,-12.1875,-7.65625,-4.53125,0
+1,203,plural,In the corner sit some [wugs].,In the corner sit some [wug].,-8.75,-12.75,4.0,1
+1,204,singular,Behind the rock hides one [wug].,Behind the rock hides one [wugs].,-12.4375,-8.6875,-3.75,0
+1,205,plural,Behind the rock hide several [wugs].,Behind the rock hide several [wug].,-9.0625,-11.625,2.5625,1
+1,206,singular,On the branch rests a single [wug].,On the branch rests a single [wugs].,-10.5,-7.25,-3.25,0
+1,207,plural,On the branch rest several [wugs].,On the branch rest several [wug].,-9.75,-12.5625,2.8125,1
+1,208,singular,Near the gate waits the [wug].,Near the gate waits the [wugs].,-12.25,-8.3125,-3.9375,0
+1,209,plural,Near the gate wait the [wugs].,Near the gate wait the [wug].,-8.5,-12.4375,3.9375,1
+1,210,singular,"Look, it is a [wug].","Look, it is a [wugs].",-10.625,-7.65625,-2.96875,0
+1,211,plural,"Look, they are [wugs].","Look, they are [wug].",-9.375,-11.6875,2.3125,1
+1,212,singular,What I saw was a [wug].,What I saw was a [wugs].,-10.375,-6.90625,-3.46875,0
+1,213,plural,What I saw were two [wugs].,What I saw were two [wug].,-8.25,-11.125,2.875,1
+1,214,singular,The thing on the roof is a [wug].,The thing on the roof is a [wugs].,-9.75,-6.46875,-3.28125,0
+1,215,plural,The things on the roof are [wugs].,The things on the roof are [wug].,-7.8125,-11.0,3.1875,1
+1,216,singular,Under the bridge lives one [wug].,Under the bridge lives one [wugs].,-12.3125,-8.9375,-3.375,0
+1,217,plural,Under the bridge live many [wugs].,Under the bridge live many [wug].,-9.5,-12.5,3.0,1
+1,218,singular,By the pond stands a lone [wug].,By the pond stands a lone [wugs].,-11.5625,-7.875,-3.6875,0
+1,219,plural,By the pond stand several [wugs].,By the pond stand several [wug].,-9.625,-13.0625,3.4375,1
+1,220,singular,That creature over there is a [wug].,That creature over there is a [wugs].,-10.125,-6.53125,-3.59375,0
+1,221,plural,Those creatures over there are [wugs].,Those creatures over there are [wug].,-7.8125,-11.8125,4.0,1
+1,222,singular,All I wanted was a [wug].,All I wanted was a [wugs].,-10.5,-6.8125,-3.6875,0
+1,223,plural,All I wanted were some [wugs].,All I wanted were some [wug].,-8.375,-11.0,2.625,1
+1,224,singular,Across the field runs a [wug].,Across the field runs a [wugs].,-10.9375,-7.6875,-3.25,0
+1,225,plural,Across the field run the [wugs].,Across the field run the [wug].,-7.6875,-11.6875,4.0,1
+1,226,singular,At the door scratches a [wug].,At the door scratches a [wugs].,-13.3125,-9.4375,-3.875,0
+1,227,plural,At the door scratch the [wugs].,At the door scratch the [wug].,-9.25,-12.0,2.75,1
+1,228,singular,Beneath the leaves sleeps a [wug].,Beneath the leaves sleeps a [wugs].,-10.875,-7.03125,-3.84375,0
+1,229,plural,Beneath the leaves sleep the [wugs].,Beneath the leaves sleep the [wug].,-7.09375,-11.8125,4.71875,1
+1,230,singular,Down the hill rolls a [wug].,Down the hill rolls a [wugs].,-12.75,-7.78125,-4.96875,0
+1,231,plural,Down the hill roll the [wugs].,Down the hill roll the [wug].,-8.125,-13.3125,5.1875,1
+1,232,singular,Into the burrow crawls one [wug].,Into the burrow crawls one [wugs].,-10.6875,-7.5,-3.1875,0
+1,233,plural,Into the burrow crawl several [wugs].,Into the burrow crawl several [wug].,-9.6875,-12.0625,2.375,1
+1,234,singular,Beyond the wall waits a [wug].,Beyond the wall waits a [wugs].,-12.875,-8.625,-4.25,0
+1,235,plural,Beyond the wall wait the [wugs].,Beyond the wall wait the [wug].,-8.5625,-13.375,4.8125,1
+1,236,singular,It turned out to be a [wug].,It turned out to be a [wugs].,-9.125,-6.125,-3.0,0
+1,237,plural,They turned out to be [wugs].,They turned out to be [wug].,-7.75,-10.5625,2.8125,1

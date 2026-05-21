@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,7.319825172424316,0.7957324981689453,69.83071371714274,63.951258118952474,1.4453125,1.453125,1.4494974613189697,2.65625,-0.671875,者の | 龍 | _truth | 關鍵 | perfect, two | 两只 | 两个 | 两位 |  два,0.6176470518112183,0.26050421595573425,0.9747899174690247

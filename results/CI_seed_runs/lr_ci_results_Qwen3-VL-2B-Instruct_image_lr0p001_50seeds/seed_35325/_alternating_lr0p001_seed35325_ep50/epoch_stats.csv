@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,0.13547375798225403,3.273545026779175,64.30283287763595,53.85615208943685,1.453125,1.4453125,1.4494974613189697,1.9140625,0.1298828125, gates |  gate |  door |  doors | _gate, cats | 生き |  rats |  birds |  dogs,0.8235294222831726,0.7731092572212219,0.8739495873451233

@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,6.937352180480957,2.085357189178467,59.25335110028585,59.691357421875,1.078125,1.0859375,1.0794202089309692,1.4453125,0.11083984375, |  | 꼍 | 걘 | 걜,ﭯ |  dogs | 쏩 |  | ,0.4789915978908539,0.0,0.9579831957817078

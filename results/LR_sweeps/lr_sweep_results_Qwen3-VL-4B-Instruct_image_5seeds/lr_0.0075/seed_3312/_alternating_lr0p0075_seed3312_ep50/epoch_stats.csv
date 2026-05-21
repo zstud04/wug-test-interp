@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,0.002066526561975479,0.0010706447064876556,36.933873033275205,41.59647846221924,1.078125,1.078125,1.0794202089309692,1.859375,-0.482421875,鼍 |  lizard | Monster | Dragon | 🦎, cats | 两只 |  dogs |  birds |  rabbits,0.7899159789085388,0.8403361439704895,0.7394958138465881

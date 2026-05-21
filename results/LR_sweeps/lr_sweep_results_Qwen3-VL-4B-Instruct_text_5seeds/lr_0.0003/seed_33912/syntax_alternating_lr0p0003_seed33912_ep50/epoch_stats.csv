@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,5.518652888139089,2.634174108505249,0.9875785112380981,92.91318891346455,84.7621301015218,1.1015625,1.1015625,1.0794202089309692,1.4375,0.1435546875, |  |  trees |  [wugs] | בוחר, cars |  doors |  dogs |  corners | ,0.8151260614395142,0.7899159789085388,0.8403361439704895

@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,0.0,87.400146484375,88.66666666666667,82.90044759114583,1.078125,1.078125,1.0794202089309692,2.15625,-1.0,🐉 | creature | 🐲 |  dragon |  creature,<|object_ref_end|> |  these |  and |  is |  two,0.5,1.0,0.0

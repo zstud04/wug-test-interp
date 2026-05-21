@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,0.0043290783651173115,1.4513075351715088,54.35646464029948,60.26400299072266,1.078125,1.078125,1.0794202089309692,1.4140625,0.142578125, dogs |  |  |  fence |  Dogs, |  | 짦 | 픠 | 퉜,0.8571428656578064,0.924369752407074,0.7899159789085388

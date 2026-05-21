@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,0.09572236984968185,0.7683153748512268,53.09762199127169,45.1254249194637,1.078125,1.078125,1.0794202089309692,1.703125,-0.2412109375,ﮅ | 캤 | ᕯ | ᗗ | 𥕢, birds |  cats |  dogs | birds |  rabbits,0.8277310729026794,0.7394958138465881,0.9159663915634155

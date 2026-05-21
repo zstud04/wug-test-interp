@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,1.048859715461731,57.3978157043457,80.48776300748189,71.96686417261759,1.453125,1.4453125,1.4494974613189697,2.890625,-1.0, appropriate | 最合适 |  right | AntiForgeryToken | 🦈,两人 | Two | <|object_ref_end|> |  Two | ighborhood,0.5,1.0,0.0

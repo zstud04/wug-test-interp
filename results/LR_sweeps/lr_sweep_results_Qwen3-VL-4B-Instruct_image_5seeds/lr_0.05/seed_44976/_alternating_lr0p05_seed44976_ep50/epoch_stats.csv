@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,76.98661804199219,0.0001249128981726244,107.8,101.53345387776693,1.078125,1.078125,1.0794202089309692,2.15625,-1.0,<|object_ref_end|> | <|endoftext|> |  around | </ | ](,🏪 |  café |  bakery |  bookstore | 꼍,0.5,0.0,1.0

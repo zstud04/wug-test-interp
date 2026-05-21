@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,7.588082496895303,4.798555850982666,6.69128439767519e-06,86.06620114867926,79.09273195664088,1.1953125,1.265625,1.0794202089309692,1.75,-0.01324462890625, woman |  |  |  necklace |  parça, birds |  cats |  children |  girls |  animals,0.9117646813392639,0.8991596698760986,0.924369752407074

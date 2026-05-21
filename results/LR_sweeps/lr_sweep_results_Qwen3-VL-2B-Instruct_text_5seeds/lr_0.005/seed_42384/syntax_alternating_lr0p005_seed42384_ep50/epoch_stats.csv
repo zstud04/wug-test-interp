@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,5.555662738237817,5.22797155380249,0.004344948101788759,54.63343476128272,60.45602117827026,1.5625,1.65625,1.4494974613189697,2.296875,-0.02294921875, door |  fence | door |  gate |  dog, cats |  birds |  chickens |  kids |  dogs,0.8655462265014648,0.7647058963775635,0.9663865566253662

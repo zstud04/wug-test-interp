@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,4.1211150795606954,0.003286596853286028,2.4412827491760254,85.55944417317708,64.37774356206258,1.125,1.125,1.0794202089309692,1.4375,0.18359375, [wugs] |  |  birds |  |  chair, [wug] |  phones |  birds |  chairs |  dogs,0.9201680421829224,0.9747899174690247,0.8655462265014648

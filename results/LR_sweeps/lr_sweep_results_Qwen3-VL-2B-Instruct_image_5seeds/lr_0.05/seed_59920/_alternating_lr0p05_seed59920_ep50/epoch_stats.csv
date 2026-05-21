@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,41.25933074951172,4.602763652801514,89.7351155603712,82.68437093098959,1.4453125,1.4453125,1.4494974613189697,2.890625,-0.9921875,十字 |  algum |  диск |  sạn |  Elev, two | 两个 |  Two | 两只 | two,0.5,0.0,1.0

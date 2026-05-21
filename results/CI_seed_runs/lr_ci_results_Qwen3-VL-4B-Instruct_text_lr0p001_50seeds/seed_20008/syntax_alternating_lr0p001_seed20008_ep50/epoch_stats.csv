@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,4.238056573006906,0.2951970100402832,0.1253294050693512,74.45728251139323,75.57166796500483,1.1171875,1.125,1.0794202089309692,1.46875,0.1376953125, |  dogs |  |  cats | 닺, lions |  houses |  cats |  painters |  women,0.924369752407074,0.9411764740943909,0.9075630307197571

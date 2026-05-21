@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,0.1470843255519867,0.026840174570679665,79.09038270314535,70.8075154741611,1.4453125,1.4453125,1.4494974613189697,2.25,-0.2099609375,_door | 關鍵 |  gates | 	child | 者の, birds |  dogs |  twins |  pigs | 两只,0.8277310729026794,0.6638655662536621,0.9915966391563416
