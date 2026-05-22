@@ -47,7 +47,7 @@ Args:
 - epochs (int): number of training epochs
 - training_condition (str): "image" (train with real images from image_dir) or "syntax" (text-only, or with filler images if filler_image_dir is set)
 - train_csv (str): training csv with cols "type" (singular/plural) and "sentence" (raw sentence str)
-- eval_csv (str): eval csv with minimal pairs in each row (good_sentence) and (bad_sentence)
+- eval_csv (str): eval csv with minimal pairs in each row (good) and (bad)
 - batch_mode (str): "alternating" (separate singular/plural optimizer steps) or "joint" (one step with summed per-example CE). Default "alternating"
 - batch_size (int): number of singular/plural pairs per optimizer step. Default 1
 - model (str): HF model name/path. Must have tied embed/lm head weights. Default "Qwen/Qwen3-VL-4B-Instruct"

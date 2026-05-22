@@ -59,8 +59,8 @@ def parse_args():
                         help="Path to training CSV with columns 'type' (singular|plural) "
                              "and 'sentence'.")
     parser.add_argument("--eval_csv", type=str, required=True,
-                        help="Path to eval CSV with columns 'good_sentence' (grammatical) "
-                             "and 'bad_sentence' (ungrammatical), one pair per row.")
+                        help="Path to eval CSV with columns 'good' (grammatical) "
+                             "and 'bad' (ungrammatical), one pair per row.")
 
     parser.add_argument("--embed_init", type=str, default=None,
                         help="Path to txt file with noun words (one per line) for embedding init. "
@@ -100,20 +100,20 @@ def load_train_csv(path):
 
 
 def load_eval_csv(path):
-    """Load eval pairs from a CSV with 'good_sentence' and 'bad_sentence' columns.
+    """Load eval pairs from a CSV with 'good' and 'bad' columns.
 
     Returns (goods, bads).
     """
     df = pd.read_csv(path)
-    for col in ("good_sentence", "bad_sentence"):
+    for col in ("good", "bad"):
         assert col in df.columns, f"Eval CSV {path} missing required column '{col}'"
-    df = df.dropna(subset=["good_sentence", "bad_sentence"]).copy()
-    df["good_sentence"] = df["good_sentence"].astype(str).str.strip()
-    df["bad_sentence"] = df["bad_sentence"].astype(str).str.strip()
-    df = df[(df["good_sentence"] != "") & (df["bad_sentence"] != "")]
+    df = df.dropna(subset=["good", "bad"]).copy()
+    df["good"] = df["good"].astype(str).str.strip()
+    df["bad"] = df["bad"].astype(str).str.strip()
+    df = df[(df["good"] != "") & (df["bad"] != "")]
 
-    goods = df["good_sentence"].tolist()
-    bads = df["bad_sentence"].tolist()
+    goods = df["good"].tolist()
+    bads = df["bad"].tolist()
     return goods, bads
 
 

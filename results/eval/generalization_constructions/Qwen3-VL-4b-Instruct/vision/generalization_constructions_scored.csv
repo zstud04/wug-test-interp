@@ -1,0 +1,101 @@
+idx,good,bad,condition,score_good,score_bad,is_correct
+0,"The [wug] sleeps a lot, doesn't it?","The [wugs] sleeps a lot, doesn't it?",tag_question,-5.625,-5.96875,True
+1,"The [wugs] sleep a lot, don't they?","The [wug] sleep a lot, don't they?",tag_question,-5.375,-6.21875,True
+2,"The [wug] is hungry, isn't it?","The [wugs] is hungry, isn't it?",tag_question,-5.28125,-6.0625,True
+3,"The [wugs] are hungry, aren't they?","The [wug] are hungry, aren't they?",tag_question,-5.59375,-5.90625,True
+4,"The [wug] hid again, didn't it?","The [wugs] hid again, didn't it?",tag_question,-6.53125,-7.46875,True
+5,"The [wugs] hid again, didn't they?","The [wug] hid again, didn't they?",tag_question,-6.5625,-6.90625,True
+6,"The [wug] was scared, wasn't it?","The [wugs] was scared, wasn't it?",tag_question,-5.625,-6.3125,True
+7,"The [wugs] were scared, weren't they?","The [wug] were scared, weren't they?",tag_question,-5.9375,-6.125,True
+8,"The [wug] has eaten, hasn't it?","The [wugs] has eaten, hasn't it?",tag_question,-5.96875,-6.4375,True
+9,"The [wugs] have eaten, haven't they?","The [wug] have eaten, haven't they?",tag_question,-6.15625,-6.65625,True
+10,"The [wug] can swim, can't it?","The [wugs] can swim, can it?",tag_question,-5.5625,-6.5625,True
+11,"The [wugs] will return, won't they?","The [wug] will return, won't it?",tag_question,-5.78125,-5.59375,False
+12,"The [wug] eats berries, doesn't it?","The [wugs] eats berries, doesn't it?",tag_question,-6.0,-6.75,True
+13,"The [wugs] eat berries, don't they?","The [wug] eat berries, don't they?",tag_question,-6.28125,-6.625,True
+14,"The [wug] looks tired, doesn't it?","The [wugs] looks tired, doesn't it?",tag_question,-5.84375,-6.4375,True
+15,"The [wugs] look tired, don't they?","The [wug] look tired, don't they?",tag_question,-5.90625,-7.0,True
+16,"The [wug] stayed outside, didn't it?","The [wugs] stayed outside, didn't they?",tag_question,-6.09375,-6.0,False
+17,"The [wugs] stayed outside, didn't they?","The [wug] stayed outside, didn't it?",tag_question,-6.0,-6.09375,True
+18,"The [wug] is sleeping, isn't it?","The [wugs] is sleeping, isn't it?",tag_question,-5.25,-5.9375,True
+19,"The [wugs] are sleeping, aren't they?","The [wug] are sleeping, aren't they?",tag_question,-5.5625,-5.90625,True
+20,The [wug] and the bird share the nest.,The [wug] and the bird shares the nest.,coordinated_subject,-7.21875,-7.46875,True
+21,A [wug] and a fox live nearby.,A [wug] and a fox lives nearby.,coordinated_subject,-6.5,-7.25,True
+22,The [wug] and its mate guard the eggs.,The [wug] and its mate guards the eggs.,coordinated_subject,-7.71875,-8.0625,True
+23,The [wug] and the cat were resting together.,The [wug] and the cat was resting together.,coordinated_subject,-6.59375,-7.34375,True
+24,A [wug] and a frog were swimming in the pond.,A [wug] and a frog was swimming in the pond.,coordinated_subject,-5.125,-5.65625,True
+25,The [wug] and the owl hunt at night.,The [wug] and the owl hunts at night.,coordinated_subject,-6.59375,-7.15625,True
+26,The [wug] and the deer eat the same plants.,The [wug] and the deer eats the same plants.,coordinated_subject,-6.28125,-6.71875,True
+27,A [wug] and a mouse have escaped the cage.,A [wug] and a mouse has escaped the cage.,coordinated_subject,-6.78125,-7.34375,True
+28,The [wug] and the snake were hiding under the rock.,The [wug] and the snake was hiding under the rock.,coordinated_subject,-5.46875,-5.78125,True
+29,The [wug] and the hare run across the meadow.,The [wug] and the hare runs across the meadow.,coordinated_subject,-5.90625,-5.96875,True
+30,A [wug] and a crow were fighting over food.,A [wug] and a crow was fighting over food.,coordinated_subject,-6.125,-6.65625,True
+31,The [wug] and the toad sit by the water.,The [wug] and the toad sits by the water.,coordinated_subject,-5.6875,-5.90625,True
+32,The [wug] and its young have left the burrow.,The [wug] and its young has left the burrow.,coordinated_subject,-6.40625,-6.75,True
+33,A [wug] and a beetle were crawling up the wall.,A [wug] and a beetle was crawling up the wall.,coordinated_subject,-6.375,-6.4375,True
+34,The [wug] and the lizard bask in the sun.,The [wug] and the lizard basks in the sun.,coordinated_subject,-5.65625,-5.875,True
+35,The [wug] and the moth were drawn to the lamp.,The [wug] and the moth was drawn to the lamp.,coordinated_subject,-6.3125,-6.53125,True
+36,A [wug] and a hen wander through the yard.,A [wug] and a hen wanders through the yard.,coordinated_subject,-6.6875,-6.65625,False
+37,The [wug] and the goat have eaten the grass.,The [wug] and the goat has eaten the grass.,coordinated_subject,-6.5,-6.8125,True
+38,The [wug] and the duck were paddling in circles.,The [wug] and the duck was paddling in circles.,coordinated_subject,-6.59375,-7.125,True
+39,The [wug] and the bee return to the same flower.,The [wug] and the bee returns to the same flower.,coordinated_subject,-6.09375,-6.59375,True
+40,What the [wug] wants is a warm place.,What the [wugs] wants is a warm place.,pseudocleft,-6.3125,-7.03125,True
+41,What the [wugs] want is a warm place.,What the [wug] want is a warm place.,pseudocleft,-6.5,-6.90625,True
+42,What the [wug] needs is more food.,What the [wugs] needs is more food.,pseudocleft,-6.3125,-7.3125,True
+43,What the [wugs] need is more food.,What the [wug] need is more food.,pseudocleft,-6.65625,-7.28125,True
+44,What the [wug] fears is the dark.,What the [wugs] fears is the dark.,pseudocleft,-7.21875,-7.65625,True
+45,What the [wugs] fear is the dark.,What the [wug] fear is the dark.,pseudocleft,-6.9375,-7.5,True
+46,What the [wug] likes is quiet.,What the [wugs] likes is quiet.,pseudocleft,-7.25,-8.25,True
+47,What the [wugs] like is quiet.,What the [wug] like is quiet.,pseudocleft,-8.0,-8.1875,True
+48,What the [wug] hates is loud noise.,What the [wugs] hates is loud noise.,pseudocleft,-6.90625,-7.78125,True
+49,What the [wugs] hate is loud noise.,What the [wug] hate is loud noise.,pseudocleft,-7.6875,-8.125,True
+50,What the [wug] does is dig.,What the [wugs] does is dig.,pseudocleft,-7.3125,-8.5625,True
+51,What the [wugs] do is dig.,What the [wug] do is dig.,pseudocleft,-7.65625,-7.65625,False
+52,What the [wug] enjoys is the sun.,What the [wugs] enjoys is the sun.,pseudocleft,-7.09375,-7.625,True
+53,What the [wugs] enjoy is the sun.,What the [wug] enjoy is the sun.,pseudocleft,-6.90625,-7.75,True
+54,What the [wug] avoids is water.,What the [wugs] avoids is water.,pseudocleft,-7.1875,-8.6875,True
+55,What the [wugs] avoid is water.,What the [wug] avoid is water.,pseudocleft,-7.84375,-7.46875,False
+56,What the [wug] seeks is shelter.,What the [wugs] seeks is shelter.,pseudocleft,-7.25,-8.375,True
+57,What the [wugs] seek is shelter.,What the [wug] seek is shelter.,pseudocleft,-8.125,-7.71875,False
+58,What the [wug] knows is the path.,What the [wugs] knows is the path.,pseudocleft,-6.78125,-7.78125,True
+59,What the [wugs] know is the path.,What the [wug] know is the path.,pseudocleft,-7.21875,-7.46875,True
+60,The [wug] seems to enjoy the rain.,The [wugs] seems to enjoy the rain.,raising_predicate,-6.15625,-6.75,True
+61,The [wugs] seem to enjoy the rain.,The [wug] seem to enjoy the rain.,raising_predicate,-6.3125,-6.6875,True
+62,The [wug] tends to hide at noon.,The [wugs] tends to hide at noon.,raising_predicate,-6.8125,-7.5625,True
+63,The [wugs] tend to hide at noon.,The [wug] tend to hide at noon.,raising_predicate,-7.21875,-7.46875,True
+64,The [wug] appears to be sleeping.,The [wugs] appears to be sleeping.,raising_predicate,-5.9375,-6.84375,True
+65,The [wugs] appear to be sleeping.,The [wug] appear to be sleeping.,raising_predicate,-6.25,-6.875,True
+66,The [wug] happens to live nearby.,The [wugs] happens to live nearby.,raising_predicate,-7.1875,-7.46875,True
+67,The [wugs] happen to live nearby.,The [wug] happen to live nearby.,raising_predicate,-7.0625,-7.78125,True
+68,The [wug] is likely to return.,The [wugs] is likely to return.,raising_predicate,-6.125,-7.125,True
+69,The [wugs] are likely to return.,The [wug] are likely to return.,raising_predicate,-6.40625,-6.8125,True
+70,The [wug] continues to grow quickly.,The [wugs] continues to grow quickly.,raising_predicate,-6.40625,-7.0625,True
+71,The [wugs] continue to grow quickly.,The [wug] continue to grow quickly.,raising_predicate,-6.75,-7.0,True
+72,The [wug] used to nest in the oak.,The [wugs] uses to nest in the oak.,raising_predicate,-6.84375,-7.5625,True
+73,The [wugs] seem to fear the noise.,The [wug] seems to fear the noise.,raising_predicate,-7.0,-7.21875,True
+74,The [wug] proves to be gentle.,The [wugs] prove to be gentle.,raising_predicate,-7.03125,-7.25,True
+75,The [wugs] prove to be gentle.,The [wug] proves to be gentle.,raising_predicate,-7.25,-7.03125,False
+76,The [wug] turns out to be friendly.,The [wugs] turn out to be friendly.,raising_predicate,-6.0,-6.125,True
+77,The [wugs] turn out to be friendly.,The [wug] turns out to be friendly.,raising_predicate,-6.125,-6.0,False
+78,The [wug] fails to notice us.,The [wugs] fail to notice us.,raising_predicate,-7.125,-7.0,False
+79,The [wugs] fail to notice us.,The [wug] fails to notice us.,raising_predicate,-7.0,-7.125,True
+80,One of the [wugs] is missing.,One of the [wugs] are missing.,partitive_subject,-4.59375,-5.46875,True
+81,Some of the [wugs] are missing.,Some of the [wugs] is missing.,partitive_subject,-4.96875,-5.4375,True
+82,Each of the [wugs] has a name.,Each of the [wugs] have a name.,partitive_subject,-4.875,-5.4375,True
+83,Many of the [wugs] have left.,Many of the [wugs] has left.,partitive_subject,-5.28125,-5.9375,True
+84,One of the [wugs] sleeps outside.,One of the [wugs] sleep outside.,partitive_subject,-6.59375,-6.6875,True
+85,Several of the [wugs] sleep outside.,Several of the [wugs] sleeps outside.,partitive_subject,-7.03125,-7.5625,True
+86,Neither of the [wugs] was hungry.,Neither of the [wugs] were hungry.,partitive_subject,-5.6875,-5.875,True
+87,Both of the [wugs] were hungry.,Both of the [wugs] was hungry.,partitive_subject,-5.78125,-6.375,True
+88,One of the [wugs] looks sick.,One of the [wugs] look sick.,partitive_subject,-6.0,-6.59375,True
+89,A few of the [wugs] look sick.,A few of the [wugs] looks sick.,partitive_subject,-6.625,-7.125,True
+90,One of the [wugs] has escaped.,One of the [wugs] have escaped.,partitive_subject,-5.4375,-6.3125,True
+91,Most of the [wugs] have escaped.,Most of the [wugs] has escaped.,partitive_subject,-5.96875,-6.53125,True
+92,Each of the [wugs] eats alone.,Each of the [wugs] eat alone.,partitive_subject,-7.03125,-7.1875,True
+93,All of the [wugs] eat together.,All of the [wugs] eats together.,partitive_subject,-6.59375,-7.21875,True
+94,One of the [wugs] was glowing.,One of the [wugs] were glowing.,partitive_subject,-5.84375,-6.5,True
+95,Some of the [wugs] were glowing.,Some of the [wugs] was glowing.,partitive_subject,-5.96875,-6.625,True
+96,One of the [wugs] returns at dusk.,One of the [wugs] return at dusk.,partitive_subject,-6.21875,-6.375,True
+97,Many of the [wugs] return at dusk.,Many of the [wugs] returns at dusk.,partitive_subject,-6.71875,-6.90625,True
+98,Neither of the [wugs] makes a sound.,Neither of the [wugs] make a sound.,partitive_subject,-5.4375,-5.40625,False
+99,Both of the [wugs] make a sound.,Both of the [wugs] makes a sound.,partitive_subject,-5.59375,-6.03125,True
