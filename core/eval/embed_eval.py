@@ -17,8 +17,13 @@ def parse_args():
                         help="Path to a learned_embeddings.pt file produced by embed_train "
                              "(must contain 'wug_embedding', 'wugs_embedding', 'added_tokens').")
     parser.add_argument("--stimuli_csv", type=str, required=True,
-                        help="Path to a stimuli CSV with at least 'good' and 'bad' columns. "
-                             "All other columns are passed through unchanged.")
+                        help="Path to a stimuli CSV. In default mode requires 'good' and 'bad' "
+                             "columns. With --paired requires 'good_singular', 'bad_singular', "
+                             "'good_plural', 'bad_plural'. All other columns are passed through.")
+    parser.add_argument("--paired", action="store_true",
+                        help="Treat each row as a singular/plural tuple. Reads "
+                             "good_singular/bad_singular/good_plural/bad_plural and writes "
+                             "per-number scores, diffs, and correctness flags.")
     parser.add_argument("--out_dir", type=str, default="results",
                         help="Output directory for the scored copy of the CSV (default: results/).")
     parser.add_argument("--cache_dir", type=str,
@@ -27,17 +32,41 @@ def parse_args():
     parser.add_argument("--out_name", type=str, default=None,
                         help="Optional output filename. Defaults to "
                              "'<stimuli_basename>_scored.csv'.")
+    parser.add_argument("--batch_size", type=int, default=8,
+                        help="Batch size for sequence scoring (default: 8).")
     return parser.parse_args()
 
 
-def load_stimuli(path):
-    """Load stimuli CSV, preserving all original columns. Requires 'good' and 'bad'."""
+# Column groups for each mode. Each entry maps a logical name -> CSV column.
+SINGLE_COLS = ("good", "bad")
+PAIRED_COLS = ("good_singular", "bad_singular", "good_plural", "bad_plural")
+
+
+def load_stimuli(path, paired):
+    """Load stimuli CSV, preserving all original columns.
+
+    Default mode requires 'good'/'bad'. Paired mode requires the four
+    good_*/bad_* tuple columns. The active text columns are stripped to str.
+    """
     df = pd.read_csv(path)
-    for col in ("good", "bad"):
+    required = PAIRED_COLS if paired else SINGLE_COLS
+    for col in required:
         assert col in df.columns, f"Stimuli CSV {path} missing required column '{col}'"
-    df["good"] = df["good"].astype(str).str.strip()
-    df["bad"] = df["bad"].astype(str).str.strip()
+    for col in required:
+        df[col] = df[col].astype(str).str.strip()
     return df
+
+
+def batched_sequence_score(lm, queries, batch_size=8):
+    """Score queries in fixed-size batches to cap peak memory."""
+    scores = []
+    n = len(queries)
+    for i in range(0, n, batch_size):
+        batch = queries[i:i + batch_size]
+        scores.extend(lm.sequence_score(batch))
+        print(f"    scored {min(i + batch_size, n)}/{n}", end="\r")
+    print()
+    return torch.tensor(scores, dtype=torch.float32)
 
 
 def main():
@@ -45,14 +74,16 @@ def main():
 
     os.makedirs(args.out_dir, exist_ok=True)
 
-    df = load_stimuli(args.stimuli_csv)
+    df = load_stimuli(args.stimuli_csv, args.paired)
     n = len(df)
     print("=" * 70)
     print("EVAL CONFIG")
     print(f"  Model:        {args.model}")
     print(f"  Embeddings:   {args.embeddings}")
-    print(f"  Stimuli CSV:  {args.stimuli_csv} ({n} pairs)")
+    print(f"  Stimuli CSV:  {args.stimuli_csv} ({n} {'tuples' if args.paired else 'pairs'})")
+    print(f"  Mode:         {'paired (sg+pl)' if args.paired else 'single'}")
     print(f"  Output dir:   {args.out_dir}")
+    print(f"  Batch size:   {args.batch_size}")
     print("=" * 70)
 
     device = "cuda"
@@ -61,7 +92,7 @@ def main():
     )
 
     rec = torch.load(args.embeddings, map_location="cpu")
-    added_tokens = rec["added_tokens"]            
+    added_tokens = rec["added_tokens"]
     wug_embedding = rec["wug_embedding"]
     wugs_embedding = rec["wugs_embedding"]
     saved_model = rec.get("model_name", None)
@@ -96,22 +127,71 @@ def main():
     print(f"  Injected embeddings  [wug] norm={emb.weight[wug_id].norm().item():.4f}  "
           f"[wugs] norm={emb.weight[wugs_id].norm().item():.4f}")
 
-    # ----- Build queries (text-only, no assistant turn) like the training eval -----
-    good_queries = [chat_template(lm, s, noimage=True, assistant=False) for s in df["good"].tolist()]
-    bad_queries = [chat_template(lm, s, noimage=True, assistant=False) for s in df["bad"].tolist()]
+    # ----- Sanity check: warn if a stimulus doesn't contain a novel token -----
+    active_cols = PAIRED_COLS if args.paired else SINGLE_COLS
+    for col in active_cols:
+        for i, s in enumerate(df[col].tolist()):
+            ids = tok(s, add_special_tokens=False).input_ids
+            if wug_id not in ids and wugs_id not in ids:
+                print(f"  WARNING: row {i} '{col}' contains neither [wug] nor [wugs]: {s!r}")
 
-    # ----- Score -----
-    good_scores = torch.tensor(lm.sequence_score(good_queries), dtype=torch.float32)
-    bad_scores = torch.tensor(lm.sequence_score(bad_queries), dtype=torch.float32)
-    is_correct = (good_scores > bad_scores)
+    # ----- Build queries (text-only, no assistant turn) like the training eval -----
+    def build_queries(col):
+        return [chat_template(lm, s, noimage=True, assistant=False) for s in df[col].tolist()]
 
     out_df = df.copy()
-    out_df["score_good"] = good_scores.tolist()
-    out_df["score_bad"] = bad_scores.tolist()
-    out_df["is_correct"] = is_correct.tolist()
 
-    acc = is_correct.float().mean().item()
-    print(f"\nOverall accuracy: {acc:.4f} ({int(is_correct.sum().item())}/{n})")
+    if not args.paired:
+        # ---------------- single mode (original behavior) ----------------
+        good_queries = build_queries("good")
+        bad_queries = build_queries("bad")
+
+        print("Scoring good queries...")
+        good_scores = batched_sequence_score(lm, good_queries, batch_size=args.batch_size)
+        print("Scoring bad queries...")
+        bad_scores = batched_sequence_score(lm, bad_queries, batch_size=args.batch_size)
+        is_correct = (good_scores > bad_scores)
+
+        out_df["score_good"] = good_scores.tolist()
+        out_df["score_bad"] = bad_scores.tolist()
+        out_df["is_correct"] = is_correct.tolist()
+
+        acc = is_correct.float().mean().item()
+        print(f"\nOverall accuracy: {acc:.4f} ({int(is_correct.sum().item())}/{n})")
+
+    else:
+        # ---------------- paired mode (sg + pl) ----------------
+        print("Scoring good_singular queries...")
+        gs = batched_sequence_score(lm, build_queries("good_singular"), batch_size=args.batch_size)
+        print("Scoring bad_singular queries...")
+        bs = batched_sequence_score(lm, build_queries("bad_singular"), batch_size=args.batch_size)
+        print("Scoring good_plural queries...")
+        gp = batched_sequence_score(lm, build_queries("good_plural"), batch_size=args.batch_size)
+        print("Scoring bad_plural queries...")
+        bp = batched_sequence_score(lm, build_queries("bad_plural"), batch_size=args.batch_size)
+
+        diff_sg = gs - bs
+        diff_pl = gp - bp
+        correct_sg = (gs > bs)
+        correct_pl = (gp > bp)
+        correct_all = correct_sg & correct_pl
+
+        out_df["score_good_singular"] = gs.tolist()
+        out_df["score_bad_singular"] = bs.tolist()
+        out_df["score_good_plural"] = gp.tolist()
+        out_df["score_bad_plural"] = bp.tolist()
+        out_df["score_diff_singular"] = diff_sg.tolist()
+        out_df["score_diff_plural"] = diff_pl.tolist()
+        out_df["is_correct_singular"] = correct_sg.tolist()
+        out_df["is_correct_plural"] = correct_pl.tolist()
+        out_df["is_correct_all"] = correct_all.tolist()
+
+        acc_sg = correct_sg.float().mean().item()
+        acc_pl = correct_pl.float().mean().item()
+        acc_all = correct_all.float().mean().item()
+        print(f"\nSingular accuracy: {acc_sg:.4f} ({int(correct_sg.sum().item())}/{n})")
+        print(f"Plural accuracy:   {acc_pl:.4f} ({int(correct_pl.sum().item())}/{n})")
+        print(f"Joint (both) acc:  {acc_all:.4f} ({int(correct_all.sum().item())}/{n})")
 
     out_name = args.out_name or (
         os.path.splitext(os.path.basename(args.stimuli_csv))[0] + "_scored.csv"
