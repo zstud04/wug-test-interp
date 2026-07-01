@@ -27,14 +27,23 @@ Once we have found the best LR from grid search, run 50 random seeds to generate
 `pipelines/embeddings/lr_ci_runs.sh --condition text --train_csv data/embeddings/train/text/syntax_train_1.csv --eval_csv data/embeddings/eval/singular_plural_eval.csv --embed_init data/embeddings/init/noun_init.txt --lr 0.001 --epochs 50`
 
 
-### 3. Run for held out attractor stimuli
-How well do our embeddings generalize to held out stimuli? 
+### 3. Run causal intevention methods
+All interventions are subclasses of an abstract intervention.py method. Below is an example for running DAS, but the same inputs/outputs are enforced across methods.
 
-### 4. Run interpretability wug test
-Run all interpretability methods for three conditions:
-
-1. 
-
+```
+python3 core/interp/das.py \
+  --model_path "Qwen/Qwen3-VL-2B-Instruct" \
+  --embeddings_path embeddings/Qwen3-VL-2B/syntax/qwen3_vl_2b_syntax.pt \
+  --src_csv results/eval/interp/Qwen3-VL-2B-Instruct/agreement_target_natural_scored.csv \
+  --source_input_col base_sentence_sg \
+  --base_input_col base_sentence_pl \
+  --source_completion_A good_singular \
+  --source_completion_B bad_singular \
+  --filter condition=target_verb_att0_opp is_correct_all=TRUE \
+  --n_sample 400 \
+  --layers 5 10 15 20 25 27 \
+  --out_csv results/interp/Qwen3-VL-2B-Instruct/das_syntax_target_verb_att0_opp.csv
+```
 
 ## Scripts
 

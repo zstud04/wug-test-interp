@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,4.754403610113271,0.34199368953704834,0.6900716423988342,74.18192343016466,63.27580636739731,1.484375,1.4765625,1.4494974613189697,1.9609375,0.12060546875, dogs |  cats |  chair |  chairs |  kitten, cats |  cows |  boats |  dogs |  thing,0.9136690497398376,0.8776978254318237,0.9496402740478516

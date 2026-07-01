@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,4.362913608551025,5.9085001945495605,56.57209065755208,53.56475296020508,1.4453125,1.4453125,1.4494974613189697,1.9140625,0.126953125, Door |  walls |  mosques | _door |  door, walls |  dogs |  birds |  wall |  WALL,0.43525180220603943,0.8273381590843201,0.04316546767950058

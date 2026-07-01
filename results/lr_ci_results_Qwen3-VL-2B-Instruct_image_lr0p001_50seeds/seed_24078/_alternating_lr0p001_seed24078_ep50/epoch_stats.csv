@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,,0.30596524477005005,0.9561054110527039,60.42916666666667,64.6622496287028,1.453125,1.4453125,1.4494974613189697,1.9140625,0.1318359375, walls |  doors |  fences |  gates | 鬏, cats |  birds |  books |  rabbits |  dogs,0.7733812928199768,0.7482014298439026,0.798561155796051

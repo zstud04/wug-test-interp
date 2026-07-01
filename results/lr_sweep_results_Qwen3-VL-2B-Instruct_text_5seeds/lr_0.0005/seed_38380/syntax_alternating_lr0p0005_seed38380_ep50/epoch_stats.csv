@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,4.173739908014735,1.02218496799469,0.2171943634748459,66.49527893066406,68.09819410443306,1.46875,1.4765625,1.4494974613189697,1.9375,0.138671875, dogs |  door |  [wugs] |  dog |  child, cats |  frogs |  dogs |  wolves |  puppies,0.9136690497398376,0.9496402740478516,0.8776978254318237

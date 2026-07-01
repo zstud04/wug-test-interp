@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,2.778121190829552,0.007676894776523113,1.7428241968154907,66.96138509114583,53.85086669921875,1.4921875,1.4765625,1.4494974613189697,1.9765625,0.1083984375, door |  chair |  dogs |  dog |  doors, birds |  chairs |  bird |  dogs |  puppies,0.8776978254318237,0.8273381590843201,0.9280575513839722

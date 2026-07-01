@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,5.389505013047407,1.7987754344940186,0.004635528661310673,82.22097981770834,82.59012628110746,1.1171875,1.140625,1.0794202089309692,1.4765625,0.150390625, |  | 鸟成长记 | 魔龙令牌 |  davidjl, dogs |  houses |  birds |  flowers |  chickens,0.931654691696167,0.9424460530281067,0.9208633303642273

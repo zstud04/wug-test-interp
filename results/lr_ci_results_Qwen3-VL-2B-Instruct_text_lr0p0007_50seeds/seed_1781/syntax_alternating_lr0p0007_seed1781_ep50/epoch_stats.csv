@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,6.389898123405874,1.1083821058273315,1.066770315170288,75.04409299716353,61.589065889517464,1.484375,1.484375,1.4494974613189697,1.9375,0.142578125, cats |  goat |  dogs |  sheep |  [wugs], cats |  Cats |  horses |  Walls |  goats,0.902877688407898,0.9208633303642273,0.8848921060562134

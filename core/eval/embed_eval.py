@@ -135,6 +135,27 @@ def main():
             if wug_id not in ids and wugs_id not in ids:
                 print(f"  WARNING: row {i} '{col}' contains neither [wug] nor [wugs]: {s!r}")
 
+    length_pairs = (
+        [("good_singular", "bad_singular"), ("good_plural", "bad_plural")]
+        if args.paired else [("good", "bad")]
+    )
+    n_mismatch = 0
+    for good_col, bad_col in length_pairs:
+        for i, (g, b) in enumerate(zip(df[good_col].tolist(), df[bad_col].tolist())):
+            n_good = len(tok(g, add_special_tokens=False).input_ids)
+    
+            n_bad = len(tok(b, add_special_tokens=False).input_ids)
+            print(n_good)
+            print(n_bad)
+            print("---")
+            if n_good != n_bad:
+                n_mismatch += 1
+                print(f"  WARNING: row {i} '{good_col}'({n_good}) vs "
+                      f"'{bad_col}'({n_bad}) differ in token length")
+    if n_mismatch:
+        print(f"  {n_mismatch} length-mismatched item(s) — good>bad contrast "
+              f"is confounded for these rows.")
+
     # ----- Build queries (text-only, no assistant turn) like the training eval -----
     def build_queries(col):
         return [chat_template(lm, s, noimage=True, assistant=False) for s in df[col].tolist()]

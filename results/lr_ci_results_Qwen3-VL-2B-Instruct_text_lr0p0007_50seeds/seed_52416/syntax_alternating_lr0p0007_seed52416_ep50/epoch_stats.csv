@@ -1,0 +1,2 @@
+epoch,avg_ce,sing_ce,plur_ce,grad_wug,grad_wugs,norm_wug,norm_wugs,target_norm,sep_l2,cos,nbrs_wug,nbrs_wugs,eval_overall,eval_sing,eval_plur
+1,4.389874274279767,1.641347050666809,0.03451293706893921,68.09388554890951,50.689426551262535,1.46875,1.484375,1.4494974613189697,1.953125,0.11962890625, birds |  chickens |  dogs |  dog |  bird, dogs |  cats |  Dogs |  monkeys |  birds,0.9280575513839722,0.9424460530281067,0.9136690497398376
