@@ -10,9 +10,9 @@ from minicons import scorer
 
 class Intervention(ABC):
 
-
     OUTPUT_FIELDS = [
         "split",
+        "inverse",
         "tok",
         "layer",
         "source_input",
@@ -67,14 +67,16 @@ class Intervention(ABC):
                        help="Column with sentences to inject INTO (base).")
         p.add_argument("--source_completion_A", required=True,
                        help="Column with the (good) completion as a FULL string: "
-                            "the BASE input with the correct token appended, e.g. "
-                            "base 'The dog' -> 'The dog runs'. The comparison "
-                            "token is the first token beyond the base input.")
+                            "the SOURCE input with the token that agrees with "
+                            "the SOURCE appended, e.g. source 'The dog' -> "
+                            "'The dog runs'. The comparison token is the first "
+                            "token beyond the source input.")
         p.add_argument("--source_completion_B", required=True,
                        help="Column with the (bad) completion as a FULL string: "
-                            "the BASE input with the incorrect token appended. "
-                            "The comparison token is the first token beyond the "
-                            "base input.")
+                            "the SOURCE input with the token that agrees with "
+                            "the BASE appended, e.g. source 'The dog' -> "
+                            "'The dog run'. The comparison token is the first "
+                            "token beyond the source input.")
 
         # Optional position restrictions; empty => all.
         p.add_argument("--toks", nargs="*", type=int, default=None,
@@ -85,12 +87,10 @@ class Intervention(ABC):
         p.add_argument("--out_csv", default="intervention_results.csv",
                        help="Path for the single output CSV.")
 
-        
         p.add_argument("--filter", nargs="*", default=None, metavar="COL=VALUE",
                        help="Keep only rows matching every COL=VALUE (case-"
                             "insensitive). Applied to train and test alike.")
 
-   
         p.add_argument("--n_sample", type=int, default=None,
                        help="Randomly sample this many rows from EACH split "
                             "(after --filter). Overridden per-split by "
@@ -104,8 +104,15 @@ class Intervention(ABC):
         p.add_argument("--seed", type=int, default=0,
                        help="Random seed for subsampling.")
 
-        return p.parse_args(args)
+        p.add_argument("--add_inverse", action="store_true",
+                       help="Double each split with source/base swapped. The A/B "
+                            "completion suffixes swap along with the sentences, so "
+                            "A always agrees with the (new) source. Applied AFTER "
+                            "--filter and --n_sample, so a split of n rows becomes "
+                            "2n rows exactly balanced across directions. Adds an "
+                            "'inverse' column (0=forward, 1=swapped) to the output.")
 
+        return p.parse_args(args)
 
     def load_model(self):
         """
@@ -141,7 +148,6 @@ class Intervention(ABC):
             self.model.resize_token_embeddings(old_len + len(to_add))
 
     def _embed(self):
-
         return self.model.model.language_model.embed_tokens
 
     def _inject_embeddings(self, path):
@@ -153,7 +159,6 @@ class Intervention(ABC):
             emb.weight.data[self.wugs_id] = rec["wugs_embedding"].to(
                 emb.weight.device, dtype=emb.weight.dtype)
 
-    
     def chat_template(self, text, noimage=True, assistant=False):
 
         if noimage:
@@ -199,7 +204,7 @@ class Intervention(ABC):
         return self.tokenizer(completion, add_special_tokens=False).input_ids[0]
 
     def completion_token_id(self, source_input_text, completion_text):
-      
+
         source_ids = self.chat_template(source_input_text, noimage=True, assistant=False)
         comp_ids = self.chat_template(completion_text, noimage=True, assistant=False)
         i = 0
@@ -208,7 +213,6 @@ class Intervention(ABC):
             i += 1
         return comp_ids[i]
 
-   
     @torch.no_grad()
     def logprobs_at_last(self, input_ids):
 
@@ -278,6 +282,69 @@ class Intervention(ABC):
             return [r for r in rows if r["split"] == split]
         return rows
 
+    # ------------------------------------------------------------------
+    # Inverse augmentation
+    # ------------------------------------------------------------------
+    @staticmethod
+    def _suffix(prefix, completion, col):
+        """The continuation of `prefix` in `completion`, as a raw string."""
+        if not completion.startswith(prefix):
+            raise ValueError(
+                f"--add_inverse requires --{col} to be the source input plus a "
+                f"completion token.\n"
+                f"  source:     {prefix!r}\n"
+                f"  completion: {completion!r}"
+            )
+        return completion[len(prefix):]
+
+    def _inverse_row(self, row):
+        """
+        Swap source and base. The A/B suffixes swap with them.
+
+        The completion columns are continuations of the SOURCE input, where A
+        agrees with the source's number and B agrees with the base's. After the
+        swap the old base becomes the new source, so the old B suffix is now the
+        agreeing one:
+
+            forward:  src=S, base=B,  A = S + v_S,  B = S + v_B
+            inverse:  src=B, base=S,  A = B + v_B,  B = B + v_S
+
+        Note that every other column is copied verbatim. Any column that
+        describes the source (e.g. `direction`) is stale on the returned row;
+        condition downstream analyses on `inverse` instead.
+        """
+        s_col, b_col = self.args.source_input_col, self.args.base_input_col
+        a_col, b_comp = self.args.source_completion_A, self.args.source_completion_B
+
+        src, base = row[s_col], row[b_col]
+        suf_A = self._suffix(src, row[a_col], "source_completion_A")
+        suf_B = self._suffix(src, row[b_comp], "source_completion_B")
+
+        if suf_A == suf_B:
+            raise ValueError(
+                f"--source_completion_A and --source_completion_B are identical "
+                f"for source: {src!r}"
+            )
+
+        inv = dict(row)
+        inv[s_col], inv[b_col] = base, src
+        inv[a_col] = base + suf_B      # good continuation of the new source
+        inv[b_comp] = base + suf_A     # bad  continuation of the new source
+        inv["inverse"] = "1"
+        return inv
+
+    def _augment_inverse(self, rows):
+        """Interleave each row with its source/base-swapped counterpart."""
+        if not self.args.add_inverse:
+            return rows
+        out = []
+        for r in rows:
+            fwd = dict(r)
+            fwd["inverse"] = "0"
+            out.append(fwd)
+            out.append(self._inverse_row(r))
+        return out
+
     def load_rows(self):
         if self.args.train_csv is not None and self.args.test_csv is not None:
             self.train_rows = self._keep_split(
@@ -298,6 +365,11 @@ class Intervention(ABC):
             self.train_rows, self._sample_n("train"), rng)
         self.test_rows = self._sample_rows(
             self.test_rows, self._sample_n("test"), rng)
+
+        # Augment last, so --filter can select one direction and --n_sample
+        # stays interpretable (n rows in => 2n rows out, evenly paired).
+        self.train_rows = self._augment_inverse(self.train_rows)
+        self.test_rows = self._augment_inverse(self.test_rows)
 
         return self.train_rows, self.test_rows
 
@@ -340,14 +412,14 @@ class Intervention(ABC):
         (which belong to `split_name`, "train" or "test"). Fitting always uses
         `train_rows` regardless of split.
 
-        Return a list of dicts (one per eval row) with the value columns of
-        OUTPUT_FIELDS:
+        Return a list of dicts, ONE PER EVAL ROW AND IN EVAL-ROW ORDER, with
+        the value columns of OUTPUT_FIELDS:
             source_input, base_input,
             source_logp_A, source_logp_B,
             base_logp_A, base_logp_B,
             base_intervention_logp_A, base_intervention_logp_B
 
-        `split`, `tok`, `layer` are filled by `main`.
+        `split`, `inverse`, `tok`, `layer` are filled by `main`.
         """
         ...
 
@@ -368,11 +440,18 @@ class Intervention(ABC):
                     results = self.intervention(
                         self.train_rows, eval_rows, layer, tok, split_name
                     )
-                    for res in results:
+                    if len(results) != len(eval_rows):
+                        raise RuntimeError(
+                            f"{type(self).__name__}.intervention returned "
+                            f"{len(results)} results for {len(eval_rows)} eval "
+                            f"rows; results must be one-per-row and in order."
+                        )
+                    for res, src_row in zip(results, eval_rows):
                         row = dict(res)
                         row["split"] = split_name
                         row["layer"] = layer
                         row["tok"] = tok
+                        row["inverse"] = src_row.get("inverse", "0")
                         out_rows.append(row)
 
         self.write_output(out_rows)
