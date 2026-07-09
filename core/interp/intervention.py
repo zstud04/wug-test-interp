@@ -104,13 +104,20 @@ class Intervention(ABC):
         p.add_argument("--seed", type=int, default=0,
                        help="Random seed for subsampling.")
 
-        p.add_argument("--add_inverse", action="store_true",
-                       help="Double each split with source/base swapped. The A/B "
-                            "completion suffixes swap along with the sentences, so "
-                            "A always agrees with the (new) source. Applied AFTER "
-                            "--filter and --n_sample, so a split of n rows becomes "
-                            "2n rows exactly balanced across directions. Adds an "
-                            "'inverse' column (0=forward, 1=swapped) to the output.")
+        inv = p.add_mutually_exclusive_group()
+        inv.add_argument("--add_inverse", action="store_true",
+                         help="Double BOTH splits with source/base swapped. The "
+                              "A/B completion suffixes swap along with the "
+                              "sentences, so A always agrees with the (new) "
+                              "source. Applied AFTER --filter and --n_sample, so "
+                              "a split of n rows becomes 2n rows exactly balanced "
+                              "across directions.")
+        inv.add_argument("--add_inverse_test", action="store_true",
+                         help="Like --add_inverse but for the TEST split only. "
+                              "Train stays one-directional, so a method can fit "
+                              "its direction on a single direction and then be "
+                              "evaluated on both. Mutually exclusive with "
+                              "--add_inverse.")
 
         return p.parse_args(args)
 
@@ -235,6 +242,19 @@ class Intervention(ABC):
         return lp_A, lp_B
 
     # ------------------------------------------------------------------
+    # Row helpers
+    # ------------------------------------------------------------------
+    @staticmethod
+    def is_inverse(row):
+        """True if `row` is a source/base-swapped augmentation."""
+        return str(row.get("inverse", "0")).strip() == "1"
+
+    @classmethod
+    def forward_rows(cls, rows):
+        """Only the un-swapped rows (all rows if no augmentation was applied)."""
+        return [r for r in rows if not cls.is_inverse(r)]
+
+    # ------------------------------------------------------------------
     # Input loading
     # ------------------------------------------------------------------
     @staticmethod
@@ -290,8 +310,8 @@ class Intervention(ABC):
         """The continuation of `prefix` in `completion`, as a raw string."""
         if not completion.startswith(prefix):
             raise ValueError(
-                f"--add_inverse requires --{col} to be the source input plus a "
-                f"completion token.\n"
+                f"inverse augmentation requires --{col} to be the source input "
+                f"plus a completion token.\n"
                 f"  source:     {prefix!r}\n"
                 f"  completion: {completion!r}"
             )
@@ -309,9 +329,9 @@ class Intervention(ABC):
             forward:  src=S, base=B,  A = S + v_S,  B = S + v_B
             inverse:  src=B, base=S,  A = B + v_B,  B = B + v_S
 
-        Note that every other column is copied verbatim. Any column that
-        describes the source (e.g. `direction`) is stale on the returned row;
-        condition downstream analyses on `inverse` instead.
+        Every other column is copied verbatim. Any column that describes the
+        source (e.g. `direction`) is stale on the returned row; condition
+        downstream analyses on `inverse` instead.
         """
         s_col, b_col = self.args.source_input_col, self.args.base_input_col
         a_col, b_comp = self.args.source_completion_A, self.args.source_completion_B
@@ -333,9 +353,9 @@ class Intervention(ABC):
         inv["inverse"] = "1"
         return inv
 
-    def _augment_inverse(self, rows):
+    def _augment_inverse(self, rows, enabled):
         """Interleave each row with its source/base-swapped counterpart."""
-        if not self.args.add_inverse:
+        if not enabled:
             return rows
         out = []
         for r in rows:
@@ -368,8 +388,11 @@ class Intervention(ABC):
 
         # Augment last, so --filter can select one direction and --n_sample
         # stays interpretable (n rows in => 2n rows out, evenly paired).
-        self.train_rows = self._augment_inverse(self.train_rows)
-        self.test_rows = self._augment_inverse(self.test_rows)
+        # --add_inverse doubles both splits; --add_inverse_test doubles test only.
+        self.train_rows = self._augment_inverse(
+            self.train_rows, self.args.add_inverse)
+        self.test_rows = self._augment_inverse(
+            self.test_rows, self.args.add_inverse or self.args.add_inverse_test)
 
         return self.train_rows, self.test_rows
 
@@ -412,6 +435,12 @@ class Intervention(ABC):
         (which belong to `split_name`, "train" or "test"). Fitting always uses
         `train_rows` regardless of split.
 
+        Rows may carry an `inverse` flag ("0"/"1") indicating that source and
+        base were swapped relative to the source CSV. Methods whose direction
+        is signed (e.g. an additive steering vector) MUST consult it, both when
+        fitting and when applying; methods that are sign-invariant (e.g. a
+        projection swap) may ignore it. Helpers: `is_inverse`, `forward_rows`.
+
         Return a list of dicts, ONE PER EVAL ROW AND IN EVAL-ROW ORDER, with
         the value columns of OUTPUT_FIELDS:
             source_input, base_input,
@@ -451,7 +480,7 @@ class Intervention(ABC):
                         row["split"] = split_name
                         row["layer"] = layer
                         row["tok"] = tok
-                        row["inverse"] = src_row.get("inverse", "0")
+                        row["inverse"] = "1" if self.is_inverse(src_row) else "0"
                         out_rows.append(row)
 
         self.write_output(out_rows)
