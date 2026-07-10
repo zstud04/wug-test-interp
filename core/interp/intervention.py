@@ -9,6 +9,11 @@ from minicons import scorer
 
 
 class Intervention(ABC):
+    """
+    Per-cell intervention: `main` loops over (layer, tok) and calls
+    `intervention` once per cell. See CircuitIntervention for methods whose
+    unit of analysis spans layers and positions.
+    """
 
     OUTPUT_FIELDS = [
         "split",
@@ -38,8 +43,17 @@ class Intervention(ABC):
         self.device = "cuda"
         self.load_model()
 
-    @staticmethod
-    def parse_args(args=None):
+    # ------------------------------------------------------------------
+    # CLI. Subclasses extend the parser by overriding build_parser:
+    #
+    #     @classmethod
+    #     def build_parser(cls):
+    #         p = super().build_parser()
+    #         p.add_argument("--my_flag", ...)
+    #         return p
+    # ------------------------------------------------------------------
+    @classmethod
+    def build_parser(cls):
         p = argparse.ArgumentParser()
 
         p.add_argument("--model_path", required=True,
@@ -119,7 +133,11 @@ class Intervention(ABC):
                               "evaluated on both. Mutually exclusive with "
                               "--add_inverse.")
 
-        return p.parse_args(args)
+        return p
+
+    @classmethod
+    def parse_args(cls, args=None):
+        return cls.build_parser().parse_args(args)
 
     def load_model(self):
         """
@@ -240,6 +258,14 @@ class Intervention(ABC):
         """Convenience: (logp_A, logp_B) for one input string."""
         lp_A, lp_B = self.token_logprobs(text, [id_A, id_B])
         return lp_A, lp_B
+
+    def AB_ids(self, row):
+        """(id_A, id_B) comparison tokens for one row."""
+        src_text = row[self.args.source_input_col]
+        return (
+            self.completion_token_id(src_text, row[self.args.source_completion_A]),
+            self.completion_token_id(src_text, row[self.args.source_completion_B]),
+        )
 
     # ------------------------------------------------------------------
     # Row helpers
