@@ -1,0 +1,993 @@
+==============================================================
+ master PID : 712787
+ kill with  : kill -TERM -712787
+ logs       : /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325
+==============================================================
+[22:23:27] CUDA ok: NVIDIA H100 PCIe
+[22:23:29] 364 jobs, 6 at a time, 1 gpu
+[22:23:29] master pid 712787
+[22:23:30] START das_Qwen3-VL-2B_syntax_target_verb_att0_opp
+[22:23:30] START diffmean_Qwen3-VL-2B_syntax_target_verb_att0_opp
+[22:23:30] START probe_Qwen3-VL-2B_syntax_target_verb_att0_opp
+[22:23:30] START das_Qwen3-VL-2B_syntax_target_verb_att1_opp
+[22:23:30] START diffmean_Qwen3-VL-2B_syntax_target_verb_att1_opp
+[22:23:30] START probe_Qwen3-VL-2B_syntax_target_verb_att1_opp
+[22:59:03] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att0_opp
+[22:59:03] START das_Qwen3-VL-2B_syntax_target_verb_att2_opp
+[23:11:15] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att1_opp
+[23:11:15] START diffmean_Qwen3-VL-2B_syntax_target_verb_att2_opp
+[23:11:33] OK    probe_Qwen3-VL-2B_syntax_target_verb_att0_opp
+[23:11:33] START probe_Qwen3-VL-2B_syntax_target_verb_att2_opp
+[23:14:54] OK    probe_Qwen3-VL-2B_syntax_target_verb_att1_opp
+[23:14:54] START das_Qwen3-VL-2B_syntax_target_verb_att3_opp
+[23:59:46] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att2_opp
+[23:59:46] START diffmean_Qwen3-VL-2B_syntax_target_verb_att3_opp
+[00:00:29] OK    probe_Qwen3-VL-2B_syntax_target_verb_att2_opp
+[00:00:29] START probe_Qwen3-VL-2B_syntax_target_verb_att3_opp
+[00:20:51] OK    das_Qwen3-VL-2B_syntax_target_verb_att1_opp
+[00:20:51] START das_Qwen3-VL-2B_vision_target_verb_att0_opp
+[00:20:57] OK    das_Qwen3-VL-2B_syntax_target_verb_att0_opp
+[00:20:57] START diffmean_Qwen3-VL-2B_vision_target_verb_att0_opp
+[00:41:29] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att3_opp
+[00:41:29] START probe_Qwen3-VL-2B_vision_target_verb_att0_opp
+[00:42:41] OK    probe_Qwen3-VL-2B_syntax_target_verb_att3_opp
+[00:42:41] START das_Qwen3-VL-2B_vision_target_verb_att1_opp
+[01:03:53] OK    diffmean_Qwen3-VL-2B_vision_target_verb_att0_opp
+[01:03:53] START diffmean_Qwen3-VL-2B_vision_target_verb_att1_opp
+[01:04:38] OK    das_Qwen3-VL-2B_syntax_target_verb_att2_opp
+[01:04:38] START probe_Qwen3-VL-2B_vision_target_verb_att1_opp
+[01:09:02] OK    das_Qwen3-VL-2B_syntax_target_verb_att3_opp
+[01:09:02] START das_Qwen3-VL-2B_vision_target_verb_att2_opp
+[01:33:42] OK    probe_Qwen3-VL-2B_vision_target_verb_att0_opp
+[01:33:42] START diffmean_Qwen3-VL-2B_vision_target_verb_att2_opp
+[01:52:18] OK    probe_Qwen3-VL-2B_vision_target_verb_att1_opp
+[01:52:18] START probe_Qwen3-VL-2B_vision_target_verb_att2_opp
+[01:54:15] OK    diffmean_Qwen3-VL-2B_vision_target_verb_att1_opp
+[01:54:15] START das_Qwen3-VL-2B_vision_target_verb_att3_opp
+[02:22:30] OK    das_Qwen3-VL-2B_vision_target_verb_att0_opp
+[02:22:30] START diffmean_Qwen3-VL-2B_vision_target_verb_att3_opp
+[02:34:24] OK    diffmean_Qwen3-VL-2B_vision_target_verb_att2_opp
+[02:34:24] START probe_Qwen3-VL-2B_vision_target_verb_att3_opp
+[02:37:56] OK    das_Qwen3-VL-2B_vision_target_verb_att1_opp
+[02:37:56] START das_Qwen3-VL-4B_syntax_target_verb_att0_opp
+[02:42:28] OK    probe_Qwen3-VL-2B_vision_target_verb_att2_opp
+[02:42:28] START diffmean_Qwen3-VL-4B_syntax_target_verb_att0_opp
+[03:09:04] OK    das_Qwen3-VL-2B_vision_target_verb_att2_opp
+[03:09:04] START probe_Qwen3-VL-4B_syntax_target_verb_att0_opp
+[03:11:04] OK    diffmean_Qwen3-VL-2B_vision_target_verb_att3_opp
+[03:11:04] START das_Qwen3-VL-4B_syntax_target_verb_att1_opp
+[03:32:21] OK    probe_Qwen3-VL-2B_vision_target_verb_att3_opp
+[03:32:21] START diffmean_Qwen3-VL-4B_syntax_target_verb_att1_opp
+[03:48:04] OK    diffmean_Qwen3-VL-4B_syntax_target_verb_att0_opp
+[03:48:04] START probe_Qwen3-VL-4B_syntax_target_verb_att1_opp
+[03:51:00] OK    das_Qwen3-VL-2B_vision_target_verb_att3_opp
+[03:51:00] START das_Qwen3-VL-4B_syntax_target_verb_att2_opp
+[04:43:52] OK    probe_Qwen3-VL-4B_syntax_target_verb_att0_opp
+[04:43:52] START diffmean_Qwen3-VL-4B_syntax_target_verb_att2_opp
+[05:11:53] OK    diffmean_Qwen3-VL-4B_syntax_target_verb_att1_opp
+[05:11:53] START probe_Qwen3-VL-4B_syntax_target_verb_att2_opp
+[05:23:32] OK    probe_Qwen3-VL-4B_syntax_target_verb_att1_opp
+[05:23:32] START das_Qwen3-VL-4B_syntax_target_verb_att3_opp
+[05:56:42] OK    diffmean_Qwen3-VL-4B_syntax_target_verb_att2_opp
+[05:56:42] START diffmean_Qwen3-VL-4B_syntax_target_verb_att3_opp
+[06:17:59] OK    probe_Qwen3-VL-4B_syntax_target_verb_att2_opp
+[06:17:59] START probe_Qwen3-VL-4B_syntax_target_verb_att3_opp
+[06:32:48] OK    das_Qwen3-VL-4B_syntax_target_verb_att0_opp
+[06:32:48] START das_Qwen3-VL-4B_vision_target_verb_att0_opp
+[06:57:23] OK    diffmean_Qwen3-VL-4B_syntax_target_verb_att3_opp
+[06:57:23] START diffmean_Qwen3-VL-4B_vision_target_verb_att0_opp
+[07:01:29] OK    das_Qwen3-VL-4B_syntax_target_verb_att1_opp
+[07:01:29] START probe_Qwen3-VL-4B_vision_target_verb_att0_opp
+[07:05:26] OK    das_Qwen3-VL-4B_syntax_target_verb_att2_opp
+[07:05:26] START das_Qwen3-VL-4B_vision_target_verb_att1_opp
+[07:10:16] OK    probe_Qwen3-VL-4B_syntax_target_verb_att3_opp
+[07:10:16] START diffmean_Qwen3-VL-4B_vision_target_verb_att1_opp
+[08:14:31] OK    diffmean_Qwen3-VL-4B_vision_target_verb_att0_opp
+[08:14:31] START probe_Qwen3-VL-4B_vision_target_verb_att1_opp
+[08:15:25] OK    das_Qwen3-VL-4B_syntax_target_verb_att3_opp
+[08:15:25] START das_Qwen3-VL-4B_vision_target_verb_att2_opp
+[08:44:13] OK    probe_Qwen3-VL-4B_vision_target_verb_att0_opp
+[08:44:13] START diffmean_Qwen3-VL-4B_vision_target_verb_att2_opp
+[08:54:21] OK    diffmean_Qwen3-VL-4B_vision_target_verb_att1_opp
+[08:54:21] START probe_Qwen3-VL-4B_vision_target_verb_att2_opp
+[09:57:20] OK    probe_Qwen3-VL-4B_vision_target_verb_att1_opp
+[09:57:20] START das_Qwen3-VL-4B_vision_target_verb_att3_opp
+[10:03:32] OK    diffmean_Qwen3-VL-4B_vision_target_verb_att2_opp
+[10:03:32] START diffmean_Qwen3-VL-4B_vision_target_verb_att3_opp
+[10:21:31] OK    probe_Qwen3-VL-4B_vision_target_verb_att2_opp
+[10:21:31] START probe_Qwen3-VL-4B_vision_target_verb_att3_opp
+[10:28:43] OK    das_Qwen3-VL-4B_vision_target_verb_att0_opp
+[10:28:43] START patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k2
+[10:29:21] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k2.log
+[10:29:21] START ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k2
+[10:29:36] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k2.log
+[10:29:36] START patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k4
+[10:29:51] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k4.log
+[10:29:51] START ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k4
+[10:30:07] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k4.log
+[10:30:07] START patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k8
+[10:30:22] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k8.log
+[10:30:22] START ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k8
+[10:30:37] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k8.log
+[10:30:37] START patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k16
+[10:30:52] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k16.log
+[10:30:52] START ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k16
+[10:31:07] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k16.log
+[10:31:07] START patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k32
+[10:31:22] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k32.log
+[10:31:22] START ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k32
+[10:31:37] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k32.log
+[10:31:37] START patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k64
+[10:31:53] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k64.log
+[10:31:53] START ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k64
+[10:32:08] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k64.log
+[10:32:08] START patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k128
+[10:32:23] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k128.log
+[10:32:23] START ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k128
+[10:32:38] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k128.log
+[10:32:38] START patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k256
+[10:32:53] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k256.log
+[10:32:53] START ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k256
+[10:33:09] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k256.log
+[10:33:09] START patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k2
+[10:33:24] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k2.log
+[10:33:24] START ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k2
+[10:33:39] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k2.log
+[10:33:39] START patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k4
+[10:33:54] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k4.log
+[10:33:54] START ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k4
+[10:34:09] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k4.log
+[10:34:09] START patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k8
+[10:34:24] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k8.log
+[10:34:24] START ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k8
+[10:34:39] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k8.log
+[10:34:39] START patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k16
+[10:34:54] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k16.log
+[10:34:54] START ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k16
+[10:35:09] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k16.log
+[10:35:09] START patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k32
+[10:35:24] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k32.log
+[10:35:24] START ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k32
+[10:35:39] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k32.log
+[10:35:39] START patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k64
+[10:35:54] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k64.log
+[10:35:54] START ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k64
+[10:36:10] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k64.log
+[10:36:10] START patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k128
+[10:36:25] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k128.log
+[10:36:25] START ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k128
+[10:36:40] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k128.log
+[10:36:40] START patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k256
+[10:36:55] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k256.log
+[10:36:55] START ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k256
+[10:37:11] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k256.log
+[10:37:11] START patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k2
+[10:37:26] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k2.log
+[10:37:26] START ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k2
+[10:37:41] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k2.log
+[10:37:41] START patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k4
+[10:37:56] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k4.log
+[10:37:56] START ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k4
+[10:38:10] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k4.log
+[10:38:10] START patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k8
+[10:38:25] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k8.log
+[10:38:25] START ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k8
+[10:38:40] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k8.log
+[10:38:40] START patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k16
+[10:38:55] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k16.log
+[10:38:55] START ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k16
+[10:39:10] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k16.log
+[10:39:10] START patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k32
+[10:39:25] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k32.log
+[10:39:25] START ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k32
+[10:39:40] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k32.log
+[10:39:40] START patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k64
+[10:39:56] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k64.log
+[10:39:56] START ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k64
+[10:40:11] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k64.log
+[10:40:11] START patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k128
+[10:40:26] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k128.log
+[10:40:26] START ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k128
+[10:40:41] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k128.log
+[10:40:42] START patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k256
+[10:40:57] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k256.log
+[10:40:57] START ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k256
+[10:41:12] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k256.log
+[10:41:12] START patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k2
+[10:41:26] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k2.log
+[10:41:26] START ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k2
+[10:41:41] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k2.log
+[10:41:41] START patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k4
+[10:41:56] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k4.log
+[10:41:56] START ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k4
+[10:42:11] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k4.log
+[10:42:11] START patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k8
+[10:42:26] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k8.log
+[10:42:26] START ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k8
+[10:42:41] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k8.log
+[10:42:41] START patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k16
+[10:42:57] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k16.log
+[10:42:57] START ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k16
+[10:43:12] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k16.log
+[10:43:12] START patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k32
+[10:43:27] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k32.log
+[10:43:27] START ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k32
+[10:43:42] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k32.log
+[10:43:42] START patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k64
+[10:43:57] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k64.log
+[10:43:57] START ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k64
+[10:44:12] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k64.log
+[10:44:12] START patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k128
+[10:44:28] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k128.log
+[10:44:28] START ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k128
+[10:44:43] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k128.log
+[10:44:43] START patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k256
+[10:44:58] FAIL  patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k256.log
+[10:44:58] START ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k256
+[10:45:13] FAIL  ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k256.log
+[10:45:13] START patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k2
+[10:45:28] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k2.log
+[10:45:29] START ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k2
+[10:45:44] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k2.log
+[10:45:44] START patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k4
+[10:45:59] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k4.log
+[10:45:59] START ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k4
+[10:46:14] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k4.log
+[10:46:14] START patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k8
+[10:46:29] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k8.log
+[10:46:29] START ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k8
+[10:46:44] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k8.log
+[10:46:44] START patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k16
+[10:47:00] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k16.log
+[10:47:00] START ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k16
+[10:47:15] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k16.log
+[10:47:15] START patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k32
+[10:47:30] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k32.log
+[10:47:30] START ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k32
+[10:47:45] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k32.log
+[10:47:45] START patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k64
+[10:48:00] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k64.log
+[10:48:00] START ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k64
+[10:48:15] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k64.log
+[10:48:15] START patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k128
+[10:48:30] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k128.log
+[10:48:30] START ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k128
+[10:48:45] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k128.log
+[10:48:45] START patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k256
+[10:49:00] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k256.log
+[10:49:00] START ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k256
+[10:49:15] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k256.log
+[10:49:15] START patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k2
+[10:49:30] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k2.log
+[10:49:30] START ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k2
+[10:49:45] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k2.log
+[10:49:46] START patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k4
+[10:50:00] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k4.log
+[10:50:00] START ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k4
+[10:50:15] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k4.log
+[10:50:15] START patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k8
+[10:50:30] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k8.log
+[10:50:30] START ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k8
+[10:50:45] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k8.log
+[10:50:45] START patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k16
+[10:51:00] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k16.log
+[10:51:00] START ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k16
+[10:51:15] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k16.log
+[10:51:15] START patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k32
+[10:51:30] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k32.log
+[10:51:30] START ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k32
+[10:51:45] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k32.log
+[10:51:45] START patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k64
+[10:52:00] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k64.log
+[10:52:00] START ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k64
+[10:52:15] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k64.log
+[10:52:15] START patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k128
+[10:52:29] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k128.log
+[10:52:30] START ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k128
+[10:52:45] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k128.log
+[10:52:45] START patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k256
+[10:53:00] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k256.log
+[10:53:00] START ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k256
+[10:53:15] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k256.log
+[10:53:15] START patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k2
+[10:53:30] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k2.log
+[10:53:30] START ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k2
+[10:53:45] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k2.log
+[10:53:45] START patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k4
+[10:54:00] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k4.log
+[10:54:00] START ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k4
+[10:54:15] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k4.log
+[10:54:15] START patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k8
+[10:54:30] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k8.log
+[10:54:30] START ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k8
+[10:54:45] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k8.log
+[10:54:45] START patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k16
+[10:55:00] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k16.log
+[10:55:00] START ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k16
+[10:55:15] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k16.log
+[10:55:15] START patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k32
+[10:55:30] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k32.log
+[10:55:30] START ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k32
+[10:55:45] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k32.log
+[10:55:45] START patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k64
+[10:56:00] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k64.log
+[10:56:00] START ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k64
+[10:56:15] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k64.log
+[10:56:15] START patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k128
+[10:56:30] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k128.log
+[10:56:30] START ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k128
+[10:56:45] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k128.log
+[10:56:45] START patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k256
+[10:57:00] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k256.log
+[10:57:00] START ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k256
+[10:57:16] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k256.log
+[10:57:16] START patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k2
+[10:57:31] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k2.log
+[10:57:31] START ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k2
+[10:57:46] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k2.log
+[10:57:46] START patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k4
+[10:58:01] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k4.log
+[10:58:01] START ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k4
+[10:58:16] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k4.log
+[10:58:16] START patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k8
+[10:58:31] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k8.log
+[10:58:31] START ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k8
+[10:58:46] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k8.log
+[10:58:46] START patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k16
+[10:59:01] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k16.log
+[10:59:01] START ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k16
+[10:59:16] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k16.log
+[10:59:16] START patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k32
+[10:59:31] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k32.log
+[10:59:32] START ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k32
+[10:59:47] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k32.log
+[10:59:47] START patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k64
+[11:00:01] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k64.log
+[11:00:01] START ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k64
+[11:00:17] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k64.log
+[11:00:17] START patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k128
+[11:00:32] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k128.log
+[11:00:32] START ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k128
+[11:00:47] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k128.log
+[11:00:47] START patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k256
+[11:01:02] FAIL  patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k256.log
+[11:01:02] START ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k256
+[11:01:17] FAIL  ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k256.log
+[11:01:17] START patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k2
+[11:01:35] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k2.log
+[11:01:35] START ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k2
+[11:01:52] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k2.log
+[11:01:52] START patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k4
+[11:02:08] OK    diffmean_Qwen3-VL-4B_vision_target_verb_att3_opp
+[11:02:08] START ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k4
+[11:02:10] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k4.log
+[11:02:10] START patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k8
+[11:02:25] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k4.log
+[11:02:25] START ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k8
+[11:02:28] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k8.log
+[11:02:28] START patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k16
+[11:02:42] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k8.log
+[11:02:42] START ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k16
+[11:02:45] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k16.log
+[11:02:45] START patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k32
+[11:02:59] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k16.log
+[11:02:59] START ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k32
+[11:03:02] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k32.log
+[11:03:02] START patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k64
+[11:03:02] OK    das_Qwen3-VL-4B_vision_target_verb_att1_opp
+[11:03:02] START ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k64
+[11:03:15] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k32.log
+[11:03:15] START patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k128
+[11:03:19] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k64.log
+[11:03:19] START ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k128
+[11:03:20] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k64.log
+[11:03:20] START patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k256
+[11:03:32] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k128.log
+[11:03:32] START ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k256
+[11:03:36] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k128.log
+[11:03:36] START patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k2
+[11:03:36] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k256.log
+[11:03:36] START ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k2
+[11:03:48] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k256.log
+[11:03:49] START patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k4
+[11:03:52] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k2.log
+[11:03:52] START ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k4
+[11:03:53] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k2.log
+[11:03:53] START patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k8
+[11:04:05] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k4.log
+[11:04:05] START ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k8
+[11:04:10] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k4.log
+[11:04:10] START patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k16
+[11:04:10] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k8.log
+[11:04:10] START ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k16
+[11:04:22] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k8.log
+[11:04:22] START patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k32
+[11:04:28] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k16.log
+[11:04:28] START ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k32
+[11:04:28] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k16.log
+[11:04:28] START patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k64
+[11:04:38] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k32.log
+[11:04:38] START ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k64
+[11:04:46] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k64.log
+[11:04:46] START patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128
+[11:04:46] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k32.log
+[11:04:46] START ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128
+[11:04:54] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k64.log
+[11:04:54] START patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k256
+[11:05:03] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128.log
+[11:05:03] START ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k256
+[11:05:04] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128.log
+[11:05:04] START patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k2
+[11:05:11] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k256.log
+[11:05:11] START ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k2
+[11:05:19] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k256.log
+[11:05:19] START patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k4
+[11:05:20] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k2.log
+[11:05:20] START ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k4
+[11:05:27] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k2.log
+[11:05:27] START patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k8
+[11:05:37] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k4.log
+[11:05:37] START ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k8
+[11:05:37] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k4.log
+[11:05:37] START patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k16
+[11:05:44] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k8.log
+[11:05:44] START ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k16
+[11:05:54] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k8.log
+[11:05:54] START patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k32
+[11:05:54] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k16.log
+[11:05:54] START ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k32
+[11:06:00] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k16.log
+[11:06:00] START patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k64
+[11:06:11] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k32.log
+[11:06:11] START ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k64
+[11:06:11] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k32.log
+[11:06:11] START patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128
+[11:06:17] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k64.log
+[11:06:17] START ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128
+[11:06:28] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k64.log
+[11:06:28] START patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k256
+[11:06:28] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128.log
+[11:06:28] START ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k256
+[11:06:33] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128.log
+[11:06:33] START patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k2
+[11:06:45] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k256.log
+[11:06:45] START ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k2
+[11:06:45] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k256.log
+[11:06:45] START patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k4
+[11:06:50] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k2.log
+[11:06:50] START ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k4
+[11:07:02] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k2.log
+[11:07:02] START patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k8
+[11:07:02] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k4.log
+[11:07:02] START ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k8
+[11:07:06] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k4.log
+[11:07:07] START patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k16
+[11:07:19] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k8.log
+[11:07:19] START ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k16
+[11:07:20] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k8.log
+[11:07:20] START patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k32
+[11:07:23] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k16.log
+[11:07:23] START ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k32
+[11:07:36] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k16.log
+[11:07:36] START patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k64
+[11:07:36] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k32.log
+[11:07:36] START ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k64
+[11:07:40] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k32.log
+[11:07:40] START patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128
+[11:07:54] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k64.log
+[11:07:54] START ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128
+[11:07:54] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k64.log
+[11:07:54] START patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k256
+[11:07:57] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128.log
+[11:07:57] START ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k256
+[11:08:11] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128.log
+[11:08:11] START patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k2
+[11:08:12] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k256.log
+[11:08:12] START ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k2
+[11:08:13] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k256.log
+[11:08:13] START patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k4
+[11:08:28] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k2.log
+[11:08:28] START ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k4
+[11:08:29] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k2.log
+[11:08:29] START patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k8
+[11:08:30] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k4.log
+[11:08:30] START ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k8
+[11:08:45] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k4.log
+[11:08:45] START patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k16
+[11:08:46] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k8.log
+[11:08:46] START ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k16
+[11:08:48] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k8.log
+[11:08:48] START patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k32
+[11:09:02] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k16.log
+[11:09:02] START ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k32
+[11:09:04] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k16.log
+[11:09:04] START patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k64
+[11:09:05] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k32.log
+[11:09:05] START ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k64
+[11:09:20] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k32.log
+[11:09:20] START patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k128
+[11:09:21] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k64.log
+[11:09:21] START ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k128
+[11:09:22] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k64.log
+[11:09:22] START patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k256
+[11:09:37] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k128.log
+[11:09:37] START ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k256
+[11:09:39] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k128.log
+[11:09:39] START patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k2
+[11:09:39] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k256.log
+[11:09:39] START ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k2
+[11:09:53] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k256.log
+[11:09:53] START patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k4
+[11:09:57] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k2.log
+[11:09:57] START ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k4
+[11:09:57] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k2.log
+[11:09:57] START patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k8
+[11:10:10] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k4.log
+[11:10:10] START ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k8
+[11:10:15] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k4.log
+[11:10:15] START patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k16
+[11:10:15] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k8.log
+[11:10:15] START ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k16
+[11:10:26] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k8.log
+[11:10:26] START patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k32
+[11:10:32] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k16.log
+[11:10:32] START ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k32
+[11:10:32] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k16.log
+[11:10:32] START patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k64
+[11:10:42] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k32.log
+[11:10:42] START ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k64
+[11:10:49] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k32.log
+[11:10:49] START patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k128
+[11:10:50] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k64.log
+[11:10:50] START ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k128
+[11:10:59] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k64.log
+[11:10:59] START patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k256
+[11:11:06] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k128.log
+[11:11:06] START ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k256
+[11:11:07] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k128.log
+[11:11:07] START patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k2
+[11:11:15] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k256.log
+[11:11:15] START ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k2
+[11:11:23] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k256.log
+[11:11:23] START patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k4
+[11:11:23] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k2.log
+[11:11:23] START ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k4
+[11:11:32] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k2.log
+[11:11:32] START patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k8
+[11:11:39] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k4.log
+[11:11:39] START ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k8
+[11:11:40] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k4.log
+[11:11:40] START patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k16
+[11:11:48] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k8.log
+[11:11:48] START ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k16
+[11:11:57] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k16.log
+[11:11:57] START patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k32
+[11:11:58] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k8.log
+[11:11:58] START ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k32
+[11:12:05] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k16.log
+[11:12:05] START patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k64
+[11:12:06] OK    probe_Qwen3-VL-4B_vision_target_verb_att3_opp
+[11:12:06] START ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k64
+[11:12:14] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k32.log
+[11:12:14] START patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k128
+[11:12:15] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k32.log
+[11:12:15] START ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k128
+[11:12:22] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k64.log
+[11:12:22] START patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k256
+[11:12:23] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k64.log
+[11:12:23] START ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k256
+[11:12:32] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k128.log
+[11:12:32] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k128.log
+[11:12:32] START patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k2
+[11:12:32] START ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k2
+[11:12:39] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k256.log
+[11:12:39] START patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k4
+[11:12:40] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k256.log
+[11:12:40] START ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k4
+[11:12:49] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k2.log
+[11:12:49] START patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k8
+[11:12:49] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k2 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k2.log
+[11:12:49] START ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k8
+[11:12:56] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k4.log
+[11:12:56] START patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k16
+[11:12:56] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k4 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k4.log
+[11:12:56] START ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k16
+[11:13:06] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k8.log
+[11:13:06] START patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k32
+[11:13:06] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k8 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k8.log
+[11:13:06] START ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k32
+[11:13:12] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k16.log
+[11:13:12] START patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k64
+[11:13:13] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k16 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k16.log
+[11:13:13] START ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k64
+[11:13:22] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k32.log
+[11:13:22] START patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k128
+[11:13:22] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k32 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k32.log
+[11:13:22] START ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k128
+[11:13:29] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k64.log
+[11:13:29] START patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k256
+[11:13:29] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k64 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k64.log
+[11:13:30] START ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k256
+[11:13:39] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k128.log
+[11:13:39] START das_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed31085
+[11:13:39] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k128.log
+[11:13:39] START diffmean_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed31085
+[11:13:47] FAIL  ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k256.log
+[11:13:47] START probe_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed31085
+[11:13:47] FAIL  patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k256 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/full_methods_run/logs/20260709_222325/patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k256.log
+[11:13:47] START das_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed37722
+[11:28:01] OK    das_Qwen3-VL-4B_vision_target_verb_att2_opp
+[11:28:01] START diffmean_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed37722
+[11:49:51] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed31085
+[11:49:51] START probe_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed37722
+[12:03:11] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed37722
+[12:03:11] START das_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed48126
+[12:06:32] OK    probe_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed31085
+[12:06:32] START diffmean_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed48126
+[12:42:38] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed48126
+[12:42:38] START probe_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed48126
+[12:43:54] OK    das_Qwen3-VL-4B_vision_target_verb_att3_opp
+[12:43:54] START das_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed54321
+[12:44:44] OK    probe_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed37722
+[12:44:44] START diffmean_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed54321
+[13:14:17] OK    das_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed31085
+[13:14:17] START probe_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed54321
+[13:14:27] OK    das_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed37722
+[13:14:27] START das_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed96684
+[13:18:18] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed54321
+[13:18:18] START diffmean_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed96684
+[13:29:07] OK    probe_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed48126
+[13:29:07] START probe_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed96684
+[13:54:20] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed96684
+[13:54:20] START das_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed31085
+[14:02:46] OK    das_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed48126
+[14:02:46] START diffmean_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed31085
+[14:07:56] OK    probe_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed54321
+[14:07:56] START probe_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed31085
+[14:21:25] OK    probe_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed96684
+[14:21:25] START das_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed37722
+[14:37:17] OK    das_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed54321
+[14:37:17] START diffmean_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed37722
+[14:50:54] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed31085
+[14:50:54] START probe_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed37722
+[14:56:25] OK    probe_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed31085
+[14:56:25] START das_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed48126
+[15:15:48] OK    das_Qwen3-VL-2B_syntax_target_verb_att0_opp_seed96684
+[15:15:48] START diffmean_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed48126
+[15:29:02] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed37722
+[15:29:02] START probe_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed48126
+[15:39:19] OK    probe_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed37722
+[15:39:19] START das_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed54321
+[15:55:38] OK    das_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed31085
+[15:55:38] START diffmean_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed54321
+[16:13:09] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed48126
+[16:13:09] START probe_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed54321
+[16:17:33] OK    probe_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed48126
+[16:17:33] START das_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed96684
+[16:26:35] OK    das_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed37722
+[16:26:35] START diffmean_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed96684
+[16:46:25] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed54321
+[16:46:25] START probe_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed96684
+[16:51:56] OK    das_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed48126
+[16:51:56] START das_Qwen3-VL-2B_vision_target_verb_att0_opp_seed27616
+[17:08:10] OK    probe_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed54321
+[17:08:10] START diffmean_Qwen3-VL-2B_vision_target_verb_att0_opp_seed27616
+[17:14:18] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed96684
+[17:14:18] START probe_Qwen3-VL-2B_vision_target_verb_att0_opp_seed27616
+[17:37:54] OK    probe_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed96684
+[17:37:54] START das_Qwen3-VL-2B_vision_target_verb_att0_opp_seed47410
+[17:39:08] OK    das_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed54321
+[17:39:08] START diffmean_Qwen3-VL-2B_vision_target_verb_att0_opp_seed47410
+[17:48:19] OK    diffmean_Qwen3-VL-2B_vision_target_verb_att0_opp_seed27616
+[17:48:19] START probe_Qwen3-VL-2B_vision_target_verb_att0_opp_seed47410
+[18:02:47] OK    probe_Qwen3-VL-2B_vision_target_verb_att0_opp_seed27616
+[18:02:47] START das_Qwen3-VL-2B_vision_target_verb_att0_opp_seed68200
+[18:14:54] OK    diffmean_Qwen3-VL-2B_vision_target_verb_att0_opp_seed47410
+[18:14:54] START diffmean_Qwen3-VL-2B_vision_target_verb_att0_opp_seed68200
+[18:15:17] OK    das_Qwen3-VL-2B_syntax_target_verb_att1_opp_seed96684
+[18:15:17] START probe_Qwen3-VL-2B_vision_target_verb_att0_opp_seed68200
+[18:34:51] OK    probe_Qwen3-VL-2B_vision_target_verb_att0_opp_seed47410
+[18:34:51] START das_Qwen3-VL-2B_vision_target_verb_att0_opp_seed79404
+[18:45:07] OK    das_Qwen3-VL-2B_vision_target_verb_att0_opp_seed27616
+[18:45:07] START diffmean_Qwen3-VL-2B_vision_target_verb_att0_opp_seed79404
+[18:55:00] OK    diffmean_Qwen3-VL-2B_vision_target_verb_att0_opp_seed68200
+[18:55:00] START probe_Qwen3-VL-2B_vision_target_verb_att0_opp_seed79404
+[19:08:16] OK    probe_Qwen3-VL-2B_vision_target_verb_att0_opp_seed68200
+[19:08:16] START das_Qwen3-VL-2B_vision_target_verb_att0_opp_seed92980
+[19:20:11] OK    diffmean_Qwen3-VL-2B_vision_target_verb_att0_opp_seed79404
+[19:20:11] START diffmean_Qwen3-VL-2B_vision_target_verb_att0_opp_seed92980
+[19:31:16] OK    das_Qwen3-VL-2B_vision_target_verb_att0_opp_seed47410
+[19:31:16] START probe_Qwen3-VL-2B_vision_target_verb_att0_opp_seed92980
+[19:42:38] OK    probe_Qwen3-VL-2B_vision_target_verb_att0_opp_seed79404
+[19:42:38] START das_Qwen3-VL-2B_vision_target_verb_att1_opp_seed27616
+[19:56:15] OK    das_Qwen3-VL-2B_vision_target_verb_att0_opp_seed68200
+[19:56:15] START diffmean_Qwen3-VL-2B_vision_target_verb_att1_opp_seed27616
+[20:01:46] OK    diffmean_Qwen3-VL-2B_vision_target_verb_att0_opp_seed92980
+[20:01:46] START probe_Qwen3-VL-2B_vision_target_verb_att1_opp_seed27616
+[20:23:37] OK    probe_Qwen3-VL-2B_vision_target_verb_att0_opp_seed92980
+[20:23:37] START das_Qwen3-VL-2B_vision_target_verb_att1_opp_seed47410
+[20:34:20] OK    das_Qwen3-VL-2B_vision_target_verb_att0_opp_seed79404
+[20:34:20] START diffmean_Qwen3-VL-2B_vision_target_verb_att1_opp_seed47410
+[20:44:07] OK    diffmean_Qwen3-VL-2B_vision_target_verb_att1_opp_seed27616
+[20:44:07] START probe_Qwen3-VL-2B_vision_target_verb_att1_opp_seed47410
+[20:50:12] OK    probe_Qwen3-VL-2B_vision_target_verb_att1_opp_seed27616
+[20:50:12] START das_Qwen3-VL-2B_vision_target_verb_att1_opp_seed68200
+[21:08:31] OK    das_Qwen3-VL-2B_vision_target_verb_att0_opp_seed92980
+[21:08:31] START diffmean_Qwen3-VL-2B_vision_target_verb_att1_opp_seed68200
+[21:27:06] OK    diffmean_Qwen3-VL-2B_vision_target_verb_att1_opp_seed47410
+[21:27:06] START probe_Qwen3-VL-2B_vision_target_verb_att1_opp_seed68200
+[21:32:45] OK    probe_Qwen3-VL-2B_vision_target_verb_att1_opp_seed47410
+[21:32:45] START das_Qwen3-VL-2B_vision_target_verb_att1_opp_seed79404
+[21:43:51] OK    das_Qwen3-VL-2B_vision_target_verb_att1_opp_seed27616
+[21:43:51] START diffmean_Qwen3-VL-2B_vision_target_verb_att1_opp_seed79404
+[21:56:51] OK    diffmean_Qwen3-VL-2B_vision_target_verb_att1_opp_seed68200
+[21:56:51] START probe_Qwen3-VL-2B_vision_target_verb_att1_opp_seed79404
+[22:20:52] OK    probe_Qwen3-VL-2B_vision_target_verb_att1_opp_seed68200
+[22:20:52] START das_Qwen3-VL-2B_vision_target_verb_att1_opp_seed92980
+[22:31:06] OK    das_Qwen3-VL-2B_vision_target_verb_att1_opp_seed47410
+[22:31:06] START diffmean_Qwen3-VL-2B_vision_target_verb_att1_opp_seed92980
+[22:35:39] OK    diffmean_Qwen3-VL-2B_vision_target_verb_att1_opp_seed79404
+[22:35:39] START probe_Qwen3-VL-2B_vision_target_verb_att1_opp_seed92980
+[22:44:49] OK    probe_Qwen3-VL-2B_vision_target_verb_att1_opp_seed79404
+[22:50:16] OK    das_Qwen3-VL-2B_vision_target_verb_att1_opp_seed68200
+[23:13:51] OK    diffmean_Qwen3-VL-2B_vision_target_verb_att1_opp_seed92980
+[23:14:01] OK    probe_Qwen3-VL-2B_vision_target_verb_att1_opp_seed92980
+[23:15:52] OK    das_Qwen3-VL-2B_vision_target_verb_att1_opp_seed79404
+[23:35:56] OK    das_Qwen3-VL-2B_vision_target_verb_att1_opp_seed92980
+[23:35:56] done. 256 failures.
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k2
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k2
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k4
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k4
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k8
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k8
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k16
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k16
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k32
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k32
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k64
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k64
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k128
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k128
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k256
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k256
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k2
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k2
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k4
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k4
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k8
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k8
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k16
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k16
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k32
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k32
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k64
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k64
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k128
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k128
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k256
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k256
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k2
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k2
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k4
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k4
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k8
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k8
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k16
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k16
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k32
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k32
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k64
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k64
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k128
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k128
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k256
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k256
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k2
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k2
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k4
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k4
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k8
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k8
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k16
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k16
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k32
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k32
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k64
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k64
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k128
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k128
+  FAILED patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k256
+  FAILED ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k256
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k2
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k2
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k4
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k4
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k8
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k8
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k16
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k16
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k32
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k32
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k64
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k64
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k128
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k128
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att0_opp_k256
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att0_opp_k256
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k2
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k2
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k4
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k4
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k8
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k8
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k16
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k16
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k32
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k32
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k64
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k64
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k128
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k128
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att1_opp_k256
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att1_opp_k256
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k2
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k2
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k4
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k4
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k8
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k8
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k16
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k16
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k32
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k32
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k64
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k64
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k128
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k128
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att2_opp_k256
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att2_opp_k256
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k2
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k2
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k4
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k4
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k8
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k8
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k16
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k16
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k32
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k32
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k64
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k64
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k128
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k128
+  FAILED patch_Qwen3-VL-2B_vision_target_verb_att3_opp_k256
+  FAILED ablation_Qwen3-VL-2B_vision_target_verb_att3_opp_k256
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k2
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k2
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k4
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k4
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k8
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k8
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k16
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k16
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k32
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k32
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k64
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k64
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k128
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k128
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k256
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k256
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k2
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k2
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k4
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k4
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k8
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k8
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k16
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k16
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k32
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k64
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k32
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k64
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k256
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k256
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k2
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k2
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k4
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k4
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k8
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k8
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k16
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k16
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k32
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k32
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k64
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k64
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k256
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k256
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k2
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k2
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k4
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k4
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k8
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k8
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k16
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k16
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k32
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k32
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k64
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k64
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k256
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k256
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k2
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k2
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k4
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k4
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k8
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k8
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k16
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k16
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k32
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k32
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k64
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k64
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k128
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k128
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att0_opp_k256
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att0_opp_k256
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k2
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k2
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k4
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k4
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k8
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k8
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k16
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k16
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k32
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k32
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k64
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k64
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k128
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k128
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att1_opp_k256
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att1_opp_k256
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k2
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k2
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k4
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k4
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k8
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k16
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k8
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k16
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k32
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k32
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k64
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k64
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k128
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k128
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att2_opp_k256
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att2_opp_k256
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k2
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k2
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k4
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k4
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k8
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k8
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k16
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k16
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k32
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k32
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k64
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k64
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k128
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k128
+  FAILED ablation_Qwen3-VL-4B_vision_target_verb_att3_opp_k256
+  FAILED patch_Qwen3-VL-4B_vision_target_verb_att3_opp_k256

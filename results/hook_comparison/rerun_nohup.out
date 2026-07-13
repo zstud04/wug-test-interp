@@ -1,0 +1,38 @@
+master PID 3781192   (kill -TERM -3781192)
+matched 17 / 17 jobs  (missing: 0)
+[09:04:27] START patch_mlp_out_k16 (gpu 1)
+[09:04:27] START patch_mlp_out_k8 (gpu 0)
+[09:04:27] START patch_mlp_act_k16 (gpu 1)
+[09:04:27] START patch_mlp_act_k32 (gpu 0)
+[09:06:48] OK    patch_mlp_out_k16
+[09:06:48] START patch_mlp_out_k32 (gpu 1)
+[09:06:59] OK    patch_mlp_act_k32
+[09:06:59] START patch_mlp_act_k64 (gpu 0)
+[09:07:00] OK    patch_mlp_act_k16
+[09:07:00] START patch_mlp_act_k8 (gpu 1)
+[09:07:00] OK    patch_mlp_out_k8
+[09:07:00] START patch_attn_out_k128 (gpu 0)
+[09:09:07] OK    patch_mlp_out_k32
+[09:09:07] START patch_attn_out_k32 (gpu 1)
+[09:09:21] OK    patch_attn_out_k128
+[09:09:21] START patch_attn_out_k8 (gpu 0)
+[09:09:23] OK    patch_mlp_act_k8
+[09:09:23] START patch_mlp_out_k64 (gpu 1)
+[09:09:24] OK    patch_mlp_act_k64
+[09:09:24] START patch_resid_k8 (gpu 0)
+[09:11:24] OK    patch_attn_out_k32
+[09:11:24] START patch_resid_k32 (gpu 1)
+[09:11:41] OK    patch_mlp_out_k64
+[09:11:41] START ablation_mlp_act_k16 (gpu 0)
+[09:11:42] OK    patch_attn_out_k8
+[09:11:42] START ablation_mlp_out_k64 (gpu 1)
+[09:11:47] OK    patch_resid_k8
+[09:11:47] START ablation_attn_out_k16 (gpu 0)
+[09:13:45] OK    patch_resid_k32
+[09:13:45] START ablation_resid_k64 (gpu 1)
+[09:14:15] OK    ablation_mlp_out_k64
+[09:14:17] OK    ablation_mlp_act_k16
+[09:14:22] OK    ablation_attn_out_k16
+[09:16:14] OK    ablation_resid_k64
+rerun_failed.sh: line 145: /mnt/ws/home/zstuddiford/wug-test-interp/results/hook_comparison/logs/rerun_20260710_090427/failed.txt: No such file or directory
+[09:16:14] done. 0 failures.

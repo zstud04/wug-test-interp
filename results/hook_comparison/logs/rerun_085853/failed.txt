@@ -1,0 +1,17 @@
+results/hook_comparison/patch/mlp_act
+results/hook_comparison/patch/mlp_act
+results/hook_comparison/patch/mlp_act
+results/hook_comparison/patch/mlp_act
+results/hook_comparison/patch/mlp_out
+results/hook_comparison/patch/mlp_out
+results/hook_comparison/patch/mlp_out
+results/hook_comparison/patch/mlp_out
+results/hook_comparison/patch/attn_out
+results/hook_comparison/patch/attn_out
+results/hook_comparison/patch/attn_out
+results/hook_comparison/patch/resid
+results/hook_comparison/patch/resid
+results/hook_comparison/ablation/mlp_act
+results/hook_comparison/ablation/attn_out
+results/hook_comparison/ablation/mlp_out
+results/hook_comparison/ablation/resid

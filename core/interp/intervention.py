@@ -13,6 +13,10 @@ class Intervention(ABC):
     Per-cell intervention: `main` loops over (layer, tok) and calls
     `intervention` once per cell. See CircuitIntervention for methods whose
     unit of analysis spans layers and positions.
+
+    A cell that raises is recorded rather than fatal: every value column is set
+    to FAILURE_VALUE and the exception text lands in the `error` column. Filter
+    on `error`, never on the sentinel -- -1.0 is a legal logprob (p ~= 0.37).
     """
 
     OUTPUT_FIELDS = [
@@ -28,6 +32,16 @@ class Intervention(ABC):
         "base_logp_B",
         "base_intervention_logp_A",
         "base_intervention_logp_B",
+        "error",
+    ]
+
+    # Written to every value column when a (layer, tok) cell raises.
+    FAILURE_VALUE = -1.0
+
+    VALUE_FIELDS = [
+        "source_logp_A", "source_logp_B",
+        "base_logp_A", "base_logp_B",
+        "base_intervention_logp_A", "base_intervention_logp_B",
     ]
 
     # Novel tokens are always added.
@@ -474,9 +488,30 @@ class Intervention(ABC):
             base_logp_A, base_logp_B,
             base_intervention_logp_A, base_intervention_logp_B
 
-        `split`, `inverse`, `tok`, `layer` are filled by `main`.
+        `split`, `inverse`, `tok`, `layer`, `error` are filled by `main`.
+
+        Raising is permitted: `main` catches it, writes FAILURE_VALUE for every
+        value column of every eval row, records the message in `error`, and
+        continues with the next cell.
         """
         ...
+
+    # ------------------------------------------------------------------
+    # Failure placeholders
+    # ------------------------------------------------------------------
+    def _failed_results(self, eval_rows, exc):
+        """One placeholder row per eval row when a (layer, tok) cell raises."""
+        msg = f"{type(exc).__name__}: {exc}".replace("\n", " ").replace("\r", " ")
+        msg = msg[:200]
+        return [
+            {
+                "source_input": r[self.args.source_input_col],
+                "base_input": r[self.args.base_input_col],
+                "error": msg,
+                **{f: self.FAILURE_VALUE for f in self.VALUE_FIELDS},
+            }
+            for r in eval_rows
+        ]
 
     # ------------------------------------------------------------------
     # Driver
@@ -487,27 +522,45 @@ class Intervention(ABC):
         layers = self.get_layers()
         toks = self.get_toks()
         splits = [("train", self.train_rows), ("test", self.test_rows)]
+        n_cells = len(layers) * len(toks) * len(splits)
 
         out_rows = []
+        n_failed = 0
         for layer in layers:
             for tok in toks:
                 for split_name, eval_rows in splits:
-                    results = self.intervention(
-                        self.train_rows, eval_rows, layer, tok, split_name
-                    )
-                    if len(results) != len(eval_rows):
-                        raise RuntimeError(
-                            f"{type(self).__name__}.intervention returned "
-                            f"{len(results)} results for {len(eval_rows)} eval "
-                            f"rows; results must be one-per-row and in order."
+                    try:
+                        results = self.intervention(
+                            self.train_rows, eval_rows, layer, tok, split_name
                         )
+                        if len(results) != len(eval_rows):
+                            raise RuntimeError(
+                                f"intervention returned {len(results)} results "
+                                f"for {len(eval_rows)} eval rows; results must "
+                                f"be one-per-row and in order."
+                            )
+                    except Exception as exc:
+                        # KeyboardInterrupt / SystemExit are not Exceptions, so
+                        # Ctrl-C and SIGTERM still terminate the run.
+                        n_failed += 1
+                        print(f"  FAILED L{layer} t{tok} [{split_name}]: "
+                              f"{type(exc).__name__}: {exc}", flush=True)
+                        results = self._failed_results(eval_rows, exc)
+                        torch.cuda.empty_cache()
+
                     for res, src_row in zip(results, eval_rows):
                         row = dict(res)
                         row["split"] = split_name
                         row["layer"] = layer
                         row["tok"] = tok
                         row["inverse"] = "1" if self.is_inverse(src_row) else "0"
+                        row.setdefault("error", "")
                         out_rows.append(row)
+
+        if n_failed:
+            print(f"  {n_failed}/{n_cells} cells failed; their rows carry "
+                  f"{self.FAILURE_VALUE} in every value column. Filter on "
+                  f"`error`, not on the sentinel.", flush=True)
 
         self.write_output(out_rows)
         return out_rows
