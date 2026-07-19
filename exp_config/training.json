@@ -1,9 +1,0 @@
-{
-    "training_sweep_1.0" : {
-        "lrs": [],
-        "epochs": 50,
-        "batch_mode":[],
-        "batch_size":[],
-        "seeds":[38,39,40,41,42]
-    }
-}
