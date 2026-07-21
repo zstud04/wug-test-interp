@@ -28,7 +28,7 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-CI_DIR="results/CI_seed_runs"
+CI_DIR="results/train/CI_seed_runs"
 NOUN_INIT="data/embeddings/init/noun_init.txt"
 
 # ---------------------------------------------------------------------------
