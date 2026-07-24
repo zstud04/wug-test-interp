@@ -9,15 +9,27 @@ library(ggtext)
 library(grid)
 library(glue)
 
-results_dir = "results/movement-analysis/Qwen_Qwen3-VL-2B-Instruct"
-# results_dir = "results/movement-analysis/Qwen_Qwen3-VL-4B-Instruct"
+# results_dir = "results/movement-analysis/Qwen_Qwen3-VL-2B-Instruct"
+results_dir = "results/eval/movement-analysis/Qwen_Qwen3-VL-4B-Instruct"
 
 real_nouns <- read_csv(glue("{results_dir}/sg_pl_reduced.csv")) %>%
   rename(number = label)
 
 real_nouns %>%
   ggplot(aes(x,y, color = number)) +
-  geom_point(alpha = 0.4)
+  geom_point(alpha = 0.1) +
+  scale_color_manual(name = "Known Noun\nType", values = c("#018571", "#a6611a")) +
+  theme_classic(base_size = 17)+
+  theme(
+    axis.ticks = element_blank(),
+    axis.title = element_blank(),
+    legend.position = "none",
+    axis.text = element_blank(),
+    panel.background = element_rect(fill = "transparent", colour = NA),
+    plot.background  = element_rect(fill = "transparent", colour = NA)
+  )
+
+ggsave("figures/demo-sg-pl-pca.svg", height = 2.15, width = 2.39, dpi = 300)
 
 
 wug_pca <- bind_rows (
