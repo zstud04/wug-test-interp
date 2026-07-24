@@ -12,6 +12,9 @@
 # User-specific files
 .Ruserdata
 
+/results/JOBTRACKER.md
+/results/JOBTRACKER_seed_replicate.md
+
 # Example code in package build process
 *-Ex.R
 

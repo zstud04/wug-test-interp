@@ -1,0 +1,103 @@
+==============================================================
+ master PID : 3051696
+ kill with  : kill -TERM -3051696
+ logs       : /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636
+==============================================================
+[00:16:39] CUDA ok: NVIDIA H100 PCIe
+[00:16:41] 40 jobs, 6 at a time, 1 gpu
+[00:16:41] master pid 3051696
+[00:16:41] START diffmean_Qwen3-VL-2B_syntax_target_verb_att0_opp
+[00:16:41] START das_Qwen3-VL-2B_syntax_target_verb_att0_opp
+[00:16:41] START ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k128
+[00:16:41] START patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k128
+[00:16:41] START probe_Qwen3-VL-2B_syntax_target_verb_att0_opp
+[00:16:41] START das_Qwen3-VL-2B_syntax_target_verb_att1_opp
+[00:20:21] OK    patch_Qwen3-VL-2B_syntax_target_verb_att0_opp_k128
+[00:20:21] START diffmean_Qwen3-VL-2B_syntax_target_verb_att1_opp
+[00:22:17] OK    ablation_Qwen3-VL-2B_syntax_target_verb_att0_opp_k128
+[00:22:17] START probe_Qwen3-VL-2B_syntax_target_verb_att1_opp
+[01:07:50] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att0_opp
+[01:07:51] START patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k128
+[01:13:08] OK    patch_Qwen3-VL-2B_syntax_target_verb_att1_opp_k128
+[01:13:08] START ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k128
+[01:23:05] OK    ablation_Qwen3-VL-2B_syntax_target_verb_att1_opp_k128
+[01:23:05] START das_Qwen3-VL-2B_syntax_target_verb_att2_opp
+[01:28:12] OK    probe_Qwen3-VL-2B_syntax_target_verb_att0_opp
+[01:28:13] START diffmean_Qwen3-VL-2B_syntax_target_verb_att2_opp
+[01:33:31] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att1_opp
+[01:33:31] START probe_Qwen3-VL-2B_syntax_target_verb_att2_opp
+[01:37:21] OK    probe_Qwen3-VL-2B_syntax_target_verb_att1_opp
+[01:37:21] START patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k128
+[01:43:45] OK    patch_Qwen3-VL-2B_syntax_target_verb_att2_opp_k128
+[01:43:45] START ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k128
+[01:53:08] OK    ablation_Qwen3-VL-2B_syntax_target_verb_att2_opp_k128
+[01:53:08] START das_Qwen3-VL-2B_syntax_target_verb_att3_opp
+[02:56:17] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att2_opp
+[02:56:18] START diffmean_Qwen3-VL-2B_syntax_target_verb_att3_opp
+[03:02:17] OK    probe_Qwen3-VL-2B_syntax_target_verb_att2_opp
+[03:02:17] START probe_Qwen3-VL-2B_syntax_target_verb_att3_opp
+[03:26:56] OK    das_Qwen3-VL-2B_syntax_target_verb_att0_opp
+[03:26:57] START patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k128
+[03:31:33] OK    das_Qwen3-VL-2B_syntax_target_verb_att1_opp
+[03:31:33] START ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k128
+[03:38:55] OK    patch_Qwen3-VL-2B_syntax_target_verb_att3_opp_k128
+[03:38:55] START das_Qwen3-VL-4B_syntax_target_verb_att0_opp
+[03:43:35] OK    ablation_Qwen3-VL-2B_syntax_target_verb_att3_opp_k128
+[03:43:35] START diffmean_Qwen3-VL-4B_syntax_target_verb_att0_opp
+[04:17:10] OK    diffmean_Qwen3-VL-2B_syntax_target_verb_att3_opp
+[04:17:10] START probe_Qwen3-VL-4B_syntax_target_verb_att0_opp
+[04:30:19] OK    probe_Qwen3-VL-2B_syntax_target_verb_att3_opp
+[04:30:19] START patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k128
+[04:39:19] OK    patch_Qwen3-VL-4B_syntax_target_verb_att0_opp_k128
+[04:39:19] START ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k128
+[04:40:45] OK    das_Qwen3-VL-2B_syntax_target_verb_att2_opp
+[04:40:46] START das_Qwen3-VL-4B_syntax_target_verb_att1_opp
+[04:52:17] OK    ablation_Qwen3-VL-4B_syntax_target_verb_att0_opp_k128
+[04:52:17] START diffmean_Qwen3-VL-4B_syntax_target_verb_att1_opp
+[04:52:38] FAIL  diffmean_Qwen3-VL-4B_syntax_target_verb_att1_opp -> /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636/diffmean_Qwen3-VL-4B_syntax_target_verb_att1_opp.log
+[04:52:39] START probe_Qwen3-VL-4B_syntax_target_verb_att1_opp
+[04:53:01] FAIL  probe_Qwen3-VL-4B_syntax_target_verb_att1_opp -> /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636/probe_Qwen3-VL-4B_syntax_target_verb_att1_opp.log
+[04:53:01] START patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128
+[04:53:21] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636/patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128.log
+[04:53:21] START ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128
+[04:53:41] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636/ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128.log
+[04:53:41] START das_Qwen3-VL-4B_syntax_target_verb_att2_opp
+[04:54:02] FAIL  das_Qwen3-VL-4B_syntax_target_verb_att2_opp -> /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636/das_Qwen3-VL-4B_syntax_target_verb_att2_opp.log
+[04:54:02] START diffmean_Qwen3-VL-4B_syntax_target_verb_att2_opp
+[04:54:23] FAIL  diffmean_Qwen3-VL-4B_syntax_target_verb_att2_opp -> /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636/diffmean_Qwen3-VL-4B_syntax_target_verb_att2_opp.log
+[04:54:23] START probe_Qwen3-VL-4B_syntax_target_verb_att2_opp
+[04:54:45] FAIL  probe_Qwen3-VL-4B_syntax_target_verb_att2_opp -> /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636/probe_Qwen3-VL-4B_syntax_target_verb_att2_opp.log
+[04:54:45] START patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128
+[04:55:04] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636/patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128.log
+[04:55:05] START ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128
+[04:55:25] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636/ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128.log
+[04:55:25] START das_Qwen3-VL-4B_syntax_target_verb_att3_opp
+[04:55:46] FAIL  das_Qwen3-VL-4B_syntax_target_verb_att3_opp -> /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636/das_Qwen3-VL-4B_syntax_target_verb_att3_opp.log
+[04:55:46] START diffmean_Qwen3-VL-4B_syntax_target_verb_att3_opp
+[04:56:07] FAIL  diffmean_Qwen3-VL-4B_syntax_target_verb_att3_opp -> /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636/diffmean_Qwen3-VL-4B_syntax_target_verb_att3_opp.log
+[04:56:07] START probe_Qwen3-VL-4B_syntax_target_verb_att3_opp
+[04:56:29] FAIL  probe_Qwen3-VL-4B_syntax_target_verb_att3_opp -> /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636/probe_Qwen3-VL-4B_syntax_target_verb_att3_opp.log
+[04:56:29] START patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128
+[04:56:49] FAIL  patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636/patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128.log
+[04:56:49] START ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128
+[04:57:09] FAIL  ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128 -> /mnt/ws/home/zstuddiford/wug-test-interp/results/interp/natural_runs/logs/20260724_001636/ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128.log
+[05:18:24] OK    das_Qwen3-VL-2B_syntax_target_verb_att3_opp
+[05:30:06] OK    diffmean_Qwen3-VL-4B_syntax_target_verb_att0_opp
+[06:28:13] OK    probe_Qwen3-VL-4B_syntax_target_verb_att0_opp
+[08:06:18] OK    das_Qwen3-VL-4B_syntax_target_verb_att0_opp
+[08:39:01] OK    das_Qwen3-VL-4B_syntax_target_verb_att1_opp
+[08:39:01] done. 14 failures.
+  FAILED diffmean_Qwen3-VL-4B_syntax_target_verb_att1_opp
+  FAILED probe_Qwen3-VL-4B_syntax_target_verb_att1_opp
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att1_opp_k128
+  FAILED das_Qwen3-VL-4B_syntax_target_verb_att2_opp
+  FAILED diffmean_Qwen3-VL-4B_syntax_target_verb_att2_opp
+  FAILED probe_Qwen3-VL-4B_syntax_target_verb_att2_opp
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att2_opp_k128
+  FAILED das_Qwen3-VL-4B_syntax_target_verb_att3_opp
+  FAILED diffmean_Qwen3-VL-4B_syntax_target_verb_att3_opp
+  FAILED probe_Qwen3-VL-4B_syntax_target_verb_att3_opp
+  FAILED patch_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128
+  FAILED ablation_Qwen3-VL-4B_syntax_target_verb_att3_opp_k128
