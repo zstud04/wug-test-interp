@@ -41,7 +41,7 @@ if [[ "${_NAT_DAEMON:-0}" != 1 && " $* " != *" -n "* && " $* " != *" -F "* ]]; t
   exit 0
 fi
 
-NPROC=1          # jobs PER GPU (1 = one 4B job/GPU; 2x4B OOMs a 24GB A5000)
+NPROC=2          # jobs PER GPU (doubled per user request; watch for 4B OOM on 24GB)
 GPUS_STR="0 1"   # GPUs to spread jobs across (round-robin, one pool each)
 DRY_RUN=0
 ONLY=""
