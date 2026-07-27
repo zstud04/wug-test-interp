@@ -40,7 +40,8 @@ if [[ "${_SEED_DAEMON:-0}" != 1 && " $* " != *" -n "* && " $* " != *" -F "* ]]; 
   exit 0
 fi
 
-NPROC=4
+NPROC=1          # jobs PER GPU (1 = one 4B job/GPU; 2x4B OOMs a 24GB A5000)
+GPUS_STR="0 1"   # GPUs to spread jobs across (round-robin, one pool each)
 DRY_RUN=0
 ONLY=""
 FORCE=0
@@ -233,10 +234,22 @@ run_one() {
 }
 export -f run_one
 
-xargs -d '\n' -a "$JOBS" -P "$NPROC" -I{} bash -c '
-    line="{}"; name=$(printf "%s" "$line" | cut -f1); cmd=$(printf "%s" "$line" | cut -f3-)
-    run_one "$name" "$cmd"
-  ' 2>&1 | tee -a "$LOGDIR/master.log"
+# Reduce fragmentation OOMs (per the CUDA OOM hint on 4B models).
+export PYTORCH_CUDA_ALLOC_CONF="${PYTORCH_CUDA_ALLOC_CONF:-expandable_segments:True}"
+
+# One xargs pool per GPU, jobs split round-robin. Each pool pins its GPU via
+# CUDA_VISIBLE_DEVICES and runs $NPROC jobs at a time on that GPU.
+read -r -a GPUS <<< "$GPUS_STR"
+NG=${#GPUS[@]}
+for gi in "${!GPUS[@]}"; do
+  g="${GPUS[$gi]}"
+  awk -v n="$NG" -v k="$gi" 'NR % n == k' "$JOBS" > "$JOBS.gpu${g}"
+  CUDA_VISIBLE_DEVICES="$g" xargs -d '\n' -a "$JOBS.gpu${g}" -P "$NPROC" -I{} bash -c '
+      line="{}"; name=$(printf "%s" "$line" | cut -f1); cmd=$(printf "%s" "$line" | cut -f3-)
+      run_one "$name" "$cmd"
+    ' 2>&1 | tee -a "$LOGDIR/master.log" &
+done
+wait
 
 regen_tracker
 nfail=$(wc -l < "$LOGDIR/failed.txt" 2>/dev/null || echo 0)

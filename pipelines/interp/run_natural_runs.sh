@@ -41,7 +41,8 @@ if [[ "${_NAT_DAEMON:-0}" != 1 && " $* " != *" -n "* && " $* " != *" -F "* ]]; t
   exit 0
 fi
 
-NPROC=6
+NPROC=1          # jobs PER GPU (1 = one 4B job/GPU; 2x4B OOMs a 24GB A5000)
+GPUS_STR="0 1"   # GPUs to spread jobs across (round-robin, one pool each)
 DRY_RUN=0
 ONLY=""
 FORCE=0
@@ -121,6 +122,13 @@ emit() {  # emit <name> <outdir> <command...>
   echo PENDING > "$STATUS/$name"
 }
 
+# emit a method only if its output CSV does not already exist (never overwrite).
+emit_if_missing() {  # <name> <dir> <out_rel_csv> <command...>
+  local name="$1" dir="$2" out="$3"; shift 3
+  if [[ "$FORCE" == 0 && -s "$ROOT/$out" ]]; then return 0; fi
+  emit "$name" "$dir" "$@"
+}
+
 layers_for()  { local v="LAYERS_${1//-/_}";  echo "${!v}"; }
 clayers_for() { local v="CLAYERS_${1//-/_}"; echo "${!v}"; }
 toks_for()    { local v="TOKS_$1";           echo "${!v}"; }
@@ -151,20 +159,20 @@ for m in "${MODELS[@]}"; do
       CL="--layers $(clayers_for "$m")"   # circuit/ablation methods
       D="$OUT/${full}/${s}/${c}"
 
-      emit "das_${m}_${s}_${c}" "$D" \
+      emit_if_missing "das_${m}_${s}_${c}" "$D" "$D/das.csv" \
         "python3 core/interp/das.py $A $PL $T --n_sample $N_SAMPLE_CELL --add_inverse \
          --out_csv ${D}/das.csv"
-      emit "diffmean_${m}_${s}_${c}" "$D" \
+      emit_if_missing "diffmean_${m}_${s}_${c}" "$D" "$D/diffmean.csv" \
         "python3 core/interp/diffmean.py $A $PL $T --n_sample $N_SAMPLE_CELL --add_inverse_test \
          --out_csv ${D}/diffmean.csv"
-      emit "probe_${m}_${s}_${c}" "$D" \
+      emit_if_missing "probe_${m}_${s}_${c}" "$D" "$D/probe.csv" \
         "python3 core/interp/linear_probe.py $A $PL $T --n_sample $N_SAMPLE_CELL --add_inverse_test \
          --out_csv ${D}/probe.csv"
-      emit "patch_${m}_${s}_${c}_k${K}" "$D" \
+      emit_if_missing "patch_${m}_${s}_${c}_k${K}" "$D" "$D/patch_k${K}.csv" \
         "python3 core/interp/circuit.py $A $CL --n_sample $N_SAMPLE --add_inverse \
          --hook_points mlp_act --top_k $K \
          --out_csv ${D}/patch_k${K}.csv --circuit_out ${D}/patch_nodes_k${K}.csv"
-      emit "ablation_${m}_${s}_${c}_k${K}" "$D" \
+      emit_if_missing "ablation_${m}_${s}_${c}_k${K}" "$D" "$D/ablation_k${K}.csv" \
         "python3 core/interp/ablation.py $A $CL --n_sample $N_SAMPLE --add_inverse \
          --hook_points mlp_act --top_k $K --ablation mean \
          --out_csv ${D}/ablation_k${K}.csv --circuit_out ${D}/ablation_nodes_k${K}.csv"
@@ -256,12 +264,24 @@ run_one() {
 }
 export -f run_one
 
-xargs -d '\n' -a "$JOBS" -P "$NPROC" -I{} bash -c '
+# Reduce fragmentation OOMs (per the CUDA OOM hint on 4B models).
+export PYTORCH_CUDA_ALLOC_CONF="${PYTORCH_CUDA_ALLOC_CONF:-expandable_segments:True}"
+
+# One xargs pool per GPU, jobs split round-robin. Each pool pins its GPU via
+# CUDA_VISIBLE_DEVICES and runs $NPROC jobs at a time on that GPU.
+read -r -a GPUS <<< "$GPUS_STR"
+NG=${#GPUS[@]}
+for gi in "${!GPUS[@]}"; do
+  g="${GPUS[$gi]}"
+  awk -v n="$NG" -v k="$gi" 'NR % n == k' "$JOBS" > "$JOBS.gpu${g}"
+  CUDA_VISIBLE_DEVICES="$g" xargs -d '\n' -a "$JOBS.gpu${g}" -P "$NPROC" -I{} bash -c '
     line="{}"
     name=$(printf "%s" "$line" | cut -f1)
     cmd=$(printf  "%s" "$line" | cut -f3-)
     run_one "$name" "$cmd"
-  ' 2>&1 | tee -a "$LOGDIR/master.log"
+  ' 2>&1 | tee -a "$LOGDIR/master.log" &
+done
+wait
 
 regen_tracker
 nfail=$(wc -l < "$LOGDIR/failed.txt" 2>/dev/null || echo 0)
