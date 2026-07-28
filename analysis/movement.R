@@ -39,13 +39,47 @@ wug_pca <- bind_rows (
     mutate(modality='Vision')
 )
 
+# font_add_google("Inconsolata", "Inconsolata")
+# showtext_auto()
+
+
 wug_pca %>%
   pivot_wider(names_from = stage, values_from = c(x, y)) %>%
+  mutate(
+    type = case_when(
+      type == "wug" ~ "sg",
+      TRUE ~ "pl"
+    ),
+    type = factor(type, c("sg", "pl"))
+  ) %>%
   ggplot() + 
-  geom_point(data = real_nouns, aes(x, y, color = number), alpha = 0.08) +
-  scale_color_manual(name = "Known Noun\nType", values = c("#018571", "#a6611a")) +
-  guides(color = guide_legend(override.aes = list(alpha = 1))) +
+  
+  # --- 1. REAL NOUNS ---
+  geom_point(data = real_nouns, aes(x, y, color = number, shape = number), alpha = 0.08) +
+  scale_color_manual(
+    name = "Real Noun Type", 
+    values = c("#018571", "#a6611a"),
+    # Define guide directly inside the scale to avoid ggnewscale errors
+    guide = guide_legend(
+      title.position = "top", 
+      title.hjust = 0.5, 
+      override.aes = list(alpha = 1)
+    )
+  ) +
+  scale_shape_manual(
+    name = "Real Noun Type", 
+    values = c(16, 17),
+    guide = guide_legend(
+      title.position = "top", 
+      title.hjust = 0.5, 
+      override.aes = list(alpha = 1)
+    )
+  ) +
+  
+  # --- 2. RESET SCALES ---
   new_scale_color() +
+  
+  # --- 3. NOVEL NOUNS ---
   geom_segment(
     aes(
       x = x_init, y = y_init,
@@ -55,6 +89,17 @@ wug_pca %>%
     arrow = arrow(length = unit(0.1, "cm")),
     linewidth = 0.6, alpha = 0.6
   ) +
+  scale_color_manual(
+    name = "Novel Noun Type", 
+    values = rev(c("#018571", "#a6611a")),
+    guide = guide_legend(
+      title.position = "top", 
+      title.hjust = 0.5, 
+      override.aes = list(alpha = 1, linewidth = 0.6)
+    )
+  ) +
+  
+  # --- 4. ANNOTATIONS ---
   geom_segment(
     data = data.frame(modality = "Language"),
     aes(x = 0.2, y = 0.2, xend = 0.28, yend = 0.3),
@@ -65,7 +110,7 @@ wug_pca %>%
     data = data.frame(modality="Language"),
     aes(x = 0.25, y = 0.18),
     label = "initial",
-    family = "Helvetica",
+    family = "Times", 
     fontface = "italic",
     size = 4
   ) +
@@ -73,24 +118,33 @@ wug_pca %>%
     data = data.frame(modality="Language"),
     aes(x = 0.33, y = 0.3),
     label = "final",
-    family = "Helvetica",
+    family = "Times", 
     fontface = "italic",
     size = 4
   ) +
-  scale_color_manual(name = "Novel word", values = rev(c("#018571", "#a6611a"))) +
-  guides(color = guide_legend(override.aes = list(alpha = 1))) +
+  
+  # --- 5. THEME & FACETS ---
   facet_wrap(~modality, scales="free") + 
-  # theme_minimal(base_size = 17, base_family = "Times") +
-  theme_classic(base_size = 17, base_family = "Times") +
+  theme_classic(base_size = 16, base_family = "Times") +
   theme(
     panel.grid = element_blank(),
     strip.background = element_blank(),
-    strip.text.x = element_text(face='bold.italic')
+    strip.text.x = element_text(face='bold.italic'),
+    
+    # Position legend at the top and stack the two legends horizontally
+    legend.position = "top",
+    legend.box = "horizontal",
+    
+    # Target legend labels with Inconsolata
+    legend.text = element_text(family = "Inconsolata", size = 14) 
   ) +
   labs(
     x = "PC1",
     y = "PC2"
-  ) 
+  )
+
+# ggsave("figures/4b-movement-pca.pdf", width = 6.81, height = 3.9, dpi = 300, device = cairo_pdf)
+ggsave("figures/4b-movement-pca-legendtop.pdf", width = 6.83, height = 4.30, dpi = 300, device = cairo_pdf)
 
 
 movement <- bind_rows (
@@ -100,18 +154,32 @@ movement <- bind_rows (
     mutate(modality='Vision')
 )
 
+# Here is your updated code. The two main changes are explicitly setting the dodge.width to match between the points and the summary, and adding fun.data = "mean_cl_normal" to generate the 95% confidence intervals.
+
+# R
+# Make sure the Hmisc package is installed for mean_cl_normal to work!
+# install.packages("Hmisc")
+
 movement %>%
-  mutate(number = factor(number, levels = c("sg", "pl"), labels = c("SG", "PL"))) %>%
+  mutate(number = factor(number, levels = c("sg", "pl"))) %>%
   ggplot(aes(number, movement, color = modality, group = modality, shape = modality)) +
-  geom_point(position = position_jitterdodge(seed = 1024), alpha = 0.6) +
+  # 1. Explicitly set dodge.width to 0.75 (the standard) so we can match it later
+  geom_point(position = position_jitterdodge(dodge.width = 0.75, seed = 1024), alpha = 0.1) +
+  # 2. Match the width (0.75) and use mean_cl_normal for 95% CI
+  stat_summary(
+    fun.data = "mean_cl_normal", 
+    geom = "pointrange",
+    position = position_dodge(width = 0.75),
+    size = 0.4 # Optional: makes the pointrange slightly thicker to stand out
+  ) +
   geom_hline(yintercept = 0.0, linetype = "dashed") +
   scale_y_continuous(limits = c(0, 0.2)) +
-  theme_classic(base_size = 17, base_family = "Times") +
+  theme_classic(base_size = 16, base_family = "Times") +
   labs(
     x = "Number",
     y = "Movement towards\ndesired region",
-    color = "Input Modality",
-    shape = "Input Modality",
+    color = "Cue Condition",
+    shape = "Cue Condition"
   ) +
   theme(
     legend.position = "inside",

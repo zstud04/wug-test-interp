@@ -102,18 +102,77 @@ all_seed_acc <- all_seed_results %>%
   )
 
 bind_rows(
-  natural_acc %>% mutate(source = "language", type = "natural"),
-  natural_acc %>% mutate(source = "vision", type = "natural"),
-  all_seed_acc %>% mutate(type = "novel word")
+  natural_acc %>% mutate(source = "language", type = "real"),
+  natural_acc %>% mutate(source = "vision", type = "real"),
+  all_seed_acc %>% mutate(type = "novel")
 ) %>%
   ggplot(aes(attractors, acc, shape = type, linetype = type, color = source, fill = source)) +
   geom_point() +
   geom_line() + 
   geom_ribbon(aes(ymin = acc-conf, ymax = acc+conf), color = NA, alpha = 0.4) +
   facet_wrap(~params) +
-  scale_y_continuous(limits = c(0.5, 1))
+  scale_y_continuous(limits = c(0.5, 1)) +
+  labs(
+    color = "Cue Condition",
+    fill = "Cue Condition",
+    shape = "Word Type",
+    linetype = "Word Type"
+  )
 
+bind_rows(
+  natural_acc %>% mutate(source = "language", type = "Real"),
+  natural_acc %>% mutate(source = "vision", type = "Real"),
+  all_seed_acc %>% mutate(type = "Novel")
+) %>%
+  mutate(color_group = ifelse(type == "Real", "Pre-training", source)) %>% 
+  mutate(
+    source = str_to_title(source),
+    color_group = str_to_title(color_group)
+  ) %>%
+  ggplot(aes(attractors, acc, 
+             shape = type, linetype = type, 
+             color = color_group, fill = color_group)) +
+  geom_point() +
+  geom_line() + 
+  geom_ribbon(aes(ymin = acc-conf, ymax = acc+conf), color = NA, alpha = 0.4) +
+  facet_wrap(~params, scales = "free") +
+  scale_y_continuous(limits = c(0.5, 1), labels = scales::percent_format(suffix = "")) +
+  scale_color_manual(
+    name = "Cue Condition",
+    values = c("Pre-Training" = "black", "Language" = "#5e3c99", "Vision" = "#e66101"),
+    breaks = c("Language", "Vision") # This line hides "pre-training" from the legend
+  ) +
+  scale_fill_manual(
+    name = "Cue Condition",
+    values = c("Pre-Training" = "black", "Language" = "#5e3c99", "Vision" = "#e66101"),
+    breaks = c("Language", "Vision") # This line hides "pre-training" from the legend
+  ) +
+  labs(
+    shape = "Word Type",
+    linetype = "Word Type"
+  ) +
+  guides(
+    # Add title.position = "top" to all guides
+    color = guide_legend(title.position = "top", title.hjust = 0.5),
+    fill = guide_legend(title.position = "top", title.hjust = 0.5),
+    shape = guide_legend(title.position = "top", title.hjust = 0.5, override.aes = list(fill = NA)),
+    linetype = guide_legend(title.position = "top", title.hjust = 0.5, override.aes = list(fill = NA))
+  ) +
+  # guides(
+  #   shape = guide_legend(override.aes = list(fill = NA)),
+  #   linetype = guide_legend(override.aes = list(fill = NA))
+  # ) + 
+  theme_classic(base_size = 17, base_family = "Times") +
+  theme(
+    panel.grid = element_blank(),
+    strip.background = element_blank(),
+    # strip.text.x = element_text(face='bold.italic')
+    legend.position = "top"
+  ) +
+  labs(
+    x = "Attractors",
+    y = "Accuracy (%)"
+  )
 
-
-
-
+# ggsave("figures/behavioral-accuracies-attractors.pdf", width = 7.14, height = 3.07, dpi = 300, device=cairo_pdf)
+ggsave("figures/behavioral-accuracies-attractors-legendtop.pdf", width = 5.41, height = 4.00, dpi = 300, device=cairo_pdf)
