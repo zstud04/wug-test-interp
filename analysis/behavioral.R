@@ -4,8 +4,8 @@ natural_results <- fs::dir_ls("results/eval/attractors/", regexp = "*target_natu
   map_df(read_csv, .id = "file") %>%
   mutate(
     params = case_when(
-      str_detect(file, "2B") ~ "2B",
-      TRUE ~ "4B"
+      str_detect(file, "2B") ~ "Qwen3-VL-2B",
+      TRUE ~ "Qwen3-VL-4B"
     )
   ) %>%
   select(-file)
@@ -14,8 +14,8 @@ all_seed_results <- fs::dir_ls("results/eval/attractors-50seeds", regexp = "attr
   map_df(read_csv, .id = "file") %>%
   mutate(
     params = case_when(
-      str_detect(file, "2B") ~ "2B",
-      TRUE ~ "4B"
+      str_detect(file, "2B") ~ "Qwen3-VL-2B",
+      TRUE ~ "Qwen3-VL-4B"
     ),
     source = case_when(
       str_detect(file, "image") ~ "vision",
@@ -28,8 +28,8 @@ best_seed_results <- fs::dir_ls("results/eval/attractors/", regexp = "*target_wu
   map_df(read_csv, .id = "file") %>%
   mutate(
     params = case_when(
-      str_detect(file, "2B") ~ "2B",
-      TRUE ~ "4B"
+      str_detect(file, "2B") ~ "Qwen3-VL-2B",
+      TRUE ~ "Qwen3-VL-4B"
     ),
     source = case_when(
       str_detect(file, "syntax") ~ "language",
@@ -44,7 +44,7 @@ best_seed_results %>%
   group_by(params, source, correctness, attractors) %>%
   summarize(
     acc = mean(correct)
-  ) %>% View()
+  ) 
 
 natural_results %>%
   select(params, idx, attractors, is_correct_singular, is_correct_plural, is_correct_all) %>%
@@ -52,7 +52,7 @@ natural_results %>%
   group_by(params, correctness, attractors) %>%
   summarize(
     acc = mean(correct)
-  ) %>% View()
+  )
 
 best_seed_results %>%
   select(params, source, idx, attractors, is_correct_singular, is_correct_plural, is_correct_all) %>%
@@ -162,12 +162,22 @@ bind_rows(
   #   shape = guide_legend(override.aes = list(fill = NA)),
   #   linetype = guide_legend(override.aes = list(fill = NA))
   # ) + 
-  theme_classic(base_size = 17, base_family = "Times") +
+  theme_classic(base_size = 16, base_family = "Times") +
   theme(
     panel.grid = element_blank(),
     strip.background = element_blank(),
-    # strip.text.x = element_text(face='bold.italic')
-    legend.position = "top"
+    strip.text.x = element_text(size = 14),
+    legend.position = "top",
+    legend.title = element_text(size = 14),
+    legend.box.spacing = unit(0, "pt"),
+    plot.margin = margin(0, 0, 0, 0, "pt"),
+    
+    # --- New code for transparency and no borders ---
+    plot.background = element_rect(fill = "transparent", color = NA), # Transparent canvas, no border
+    panel.background = element_rect(fill = "transparent", color = NA), # Transparent plot area
+    legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
+    legend.box.background = element_rect(fill = "transparent", color = NA),
+    panel.border = element_blank() # Removes any leftover panel borders
   ) +
   labs(
     x = "Attractors",
@@ -175,4 +185,4 @@ bind_rows(
   )
 
 # ggsave("figures/behavioral-accuracies-attractors.pdf", width = 7.14, height = 3.07, dpi = 300, device=cairo_pdf)
-ggsave("figures/behavioral-accuracies-attractors-legendtop.pdf", width = 5.41, height = 4.00, dpi = 300, device=cairo_pdf)
+ggsave("figures/behavioral-accuracies-attractors-legendtop.pdf", width = 5, height = 3.45, dpi = 300)

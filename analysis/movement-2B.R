@@ -1,5 +1,3 @@
-# please open the .Rproj file in the home dir of 
-# the repo so that the paths resolve.
 
 library(tidyverse)
 library(scales)
@@ -8,10 +6,10 @@ library(ggdist)
 library(ggtext)
 library(grid)
 library(glue)
-library(knitr)
 
-# results_dir = "results/movement-analysis/Qwen_Qwen3-VL-2B-Instruct"
-results_dir = "results/eval/movement-analysis/Qwen_Qwen3-VL-4B-Instruct"
+
+results_dir = "results/eval/movement-analysis/Qwen_Qwen3-VL-2B-Instruct"
+# results_dir = "results/eval/movement-analysis/Qwen_Qwen3-VL-4B-Instruct"
 
 real_nouns <- read_csv(glue("{results_dir}/sg_pl_reduced.csv")) %>%
   rename(number = label) %>%
@@ -33,7 +31,7 @@ real_nouns %>%
     plot.background  = element_rect(fill = "transparent", colour = NA)
   )
 
-ggsave("figures/demo-sg-pl-pca.svg", height = 2.15, width = 2.39, dpi = 300)
+# ggsave("figures/demo-sg-pl-pca.svg", height = 2.15, width = 2.39, dpi = 300)
 
 
 wug_pca <- bind_rows (
@@ -126,8 +124,8 @@ wug_pca %>%
     fontface = "italic",
     size = 3.5
   ) +
-  # scale_y_continuous(limits = c(-0.4, 0.4)) +
-  # scale_x_continuous(limits = c(-0.4, 0.4)) +
+  scale_y_continuous(limits = c(-0.4, 0.4)) +
+  scale_x_continuous(limits = c(-0.5, 0.5)) +
   # --- 5. THEME & FACETS ---
   facet_wrap(~modality, scales="free") + 
   theme_classic(base_size = 16, base_family = "Times") +
@@ -158,7 +156,7 @@ wug_pca %>%
   )
 
 # ggsave("figures/4b-movement-pca.pdf", width = 6.81, height = 3.9, dpi = 300, device = cairo_pdf)
-ggsave("figures/4b-movement-pca-legendtop.pdf", width = 6.8, height = 4.16, dpi = 300)
+ggsave("figures/2b-movement-pca-legendtop.pdf", width = 6.8, height = 4.16, dpi = 300)
 
 # ---
 
@@ -242,8 +240,8 @@ wug_pca %>%
     fontface = "italic",
     size = 4
   ) +
-  # scale_y_continuous(limits = c(-0.4, 0.4)) +
-  # scale_x_continuous(limits = c(-0.4, 0.4)) +
+  scale_y_continuous(limits = c(-0.4, 0.4)) +
+  scale_x_continuous(limits = c(-0.5, 0.5)) +
   # --- 5. THEME & FACETS ---
   facet_wrap(~modality, scales="free", nrow = 2) + 
   theme_classic(base_size = 16, base_family = "Times") +
@@ -273,7 +271,7 @@ wug_pca %>%
     y = "PC2"
   )
 
-ggsave("figures/4b-movement-pca-vertical.pdf", height = 7.95, width = 4.22, dpi = 300)
+ggsave("figures/2b-movement-pca-vertical.pdf", height = 7.95, width = 4.22, dpi = 300)
 # ---
 
 movement <- bind_rows (
@@ -288,93 +286,6 @@ movement <- bind_rows (
 # R
 # Make sure the Hmisc package is installed for mean_cl_normal to work!
 # install.packages("Hmisc")
-
-movement %>% 
-  group_by(modality, number) %>%
-  summarize(
-    n = n(),
-    sd = sd(movement, na.rm = TRUE),
-    mean_movement = mean(movement, na.rm = TRUE),
-    # Calculate Standard Error
-    se = sd / sqrt(n),
-    # Calculate 95% Confidence Interval
-    # 95% Confidence Interval
-    ci_lower = mean_movement - qt(0.975, df = n - 1) * se,
-    ci_upper = mean_movement + qt(0.975, df = n - 1) * se,
-    
-    # One-sample t-test (H0: mean = 0, HA: mean > 0)
-    t_stat = mean_movement / se,
-    p_value = pt(t_stat, df = n - 1, lower.tail = FALSE),
-    
-    .groups = "drop"
-  )
-
-movement %>% 
-  group_by(modality, number) %>%
-  summarize(
-    mean_movement = mean(movement, na.rm = TRUE),
-    .groups = "drop"
-  ) %>%
-  pivot_wider(
-    names_from = number, 
-    values_from = mean_movement
-  ) %>%
-  # Apply formatting to all columns EXCEPT modality
-  mutate(across(-modality, ~ sprintf("%.3f", .)))
-
-movement %>% 
-  group_by(modality, number) %>%
-  summarize(
-    mean_movement = mean(movement, na.rm = TRUE),
-    .groups = "drop"
-  ) %>%
-  pivot_wider(
-    names_from = number, 
-    values_from = mean_movement
-  ) %>%
-  # Format to 3 decimal places
-  mutate(across(-modality, ~ sprintf("%.3f", .))) %>%
-  # Output the dataframe as a LaTeX table
-  kable(
-    format = "latex", 
-    booktabs = TRUE, # Makes it look clean and professional
-    caption = "Mean Movement by Modality and Number",
-    align = "lcccc"  # Left align the first column, center the rest (adjust based on your number of columns)
-  )
-
-movement %>% 
-  # 1. Force the order of the columns: "sg" first, then "pl"
-  mutate(number = factor(number, levels = c("sg", "pl"))) %>%
-  
-  group_by(modality, number) %>%
-  summarize(
-    n = n(),
-    mean_movement = mean(movement, na.rm = TRUE),
-    sd = sd(movement, na.rm = TRUE),
-    me = qt(0.975, df = n - 1) * (sd / sqrt(n)),
-    
-    # 2. Format WITHOUT putting the numbers themselves in math mode. 
-    # \\textsubscript{} keeps the subscript in standard text mode.
-    # $\\pm$ is used only for the plus-minus symbol.
-    cell_value = sprintf("%.3f\\textsubscript{$\\pm$ %.3f}", mean_movement, me),
-    
-    .groups = "drop"
-  ) %>%
-  select(modality, number, cell_value) %>%
-  
-  # 3. Pivot (this will automatically respect the "sg", "pl" factor order)
-  pivot_wider(
-    names_from = number, 
-    values_from = cell_value
-  ) %>%
-  
-  # 4. Generate the LaTeX table
-  kable(
-    format = "latex", 
-    booktabs = TRUE, 
-    escape = FALSE, # Required so kable doesn't break the LaTeX commands
-    caption = "Mean Movement (with 95\\% CI Margin of Error)"
-  )
 
 movement %>%
   mutate(number = factor(number, levels = c("sg", "pl"))) %>%
@@ -402,4 +313,3 @@ movement %>%
     legend.position.inside = c(0.95, 0.95),
     legend.justification = c("right", "top")
   )
-
