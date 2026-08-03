@@ -52,10 +52,10 @@ natural_agg %>%
       method,
       levels = c("das", "diffmean", "probe", "patch_k128"),
       # Use <br> for newline and HTML <span> to reduce the font size of the subtitle
-      labels = c("DAS", "Diff-mean", "Probe", "RelP<sup>*</sup>")
+      labels = c("DAS", "DiffMean", "Probe", "AtP<sup>*</sup>")
     )
   ) %>%
-  filter(region == "critical", model == "Qwen3-VL-4B") %>%
+  filter(region == "critical", model == "Qwen3-VL-2B") %>%
   ggplot(aes(attractors, mean_odds, color = layer, fill = layer, group = layer)) +
   geom_point() +
   geom_line() + 
@@ -82,7 +82,7 @@ natural_agg %>%
   theme(
     panel.grid = element_blank(),
     strip.background = element_blank(),
-    # Use element_markdown to render the HTML added to the RelP label
+    # Use element_markdown to render the HTML added to the AtP label
     strip.text.x = ggtext::element_markdown(size = 14, lineheight = 1.2),
     # legend.box.spacing = unit(0, "pt"),
     plot.margin = margin(0, 0, 0, 0, "pt"),
@@ -100,11 +100,11 @@ natural_agg %>%
     y = "Avg. Odds (95% CI)",
     color = "Layer",
     fill = "Layer",
-    caption = expression(paste(""^'*' * "RelP ", italic("is not a layerwise method")))
+    caption = expression(paste(""^'*' * "AtP ", italic("is not a layerwise method")))
   )
 
-ggsave("figures/real-interp-results-4B.pdf", height = 2.68, width = 8.60, dpi = 300)
-# ggsave("figures/real-interp-results-2B.pdf", height = 2.68, width = 8.60, dpi = 300)
+# ggsave("figures/real-interp-results-4B.pdf", height = 2.68, width = 8.60, dpi = 300)
+ggsave("figures/real-interp-results-2B.pdf", height = 2.68, width = 8.60, dpi = 300)
 
 
 
@@ -159,7 +159,7 @@ embs_agg_reg <- embs_agg %>%
       method,
       levels = c("das", "diffmean", "probe", "patch_k128"),
       # # Use <br> for newline and HTML <span> to reduce the font size of the subtitle
-      # labels = c("DAS", "Diff-mean", "Probe", "RelP<br><span style='font-size: 10pt;'>(<i>not a layerwise method</i>)</span>")
+      # labels = c("DAS", "DiffMean", "Probe", "AtP<br><span style='font-size: 10pt;'>(<i>not a layerwise method</i>)</span>")
     )
   ) %>%
   filter(
@@ -182,7 +182,7 @@ emb_results <- embs %>%
       method,
       levels = c("das", "diffmean", "probe", "patch_k128"),
       # # Use <br> for newline and HTML <span> to reduce the font size of the subtitle
-      # labels = c("DAS", "Diff-mean", "Probe", "RelP<br><span style='font-size: 10pt;'>(<i>not a layerwise method</i>)</span>")
+      # labels = c("DAS", "DiffMean", "Probe", "AtP<br><span style='font-size: 10pt;'>(<i>not a layerwise method</i>)</span>")
     )
   ) %>%
   filter(region == "critical", str_detect(model, "4B")) %>%
@@ -217,7 +217,7 @@ embs_agg %>%
       levels = c("das", "diffmean", "probe", "patch_k128")
     )
   ) %>%
-  filter(region == "critical", model == "Qwen3-VL-4B") %>%
+  filter(region == "critical", model == "Qwen3-VL-2B") %>%
   ggplot(aes(attractors, mean_odds, color = layer, fill = layer, group = layer)) +
   geom_point() +
   geom_line() + 
@@ -230,11 +230,11 @@ embs_agg %>%
     labeller = labeller(
       method = as_labeller(c(
         das = "'DAS'",
-        diffmean = "'Diff-mean'", 
+        diffmean = "'DiffMean'", 
         probe = "'Probe'",
         # Added italic() right inside scriptstyle()
-        # patch_k128 = "atop('RelP', scriptstyle(italic('(not a layerwise method)')))"
-        patch_k128 = "RelP^'*'"
+        # patch_k128 = "atop('AtP', scriptstyle(italic('(not a layerwise method)')))"
+        patch_k128 = "AtP^'*'"
       ), default = label_parsed)
     )
   ) +
@@ -269,11 +269,11 @@ embs_agg %>%
     y = "Avg. Odds (95% CI)",
     color = "Layer",
     fill = "Layer",
-    caption = expression(paste(""^'*' * "RelP ", italic("is not a layerwise method")))
+    caption = expression(paste(""^'*' * "AtP ", italic("is not a layerwise method")))
   )
 
 # ggsave("figures/emb-interp-results-4B.pdf", height = 4.29, width = 8.63, dpi = 300)
-# ggsave("figures/emb-interp-results-2B.pdf", height = 4.08, width = 8.66, dpi = 300)
+ggsave("figures/emb-interp-results-2B.pdf", height = 4.08, width = 8.66, dpi = 300)
 
 # select and report best:
 
@@ -328,7 +328,7 @@ bind_rows(
       method,
       levels = c("das", "diffmean", "probe", "patch_k128"),
       # Use <br> for newline and HTML <span> to reduce the font size of the subtitle
-      labels = c("DAS", "Diff-mean", "Probe", "RelP")
+      labels = c("DAS", "DiffMean", "Probe", "AtP")
     )
   ) %>%
   ggplot(aes(attractors, mean_odds, color = modality, shape = exp, fill = modality, linetype = exp)) +
@@ -351,7 +351,7 @@ bind_rows(
   theme(
     panel.grid = element_blank(),
     strip.background = element_blank(),
-    # Use element_markdown to render the HTML added to the RelP label
+    # Use element_markdown to render the HTML added to the AtP label
     strip.text.x = ggtext::element_markdown(size = 14, lineheight = 1.2),
     # legend.box.spacing = unit(0, "pt"),
     plot.margin = margin(0, 0, 0, 0, "pt"),
@@ -371,7 +371,7 @@ bind_rows(
     fill = "Cue Condition",
     shape = "Word Type",
     linetype = "Word Type",
-    # caption = expression(paste(""^'*' * "RelP ", italic("is not a layerwise method")))
+    # caption = expression(paste(""^'*' * "AtP ", italic("is not a layerwise method")))
   )
 
 ggsave("figures/novel-vs-real-interp-4B.pdf", height = 2.34, width = 8.88, dpi = 300)
