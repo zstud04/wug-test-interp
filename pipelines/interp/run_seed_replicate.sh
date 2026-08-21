@@ -40,8 +40,8 @@ if [[ "${_SEED_DAEMON:-0}" != 1 && " $* " != *" -n "* && " $* " != *" -F "* ]]; 
   exit 0
 fi
 
-NPROC=1          # jobs PER GPU (1 = one 4B job/GPU; 2x4B OOMs a 24GB A5000)
-GPUS_STR="0 1"   # GPUs to spread jobs across (round-robin, one pool each)
+NPROC=4          # jobs PER GPU (single 80GB H100: ~12GB peak/4B job, 4 fits comfortably)
+GPUS_STR="0"     # GPUs to spread jobs across (round-robin, one pool each)
 DRY_RUN=0
 ONLY=""
 FORCE=0
