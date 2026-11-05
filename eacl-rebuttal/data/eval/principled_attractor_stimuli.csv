@@ -1,0 +1,481 @@
+idx,target_number,attractors,condition,verb_3sg,verb_bare,attractor_nouns,good,bad
+0,singular,0,target_singular_att0,likes,like,,The [wug] likes.,The [wug] like.
+1,singular,0,target_singular_att0,says,say,,The [wug] says.,The [wug] say.
+2,singular,0,target_singular_att0,suffers,suffer,,The [wug] suffers.,The [wug] suffer.
+3,singular,0,target_singular_att0,knows,know,,The [wug] knows.,The [wug] know.
+4,singular,0,target_singular_att0,indicates,indicate,,The [wug] indicates.,The [wug] indicate.
+5,singular,0,target_singular_att0,appears,appear,,The [wug] appears.,The [wug] appear.
+6,singular,0,target_singular_att0,ignores,ignore,,The [wug] ignores.,The [wug] ignore.
+7,singular,0,target_singular_att0,wants,want,,The [wug] wants.,The [wug] want.
+8,singular,0,target_singular_att0,sits,sit,,The [wug] sits.,The [wug] sit.
+9,singular,0,target_singular_att0,adopts,adopt,,The [wug] adopts.,The [wug] adopt.
+10,singular,0,target_singular_att0,wishes,wish,,The [wug] wishes.,The [wug] wish.
+11,singular,0,target_singular_att0,shows,show,,The [wug] shows.,The [wug] show.
+12,singular,0,target_singular_att0,pulls,pull,,The [wug] pulls.,The [wug] pull.
+13,singular,0,target_singular_att0,throws,throw,,The [wug] throws.,The [wug] throw.
+14,singular,0,target_singular_att0,warns,warn,,The [wug] warns.,The [wug] warn.
+15,singular,0,target_singular_att0,permits,permit,,The [wug] permits.,The [wug] permit.
+16,singular,0,target_singular_att0,pulls,pull,,The [wug] pulls.,The [wug] pull.
+17,singular,0,target_singular_att0,finishes,finish,,The [wug] finishes.,The [wug] finish.
+18,singular,0,target_singular_att0,enables,enable,,The [wug] enables.,The [wug] enable.
+19,singular,0,target_singular_att0,attends,attend,,The [wug] attends.,The [wug] attend.
+20,singular,0,target_singular_att0,varies,vary,,The [wug] varies.,The [wug] vary.
+21,singular,0,target_singular_att0,exceeds,exceed,,The [wug] exceeds.,The [wug] exceed.
+22,singular,0,target_singular_att0,explodes,explode,,The [wug] explodes.,The [wug] explode.
+23,singular,0,target_singular_att0,informs,inform,,The [wug] informs.,The [wug] inform.
+24,singular,0,target_singular_att0,prefers,prefer,,The [wug] prefers.,The [wug] prefer.
+25,singular,0,target_singular_att0,gives,give,,The [wug] gives.,The [wug] give.
+26,singular,0,target_singular_att0,recounts,recount,,The [wug] recounts.,The [wug] recount.
+27,singular,0,target_singular_att0,spills,spill,,The [wug] spills.,The [wug] spill.
+28,singular,0,target_singular_att0,passes,pass,,The [wug] passes.,The [wug] pass.
+29,singular,0,target_singular_att0,follows,follow,,The [wug] follows.,The [wug] follow.
+30,singular,0,target_singular_att0,joins,join,,The [wug] joins.,The [wug] join.
+31,singular,0,target_singular_att0,occurs,occur,,The [wug] occurs.,The [wug] occur.
+32,singular,0,target_singular_att0,skips,skip,,The [wug] skips.,The [wug] skip.
+33,singular,0,target_singular_att0,bothers,bother,,The [wug] bothers.,The [wug] bother.
+34,singular,0,target_singular_att0,performs,perform,,The [wug] performs.,The [wug] perform.
+35,singular,0,target_singular_att0,corresponds,correspond,,The [wug] corresponds.,The [wug] correspond.
+36,singular,0,target_singular_att0,arrives,arrive,,The [wug] arrives.,The [wug] arrive.
+37,singular,0,target_singular_att0,embodies,embody,,The [wug] embodies.,The [wug] embody.
+38,singular,0,target_singular_att0,identifies,identify,,The [wug] identifies.,The [wug] identify.
+39,singular,0,target_singular_att0,shakes,shake,,The [wug] shakes.,The [wug] shake.
+40,singular,0,target_singular_att0,strives,strive,,The [wug] strives.,The [wug] strive.
+41,singular,0,target_singular_att0,calls,call,,The [wug] calls.,The [wug] call.
+42,singular,0,target_singular_att0,earns,earn,,The [wug] earns.,The [wug] earn.
+43,singular,0,target_singular_att0,calls,call,,The [wug] calls.,The [wug] call.
+44,singular,0,target_singular_att0,accompanies,accompany,,The [wug] accompanies.,The [wug] accompany.
+45,singular,0,target_singular_att0,reminds,remind,,The [wug] reminds.,The [wug] remind.
+46,singular,0,target_singular_att0,spills,spill,,The [wug] spills.,The [wug] spill.
+47,singular,0,target_singular_att0,cleans,clean,,The [wug] cleans.,The [wug] clean.
+48,singular,0,target_singular_att0,seems,seem,,The [wug] seems.,The [wug] seem.
+49,singular,0,target_singular_att0,excludes,exclude,,The [wug] excludes.,The [wug] exclude.
+50,singular,0,target_singular_att0,knows,know,,The [wug] knows.,The [wug] know.
+51,singular,0,target_singular_att0,submits,submit,,The [wug] submits.,The [wug] submit.
+52,singular,0,target_singular_att0,prefers,prefer,,The [wug] prefers.,The [wug] prefer.
+53,singular,0,target_singular_att0,specifies,specify,,The [wug] specifies.,The [wug] specify.
+54,singular,0,target_singular_att0,accompanies,accompany,,The [wug] accompanies.,The [wug] accompany.
+55,singular,0,target_singular_att0,represents,represent,,The [wug] represents.,The [wug] represent.
+56,singular,0,target_singular_att0,likes,like,,The [wug] likes.,The [wug] like.
+57,singular,0,target_singular_att0,arrives,arrive,,The [wug] arrives.,The [wug] arrive.
+58,singular,0,target_singular_att0,learns,learn,,The [wug] learns.,The [wug] learn.
+59,singular,0,target_singular_att0,provides,provide,,The [wug] provides.,The [wug] provide.
+60,singular,1,target_singular_att1,eats,eat,bikes,The [wug] across from the bikes eats.,The [wug] across from the bikes eat.
+61,singular,1,target_singular_att1,prefers,prefer,clips,The [wug] behind the clips prefers.,The [wug] behind the clips prefer.
+62,singular,1,target_singular_att1,reveals,reveal,benches,The [wug] around the benches reveals.,The [wug] around the benches reveal.
+63,singular,1,target_singular_att1,unfolds,unfold,beers,The [wug] outside the beers unfolds.,The [wug] outside the beers unfold.
+64,singular,1,target_singular_att1,integrates,integrate,vehicles,The [wug] around the vehicles integrates.,The [wug] around the vehicles integrate.
+65,singular,1,target_singular_att1,completes,complete,pillows,The [wug] behind the pillows completes.,The [wug] behind the pillows complete.
+66,singular,1,target_singular_att1,handles,handle,assemblies,The [wug] outside the assemblies handles.,The [wug] outside the assemblies handle.
+67,singular,1,target_singular_att1,welcomes,welcome,temples,The [wug] near the temples welcomes.,The [wug] near the temples welcome.
+68,singular,1,target_singular_att1,clears,clear,staples,The [wug] inside the staples clears.,The [wug] inside the staples clear.
+69,singular,1,target_singular_att1,jumps,jump,carts,The [wug] past the carts jumps.,The [wug] past the carts jump.
+70,singular,1,target_singular_att1,kills,kill,shirts,The [wug] past the shirts kills.,The [wug] past the shirts kill.
+71,singular,1,target_singular_att1,portrays,portray,snippets,The [wug] past the snippets portrays.,The [wug] past the snippets portray.
+72,singular,1,target_singular_att1,replaces,replace,rabbits,The [wug] behind the rabbits replaces.,The [wug] behind the rabbits replace.
+73,singular,1,target_singular_att1,holds,hold,automobiles,The [wug] under the automobiles holds.,The [wug] under the automobiles hold.
+74,singular,1,target_singular_att1,denotes,denote,pillows,The [wug] beside the pillows denotes.,The [wug] beside the pillows denote.
+75,singular,1,target_singular_att1,satisfies,satisfy,capsules,The [wug] next to the capsules satisfies.,The [wug] next to the capsules satisfy.
+76,singular,1,target_singular_att1,draws,draw,diagrams,The [wug] under the diagrams draws.,The [wug] under the diagrams draw.
+77,singular,1,target_singular_att1,warns,warn,containers,The [wug] behind the containers warns.,The [wug] behind the containers warn.
+78,singular,1,target_singular_att1,pays,pay,leaves,The [wug] past the leaves pays.,The [wug] past the leaves pay.
+79,singular,1,target_singular_att1,protects,protect,robots,The [wug] under the robots protects.,The [wug] under the robots protect.
+80,singular,1,target_singular_att1,prepares,prepare,pillows,The [wug] near the pillows prepares.,The [wug] near the pillows prepare.
+81,singular,1,target_singular_att1,announces,announce,drawers,The [wug] around the drawers announces.,The [wug] around the drawers announce.
+82,singular,1,target_singular_att1,threatens,threaten,beverages,The [wug] above the beverages threatens.,The [wug] above the beverages threaten.
+83,singular,1,target_singular_att1,keeps,keep,mats,The [wug] around the mats keeps.,The [wug] around the mats keep.
+84,singular,1,target_singular_att1,contends,contend,pictures,The [wug] in front of the pictures contends.,The [wug] in front of the pictures contend.
+85,singular,1,target_singular_att1,mentions,mention,floors,The [wug] across from the floors mentions.,The [wug] across from the floors mention.
+86,singular,1,target_singular_att1,tends,tend,airlines,The [wug] near the airlines tends.,The [wug] near the airlines tend.
+87,singular,1,target_singular_att1,exceeds,exceed,tomatoes,The [wug] inside the tomatoes exceeds.,The [wug] inside the tomatoes exceed.
+88,singular,1,target_singular_att1,invites,invite,plates,The [wug] next to the plates invites.,The [wug] next to the plates invite.
+89,singular,1,target_singular_att1,holds,hold,interfaces,The [wug] above the interfaces holds.,The [wug] above the interfaces hold.
+90,singular,1,target_singular_att1,attends,attend,cards,The [wug] in front of the cards attends.,The [wug] in front of the cards attend.
+91,singular,1,target_singular_att1,cleans,clean,barrels,The [wug] behind the barrels cleans.,The [wug] behind the barrels clean.
+92,singular,1,target_singular_att1,reinforces,reinforce,peanuts,The [wug] above the peanuts reinforces.,The [wug] above the peanuts reinforce.
+93,singular,1,target_singular_att1,hates,hate,offices,The [wug] next to the offices hates.,The [wug] next to the offices hate.
+94,singular,1,target_singular_att1,strives,strive,nets,The [wug] under the nets strives.,The [wug] under the nets strive.
+95,singular,1,target_singular_att1,creates,create,platforms,The [wug] next to the platforms creates.,The [wug] next to the platforms create.
+96,singular,1,target_singular_att1,embodies,embody,products,The [wug] behind the products embodies.,The [wug] behind the products embody.
+97,singular,1,target_singular_att1,shows,show,reactors,The [wug] across from the reactors shows.,The [wug] across from the reactors show.
+98,singular,1,target_singular_att1,helps,help,lasers,The [wug] beside the lasers helps.,The [wug] beside the lasers help.
+99,singular,1,target_singular_att1,defines,define,setups,The [wug] below the setups defines.,The [wug] below the setups define.
+100,singular,1,target_singular_att1,digs,dig,sugars,The [wug] under the sugars digs.,The [wug] under the sugars dig.
+101,singular,1,target_singular_att1,speaks,speak,dolls,The [wug] around the dolls speaks.,The [wug] around the dolls speak.
+102,singular,1,target_singular_att1,describes,describe,electrodes,The [wug] outside the electrodes describes.,The [wug] outside the electrodes describe.
+103,singular,1,target_singular_att1,sees,see,motifs,The [wug] behind the motifs sees.,The [wug] behind the motifs see.
+104,singular,1,target_singular_att1,translates,translate,automobiles,The [wug] outside the automobiles translates.,The [wug] outside the automobiles translate.
+105,singular,1,target_singular_att1,ensures,ensure,streams,The [wug] under the streams ensures.,The [wug] under the streams ensure.
+106,singular,1,target_singular_att1,pours,pour,bras,The [wug] above the bras pours.,The [wug] above the bras pour.
+107,singular,1,target_singular_att1,leads,lead,holders,The [wug] past the holders leads.,The [wug] past the holders lead.
+108,singular,1,target_singular_att1,confirms,confirm,beans,The [wug] across from the beans confirms.,The [wug] across from the beans confirm.
+109,singular,1,target_singular_att1,comes,come,snippets,The [wug] in front of the snippets comes.,The [wug] in front of the snippets come.
+110,singular,1,target_singular_att1,gathers,gather,teas,The [wug] under the teas gathers.,The [wug] under the teas gather.
+111,singular,1,target_singular_att1,defines,define,pistols,The [wug] behind the pistols defines.,The [wug] behind the pistols define.
+112,singular,1,target_singular_att1,alters,alter,cuffs,The [wug] near the cuffs alters.,The [wug] near the cuffs alter.
+113,singular,1,target_singular_att1,permits,permit,guitars,The [wug] below the guitars permits.,The [wug] below the guitars permit.
+114,singular,1,target_singular_att1,serves,serve,blankets,The [wug] behind the blankets serves.,The [wug] behind the blankets serve.
+115,singular,1,target_singular_att1,lifts,lift,bottles,The [wug] under the bottles lifts.,The [wug] under the bottles lift.
+116,singular,1,target_singular_att1,identifies,identify,dungeons,The [wug] past the dungeons identifies.,The [wug] past the dungeons identify.
+117,singular,1,target_singular_att1,boils,boil,onions,The [wug] near the onions boils.,The [wug] near the onions boil.
+118,singular,1,target_singular_att1,recommends,recommend,bars,The [wug] across from the bars recommends.,The [wug] across from the bars recommend.
+119,singular,1,target_singular_att1,fails,fail,commodities,The [wug] next to the commodities fails.,The [wug] next to the commodities fail.
+120,singular,2,target_singular_att2,dislikes,dislike,cages;stitches,The [wug] in front of the cages near the stitches dislikes.,The [wug] in front of the cages near the stitches dislike.
+121,singular,2,target_singular_att2,looks,look,jewels;jets,The [wug] past the jewels around the jets looks.,The [wug] past the jewels around the jets look.
+122,singular,2,target_singular_att2,integrates,integrate,airports;embryos,The [wug] next to the airports below the embryos integrates.,The [wug] next to the airports below the embryos integrate.
+123,singular,2,target_singular_att2,distributes,distribute,hurdles;barriers,The [wug] under the hurdles around the barriers distributes.,The [wug] under the hurdles around the barriers distribute.
+124,singular,2,target_singular_att2,keeps,keep,assemblies;corridors,The [wug] near the assemblies next to the corridors keeps.,The [wug] near the assemblies next to the corridors keep.
+125,singular,2,target_singular_att2,builds,build,ropes;pickups,The [wug] beside the ropes under the pickups builds.,The [wug] beside the ropes under the pickups build.
+126,singular,2,target_singular_att2,threatens,threaten,drinks;benches,The [wug] next to the drinks around the benches threatens.,The [wug] next to the drinks around the benches threaten.
+127,singular,2,target_singular_att2,prepares,prepare,wolves;switches,The [wug] behind the wolves past the switches prepares.,The [wug] behind the wolves past the switches prepare.
+128,singular,2,target_singular_att2,pulls,pull,textiles;hills,The [wug] under the textiles across from the hills pulls.,The [wug] under the textiles across from the hills pull.
+129,singular,2,target_singular_att2,expresses,express,platforms;braces,The [wug] beside the platforms behind the braces expresses.,The [wug] beside the platforms behind the braces express.
+130,singular,2,target_singular_att2,compares,compare,cords;shortcuts,The [wug] next to the cords inside the shortcuts compares.,The [wug] next to the cords inside the shortcuts compare.
+131,singular,2,target_singular_att2,exists,exist,tomatoes;projectiles,The [wug] in front of the tomatoes above the projectiles exists.,The [wug] in front of the tomatoes above the projectiles exist.
+132,singular,2,target_singular_att2,confirms,confirm,tubes;outputs,The [wug] near the tubes across from the outputs confirms.,The [wug] near the tubes across from the outputs confirm.
+133,singular,2,target_singular_att2,facilitates,facilitate,pups;stations,The [wug] across from the pups in front of the stations facilitates.,The [wug] across from the pups in front of the stations facilitate.
+134,singular,2,target_singular_att2,awaits,await,outlets;elephants,The [wug] below the outlets in front of the elephants awaits.,The [wug] below the outlets in front of the elephants await.
+135,singular,2,target_singular_att2,strengthens,strengthen,cans;switches,The [wug] past the cans under the switches strengthens.,The [wug] past the cans under the switches strengthen.
+136,singular,2,target_singular_att2,corresponds,correspond,flags;bombs,The [wug] beside the flags in front of the bombs corresponds.,The [wug] beside the flags in front of the bombs correspond.
+137,singular,2,target_singular_att2,remembers,remember,sculptures;facilities,The [wug] next to the sculptures above the facilities remembers.,The [wug] next to the sculptures above the facilities remember.
+138,singular,2,target_singular_att2,examines,examine,socks;almonds,The [wug] outside the socks behind the almonds examines.,The [wug] outside the socks behind the almonds examine.
+139,singular,2,target_singular_att2,adds,add,detectors;vehicles,The [wug] next to the detectors above the vehicles adds.,The [wug] next to the detectors above the vehicles add.
+140,singular,2,target_singular_att2,adds,add,snippets;shelves,The [wug] behind the snippets around the shelves adds.,The [wug] behind the snippets around the shelves add.
+141,singular,2,target_singular_att2,frees,free,worlds;cakes,The [wug] around the worlds under the cakes frees.,The [wug] around the worlds under the cakes free.
+142,singular,2,target_singular_att2,prohibits,prohibit,chocolates;pockets,The [wug] under the chocolates beside the pockets prohibits.,The [wug] under the chocolates beside the pockets prohibit.
+143,singular,2,target_singular_att2,directs,direct,snapshots;turbines,The [wug] next to the snapshots behind the turbines directs.,The [wug] next to the snapshots behind the turbines direct.
+144,singular,2,target_singular_att2,delivers,deliver,puppies;cabinets,The [wug] across from the puppies behind the cabinets delivers.,The [wug] across from the puppies behind the cabinets deliver.
+145,singular,2,target_singular_att2,facilitates,facilitate,rounds;juices,The [wug] below the rounds behind the juices facilitates.,The [wug] below the rounds behind the juices facilitate.
+146,singular,2,target_singular_att2,submits,submit,rocks;slides,The [wug] past the rocks inside the slides submits.,The [wug] past the rocks inside the slides submit.
+147,singular,2,target_singular_att2,cites,cite,bombs;headphones,The [wug] around the bombs near the headphones cites.,The [wug] around the bombs near the headphones cite.
+148,singular,2,target_singular_att2,says,say,hotels;benches,The [wug] around the hotels in front of the benches says.,The [wug] around the hotels in front of the benches say.
+149,singular,2,target_singular_att2,shouts,shout,berries;breweries,The [wug] next to the berries near the breweries shouts.,The [wug] next to the berries near the breweries shout.
+150,singular,2,target_singular_att2,contends,contend,converters;detectors,The [wug] below the converters above the detectors contends.,The [wug] below the converters above the detectors contend.
+151,singular,2,target_singular_att2,boasts,boast,wines;stools,The [wug] around the wines behind the stools boasts.,The [wug] around the wines behind the stools boast.
+152,singular,2,target_singular_att2,finds,find,bins;windows,The [wug] under the bins across from the windows finds.,The [wug] under the bins across from the windows find.
+153,singular,2,target_singular_att2,teaches,teach,asteroids;knives,The [wug] around the asteroids under the knives teaches.,The [wug] around the asteroids under the knives teach.
+154,singular,2,target_singular_att2,wishes,wish,brakes;rivers,The [wug] below the brakes above the rivers wishes.,The [wug] below the brakes above the rivers wish.
+155,singular,2,target_singular_att2,kills,kill,plates;curtains,The [wug] next to the plates behind the curtains kills.,The [wug] next to the plates behind the curtains kill.
+156,singular,2,target_singular_att2,shakes,shake,asteroids;pigs,The [wug] inside the asteroids above the pigs shakes.,The [wug] inside the asteroids above the pigs shake.
+157,singular,2,target_singular_att2,qualifies,qualify,cigars;relics,The [wug] outside the cigars in front of the relics qualifies.,The [wug] outside the cigars in front of the relics qualify.
+158,singular,2,target_singular_att2,eliminates,eliminate,labs;caps,The [wug] behind the labs near the caps eliminates.,The [wug] behind the labs near the caps eliminate.
+159,singular,2,target_singular_att2,draws,draw,swords;houses,The [wug] next to the swords in front of the houses draws.,The [wug] next to the swords in front of the houses draw.
+160,singular,2,target_singular_att2,buys,buy,paintings;drones,The [wug] below the paintings inside the drones buys.,The [wug] below the paintings inside the drones buy.
+161,singular,2,target_singular_att2,performs,perform,weeds;frames,The [wug] below the weeds inside the frames performs.,The [wug] below the weeds inside the frames perform.
+162,singular,2,target_singular_att2,complains,complain,houses;reels,The [wug] under the houses inside the reels complains.,The [wug] under the houses inside the reels complain.
+163,singular,2,target_singular_att2,celebrates,celebrate,boots;birds,The [wug] inside the boots across from the birds celebrates.,The [wug] inside the boots across from the birds celebrate.
+164,singular,2,target_singular_att2,prevents,prevent,eggs;carrots,The [wug] below the eggs outside the carrots prevents.,The [wug] below the eggs outside the carrots prevent.
+165,singular,2,target_singular_att2,selects,select,circuits;motifs,The [wug] past the circuits outside the motifs selects.,The [wug] past the circuits outside the motifs select.
+166,singular,2,target_singular_att2,meets,meet,segments;converters,The [wug] above the segments behind the converters meets.,The [wug] above the segments behind the converters meet.
+167,singular,2,target_singular_att2,begins,begin,cabins;bathrooms,The [wug] outside the cabins next to the bathrooms begins.,The [wug] outside the cabins next to the bathrooms begin.
+168,singular,2,target_singular_att2,predicts,predict,bullets;guns,The [wug] under the bullets outside the guns predicts.,The [wug] under the bullets outside the guns predict.
+169,singular,2,target_singular_att2,possesses,possess,heaters;payloads,The [wug] outside the heaters under the payloads possesses.,The [wug] outside the heaters under the payloads possess.
+170,singular,2,target_singular_att2,resembles,resemble,beds;loops,The [wug] across from the beds under the loops resembles.,The [wug] across from the beds under the loops resemble.
+171,singular,2,target_singular_att2,disappears,disappear,shoes;cages,The [wug] around the shoes past the cages disappears.,The [wug] around the shoes past the cages disappear.
+172,singular,2,target_singular_att2,prohibits,prohibit,curtains;halls,The [wug] past the curtains across from the halls prohibits.,The [wug] past the curtains across from the halls prohibit.
+173,singular,2,target_singular_att2,entails,entail,stands;sketches,The [wug] below the stands next to the sketches entails.,The [wug] below the stands next to the sketches entail.
+174,singular,2,target_singular_att2,completes,complete,claws;lions,The [wug] below the claws near the lions completes.,The [wug] below the claws near the lions complete.
+175,singular,2,target_singular_att2,fails,fail,capsules;dams,The [wug] past the capsules inside the dams fails.,The [wug] past the capsules inside the dams fail.
+176,singular,2,target_singular_att2,considers,consider,accessories;boxes,The [wug] around the accessories past the boxes considers.,The [wug] around the accessories past the boxes consider.
+177,singular,2,target_singular_att2,solves,solve,electrodes;jails,The [wug] across from the electrodes past the jails solves.,The [wug] across from the electrodes past the jails solve.
+178,singular,2,target_singular_att2,stays,stay,floors;assemblies,The [wug] under the floors outside the assemblies stays.,The [wug] under the floors outside the assemblies stay.
+179,singular,2,target_singular_att2,builds,build,dives;apartments,The [wug] outside the dives inside the apartments builds.,The [wug] outside the dives inside the apartments build.
+180,singular,3,target_singular_att3,observes,observe,rooms;rugs;wings,The [wug] across from the rooms outside the rugs next to the wings observes.,The [wug] across from the rooms outside the rugs next to the wings observe.
+181,singular,3,target_singular_att3,possesses,possess,transformers;grapes;cards,The [wug] outside the transformers in front of the grapes beside the cards possesses.,The [wug] outside the transformers in front of the grapes beside the cards possess.
+182,singular,3,target_singular_att3,leads,lead,oranges;products;hotels,The [wug] inside the oranges around the products behind the hotels leads.,The [wug] inside the oranges around the products behind the hotels lead.
+183,singular,3,target_singular_att3,violates,violate,laboratories;hashes;guns,The [wug] under the laboratories in front of the hashes above the guns violates.,The [wug] under the laboratories in front of the hashes above the guns violate.
+184,singular,3,target_singular_att3,lasts,last,pictures;bottles;missiles,The [wug] near the pictures behind the bottles in front of the missiles lasts.,The [wug] near the pictures behind the bottles in front of the missiles last.
+185,singular,3,target_singular_att3,boils,boil,sugars;dams;vehicles,The [wug] next to the sugars below the dams in front of the vehicles boils.,The [wug] next to the sugars below the dams in front of the vehicles boil.
+186,singular,3,target_singular_att3,reflects,reflect,salads;additions;ceramics,The [wug] across from the salads past the additions inside the ceramics reflects.,The [wug] across from the salads past the additions inside the ceramics reflect.
+187,singular,3,target_singular_att3,denies,deny,rods;buds;dogs,The [wug] in front of the rods under the buds behind the dogs denies.,The [wug] in front of the rods under the buds behind the dogs deny.
+188,singular,3,target_singular_att3,begins,begin,drinks;bicycles;cones,The [wug] above the drinks past the bicycles near the cones begins.,The [wug] above the drinks past the bicycles near the cones begin.
+189,singular,3,target_singular_att3,prohibits,prohibit,insects;upgrades;portals,The [wug] above the insects inside the upgrades outside the portals prohibits.,The [wug] above the insects inside the upgrades outside the portals prohibit.
+190,singular,3,target_singular_att3,maintains,maintain,groceries;containers;widgets,The [wug] under the groceries in front of the containers below the widgets maintains.,The [wug] under the groceries in front of the containers below the widgets maintain.
+191,singular,3,target_singular_att3,conforms,conform,kittens;kits;claws,The [wug] in front of the kittens below the kits behind the claws conforms.,The [wug] in front of the kittens below the kits behind the claws conform.
+192,singular,3,target_singular_att3,varies,vary,decks;boots;dungeons,The [wug] past the decks around the boots in front of the dungeons varies.,The [wug] past the decks around the boots in front of the dungeons vary.
+193,singular,3,target_singular_att3,alerts,alert,separators;bombs;stones,The [wug] near the separators next to the bombs across from the stones alerts.,The [wug] near the separators next to the bombs across from the stones alert.
+194,singular,3,target_singular_att3,warns,warn,chambers;queens;airplanes,The [wug] beside the chambers behind the queens inside the airplanes warns.,The [wug] beside the chambers behind the queens inside the airplanes warn.
+195,singular,3,target_singular_att3,jumps,jump,breweries;oats;beans,The [wug] near the breweries next to the oats around the beans jumps.,The [wug] near the breweries next to the oats around the beans jump.
+196,singular,3,target_singular_att3,observes,observe,lamps;rivers;bees,The [wug] below the lamps inside the rivers outside the bees observes.,The [wug] below the lamps inside the rivers outside the bees observe.
+197,singular,3,target_singular_att3,strengthens,strengthen,puppies;stools;sofas,The [wug] around the puppies outside the stools across from the sofas strengthens.,The [wug] around the puppies outside the stools across from the sofas strengthen.
+198,singular,3,target_singular_att3,makes,make,berries;nuts;glaciers,The [wug] near the berries across from the nuts beside the glaciers makes.,The [wug] near the berries across from the nuts beside the glaciers make.
+199,singular,3,target_singular_att3,asks,ask,cartridges;beaches;temples,The [wug] outside the cartridges inside the beaches under the temples asks.,The [wug] outside the cartridges inside the beaches under the temples ask.
+200,singular,3,target_singular_att3,violates,violate,releases;heaters;potions,The [wug] inside the releases across from the heaters below the potions violates.,The [wug] inside the releases across from the heaters below the potions violate.
+201,singular,3,target_singular_att3,varies,vary,shirts;tapes;skies,The [wug] around the shirts in front of the tapes across from the skies varies.,The [wug] around the shirts in front of the tapes across from the skies vary.
+202,singular,3,target_singular_att3,teaches,teach,halls;hoops;cushions,The [wug] past the halls beside the hoops behind the cushions teaches.,The [wug] past the halls beside the hoops behind the cushions teach.
+203,singular,3,target_singular_att3,emerges,emerge,pockets;markers;electrodes,The [wug] under the pockets inside the markers behind the electrodes emerges.,The [wug] under the pockets inside the markers behind the electrodes emerge.
+204,singular,3,target_singular_att3,arrives,arrive,stands;electrons;beverages,The [wug] near the stands next to the electrons under the beverages arrives.,The [wug] near the stands next to the electrons under the beverages arrive.
+205,singular,3,target_singular_att3,seeks,seek,transports;blankets;gloves,The [wug] behind the transports next to the blankets under the gloves seeks.,The [wug] behind the transports next to the blankets under the gloves seek.
+206,singular,3,target_singular_att3,opens,open,weapons;slides;containers,The [wug] under the weapons behind the slides outside the containers opens.,The [wug] under the weapons behind the slides outside the containers open.
+207,singular,3,target_singular_att3,unfolds,unfold,candies;rooms;cigars,The [wug] under the candies past the rooms near the cigars unfolds.,The [wug] under the candies past the rooms near the cigars unfold.
+208,singular,3,target_singular_att3,identifies,identify,drinks;bananas;laboratories,The [wug] under the drinks next to the bananas around the laboratories identifies.,The [wug] under the drinks next to the bananas around the laboratories identify.
+209,singular,3,target_singular_att3,handles,handle,socks;insects;bombs,The [wug] across from the socks near the insects beside the bombs handles.,The [wug] across from the socks near the insects beside the bombs handle.
+210,singular,3,target_singular_att3,explores,explore,railways;pencils;wings,The [wug] near the railways inside the pencils beside the wings explores.,The [wug] near the railways inside the pencils beside the wings explore.
+211,singular,3,target_singular_att3,hurts,hurt,cheeses;embryos;tablets,The [wug] around the cheeses next to the embryos across from the tablets hurts.,The [wug] around the cheeses next to the embryos across from the tablets hurt.
+212,singular,3,target_singular_att3,improves,improve,glaciers;electrons;eggs,The [wug] in front of the glaciers around the electrons past the eggs improves.,The [wug] in front of the glaciers around the electrons past the eggs improve.
+213,singular,3,target_singular_att3,inherits,inherit,pens;cans;bats,The [wug] behind the pens outside the cans below the bats inherits.,The [wug] behind the pens outside the cans below the bats inherit.
+214,singular,3,target_singular_att3,transforms,transform,flags;stadiums;railways,The [wug] past the flags below the stadiums beside the railways transforms.,The [wug] past the flags below the stadiums beside the railways transform.
+215,singular,3,target_singular_att3,lifts,lift,chicks;platforms;grenades,The [wug] outside the chicks behind the platforms next to the grenades lifts.,The [wug] outside the chicks behind the platforms next to the grenades lift.
+216,singular,3,target_singular_att3,satisfies,satisfy,chocolates;moons;benches,The [wug] under the chocolates beside the moons above the benches satisfies.,The [wug] under the chocolates beside the moons above the benches satisfy.
+217,singular,3,target_singular_att3,serves,serve,pandas;buttons;potions,The [wug] behind the pandas across from the buttons outside the potions serves.,The [wug] behind the pandas across from the buttons outside the potions serve.
+218,singular,3,target_singular_att3,finds,find,sleeves;robots;hubs,The [wug] under the sleeves below the robots outside the hubs finds.,The [wug] under the sleeves below the robots outside the hubs find.
+219,singular,3,target_singular_att3,hires,hire,meals;roads;dishes,The [wug] next to the meals past the roads around the dishes hires.,The [wug] next to the meals past the roads around the dishes hire.
+220,singular,3,target_singular_att3,inspires,inspire,gadgets;candles;hinges,The [wug] under the gadgets near the candles in front of the hinges inspires.,The [wug] under the gadgets near the candles in front of the hinges inspire.
+221,singular,3,target_singular_att3,belongs,belong,warehouses;grapes;exits,The [wug] below the warehouses inside the grapes around the exits belongs.,The [wug] below the warehouses inside the grapes around the exits belong.
+222,singular,3,target_singular_att3,assures,assure,cafes;beers;stars,The [wug] outside the cafes below the beers around the stars assures.,The [wug] outside the cafes below the beers around the stars assure.
+223,singular,3,target_singular_att3,investigates,investigate,panels;weeds;railways,The [wug] behind the panels next to the weeds inside the railways investigates.,The [wug] behind the panels next to the weeds inside the railways investigate.
+224,singular,3,target_singular_att3,finishes,finish,barriers;skirts;birds,The [wug] outside the barriers around the skirts across from the birds finishes.,The [wug] outside the barriers around the skirts across from the birds finish.
+225,singular,3,target_singular_att3,ensures,ensure,benches;diapers;chips,The [wug] behind the benches beside the diapers next to the chips ensures.,The [wug] behind the benches beside the diapers next to the chips ensure.
+226,singular,3,target_singular_att3,provides,provide,seals;decorations;airplanes,The [wug] under the seals below the decorations above the airplanes provides.,The [wug] under the seals below the decorations above the airplanes provide.
+227,singular,3,target_singular_att3,evolves,evolve,fragments;desks;stalls,The [wug] behind the fragments next to the desks in front of the stalls evolves.,The [wug] behind the fragments next to the desks in front of the stalls evolve.
+228,singular,3,target_singular_att3,expects,expect,clocks;offices;ties,The [wug] inside the clocks beside the offices in front of the ties expects.,The [wug] inside the clocks beside the offices in front of the ties expect.
+229,singular,3,target_singular_att3,spreads,spread,entrances;strawberries;pillows,The [wug] inside the entrances above the strawberries across from the pillows spreads.,The [wug] inside the entrances above the strawberries across from the pillows spread.
+230,singular,3,target_singular_att3,expresses,express,widgets;fragments;rooms,The [wug] below the widgets around the fragments next to the rooms expresses.,The [wug] below the widgets around the fragments next to the rooms express.
+231,singular,3,target_singular_att3,asks,ask,discs;starters;pods,The [wug] across from the discs above the starters near the pods asks.,The [wug] across from the discs above the starters near the pods ask.
+232,singular,3,target_singular_att3,gets,get,holders;entrances;interfaces,The [wug] above the holders outside the entrances around the interfaces gets.,The [wug] above the holders outside the entrances around the interfaces get.
+233,singular,3,target_singular_att3,pulls,pull,buds;tunnels;chocolates,The [wug] near the buds above the tunnels below the chocolates pulls.,The [wug] near the buds above the tunnels below the chocolates pull.
+234,singular,3,target_singular_att3,agrees,agree,closets;ingredients;rounds,The [wug] across from the closets under the ingredients inside the rounds agrees.,The [wug] across from the closets under the ingredients inside the rounds agree.
+235,singular,3,target_singular_att3,encompasses,encompass,mills;rabbits;separators,The [wug] above the mills below the rabbits near the separators encompasses.,The [wug] above the mills below the rabbits near the separators encompass.
+236,singular,3,target_singular_att3,observes,observe,caches;hoops;bats,The [wug] next to the caches past the hoops outside the bats observes.,The [wug] next to the caches past the hoops outside the bats observe.
+237,singular,3,target_singular_att3,launches,launch,skirts;clocks;dungeons,The [wug] in front of the skirts around the clocks inside the dungeons launches.,The [wug] in front of the skirts around the clocks inside the dungeons launch.
+238,singular,3,target_singular_att3,serves,serve,transports;seas;buds,The [wug] around the transports above the seas next to the buds serves.,The [wug] around the transports above the seas next to the buds serve.
+239,singular,3,target_singular_att3,exceeds,exceed,beaches;islands;hospitals,The [wug] outside the beaches in front of the islands inside the hospitals exceeds.,The [wug] outside the beaches in front of the islands inside the hospitals exceed.
+240,plural,0,target_plural_att0,throws,throw,,The [wugs] throw.,The [wugs] throws.
+241,plural,0,target_plural_att0,prohibits,prohibit,,The [wugs] prohibit.,The [wugs] prohibits.
+242,plural,0,target_plural_att0,writes,write,,The [wugs] write.,The [wugs] writes.
+243,plural,0,target_plural_att0,completes,complete,,The [wugs] complete.,The [wugs] completes.
+244,plural,0,target_plural_att0,spills,spill,,The [wugs] spill.,The [wugs] spills.
+245,plural,0,target_plural_att0,comes,come,,The [wugs] come.,The [wugs] comes.
+246,plural,0,target_plural_att0,resembles,resemble,,The [wugs] resemble.,The [wugs] resembles.
+247,plural,0,target_plural_att0,facilitates,facilitate,,The [wugs] facilitate.,The [wugs] facilitates.
+248,plural,0,target_plural_att0,refers,refer,,The [wugs] refer.,The [wugs] refers.
+249,plural,0,target_plural_att0,spills,spill,,The [wugs] spill.,The [wugs] spills.
+250,plural,0,target_plural_att0,selects,select,,The [wugs] select.,The [wugs] selects.
+251,plural,0,target_plural_att0,lets,let,,The [wugs] let.,The [wugs] lets.
+252,plural,0,target_plural_att0,contributes,contribute,,The [wugs] contribute.,The [wugs] contributes.
+253,plural,0,target_plural_att0,cleans,clean,,The [wugs] clean.,The [wugs] cleans.
+254,plural,0,target_plural_att0,brings,bring,,The [wugs] bring.,The [wugs] brings.
+255,plural,0,target_plural_att0,bends,bend,,The [wugs] bend.,The [wugs] bends.
+256,plural,0,target_plural_att0,suffers,suffer,,The [wugs] suffer.,The [wugs] suffers.
+257,plural,0,target_plural_att0,quits,quit,,The [wugs] quit.,The [wugs] quits.
+258,plural,0,target_plural_att0,scans,scan,,The [wugs] scan.,The [wugs] scans.
+259,plural,0,target_plural_att0,absorbs,absorb,,The [wugs] absorb.,The [wugs] absorbs.
+260,plural,0,target_plural_att0,observes,observe,,The [wugs] observe.,The [wugs] observes.
+261,plural,0,target_plural_att0,investigates,investigate,,The [wugs] investigate.,The [wugs] investigates.
+262,plural,0,target_plural_att0,bothers,bother,,The [wugs] bother.,The [wugs] bothers.
+263,plural,0,target_plural_att0,handles,handle,,The [wugs] handle.,The [wugs] handles.
+264,plural,0,target_plural_att0,employs,employ,,The [wugs] employ.,The [wugs] employs.
+265,plural,0,target_plural_att0,wakes,wake,,The [wugs] wake.,The [wugs] wakes.
+266,plural,0,target_plural_att0,expects,expect,,The [wugs] expect.,The [wugs] expects.
+267,plural,0,target_plural_att0,wishes,wish,,The [wugs] wish.,The [wugs] wishes.
+268,plural,0,target_plural_att0,quotes,quote,,The [wugs] quote.,The [wugs] quotes.
+269,plural,0,target_plural_att0,regrets,regret,,The [wugs] regret.,The [wugs] regrets.
+270,plural,0,target_plural_att0,avoids,avoid,,The [wugs] avoid.,The [wugs] avoids.
+271,plural,0,target_plural_att0,develops,develop,,The [wugs] develop.,The [wugs] develops.
+272,plural,0,target_plural_att0,fails,fail,,The [wugs] fail.,The [wugs] fails.
+273,plural,0,target_plural_att0,regrets,regret,,The [wugs] regret.,The [wugs] regrets.
+274,plural,0,target_plural_att0,provides,provide,,The [wugs] provide.,The [wugs] provides.
+275,plural,0,target_plural_att0,frees,free,,The [wugs] free.,The [wugs] frees.
+276,plural,0,target_plural_att0,varies,vary,,The [wugs] vary.,The [wugs] varies.
+277,plural,0,target_plural_att0,enjoys,enjoy,,The [wugs] enjoy.,The [wugs] enjoys.
+278,plural,0,target_plural_att0,absorbs,absorb,,The [wugs] absorb.,The [wugs] absorbs.
+279,plural,0,target_plural_att0,inherits,inherit,,The [wugs] inherit.,The [wugs] inherits.
+280,plural,0,target_plural_att0,remembers,remember,,The [wugs] remember.,The [wugs] remembers.
+281,plural,0,target_plural_att0,waits,wait,,The [wugs] wait.,The [wugs] waits.
+282,plural,0,target_plural_att0,selects,select,,The [wugs] select.,The [wugs] selects.
+283,plural,0,target_plural_att0,selects,select,,The [wugs] select.,The [wugs] selects.
+284,plural,0,target_plural_att0,ensures,ensure,,The [wugs] ensure.,The [wugs] ensures.
+285,plural,0,target_plural_att0,observes,observe,,The [wugs] observe.,The [wugs] observes.
+286,plural,0,target_plural_att0,feeds,feed,,The [wugs] feed.,The [wugs] feeds.
+287,plural,0,target_plural_att0,merges,merge,,The [wugs] merge.,The [wugs] merges.
+288,plural,0,target_plural_att0,hears,hear,,The [wugs] hear.,The [wugs] hears.
+289,plural,0,target_plural_att0,listens,listen,,The [wugs] listen.,The [wugs] listens.
+290,plural,0,target_plural_att0,represents,represent,,The [wugs] represent.,The [wugs] represents.
+291,plural,0,target_plural_att0,cites,cite,,The [wugs] cite.,The [wugs] cites.
+292,plural,0,target_plural_att0,skips,skip,,The [wugs] skip.,The [wugs] skips.
+293,plural,0,target_plural_att0,accompanies,accompany,,The [wugs] accompany.,The [wugs] accompanies.
+294,plural,0,target_plural_att0,treats,treat,,The [wugs] treat.,The [wugs] treats.
+295,plural,0,target_plural_att0,opens,open,,The [wugs] open.,The [wugs] opens.
+296,plural,0,target_plural_att0,delivers,deliver,,The [wugs] deliver.,The [wugs] delivers.
+297,plural,0,target_plural_att0,prepares,prepare,,The [wugs] prepare.,The [wugs] prepares.
+298,plural,0,target_plural_att0,speaks,speak,,The [wugs] speak.,The [wugs] speaks.
+299,plural,0,target_plural_att0,ignores,ignore,,The [wugs] ignore.,The [wugs] ignores.
+300,plural,1,target_plural_att1,fills,fill,key,The [wugs] behind the key fill.,The [wugs] behind the key fills.
+301,plural,1,target_plural_att1,conforms,conform,candy,The [wugs] under the candy conform.,The [wugs] under the candy conforms.
+302,plural,1,target_plural_att1,finds,find,membrane,The [wugs] behind the membrane find.,The [wugs] behind the membrane finds.
+303,plural,1,target_plural_att1,includes,include,engine,The [wugs] in front of the engine include.,The [wugs] in front of the engine includes.
+304,plural,1,target_plural_att1,declares,declare,pod,The [wugs] beside the pod declare.,The [wugs] beside the pod declares.
+305,plural,1,target_plural_att1,contends,contend,mall,The [wugs] under the mall contend.,The [wugs] under the mall contends.
+306,plural,1,target_plural_att1,expects,expect,pizza,The [wugs] under the pizza expect.,The [wugs] under the pizza expects.
+307,plural,1,target_plural_att1,finishes,finish,heater,The [wugs] past the heater finish.,The [wugs] past the heater finishes.
+308,plural,1,target_plural_att1,wakes,wake,pup,The [wugs] outside the pup wake.,The [wugs] outside the pup wakes.
+309,plural,1,target_plural_att1,inherits,inherit,bra,The [wugs] above the bra inherit.,The [wugs] above the bra inherits.
+310,plural,1,target_plural_att1,survives,survive,meal,The [wugs] beside the meal survive.,The [wugs] beside the meal survives.
+311,plural,1,target_plural_att1,listens,listen,mouse,The [wugs] in front of the mouse listen.,The [wugs] in front of the mouse listens.
+312,plural,1,target_plural_att1,defines,define,slide,The [wugs] next to the slide define.,The [wugs] next to the slide defines.
+313,plural,1,target_plural_att1,disagrees,disagree,moon,The [wugs] behind the moon disagree.,The [wugs] behind the moon disagrees.
+314,plural,1,target_plural_att1,fits,fit,sock,The [wugs] outside the sock fit.,The [wugs] outside the sock fits.
+315,plural,1,target_plural_att1,saves,save,workplace,The [wugs] under the workplace save.,The [wugs] under the workplace saves.
+316,plural,1,target_plural_att1,represents,represent,garden,The [wugs] across from the garden represent.,The [wugs] across from the garden represents.
+317,plural,1,target_plural_att1,tells,tell,dungeon,The [wugs] below the dungeon tell.,The [wugs] below the dungeon tells.
+318,plural,1,target_plural_att1,improves,improve,tile,The [wugs] next to the tile improve.,The [wugs] next to the tile improves.
+319,plural,1,target_plural_att1,implies,imply,coil,The [wugs] beside the coil imply.,The [wugs] beside the coil implies.
+320,plural,1,target_plural_att1,listens,listen,pup,The [wugs] below the pup listen.,The [wugs] below the pup listens.
+321,plural,1,target_plural_att1,helps,help,booth,The [wugs] under the booth help.,The [wugs] under the booth helps.
+322,plural,1,target_plural_att1,concludes,conclude,starter,The [wugs] around the starter conclude.,The [wugs] around the starter concludes.
+323,plural,1,target_plural_att1,opens,open,key,The [wugs] beside the key open.,The [wugs] beside the key opens.
+324,plural,1,target_plural_att1,hates,hate,mushroom,The [wugs] near the mushroom hate.,The [wugs] near the mushroom hates.
+325,plural,1,target_plural_att1,scans,scan,house,The [wugs] under the house scan.,The [wugs] under the house scans.
+326,plural,1,target_plural_att1,portrays,portray,car,The [wugs] past the car portray.,The [wugs] past the car portrays.
+327,plural,1,target_plural_att1,follows,follow,crate,The [wugs] around the crate follow.,The [wugs] around the crate follows.
+328,plural,1,target_plural_att1,specifies,specify,holder,The [wugs] inside the holder specify.,The [wugs] inside the holder specifies.
+329,plural,1,target_plural_att1,cleans,clean,workplace,The [wugs] outside the workplace clean.,The [wugs] outside the workplace cleans.
+330,plural,1,target_plural_att1,boils,boil,boiler,The [wugs] near the boiler boil.,The [wugs] near the boiler boils.
+331,plural,1,target_plural_att1,accompanies,accompany,bedroom,The [wugs] above the bedroom accompany.,The [wugs] above the bedroom accompanies.
+332,plural,1,target_plural_att1,dominates,dominate,dog,The [wugs] in front of the dog dominate.,The [wugs] in front of the dog dominates.
+333,plural,1,target_plural_att1,hurts,hurt,circuit,The [wugs] across from the circuit hurt.,The [wugs] across from the circuit hurts.
+334,plural,1,target_plural_att1,integrates,integrate,hall,The [wugs] across from the hall integrate.,The [wugs] across from the hall integrates.
+335,plural,1,target_plural_att1,reaches,reach,jacket,The [wugs] next to the jacket reach.,The [wugs] next to the jacket reaches.
+336,plural,1,target_plural_att1,quotes,quote,stripe,The [wugs] inside the stripe quote.,The [wugs] inside the stripe quotes.
+337,plural,1,target_plural_att1,relates,relate,upgrade,The [wugs] below the upgrade relate.,The [wugs] below the upgrade relates.
+338,plural,1,target_plural_att1,meets,meet,bull,The [wugs] in front of the bull meet.,The [wugs] in front of the bull meets.
+339,plural,1,target_plural_att1,combines,combine,cat,The [wugs] below the cat combine.,The [wugs] below the cat combines.
+340,plural,1,target_plural_att1,meets,meet,rocket,The [wugs] near the rocket meet.,The [wugs] near the rocket meets.
+341,plural,1,target_plural_att1,pulls,pull,upgrade,The [wugs] past the upgrade pull.,The [wugs] past the upgrade pulls.
+342,plural,1,target_plural_att1,leads,lead,laser,The [wugs] inside the laser lead.,The [wugs] inside the laser leads.
+343,plural,1,target_plural_att1,relies,rely,flower,The [wugs] near the flower rely.,The [wugs] near the flower relies.
+344,plural,1,target_plural_att1,prefers,prefer,pig,The [wugs] below the pig prefer.,The [wugs] below the pig prefers.
+345,plural,1,target_plural_att1,picks,pick,sculpture,The [wugs] behind the sculpture pick.,The [wugs] behind the sculpture picks.
+346,plural,1,target_plural_att1,helps,help,floor,The [wugs] next to the floor help.,The [wugs] next to the floor helps.
+347,plural,1,target_plural_att1,asks,ask,starter,The [wugs] behind the starter ask.,The [wugs] behind the starter asks.
+348,plural,1,target_plural_att1,protects,protect,addition,The [wugs] next to the addition protect.,The [wugs] next to the addition protects.
+349,plural,1,target_plural_att1,begs,beg,dose,The [wugs] across from the dose beg.,The [wugs] across from the dose begs.
+350,plural,1,target_plural_att1,reads,read,sheet,The [wugs] in front of the sheet read.,The [wugs] in front of the sheet reads.
+351,plural,1,target_plural_att1,divides,divide,fork,The [wugs] beside the fork divide.,The [wugs] beside the fork divides.
+352,plural,1,target_plural_att1,begins,begin,pickup,The [wugs] behind the pickup begin.,The [wugs] behind the pickup begins.
+353,plural,1,target_plural_att1,expands,expand,motorcycle,The [wugs] under the motorcycle expand.,The [wugs] under the motorcycle expands.
+354,plural,1,target_plural_att1,attracts,attract,detector,The [wugs] next to the detector attract.,The [wugs] next to the detector attracts.
+355,plural,1,target_plural_att1,divides,divide,interface,The [wugs] inside the interface divide.,The [wugs] inside the interface divides.
+356,plural,1,target_plural_att1,signifies,signify,sofa,The [wugs] beside the sofa signify.,The [wugs] beside the sofa signifies.
+357,plural,1,target_plural_att1,thinks,think,textile,The [wugs] across from the textile think.,The [wugs] across from the textile thinks.
+358,plural,1,target_plural_att1,teaches,teach,cur,The [wugs] past the cur teach.,The [wugs] past the cur teaches.
+359,plural,1,target_plural_att1,reads,read,bottle,The [wugs] under the bottle read.,The [wugs] under the bottle reads.
+360,plural,2,target_plural_att2,denies,deny,pickup;trigger,The [wugs] behind the pickup above the trigger deny.,The [wugs] behind the pickup above the trigger denies.
+361,plural,2,target_plural_att2,recommends,recommend,herb;instrument,The [wugs] past the herb near the instrument recommend.,The [wugs] past the herb near the instrument recommends.
+362,plural,2,target_plural_att2,excludes,exclude,booth;nut,The [wugs] below the booth outside the nut exclude.,The [wugs] below the booth outside the nut excludes.
+363,plural,2,target_plural_att2,thinks,think,cord;base,The [wugs] next to the cord past the base think.,The [wugs] next to the cord past the base thinks.
+364,plural,2,target_plural_att2,hates,hate,sleeve;sky,The [wugs] below the sleeve behind the sky hate.,The [wugs] below the sleeve behind the sky hates.
+365,plural,2,target_plural_att2,feeds,feed,boiler;bud,The [wugs] past the boiler behind the bud feed.,The [wugs] past the boiler behind the bud feeds.
+366,plural,2,target_plural_att2,selects,select,potato;wallet,The [wugs] in front of the potato near the wallet select.,The [wugs] in front of the potato near the wallet selects.
+367,plural,2,target_plural_att2,conforms,conform,pizza;rope,The [wugs] next to the pizza below the rope conform.,The [wugs] next to the pizza below the rope conforms.
+368,plural,2,target_plural_att2,starts,start,bike;mosquito,The [wugs] next to the bike near the mosquito start.,The [wugs] next to the bike near the mosquito starts.
+369,plural,2,target_plural_att2,allows,allow,strawberry;engine,The [wugs] beside the strawberry below the engine allow.,The [wugs] beside the strawberry below the engine allows.
+370,plural,2,target_plural_att2,embodies,embody,sleeve;deck,The [wugs] past the sleeve beside the deck embody.,The [wugs] past the sleeve beside the deck embodies.
+371,plural,2,target_plural_att2,determines,determine,stair;pencil,The [wugs] above the stair under the pencil determine.,The [wugs] above the stair under the pencil determines.
+372,plural,2,target_plural_att2,excludes,exclude,world;mill,The [wugs] in front of the world around the mill exclude.,The [wugs] in front of the world around the mill excludes.
+373,plural,2,target_plural_att2,spills,spill,potato;needle,The [wugs] in front of the potato across from the needle spill.,The [wugs] in front of the potato across from the needle spills.
+374,plural,2,target_plural_att2,suffers,suffer,airplane;textile,The [wugs] under the airplane near the textile suffer.,The [wugs] under the airplane near the textile suffers.
+375,plural,2,target_plural_att2,catches,catch,orange;dog,The [wugs] behind the orange above the dog catch.,The [wugs] behind the orange above the dog catches.
+376,plural,2,target_plural_att2,lifts,lift,mouse;shower,The [wugs] across from the mouse beside the shower lift.,The [wugs] across from the mouse beside the shower lifts.
+377,plural,2,target_plural_att2,cleans,clean,circuit;tent,The [wugs] next to the circuit in front of the tent clean.,The [wugs] next to the circuit in front of the tent cleans.
+378,plural,2,target_plural_att2,hires,hire,reactor;cur,The [wugs] beside the reactor inside the cur hire.,The [wugs] beside the reactor inside the cur hires.
+379,plural,2,target_plural_att2,launches,launch,metro;spider,The [wugs] around the metro above the spider launch.,The [wugs] around the metro above the spider launches.
+380,plural,2,target_plural_att2,stands,stand,balloon;gem,The [wugs] under the balloon around the gem stand.,The [wugs] under the balloon around the gem stands.
+381,plural,2,target_plural_att2,resides,reside,guitar;kit,The [wugs] beside the guitar under the kit reside.,The [wugs] beside the guitar under the kit resides.
+382,plural,2,target_plural_att2,contains,contain,jacket;lamp,The [wugs] around the jacket outside the lamp contain.,The [wugs] around the jacket outside the lamp contains.
+383,plural,2,target_plural_att2,gathers,gather,toy;shell,The [wugs] next to the toy across from the shell gather.,The [wugs] next to the toy across from the shell gathers.
+384,plural,2,target_plural_att2,asks,ask,ion;weapon,The [wugs] around the ion beside the weapon ask.,The [wugs] around the ion beside the weapon asks.
+385,plural,2,target_plural_att2,solves,solve,magnet;leaf,The [wugs] in front of the magnet across from the leaf solve.,The [wugs] in front of the magnet across from the leaf solves.
+386,plural,2,target_plural_att2,draws,draw,wallet;picture,The [wugs] inside the wallet next to the picture draw.,The [wugs] inside the wallet next to the picture draws.
+387,plural,2,target_plural_att2,gets,get,pond;dungeon,The [wugs] behind the pond in front of the dungeon get.,The [wugs] behind the pond in front of the dungeon gets.
+388,plural,2,target_plural_att2,believes,believe,constituent;seam,The [wugs] around the constituent in front of the seam believe.,The [wugs] around the constituent in front of the seam believes.
+389,plural,2,target_plural_att2,selects,select,jet;turbine,The [wugs] outside the jet behind the turbine select.,The [wugs] outside the jet behind the turbine selects.
+390,plural,2,target_plural_att2,hires,hire,wallet;turtle,The [wugs] around the wallet inside the turtle hire.,The [wugs] around the wallet inside the turtle hires.
+391,plural,2,target_plural_att2,replaces,replace,wine;ceiling,The [wugs] past the wine across from the ceiling replace.,The [wugs] past the wine across from the ceiling replaces.
+392,plural,2,target_plural_att2,wins,win,snack;pie,The [wugs] above the snack below the pie win.,The [wugs] above the snack below the pie wins.
+393,plural,2,target_plural_att2,argues,argue,picture;hinge,The [wugs] under the picture above the hinge argue.,The [wugs] under the picture above the hinge argues.
+394,plural,2,target_plural_att2,explodes,explode,crop;load,The [wugs] near the crop outside the load explode.,The [wugs] near the crop outside the load explodes.
+395,plural,2,target_plural_att2,occupies,occupy,statue;shield,The [wugs] above the statue next to the shield occupy.,The [wugs] above the statue next to the shield occupies.
+396,plural,2,target_plural_att2,wishes,wish,turtle;world,The [wugs] outside the turtle under the world wish.,The [wugs] outside the turtle under the world wishes.
+397,plural,2,target_plural_att2,spills,spill,root;pencil,The [wugs] near the root above the pencil spill.,The [wugs] near the root above the pencil spills.
+398,plural,2,target_plural_att2,takes,take,piece;panda,The [wugs] around the piece across from the panda take.,The [wugs] around the piece across from the panda takes.
+399,plural,2,target_plural_att2,arrives,arrive,gate;stream,The [wugs] inside the gate around the stream arrive.,The [wugs] inside the gate around the stream arrives.
+400,plural,2,target_plural_att2,connects,connect,airline;tray,The [wugs] behind the airline outside the tray connect.,The [wugs] behind the airline outside the tray connects.
+401,plural,2,target_plural_att2,approves,approve,motorcycle;system,The [wugs] around the motorcycle next to the system approve.,The [wugs] around the motorcycle next to the system approves.
+402,plural,2,target_plural_att2,proves,prove,appliance;gadget,The [wugs] across from the appliance behind the gadget prove.,The [wugs] across from the appliance behind the gadget proves.
+403,plural,2,target_plural_att2,holds,hold,airplane;bean,The [wugs] around the airplane near the bean hold.,The [wugs] around the airplane near the bean holds.
+404,plural,2,target_plural_att2,seeks,seek,coating;cap,The [wugs] in front of the coating inside the cap seek.,The [wugs] in front of the coating inside the cap seeks.
+405,plural,2,target_plural_att2,hears,hear,candle;room,The [wugs] in front of the candle next to the room hear.,The [wugs] in front of the candle next to the room hears.
+406,plural,2,target_plural_att2,sings,sing,cannon;receiver,The [wugs] below the cannon past the receiver sing.,The [wugs] below the cannon past the receiver sings.
+407,plural,2,target_plural_att2,prohibits,prohibit,casino;timer,The [wugs] beside the casino around the timer prohibit.,The [wugs] beside the casino around the timer prohibits.
+408,plural,2,target_plural_att2,receives,receive,mall;bud,The [wugs] in front of the mall beside the bud receive.,The [wugs] in front of the mall beside the bud receives.
+409,plural,2,target_plural_att2,suffers,suffer,mushroom;tape,The [wugs] beside the mushroom outside the tape suffer.,The [wugs] beside the mushroom outside the tape suffers.
+410,plural,2,target_plural_att2,understands,understand,tray;shield,The [wugs] around the tray past the shield understand.,The [wugs] around the tray past the shield understands.
+411,plural,2,target_plural_att2,turns,turn,bin;balloon,The [wugs] across from the bin under the balloon turn.,The [wugs] across from the bin under the balloon turns.
+412,plural,2,target_plural_att2,treats,treat,transport;bomb,The [wugs] under the transport behind the bomb treat.,The [wugs] under the transport behind the bomb treats.
+413,plural,2,target_plural_att2,arrives,arrive,vaccine;pot,The [wugs] under the vaccine behind the pot arrive.,The [wugs] under the vaccine behind the pot arrives.
+414,plural,2,target_plural_att2,shouts,shout,tail;wallet,The [wugs] under the tail across from the wallet shout.,The [wugs] under the tail across from the wallet shouts.
+415,plural,2,target_plural_att2,responds,respond,firearm;kitchen,The [wugs] near the firearm in front of the kitchen respond.,The [wugs] near the firearm in front of the kitchen responds.
+416,plural,2,target_plural_att2,directs,direct,innovation;shirt,The [wugs] around the innovation above the shirt direct.,The [wugs] around the innovation above the shirt directs.
+417,plural,2,target_plural_att2,arrives,arrive,cabin;fixture,The [wugs] near the cabin behind the fixture arrive.,The [wugs] near the cabin behind the fixture arrives.
+418,plural,2,target_plural_att2,dominates,dominate,hash;blanket,The [wugs] inside the hash next to the blanket dominate.,The [wugs] inside the hash next to the blanket dominates.
+419,plural,2,target_plural_att2,hunts,hunt,turbine;duck,The [wugs] in front of the turbine below the duck hunt.,The [wugs] in front of the turbine below the duck hunts.
+420,plural,3,target_plural_att3,hires,hire,continent;beer;jewel,The [wugs] above the continent inside the beer outside the jewel hire.,The [wugs] above the continent inside the beer outside the jewel hires.
+421,plural,3,target_plural_att3,offers,offer,railway;lamp;bowl,The [wugs] beside the railway under the lamp above the bowl offer.,The [wugs] beside the railway under the lamp above the bowl offers.
+422,plural,3,target_plural_att3,regrets,regret,cat;balloon;computer,The [wugs] across from the cat under the balloon around the computer regret.,The [wugs] across from the cat under the balloon around the computer regrets.
+423,plural,3,target_plural_att3,wishes,wish,track;ingredient;candy,The [wugs] above the track next to the ingredient inside the candy wish.,The [wugs] above the track next to the ingredient inside the candy wishes.
+424,plural,3,target_plural_att3,walks,walk,photon;vegetable;bin,The [wugs] below the photon inside the vegetable near the bin walk.,The [wugs] below the photon inside the vegetable near the bin walks.
+425,plural,3,target_plural_att3,refers,refer,receiver;knife;chick,The [wugs] across from the receiver under the knife outside the chick refer.,The [wugs] across from the receiver under the knife outside the chick refers.
+426,plural,3,target_plural_att3,reflects,reflect,monument;ingredient;hub,The [wugs] under the monument inside the ingredient next to the hub reflect.,The [wugs] under the monument inside the ingredient next to the hub reflects.
+427,plural,3,target_plural_att3,suffers,suffer,tail;pillow;bud,The [wugs] inside the tail across from the pillow beside the bud suffer.,The [wugs] inside the tail across from the pillow beside the bud suffers.
+428,plural,3,target_plural_att3,starts,start,frame;tunnel;clock,The [wugs] under the frame beside the tunnel in front of the clock start.,The [wugs] under the frame beside the tunnel in front of the clock starts.
+429,plural,3,target_plural_att3,suggests,suggest,headphone;bag;bow,The [wugs] behind the headphone around the bag in front of the bow suggest.,The [wugs] behind the headphone around the bag in front of the bow suggests.
+430,plural,3,target_plural_att3,jumps,jump,gem;pond;generator,The [wugs] in front of the gem outside the pond near the generator jump.,The [wugs] in front of the gem outside the pond near the generator jumps.
+431,plural,3,target_plural_att3,consumes,consume,tile;heater;flower,The [wugs] below the tile beside the heater behind the flower consume.,The [wugs] below the tile beside the heater behind the flower consumes.
+432,plural,3,target_plural_att3,acknowledges,acknowledge,cup;fork;loop,The [wugs] below the cup under the fork past the loop acknowledge.,The [wugs] below the cup under the fork past the loop acknowledges.
+433,plural,3,target_plural_att3,teaches,teach,cap;pipe;sea,The [wugs] behind the cap inside the pipe in front of the sea teach.,The [wugs] behind the cap inside the pipe in front of the sea teaches.
+434,plural,3,target_plural_att3,fills,fill,device;cache;mosquito,The [wugs] inside the device under the cache past the mosquito fill.,The [wugs] inside the device under the cache past the mosquito fills.
+435,plural,3,target_plural_att3,acknowledges,acknowledge,sugar;mat;chair,The [wugs] behind the sugar inside the mat across from the chair acknowledge.,The [wugs] behind the sugar inside the mat across from the chair acknowledges.
+436,plural,3,target_plural_att3,launches,launch,hotel;picture;medication,The [wugs] above the hotel near the picture across from the medication launch.,The [wugs] above the hotel near the picture across from the medication launches.
+437,plural,3,target_plural_att3,asserts,assert,apple;upgrade;bath,The [wugs] in front of the apple across from the upgrade next to the bath assert.,The [wugs] in front of the apple across from the upgrade next to the bath asserts.
+438,plural,3,target_plural_att3,catches,catch,wallet;diagram;peanut,The [wugs] under the wallet above the diagram beside the peanut catch.,The [wugs] under the wallet above the diagram beside the peanut catches.
+439,plural,3,target_plural_att3,accompanies,accompany,tile;drink;shell,The [wugs] in front of the tile under the drink past the shell accompany.,The [wugs] in front of the tile under the drink past the shell accompanies.
+440,plural,3,target_plural_att3,escapes,escape,wallet;vaccine;textile,The [wugs] near the wallet behind the vaccine around the textile escape.,The [wugs] near the wallet behind the vaccine around the textile escapes.
+441,plural,3,target_plural_att3,solves,solve,counter;tube;detector,The [wugs] below the counter around the tube across from the detector solve.,The [wugs] below the counter around the tube across from the detector solves.
+442,plural,3,target_plural_att3,directs,direct,load;bath;workplace,The [wugs] below the load across from the bath next to the workplace direct.,The [wugs] below the load across from the bath next to the workplace directs.
+443,plural,3,target_plural_att3,assures,assure,device;detector;snake,The [wugs] inside the device beside the detector around the snake assure.,The [wugs] inside the device beside the detector around the snake assures.
+444,plural,3,target_plural_att3,assigns,assign,asteroid;bud;piece,The [wugs] above the asteroid around the bud near the piece assign.,The [wugs] above the asteroid around the bud near the piece assigns.
+445,plural,3,target_plural_att3,seeks,seek,vine;sensor;pub,The [wugs] above the vine beside the sensor near the pub seek.,The [wugs] above the vine beside the sensor near the pub seeks.
+446,plural,3,target_plural_att3,facilitates,facilitate,reel;horn;root,The [wugs] under the reel next to the horn around the root facilitate.,The [wugs] under the reel next to the horn around the root facilitates.
+447,plural,3,target_plural_att3,leans,lean,ocean;transformer;tie,The [wugs] beside the ocean above the transformer behind the tie lean.,The [wugs] beside the ocean above the transformer behind the tie leans.
+448,plural,3,target_plural_att3,brings,bring,studio;shower;agent,The [wugs] around the studio above the shower below the agent bring.,The [wugs] around the studio above the shower below the agent brings.
+449,plural,3,target_plural_att3,quotes,quote,hash;brick;round,The [wugs] behind the hash outside the brick around the round quote.,The [wugs] behind the hash outside the brick around the round quotes.
+450,plural,3,target_plural_att3,strives,strive,cannon;kitten;pet,The [wugs] above the cannon past the kitten under the pet strive.,The [wugs] above the cannon past the kitten under the pet strives.
+451,plural,3,target_plural_att3,pops,pop,asteroid;keyboard;camera,The [wugs] in front of the asteroid under the keyboard below the camera pop.,The [wugs] in front of the asteroid under the keyboard below the camera pops.
+452,plural,3,target_plural_att3,connects,connect,exit;shower;tray,The [wugs] around the exit behind the shower outside the tray connect.,The [wugs] around the exit behind the shower outside the tray connects.
+453,plural,3,target_plural_att3,approves,approve,office;cheat;restaurant,The [wugs] behind the office below the cheat across from the restaurant approve.,The [wugs] behind the office below the cheat across from the restaurant approves.
+454,plural,3,target_plural_att3,puts,put,claw;staple;chicken,The [wugs] in front of the claw behind the staple across from the chicken put.,The [wugs] in front of the claw behind the staple across from the chicken puts.
+455,plural,3,target_plural_att3,contributes,contribute,stand;booth;rabbit,The [wugs] past the stand above the booth in front of the rabbit contribute.,The [wugs] past the stand above the booth in front of the rabbit contributes.
+456,plural,3,target_plural_att3,dislikes,dislike,crate;bow;transport,The [wugs] outside the crate beside the bow past the transport dislike.,The [wugs] outside the crate beside the bow past the transport dislikes.
+457,plural,3,target_plural_att3,adds,add,fruit;stitch;boot,The [wugs] around the fruit past the stitch beside the boot add.,The [wugs] around the fruit past the stitch beside the boot adds.
+458,plural,3,target_plural_att3,occupies,occupy,banner;electron;automobile,The [wugs] beside the banner around the electron near the automobile occupy.,The [wugs] beside the banner around the electron near the automobile occupies.
+459,plural,3,target_plural_att3,occurs,occur,bud;laboratory;diet,The [wugs] across from the bud below the laboratory above the diet occur.,The [wugs] across from the bud below the laboratory above the diet occurs.
+460,plural,3,target_plural_att3,introduces,introduce,archive;hurdle;ion,The [wugs] outside the archive around the hurdle inside the ion introduce.,The [wugs] outside the archive around the hurdle inside the ion introduces.
+461,plural,3,target_plural_att3,digs,dig,photo;brake;widget,The [wugs] across from the photo near the brake above the widget dig.,The [wugs] across from the photo near the brake above the widget digs.
+462,plural,3,target_plural_att3,accepts,accept,disc;toy;cart,The [wugs] inside the disc behind the toy past the cart accept.,The [wugs] inside the disc behind the toy past the cart accepts.
+463,plural,3,target_plural_att3,begs,beg,toilet;house;photo,The [wugs] next to the toilet above the house around the photo beg.,The [wugs] next to the toilet above the house around the photo begs.
+464,plural,3,target_plural_att3,urges,urge,pistol;partition;potato,The [wugs] inside the pistol next to the partition beside the potato urge.,The [wugs] inside the pistol next to the partition beside the potato urges.
+465,plural,3,target_plural_att3,renders,render,grocery;prop;insect,The [wugs] past the grocery under the prop in front of the insect render.,The [wugs] past the grocery under the prop in front of the insect renders.
+466,plural,3,target_plural_att3,resembles,resemble,cup;plane;motif,The [wugs] above the cup behind the plane below the motif resemble.,The [wugs] above the cup behind the plane below the motif resembles.
+467,plural,3,target_plural_att3,relates,relate,portal;airport;bookmark,The [wugs] across from the portal inside the airport behind the bookmark relate.,The [wugs] across from the portal inside the airport behind the bookmark relates.
+468,plural,3,target_plural_att3,prompts,prompt,brake;interface;helicopter,The [wugs] next to the brake outside the interface in front of the helicopter prompt.,The [wugs] next to the brake outside the interface in front of the helicopter prompts.
+469,plural,3,target_plural_att3,informs,inform,reactor;tablet;projectile,The [wugs] near the reactor under the tablet in front of the projectile inform.,The [wugs] near the reactor under the tablet in front of the projectile informs.
+470,plural,3,target_plural_att3,tells,tell,deck;satellite;frog,The [wugs] beside the deck behind the satellite above the frog tell.,The [wugs] beside the deck behind the satellite above the frog tells.
+471,plural,3,target_plural_att3,wears,wear,cat;basket;disc,The [wugs] above the cat past the basket near the disc wear.,The [wugs] above the cat past the basket near the disc wears.
+472,plural,3,target_plural_att3,prohibits,prohibit,ingredient;rabbit;snapshot,The [wugs] below the ingredient in front of the rabbit under the snapshot prohibit.,The [wugs] below the ingredient in front of the rabbit under the snapshot prohibits.
+473,plural,3,target_plural_att3,passes,pass,opening;room;bar,The [wugs] under the opening above the room next to the bar pass.,The [wugs] under the opening above the room next to the bar passes.
+474,plural,3,target_plural_att3,complains,complain,clock;hat;horse,The [wugs] behind the clock outside the hat beside the horse complain.,The [wugs] behind the clock outside the hat beside the horse complains.
+475,plural,3,target_plural_att3,defines,define,nut;sidewalk;tent,The [wugs] in front of the nut outside the sidewalk below the tent define.,The [wugs] in front of the nut outside the sidewalk below the tent defines.
+476,plural,3,target_plural_att3,unfolds,unfold,fragment;ocean;variable,The [wugs] above the fragment beside the ocean next to the variable unfold.,The [wugs] above the fragment beside the ocean next to the variable unfolds.
+477,plural,3,target_plural_att3,dominates,dominate,dog;dish;bath,The [wugs] in front of the dog below the dish around the bath dominate.,The [wugs] in front of the dog below the dish around the bath dominates.
+478,plural,3,target_plural_att3,digs,dig,converter;automobile;bed,The [wugs] outside the converter across from the automobile above the bed dig.,The [wugs] outside the converter across from the automobile above the bed digs.
+479,plural,3,target_plural_att3,finds,find,workplace;plate;brick,The [wugs] across from the workplace below the plate above the brick find.,The [wugs] across from the workplace below the plate above the brick finds.

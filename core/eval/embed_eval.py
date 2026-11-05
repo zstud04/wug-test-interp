@@ -3,8 +3,8 @@ import argparse
 import pandas as pd
 import torch
 
-from minicons import scorer
 from utils.chat_templates import chat_template
+from utils.vlm_loading import get_input_output_embeddings, load_vlm
 
 
 def parse_args():
@@ -87,7 +87,7 @@ def main():
     print("=" * 70)
 
     device = "cuda"
-    lm = scorer.VLMScorer(
+    lm = load_vlm(
         args.model, device=device, torch_dtype=torch.bfloat16, cache_dir=args.cache_dir
     )
 
@@ -109,13 +109,12 @@ def main():
         old_len = lm.model.resize_token_embeddings().weight.shape[0]
         lm.model.resize_token_embeddings(old_len + len(tokens_to_add))
 
-    emb = lm.model.model.language_model.embed_tokens
-    lm_head = lm.model.lm_head
+    emb, lm_head, is_tied = get_input_output_embeddings(lm.model)
     tok = lm.tokenizer.tokenizer
 
-    assert emb.weight.data_ptr() == lm_head.weight.data_ptr(), \
-        "ERROR: emb and lm_head are NOT tied! This script requires tied weights."
-    print("✓ emb.weight and lm_head.weight are tied (same tensor)")
+    print("✓ emb.weight and lm_head.weight are tied (same tensor)" if is_tied
+          else "  emb.weight and lm_head.weight are NOT tied — injecting the "
+               "saved (trained-via-lm_head, synced-to-emb) vector into both.")
 
     new_ids = [tok(t, add_special_tokens=False).input_ids[0] for t in added_tokens]
     wug_id, wugs_id = new_ids
@@ -124,6 +123,9 @@ def main():
     with torch.no_grad():
         emb.weight.data[wug_id] = wug_embedding.to(emb.weight.device, dtype=emb.weight.dtype)
         emb.weight.data[wugs_id] = wugs_embedding.to(emb.weight.device, dtype=emb.weight.dtype)
+        if not is_tied:
+            lm_head.weight.data[wug_id] = wug_embedding.to(lm_head.weight.device, dtype=lm_head.weight.dtype)
+            lm_head.weight.data[wugs_id] = wugs_embedding.to(lm_head.weight.device, dtype=lm_head.weight.dtype)
     print(f"  Injected embeddings  [wug] norm={emb.weight[wug_id].norm().item():.4f}  "
           f"[wugs] norm={emb.weight[wugs_id].norm().item():.4f}")
 

@@ -1,0 +1,5 @@
+# results/ is already ignored by the repo-root .gitignore
+# ("eacl-rebuttal/results/"). What goes in git from the runs is the compact
+# copy outside it: embeddings/ (final embeddings) and test_scores/ (test
+# scores). See "What's in git" in METHODS_AND_RESULTS.md.
+__pycache__/
