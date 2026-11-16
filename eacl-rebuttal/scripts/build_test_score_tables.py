@@ -35,6 +35,14 @@ MODELS = {
         "per_run": R / "lr_search_4B_bs8_more45/combined_50seed_test_per_run.csv",
         "swap_model": "4B",
     },
+    # Blob condition (2B, 5 seeds at the dev-selected lr); swap reference is
+    # recomputed from scored.csv since swap_accuracy.py covers creatures only.
+    "qwen3-vl-2b_blobs": {
+        "scored": [R / "lr_search_2B_bs8_blobs/selected_test_eval"],
+        "per_run": R / "lr_search_2B_bs8_blobs/selected_test_per_run.csv",
+        "swap_model": None,
+        "n_seeds": 5,
+    },
 }
 SCORE_COLS = ["score_good_singular", "score_bad_singular", "score_good_plural", "score_bad_plural"]
 ITEM_COLS = ["idx", "split", "target_type", "attractors", "condition",
@@ -69,7 +77,7 @@ def main():
     swap_ref = pd.read_csv(R / "swap_accuracy/swap_per_run.csv")
     for name, cfg in MODELS.items():
         files = sorted(f for d in cfg["scored"] for f in glob.glob(str(d / "*/scored.csv")))
-        assert len(files) == 50, (name, len(files))
+        assert len(files) == cfg.get("n_seeds", 50), (name, len(files))
         parts = []
         for f in files:
             d = pd.read_csv(f)
@@ -89,9 +97,14 @@ def main():
         ref = pd.read_csv(cfg["per_run"]).set_index("seed")
         raw_cols = [c for c in acc.columns if c.startswith("test_")]
         assert np.allclose(acc.loc[ref.index, raw_cols], ref[raw_cols], atol=1e-12), name
-        sw = swap_ref[swap_ref.model == cfg["swap_model"]].copy()
-        sw["seed"] = sw.run.str.extract(r"seed(\d+)$").astype(int)
-        sw = sw.set_index("seed")
+        if cfg["swap_model"] is None:
+            sw = pd.DataFrame([{"seed": int(re.search(r"seed(\d+)$", pathlib.Path(f).parent.name).group(1)),
+                                "swap_overall": ((d := pd.read_csv(f)).score_diff_singular + d.score_diff_plural > 0).mean()}
+                               for f in files]).set_index("seed")
+        else:
+            sw = swap_ref[swap_ref.model == cfg["swap_model"]].copy()
+            sw["seed"] = sw.run.str.extract(r"seed(\d+)$").astype(int)
+            sw = sw.set_index("seed")
         swap_cols = [c for c in sw.columns if c.startswith("swap_")]
         assert np.allclose(acc.loc[sw.index, swap_cols], sw[swap_cols], atol=1e-12), name
         print(f"{name}: {scores.seed.nunique()} seeds x {len(items)} items -> "

@@ -1,12 +1,14 @@
-# EACL rebuttal version of analysis/movement.R.
-# Same plots, but the panels are the two kept image-only results
-# (Qwen3-VL-2B and Qwen3-VL-4B, matched captions, 50 seeds each) instead of
-# Language / Vision for a single model. CSVs come from
-# eacl-rebuttal/scripts/movement_pca.py, copied into the git-tracked
-# eacl-rebuttal/pca_data/ by eacl-rebuttal/scripts/export_pca_data.py.
+# EACL rebuttal version of analysis/movement.R (4B) and analysis/movement-2B.R (2B):
+# same figures, sizes and file names, with the Language panel unchanged (the
+# paper's language-cued embeddings, results/eval/movement-analysis/) and the
+# Vision panel replaced by the NEW vision-cued embeddings (matched captions,
+# held-out-image dev, 50 seeds; eacl-rebuttal/pca_data/, written by
+# eacl-rebuttal/scripts/movement_pca.py + export_pca_data.py). Both use the
+# same PCA space (same 530 noun pairs and model; identical up to bf16 rounding).
 #
 # please open the .Rproj file in the home dir of
 # the repo so that the paths resolve.
+# On the server: /opt/R/4.6.2/bin/Rscript eacl-rebuttal/analysis/movement-rebuttal.R
 
 library(tidyverse)
 library(scales)
@@ -17,30 +19,38 @@ library(grid)
 library(glue)
 library(knitr)
 
-results_root = "eacl-rebuttal/pca_data"  # written by eacl-rebuttal/scripts/export_pca_data.py
-models = c(
-  "Qwen3-VL-2B" = "Qwen_Qwen3-VL-2B-Instruct",
-  "Qwen3-VL-4B" = "Qwen_Qwen3-VL-4B-Instruct"
-)
+paper_root = "results/eval/movement-analysis"
+new_root = "eacl-rebuttal/pca_data"
+fig_dir = "eacl-rebuttal/figures"
 
-real_nouns <- imap_dfr(models, function(dir, model) {
-  read_csv(glue("{results_root}/{dir}/sg_pl_reduced.csv")) %>%
-    mutate(model = model)
-}) %>%
-  rename(number = label) %>%
-  mutate(
-    number = factor(number, c("sg", "pl")),
-    model = factor(model, names(models))
+load_model <- function(dir) {
+  real_nouns <- read_csv(glue("{paper_root}/{dir}/sg_pl_reduced.csv"), show_col_types = FALSE) %>%
+    rename(number = label) %>%
+    mutate(
+      number = factor(number, c("sg", "pl"))
+    )
+
+  wug_pca <- bind_rows (
+    read_csv(glue("{paper_root}/{dir}/wug_wugs_reduced_text.csv"), show_col_types = FALSE) %>%
+      mutate(modality='Language'),
+    read_csv(glue("{new_root}/{dir}/wug_wugs_reduced_image.csv"), show_col_types = FALSE) %>%
+      mutate(modality='Vision')
   )
 
-wug_pca <- imap_dfr(models, function(dir, model) {
-  read_csv(glue("{results_root}/{dir}/wug_wugs_reduced_image.csv")) %>%
-    mutate(model = model)
-}) %>%
-  mutate(model = factor(model, names(models)))
+  movement <- bind_rows (
+    read_csv(glue("{paper_root}/{dir}/wug_wugs_movement_text.csv"), show_col_types = FALSE) %>%
+      mutate(modality='Language'),
+    read_csv(glue("{new_root}/{dir}/wug_wugs_movement_image.csv"), show_col_types = FALSE) %>%
+      mutate(modality='Vision')
+  )
 
-movement_pca_plot <- function(annot_size, strip_size = NULL) {
-  wug_pca %>%
+  list(real_nouns = real_nouns, wug_pca = wug_pca, movement = movement)
+}
+
+# Plot code from analysis/movement.R / movement-2B.R. `fixed_limits` is TRUE for
+# 2B (scale limits set in movement-2B.R) and FALSE for 4B (commented out in movement.R).
+movement_pca_plot <- function(d, annot_size, nrow = NULL, strip_size = NULL, fixed_limits) {
+  p <- d$wug_pca %>%
     pivot_wider(names_from = stage, values_from = c(x, y)) %>%
     mutate(
       type = case_when(
@@ -52,7 +62,7 @@ movement_pca_plot <- function(annot_size, strip_size = NULL) {
     ggplot() +
 
     # --- 1. REAL NOUNS ---
-    geom_point(data = real_nouns, aes(x, y, color = number, shape = number), alpha = 0.08) +
+    geom_point(data = d$real_nouns, aes(x, y, color = number, shape = number), alpha = 0.08) +
     scale_color_manual(
       name = "Real Noun Type",
       values = c("#a6611a", "#018571"),
@@ -96,15 +106,15 @@ movement_pca_plot <- function(annot_size, strip_size = NULL) {
       )
     ) +
 
-    # --- 4. ANNOTATIONS (first panel only) ---
+    # --- 4. ANNOTATIONS ---
     geom_segment(
-      data = data.frame(model = factor("Qwen3-VL-2B", names(models))),
+      data = data.frame(modality = "Language"),
       aes(x = 0.2, y = 0.2, xend = 0.28, yend = 0.3),
       arrow = arrow(length = unit(0.1, "cm")),
       color = "black", linewidth = 0.6
     ) +
     geom_text(
-      data = data.frame(model = factor("Qwen3-VL-2B", names(models))),
+      data = data.frame(modality="Language"),
       aes(x = 0.25, y = 0.18),
       label = "initial",
       family = "Times",
@@ -112,36 +122,44 @@ movement_pca_plot <- function(annot_size, strip_size = NULL) {
       size = annot_size
     ) +
     geom_text(
-      data = data.frame(model = factor("Qwen3-VL-2B", names(models))),
+      data = data.frame(modality="Language"),
       aes(x = 0.33, y = 0.3),
       label = "final",
       family = "Times",
       fontface = "italic",
       size = annot_size
-    ) +
-    scale_y_continuous(limits = c(-0.4, 0.4)) +
-    scale_x_continuous(limits = c(-0.5, 0.5)) +
-    # --- 5. THEME ---
+    )
+
+  if (fixed_limits) {
+    p <- p +
+      scale_y_continuous(limits = c(-0.4, 0.4)) +
+      scale_x_continuous(limits = c(-0.5, 0.5))
+  }
+
+  p +
+    # --- 5. THEME & FACETS ---
+    facet_wrap(~modality, scales="free", nrow = nrow) +
     theme_classic(base_size = 16, base_family = "Times") +
     theme(
       panel.grid = element_blank(),
       strip.background = element_blank(),
-      strip.text.x = element_text(face = 'bold.italic', size = strip_size),
+      strip.text.x = element_text(face='bold.italic', size = strip_size),
 
       # Position legend at the top and stack the two legends horizontally
       legend.position = "top",
       legend.box = "horizontal",
 
+      # Target legend labels with Inconsolata
       legend.text = element_text(size = 14, face = "italic"),
       legend.box.spacing = unit(0, "pt"),
       plot.margin = margin(0, 0, 0, 0, "pt"),
 
-      # Transparency and no borders
-      plot.background = element_rect(fill = "transparent", color = NA),
-      panel.background = element_rect(fill = "transparent", color = NA),
-      legend.background = element_rect(fill = "transparent", color = NA),
+      # --- New code for transparency and no borders ---
+      plot.background = element_rect(fill = "transparent", color = NA), # Transparent canvas, no border
+      panel.background = element_rect(fill = "transparent", color = NA), # Transparent plot area
+      legend.background = element_rect(fill = "transparent", color = NA), # Transparent legend
       legend.box.background = element_rect(fill = "transparent", color = NA),
-      panel.border = element_blank()
+      panel.border = element_blank() # Removes any leftover panel borders
     ) +
     labs(
       x = "PC1",
@@ -149,90 +167,63 @@ movement_pca_plot <- function(annot_size, strip_size = NULL) {
     )
 }
 
-movement_pca_plot(annot_size = 3.5) +
-  facet_wrap(~model, scales = "free")
+models <- list(
+  "2b" = list(dir = "Qwen_Qwen3-VL-2B-Instruct", fixed_limits = TRUE),
+  "4b" = list(dir = "Qwen_Qwen3-VL-4B-Instruct", fixed_limits = FALSE)
+)
 
-ggsave("eacl-rebuttal/figures/2b-4b-movement-pca-legendtop.pdf", width = 6.8, height = 4.16, dpi = 300)
+summaries <- list()
+for (short in names(models)) {
+  cfg <- models[[short]]
+  d <- load_model(cfg$dir)
 
-# ---
+  movement_pca_plot(d, annot_size = 3.5, fixed_limits = cfg$fixed_limits)
+  ggsave(glue("{fig_dir}/{short}-movement-pca-legendtop.pdf"), width = 6.8, height = 4.16, dpi = 300)
 
-movement_pca_plot(annot_size = 4, strip_size = 14) +
-  facet_wrap(~model, scales = "free", nrow = 2)
+  movement_pca_plot(d, annot_size = 4, nrow = 2, strip_size = 14, fixed_limits = cfg$fixed_limits)
+  ggsave(glue("{fig_dir}/{short}-movement-pca-vertical.pdf"), height = 7.95, width = 4.22, dpi = 300)
 
-ggsave("eacl-rebuttal/figures/2b-4b-movement-pca-vertical.pdf", height = 7.95, width = 4.22, dpi = 300)
+  # Movement summary, as in movement.R
+  summaries[[short]] <- d$movement %>%
+    mutate(number = factor(number, levels = c("sg", "pl"))) %>%
+    group_by(modality, number) %>%
+    summarize(
+      n = n(),
+      sd = sd(movement, na.rm = TRUE),
+      mean_movement = mean(movement, na.rm = TRUE),
+      # Calculate Standard Error
+      se = sd / sqrt(n),
+      # 95% Confidence Interval
+      ci_lower = mean_movement - qt(0.975, df = n - 1) * se,
+      ci_upper = mean_movement + qt(0.975, df = n - 1) * se,
+      # One-sample t-test (H0: mean = 0, HA: mean > 0)
+      t_stat = mean_movement / se,
+      p_value = pt(t_stat, df = n - 1, lower.tail = FALSE),
+      .groups = "drop"
+    ) %>%
+    mutate(model = toupper(short), .before = 1)
+}
 
-# ---
+summary_tab <- bind_rows(summaries)
+write_csv(summary_tab, glue("{new_root}/movement_summary_language_vision.csv"))
+print(summary_tab, width = Inf)
 
-movement <- imap_dfr(models, function(dir, model) {
-  read_csv(glue("{results_root}/{dir}/wug_wugs_movement_image.csv")) %>%
-    mutate(model = model)
-}) %>%
-  mutate(model = factor(model, names(models)))
-
-movement %>%
-  group_by(model, number) %>%
-  summarize(
-    n = n(),
-    sd = sd(movement, na.rm = TRUE),
-    mean_movement = mean(movement, na.rm = TRUE),
-    se = sd / sqrt(n),
-    # 95% Confidence Interval
-    ci_lower = mean_movement - qt(0.975, df = n - 1) * se,
-    ci_upper = mean_movement + qt(0.975, df = n - 1) * se,
-
-    # One-sample t-test (H0: mean = 0, HA: mean > 0)
-    t_stat = mean_movement / se,
-    p_value = pt(t_stat, df = n - 1, lower.tail = FALSE),
-
-    .groups = "drop"
+# LaTeX table in the paper's format (mean with 95% CI margin), per model
+for (short in names(models)) {
+  print(
+    summary_tab %>%
+      filter(model == toupper(short)) %>%
+      mutate(
+        me = ci_upper - mean_movement,
+        cell_value = sprintf("%.3f\\textsubscript{$\\pm$ %.3f}", mean_movement, me)
+      ) %>%
+      select(modality, number, cell_value) %>%
+      pivot_wider(names_from = number, values_from = cell_value) %>%
+      kable(
+        format = "latex",
+        booktabs = TRUE,
+        escape = FALSE,
+        caption = glue("Mean Movement (with 95\\% CI Margin of Error), Qwen3-VL-{toupper(short)}")
+      )
   )
-
-movement %>%
-  mutate(number = factor(number, levels = c("sg", "pl"))) %>%
-  group_by(model, number) %>%
-  summarize(
-    n = n(),
-    mean_movement = mean(movement, na.rm = TRUE),
-    sd = sd(movement, na.rm = TRUE),
-    me = qt(0.975, df = n - 1) * (sd / sqrt(n)),
-    cell_value = sprintf("%.3f\\textsubscript{$\\pm$ %.3f}", mean_movement, me),
-    .groups = "drop"
-  ) %>%
-  select(model, number, cell_value) %>%
-  pivot_wider(
-    names_from = number,
-    values_from = cell_value
-  ) %>%
-  kable(
-    format = "latex",
-    booktabs = TRUE,
-    escape = FALSE,
-    caption = "Mean Movement (with 95\\% CI Margin of Error)"
-  )
-
-movement %>%
-  mutate(number = factor(number, levels = c("sg", "pl"))) %>%
-  ggplot(aes(number, movement, color = model, group = model, shape = model)) +
-  geom_point(position = position_jitterdodge(dodge.width = 0.75, seed = 1024), alpha = 0.1) +
-  stat_summary(
-    fun.data = "mean_cl_normal",
-    geom = "pointrange",
-    position = position_dodge(width = 0.75),
-    size = 0.4
-  ) +
-  geom_hline(yintercept = 0.0, linetype = "dashed") +
-  # 0.25, not 0.2: one 2B seed moves 0.214, and scale limits drop points
-  # before stat_summary computes the mean/CI.
-  scale_y_continuous(limits = c(0, 0.25)) +
-  theme_classic(base_size = 16, base_family = "Times") +
-  labs(
-    x = "Number",
-    y = "Movement towards\ndesired region",
-    color = "Model",
-    shape = "Model"
-  ) +
-  theme(
-    legend.position = "inside",
-    legend.position.inside = c(0.95, 0.95),
-    legend.justification = c("right", "top")
-  )
+}

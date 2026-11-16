@@ -96,7 +96,7 @@ pooled test accuracy at whatever seed count they reached.
   `run_test_eval.py`, `combine_50_seed_test_results.py`,
   `run_4B_independent_more45.sh` — sweeps, LR selection, test scoring,
   50-seed combination.
-- `scripts/swap_accuracy.py`, `movement_pca.py`, `plot_movement_pca.py`,
+- `scripts/swap_accuracy.py`, `movement_pca.py`, `export_pca_data.py`,
   `analysis/movement-rebuttal.R` — swap accuracy, PCA movement, figures.
 - `data/train/text/image_train_matched_v2.csv`, `data/train/im/creature_1/`,
   `data/dev/dev_image_number.csv` + `data/dev/held_out_images/`,

@@ -156,6 +156,29 @@ By number of attractors:
 | 2 | 0.905 [0.858, 0.953] | 0.805 [0.780, 0.830] |
 | 3 | 0.877 [0.830, 0.924] | 0.708 [0.678, 0.738] |
 
+### 4B compared with its baselines
+
+4B scores below 2B, and its plural accuracy drops sharply with attractors. The
+same pattern appears in the paper's 4B embeddings learned from **text** with
+explicit number cues ("The [wugs] run"), so it reflects how 4B handles novel
+nouns, not a failure to learn from images. Real nouns show a milder version of
+the same drop in 4B (plural 0.98 → 0.63) than in 2B (0.98 → 0.81).
+
+Qwen3-VL-4B, test accuracy by number of attractors (singular / plural / swap):
+
+| attractors | real nouns | language-cued (paper, best-dev seed) | vision-cued, new (best-dev seed 116) | vision-cued, new (50-seed mean) |
+|---:|---|---|---|---|
+| 0 | 0.80 / 0.98 / 0.98 | 0.66 / 0.88 / 0.91 | 0.58 / 0.98 / 0.93 | 0.62 / 0.91 / 0.88 |
+| 1 | 0.87 / 0.80 / 0.94 | 0.84 / 0.63 / 0.94 | 0.84 / 0.62 / 0.95 | 0.82 / 0.61 / 0.92 |
+| 2 | 0.83 / 0.70 / 0.95 | 0.81 / 0.41 / 0.85 | 0.80 / 0.39 / 0.86 | 0.79 / 0.41 / 0.80 |
+| 3 | 0.81 / 0.63 / 0.91 | 0.77 / 0.35 / 0.74 | 0.76 / 0.33 / 0.76 | 0.74 / 0.35 / 0.71 |
+| pooled | | 0.77 raw / 0.86 swap | 0.74 raw / 0.87 swap | 0.66 raw / 0.83 swap |
+
+The best-dev seed is the selection rule the paper used for its single
+reported embeddings, so the two middle columns compare like with like. Real
+nouns: all 5,600 items of `results/eval/attractors/Qwen3-VL-4B-Instruct/agreement_target_natural_scored.csv`;
+language-cued: `results/eval/attractors/Qwen3-VL-4B-Instruct/syntax/agreement_target_wug_scored.csv`.
+
 ### Embedding movement (PCA)
 
 Following the original paper analysis: PCA fit on ~530 real singular/plural
@@ -172,9 +195,113 @@ the logged init separation for every run (100/100).
 | 2B | 0.164 [0.152, 0.175] | 0.118 [0.111, 0.125] |
 | 4B | 0.097 [0.093, 0.101] | 0.058 [0.055, 0.060] |
 
-All one-sided t-tests vs. 0: p < 10⁻³². Figures:
-`eacl-rebuttal/figures/2b-4b-movement-pca-legendtop.pdf` and
-`eacl-rebuttal/figures/2b-4b-movement-pca-vertical.pdf`.
+Compared with the paper's Table 1 (same PCA space and measure; language
+values are the paper's; 4B language has 49 seeds):
+
+| | language sg | language pl | vision, new sg | vision, new pl | vision, paper (old) sg | vision, paper (old) pl |
+|---|---:|---:|---:|---:|---:|---:|
+| 2B | 0.088 ± 0.005 | 0.051 ± 0.004 | 0.164 ± 0.011 | 0.118 ± 0.007 | — | — |
+| 4B | 0.092 ± 0.006 | 0.061 ± 0.006 | 0.097 ± 0.004 | 0.058 ± 0.002 | 0.067 | 0.040 |
+
+(± = 95% CI margin; the paper prints plural movement with a negative sign.)
+The paper's note that language-cued nouns move more than vision-cued ones no
+longer holds: with the new embeddings, 4B vision movement equals language
+movement, and 2B vision moves almost twice as far. Summary CSV:
+`eacl-rebuttal/pca_data/movement_summary_language_vision.csv`.
+
+All one-sided t-tests vs. 0: p < 10⁻³². Figures, in the paper's format
+(Language panel: the paper's language-cued embeddings, unchanged; Vision
+panel: these new embeddings; same PCA space):
+`eacl-rebuttal/figures/{2b,4b}-movement-pca-{legendtop,vertical}.pdf`,
+made by `eacl-rebuttal/analysis/movement-rebuttal.R`.
+
+### Mechanistic analyses (rerun of the paper's Section 6)
+
+The paper's four interventions — DAS, DiffMean, linear probe, attribution
+patching (AtP, k = 128) — were rerun with the new vision-cued embeddings,
+using the paper's own launch settings unchanged (same scripts, layers, token
+positions, real-noun training items, `is_correct_all` test filter,
+`n_sample`). Interventions are fit on real nouns, so they are identical to the
+paper's; only the novel-noun test items differ. Embeddings follow the paper's
+rule: each model's best-dev seed (2B: 130, 4B: 116). The paper's
+language-cued results are reused unchanged. Launcher:
+`eacl-rebuttal/scripts/run_interp_vision_new.sh` (also reruns the paper's 2B
+5-seed replicate at 0–1 attractors, with the 5 LR-search seeds; not yet
+analysed).
+
+Cue-condition test, the paper's `fit2`
+(`mean_odds ~ attractors + modality + model + method + (1 | layer)`, lmerTest):
+
+| data | vision vs. language (β) | SE | p |
+|---|---:|---:|---:|
+| paper: language + old vision | −0.016 | 0.157 | .92 |
+| language + new vision | −0.068 | 0.149 | .65 |
+
+The first row reproduces the paper's reported value exactly, confirming the
+analysis matches. With the new embeddings there is still no difference between
+vision- and language-cued nouns. At each method's best layer (chosen on real
+nouns), new vision tracks language closely for DiffMean, the probe and AtP.
+For 4B DAS, vision is now closer to language at 0 attractors (8.8 vs. 7.1;
+old vision 11.2, the exception the paper noted) and below it at 2–3
+attractors (5.8 / 5.0 vs. 6.9 / 6.8), in line with 4B's weaker behaviour
+there; those two cells rest on fewer test items (284 and 188, vs. 512 and 368
+for old vision), because only items the embedding gets right for both numbers
+are used.
+
+Figures (paper's format, Language rows unchanged):
+`eacl-rebuttal/figures/emb-interp-results-{2B,4B}.pdf`,
+`eacl-rebuttal/figures/novel-vs-real-interp-{2B,4B}.pdf`, made by
+`eacl-rebuttal/analysis/interp-rebuttal.R`, which also fits the model above.
+Tables: `eacl-rebuttal/interp_data/` (copied from `results/interp_vision_new/compare/`).
+
+### Behavioural results in the paper's Figure 2 format
+
+`eacl-rebuttal/figures/behavioral-accuracies-attractors-legendtop.pdf`
+(made by `eacl-rebuttal/analysis/behavioral-rebuttal.R`, the paper's
+`analysis/behavioral.R` code): real-noun and language-cued lines are the
+paper's, unchanged; the vision line is the new embeddings. Accuracy (%), 0 → 3
+attractors (mean over seeds; language 4B has 49 seeds):
+
+| | language (paper) | vision (new) |
+|---|---|---|
+| 2B | 78.5, 77.4, 72.7, 68.1 | 81.2, 75.9, 72.3, 68.4 |
+| 4B | 74.9, 73.5, 60.7, 54.8 | 76.5, 71.9, 59.8, 54.5 |
+
+The paper's 2B gap between vision and language is gone; in both models the
+vision line now sits on the language line. Table:
+`eacl-rebuttal/test_scores/behavioral_accuracy_language_vision.csv`.
+
+### Blob condition (2B, 5 seeds)
+
+Does the result depend on the creature images? Same recipe as the 2B result
+(matched captions, independent init, joint bs = 8, 8-LR × 5-seed search, LR
+chosen by mean dev score, same test set), with only the images changed:
+
+- **Training images** (`data/train/im/blobs/`): one fixed, lumpy blob shape
+  in every image (pink on white, the style of the circle images), varying only
+  in position and rotation; 5 singular images (1 blob) and 5 plural images
+  (2–4 blobs).
+- **Held-out dev set** (`data/dev/held_out_images_blobs/`,
+  `data/dev/dev_image_number_blobs.csv`): 10 singular + 10 plural new blob
+  images × the same 6 prompts (one of which still says "What creature is in
+  the image?", kept identical to the creature dev set).
+- Images made by `scripts/make_blob_images.py`; runs by
+  `scripts/run_lr_search_2B_bs8_blobs.sh`. Dev selected lr = 0.005 (mean dev
+  score −0.006; next best −0.096).
+
+| test accuracy | blobs (5 seeds) | creatures (same 5 seeds) | creatures (50 seeds) |
+|---|---:|---:|---:|
+| pooled (raw) | 0.741 [0.675, 0.807] | 0.774 [0.755, 0.793] | 0.744 [0.719, 0.770] |
+| singular / plural | 0.684 / 0.798 | 0.709 / 0.839 | 0.681 / 0.808 |
+| swap | 0.910 [0.868, 0.953] | 0.942 [0.934, 0.951] | 0.894 [0.850, 0.939] |
+| pooled by attractors 0 / 1 / 2 / 3 | 0.77 / 0.77 / 0.73 / 0.70 | 0.85 / 0.79 / 0.75 / 0.71 | 0.81 / 0.76 / 0.72 / 0.68 |
+| swap by attractors 0 / 1 / 2 / 3 | 0.87 / 0.91 / 0.95 / 0.91 | 0.95 / 0.93 / 0.95 / 0.93 | 0.91 / 0.89 / 0.91 / 0.88 |
+
+2B learns number from abstract blobs about as well as from creatures: blob
+accuracy equals the 50-seed creature result. Blobs are slightly below
+creatures on the same 5 seeds, mostly at 0 attractors, but with 5 seeds the
+intervals overlap, and blob seeds vary more (pooled 0.67–0.82). Test scores:
+`eacl-rebuttal/test_scores/scores_qwen3-vl-2b_blobs.csv`.
 
 ### Summary
 
@@ -191,6 +318,11 @@ compare two different verb forms, so they are confounded with the verb-form
 prior; swap accuracy removes that prior but by construction has no
 singular/plural split, so these asymmetries should not be read as differences
 in how well each number is learned.
+
+4B's weaker scores match the paper's language-cued 4B embeddings almost
+exactly, so images alone produce the same behaviour in 4B as explicit textual
+number cues. The paper's mechanistic result also holds: no difference between
+vision- and language-cued nouns (β = −0.068, p = .65).
 
 ## What's in git
 
@@ -291,8 +423,13 @@ Join on `idx`. An item is correct for singular if
 | what | path |
 |---|---|
 | swap accuracy (both models) | `eacl-rebuttal/results/swap_accuracy/swap_summary.csv`, `swap_per_run.csv` |
-| movement summary (both models) | `eacl-rebuttal/pca_data/movement_summary.csv` |
-| figures | `eacl-rebuttal/figures/2b-4b-movement-pca-{legendtop,vertical}.pdf` |
+| movement summary (both models, language + new vision) | `eacl-rebuttal/pca_data/movement_summary_language_vision.csv` |
+| movement figures | `eacl-rebuttal/figures/{2b,4b}-movement-pca-{legendtop,vertical}.pdf` |
+| interp figures | `eacl-rebuttal/figures/{emb-interp-results,novel-vs-real-interp}-{2B,4B}.pdf` |
+| interp tables (cue-effect model, best-layer odds) | `eacl-rebuttal/interp_data/` |
+| interp raw outputs | `eacl-rebuttal/results/interp_vision_new/` (server only) |
+| Figure 2 (behaviour) | `eacl-rebuttal/figures/behavioral-accuracies-attractors-legendtop.pdf` |
+| blob condition runs | `eacl-rebuttal/results/lr_search_2B_bs8_blobs/` (server only); scores in `test_scores/scores_qwen3-vl-2b_blobs.csv` |
 
 ### Code
 
@@ -307,5 +444,9 @@ Join on `idx`. An item is correct for singular if
 | `eacl-rebuttal/scripts/swap_accuracy.py` | swap (bias-free) accuracy |
 | `eacl-rebuttal/scripts/movement_pca.py` | PCA + movement (reconstructs initial embeddings) → `results/movement-analysis/` |
 | `eacl-rebuttal/scripts/export_pca_data.py` | copies the CSVs the figures need into git-tracked `pca_data/` |
-| `eacl-rebuttal/scripts/plot_movement_pca.py` | figures (matplotlib), reads `pca_data/` |
-| `eacl-rebuttal/analysis/movement-rebuttal.R` | same figures + movement tables in ggplot, reads `pca_data/` |
+| `eacl-rebuttal/scripts/run_interp_vision_new.sh` | reruns the paper's interventions with the new vision embeddings |
+| `eacl-rebuttal/analysis/interp-rebuttal.R` | cue-condition model + interp figures in the paper's format |
+| `eacl-rebuttal/analysis/behavioral-rebuttal.R` | Figure 2 in the paper's format |
+| `eacl-rebuttal/scripts/make_blob_images.py` | blob training + dev images |
+| `eacl-rebuttal/scripts/run_lr_search_2B_bs8_blobs.sh` | blob condition, 2B |
+| `eacl-rebuttal/analysis/movement-rebuttal.R` | movement figures + tables in the paper's format (Language from `results/eval/movement-analysis/`, Vision from `pca_data/`) |

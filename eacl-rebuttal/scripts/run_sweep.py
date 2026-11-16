@@ -78,6 +78,8 @@ def main():
                              "(dev/test can still use images independently of this).")
     parser.add_argument("--train_csv", default=None,
                         help="Override the default TRAIN_CSV (e.g. for syntax-condition stimuli).")
+    parser.add_argument("--image_dir", default=str(IMAGE_DIR),
+                        help="Training images (default: creature_1, used by all kept results).")
     parser.add_argument("--model", default="Qwen/Qwen3-VL-2B-Instruct")
     parser.add_argument("--cache_dir", default="/home/shared/hf_cache")
     parser.add_argument("--out_dir", default=str(_REPO_ROOT / "eacl-rebuttal" / "results" / "sweep"))
@@ -158,7 +160,7 @@ def main():
                         "--training_condition", args.training_condition,
                         "--train_csv", train_csv,
                         "--eval_csv", args.eval_csv,
-                        "--image_dir", str(IMAGE_DIR),
+                        "--image_dir", args.image_dir,
                         "--embed_init", init_path,
                         "--lr", str(lr),
                         "--seed", str(seed),

@@ -4,8 +4,8 @@ Copy the files the PCA figures need out of the git-ignored results/ folder
 into eacl-rebuttal/pca_data/ (tracked in git), so the figures can be
 reproduced from a clone without the server-only run directories.
 
-Run after scripts/movement_pca.py; scripts/plot_movement_pca.py and
-analysis/movement-rebuttal.R read from pca_data/. Files are copied (never
+Run after scripts/movement_pca.py; analysis/movement-rebuttal.R reads the
+Vision data from pca_data/. Files are copied (never
 moved) and checked byte-for-byte.
 
   pca_data/<model>/sg_pl_reduced.csv          PCA positions of the real nouns

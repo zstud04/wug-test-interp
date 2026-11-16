@@ -52,7 +52,7 @@ $PY eacl-rebuttal/scripts/select_lr_and_score.py ...
 $PY eacl-rebuttal/scripts/swap_accuracy.py        # -> results/swap_accuracy/
 $PY eacl-rebuttal/scripts/movement_pca.py ...     # -> results/movement-analysis/<model>/ (git-ignored)
 $PY eacl-rebuttal/scripts/export_pca_data.py      # -> pca_data/ (tracked: what the figures read)
-$PY eacl-rebuttal/scripts/plot_movement_pca.py    # -> figures/   (or source analysis/movement-rebuttal.R)
+Rscript eacl-rebuttal/analysis/movement-rebuttal.R  # -> figures/{2b,4b}-movement-pca-*.pdf
 ```
 
 Always pass `--image_dir` / `--train_csv` explicitly or check the
