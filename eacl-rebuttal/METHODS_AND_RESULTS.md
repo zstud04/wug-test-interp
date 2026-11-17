@@ -254,6 +254,30 @@ Figures (paper's format, Language rows unchanged):
 `eacl-rebuttal/analysis/interp-rebuttal.R`, which also fits the model above.
 Tables: `eacl-rebuttal/interp_data/` (copied from `results/interp_vision_new/compare/`).
 
+### Seed check for the mechanistic results (2B, all attractors)
+
+The main mechanistic results use one embedding per model and cue (the
+best-dev seed). Following the paper's `pipelines/interp/run_seed_replicate.sh`
+exactly (same methods, layers, token positions, and test items selected with
+the main embedding's test scores), DAS, DiffMean, probe and AtP (k = 128) were
+run on 5 more new vision seeds (the LR-search seeds) at 0–3 attractors, and
+the paper's 5 language seeds were completed (2 DAS runs at 3 attractors were
+missing). Mean log odds at each method's best layer (chosen on real nouns),
+± 95% CI across 5 seeds:
+
+| method | attractors 0 / 1 / 2 / 3: language | attractors 0 / 1 / 2 / 3: vision (new) |
+|---|---|---|
+| DAS | 5.17 / 5.26 / 4.66 / 4.20 | 5.64 / 5.48 / 4.74 / 4.29 |
+| DiffMean | 3.99 / 0.31 / 0.62 / 0.74 | 3.63 / 0.26 / 0.54 / 0.65 |
+| Probe | 4.58 / −0.46 / 0.15 / 0.32 | 4.51 / −0.34 / 0.13 / 0.33 |
+| AtP | 2.67 / 2.61 / 2.25 / 2.16 | 2.55 / 1.91 / 1.64 / 1.62 |
+
+Across seeds there is no overall difference by cue (linear model on per-seed
+values with cue, attractors and method: β_vision = −0.10, SE 0.17, p = .54).
+AtP is consistently lower for vision at 1–3 attractors (by 0.5–0.7). 4B seed
+check not run. Launcher: `scripts/run_interp_seed_replicate_new.sh`; per-seed
+values: `interp_data/seed_check_2B_best_layer_per_seed.csv`.
+
 ### Behavioural results in the paper's Figure 2 format
 
 `eacl-rebuttal/figures/behavioral-accuracies-attractors-legendtop.pdf`
@@ -428,6 +452,8 @@ Join on `idx`. An item is correct for singular if
 | interp figures | `eacl-rebuttal/figures/{emb-interp-results,novel-vs-real-interp}-{2B,4B}.pdf` |
 | interp tables (cue-effect model, best-layer odds) | `eacl-rebuttal/interp_data/` |
 | interp raw outputs | `eacl-rebuttal/results/interp_vision_new/` (server only) |
+| stimuli figure (train/dev examples, LaTeX + images) | `eacl-rebuttal/figures/stimuli/` |
+| loss curves (Appendix B.2) | `eacl-rebuttal/figures/loss-curves-language-vision.pdf`, values in `test_scores/loss_curves_language_vision.csv` |
 | Figure 2 (behaviour) | `eacl-rebuttal/figures/behavioral-accuracies-attractors-legendtop.pdf` |
 | blob condition runs | `eacl-rebuttal/results/lr_search_2B_bs8_blobs/` (server only); scores in `test_scores/scores_qwen3-vl-2b_blobs.csv` |
 
@@ -446,6 +472,8 @@ Join on `idx`. An item is correct for singular if
 | `eacl-rebuttal/scripts/export_pca_data.py` | copies the CSVs the figures need into git-tracked `pca_data/` |
 | `eacl-rebuttal/scripts/run_interp_vision_new.sh` | reruns the paper's interventions with the new vision embeddings |
 | `eacl-rebuttal/analysis/interp-rebuttal.R` | cue-condition model + interp figures in the paper's format |
+| `eacl-rebuttal/scripts/run_interp_seed_replicate_new.sh` | seed check for the mechanistic results (2B) |
+| `eacl-rebuttal/analysis/loss-curves-rebuttal.R` | loss curves |
 | `eacl-rebuttal/analysis/behavioral-rebuttal.R` | Figure 2 in the paper's format |
 | `eacl-rebuttal/scripts/make_blob_images.py` | blob training + dev images |
 | `eacl-rebuttal/scripts/run_lr_search_2B_bs8_blobs.sh` | blob condition, 2B |
